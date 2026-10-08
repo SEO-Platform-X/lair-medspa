@@ -33,15 +33,24 @@ with sync_playwright() as p:
                 for m in pg.eval_on_selector_all('a.iusc','els=>els.map(e=>e.getAttribute("m"))')[:12]:
                     try: j=json.loads(m); res.append({'murl':j.get('murl'),'turl':j.get('turl'),'purl':j.get('purl'),'t':j.get('t')})
                     except: pass
+            elif kind=='brave':
+                pg.goto('https://search.brave.com/images?q='+urllib.parse.quote(q),timeout=40000); pg.wait_for_timeout(4000)
+                items=pg.eval_on_selector_all('img','els=>els.map(e=>[e.currentSrc||e.src,e.alt,e.naturalWidth,(e.closest("a")||{}).href||""])')
+                res=[{'murl':u,'t':a,'w':w,'purl':h} for u,a,w,h in items if u and w and w>60 and 'brave' not in u.split('/')[2]][:14]
+                if not res: res=[{'murl':u,'t':a,'w':w,'purl':h} for u,a,w,h in items if u and w and w>60][:14]
+            elif kind=='braveweb':
+                pg.goto('https://search.brave.com/search?q='+urllib.parse.quote(q),timeout=40000); pg.wait_for_timeout(3000)
+                res=pg.eval_on_selector_all('a[href^="http"]','els=>els.map(e=>({url:e.href,t:e.innerText.slice(0,120)}))')
+                res=[r for r in res if 'brave.com' not in r['url']][:25]
             elif kind=='page':
                 pg.goto(q,timeout=40000); pg.wait_for_timeout(3000)
-                imgs=pg.eval_on_selector_all('img','els=>els.map(e=>[e.currentSrc||e.src,e.alt,e.naturalWidth])')
+                imgs=pg.eval_on_selector_all('img','els=>els.map(e=>[e.currentSrc||e.src||e.dataset.src,e.alt,e.naturalWidth])')
                 og=pg.eval_on_selector_all('meta[property="og:image"]','els=>els.map(e=>e.content)')
                 res=[{'murl':u,'t':a,'w':w} for u,a,w in imgs if u and w and w>80]+[{'murl':u,'t':'og'} for u in og]
                 res=res[:40]
         except Exception as e: res=[{'err':str(e)[:150]}]
         os.makedirs(f'cand/{slug}',exist_ok=True)
-        for i,r in enumerate(res):
+        for i,r in enumerate(res if kind not in ('braveweb',) else []):
             for key in ('murl','turl'):
                 if not r.get(key): continue
                 try:
