@@ -1,6 +1,17 @@
 {
- "pg-revance-about|https://www.revance.com/about-us/": [],
- "pg-revance-home|https://revance.com/": [],
- "pg-rivkin1|https://www.rivkinaesthetics.com/": [],
- "pg-rivkin2|https://westsideaesthetics.com/": []
+ "pg-bw-revance|https://www.businesswire.com/news/home/20190409005158/en/Revance-Appoints-Former-Allergan-Marketing-Veteran-Taryn-Conway-as-Vice-President-of-Marketing": [
+  {
+   "err": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.businesswire.com/news/home/20190409005158/en/Revance-Appoints-Former-Allergan-Marketing-Vetera"
+  }
+ ],
+ "pg-bio-revance|https://www.biospace.com/revance-appoints-former-allergan-marketing-veteran-taryn-conway-as-vice-president-of-marketing": [
+  {
+   "err": "Page.goto: Navigation to \"https://www.biospace.com/revance-appoints-former-allergan-marketing-veteran-taryn-conway-as-vice-president-of-marketing\" is "
+  }
+ ],
+ "pg-rivkin3|https://www.realself.com/find/California/Los-Angeles/Physician/Alexander-Rivkin": [
+  {
+   "err": "Page.goto: Navigation to \"https://www.realself.com/find/California/Los-Angeles/Physician/Alexander-Rivkin\" is interrupted by another navigation to \"ht"
+  }
+ ]
 }
