@@ -42,6 +42,15 @@ section.th.dk [data-navy]{box-shadow:0 0 0 1px rgba(244,241,234,.2)}
 @keyframes br{0%{transform:scale(1);opacity:.5}100%{transform:scale(1.35);opacity:0}}
 #storyline{position:absolute;left:0;top:0;width:100%;pointer-events:none;overflow:visible}
 @media (prefers-reduced-motion: reduce){.wob,.calm line,.breathe{animation:none!important}}
+#nudge{position:fixed;left:50%;bottom:calc(22px + env(safe-area-inset-bottom,0px));width:48px;height:48px;margin-left:-24px;border-radius:50%;background:#1F4FE0;border:2px solid #FFFFFF;box-shadow:0 8px 20px rgba(11,26,46,.35);display:flex;align-items:center;justify-content:center;z-index:40;cursor:pointer;animation:nb 2.2s ease-in-out infinite;transition:opacity .4s}
+#nudge.off{opacity:0;pointer-events:none}
+@keyframes nb{0%,100%{transform:translateY(0)}50%{transform:translateY(9px)}}
+.cm{opacity:0;transform:translateY(8px);transition:opacity .6s ease,transform .6s ease}.cm.on{opacity:1;transform:none}
+.dots{display:inline-flex;gap:5px;padding:4px 0}.dots i{width:7px;height:7px;border-radius:50%;background:#9AA8BD;animation:dt 1s infinite}.dots i:nth-child(2){animation-delay:.15s}.dots i:nth-child(3){animation-delay:.3s}
+@keyframes dt{0%,60%,100%{opacity:.3}30%{opacity:1}}
+.miss{animation:miss 2.6s ease-in-out 1}
+@keyframes miss{0%,100%{transform:none}10%,30%{transform:translateX(-5px)}20%,40%{transform:translateX(5px)}50%{transform:none}}
+@media (prefers-reduced-motion: reduce){#nudge,.dots i,.miss{animation:none!important}.cm{opacity:1!important;transform:none!important}}
 </style>
 </head>
 <body>
@@ -128,8 +137,8 @@ section.th.dk [data-navy]{box-shadow:0 0 0 1px rgba(244,241,234,.2)}
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px">
 
-<div style="border: 1px solid #D9DEE7; border-radius: 18px; padding: 22px">
-<div class="stage" style="height:120px;margin:0 0 16px"></div>
+<div style="border: 1px solid #D9DEE7; border-radius: 18px; padding: 22px; display: flex; gap: 18px; align-items: flex-start">
+<div style="flex:0 0 56px;padding-top:6px"><svg viewBox="0 0 64 84" width="56" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="8" cy="8" r="4.2" fill="#1F4FE0" stroke="#1F4FE0"/><circle cx="22" cy="8" r="4.2" fill="#1F4FE0" stroke="#1F4FE0"/><circle cx="36" cy="8" r="4.2" fill="#1F4FE0" stroke="#1F4FE0"/><circle cx="50" cy="8" r="4.2" fill="#1F4FE0" stroke="#1F4FE0"/><circle cx="8" cy="24" r="4.2" fill="#1F4FE0" stroke="#1F4FE0"/><circle cx="22" cy="24" r="4.2" fill="#1F4FE0" stroke="#1F4FE0"/><circle cx="36" cy="24" r="4.2" fill="#1F4FE0" stroke="#1F4FE0"/><circle cx="50" cy="24" r="4.2" fill="#1F4FE0" stroke="#1F4FE0"/><circle cx="8" cy="40" r="4.2" fill="#1F4FE0" stroke="#1F4FE0"/><circle cx="22" cy="40" r="4.2" /><circle cx="36" cy="40" r="4.2" /><circle cx="50" cy="40" r="4.2" /><circle cx="8" cy="56" r="4.2" /><circle cx="22" cy="56" r="4.2" /><circle cx="36" cy="56" r="4.2" /><circle cx="50" cy="56" r="4.2" /><circle cx="8" cy="72" r="4.2" /><circle cx="22" cy="72" r="4.2" /><circle cx="36" cy="72" r="4.2" /><circle cx="50" cy="72" r="4.2" /></svg></div><div style="flex:1;min-width:0">
 <div style="display: flex; align-items: baseline; gap: 10px; margin-bottom: 12px">
 <span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 56px; line-height: 1; color: #1F4FE0">45%</span>
 <span style="font-size: 15px; color: #3D4A5C">up from 6%</span>
@@ -143,9 +152,10 @@ section.th.dk [data-navy]{box-shadow:0 0 0 1px rgba(244,241,234,.2)}
 <p style="margin: 10px 0 0">of people used AI to find a local business this past year. The year before, it was 6%.</p>
 <p style="margin: 8px 0 0; font-size: 13px; color: #5A6779">BrightLocal, Local Consumer Review Survey 2026</p>
 </div>
+</div>
 
-<div style="border: 1px solid #D9DEE7; border-radius: 18px; padding: 22px">
-<div class="stage" style="height:120px;margin:0 0 16px"></div>
+<div style="border: 1px solid #D9DEE7; border-radius: 18px; padding: 22px; display: flex; gap: 18px; align-items: flex-start">
+<div style="flex:0 0 56px;padding-top:6px"><svg viewBox="0 0 64 84" width="56" aria-hidden="true" fill="none" stroke="currentColor"><path stroke-width="1.3" d="M4 14 v-5 l4.5 -3.5 l4.5 3.5 v5 z" /><path stroke-width="1.3" d="M16 14 v-5 l4.5 -3.5 l4.5 3.5 v5 z" /><path stroke-width="1.3" d="M28 14 v-5 l4.5 -3.5 l4.5 3.5 v5 z" /><path stroke-width="1.3" d="M40 14 v-5 l4.5 -3.5 l4.5 3.5 v5 z" /><path stroke-width="1.3" d="M52 14 v-5 l4.5 -3.5 l4.5 3.5 v5 z" /><path stroke-width="1.3" d="M4 28 v-5 l4.5 -3.5 l4.5 3.5 v5 z" /><path stroke-width="1.3" d="M16 28 v-5 l4.5 -3.5 l4.5 3.5 v5 z" /><path stroke-width="1.3" d="M28 28 v-5 l4.5 -3.5 l4.5 3.5 v5 z" /><path stroke-width="1.3" d="M40 28 v-5 l4.5 -3.5 l4.5 3.5 v5 z" /><path stroke-width="1.3" d="M52 28 v-5 l4.5 -3.5 l4.5 3.5 v5 z" /><path stroke-width="1.3" d="M4 42 v-5 l4.5 -3.5 l4.5 3.5 v5 z" /><path stroke-width="1.3" d="M16 42 v-5 l4.5 -3.5 l4.5 3.5 v5 z" /><path stroke-width="1.3" d="M28 42 v-5 l4.5 -3.5 l4.5 3.5 v5 z" fill="#FF5A3C" stroke="#FF5A3C"/><path stroke-width="1.3" d="M40 42 v-5 l4.5 -3.5 l4.5 3.5 v5 z" /><path stroke-width="1.3" d="M52 42 v-5 l4.5 -3.5 l4.5 3.5 v5 z" /><path stroke-width="1.3" d="M4 56 v-5 l4.5 -3.5 l4.5 3.5 v5 z" /><path stroke-width="1.3" d="M16 56 v-5 l4.5 -3.5 l4.5 3.5 v5 z" /><path stroke-width="1.3" d="M28 56 v-5 l4.5 -3.5 l4.5 3.5 v5 z" /><path stroke-width="1.3" d="M40 56 v-5 l4.5 -3.5 l4.5 3.5 v5 z" /><path stroke-width="1.3" d="M52 56 v-5 l4.5 -3.5 l4.5 3.5 v5 z" /><path stroke-width="1.3" d="M4 70 v-5 l4.5 -3.5 l4.5 3.5 v5 z" /><path stroke-width="1.3" d="M16 70 v-5 l4.5 -3.5 l4.5 3.5 v5 z" /><path stroke-width="1.3" d="M28 70 v-5 l4.5 -3.5 l4.5 3.5 v5 z" /><path stroke-width="1.3" d="M40 70 v-5 l4.5 -3.5 l4.5 3.5 v5 z" /><path stroke-width="1.3" d="M52 70 v-5 l4.5 -3.5 l4.5 3.5 v5 z" /></svg></div><div style="flex:1;min-width:0">
 <div style="display: flex; align-items: baseline; gap: 10px; margin-bottom: 12px">
 <span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 56px; line-height: 1; color: #1F4FE0">1.2%</span>
 <span style="font-size: 15px; color: #3D4A5C">get named</span>
@@ -153,14 +163,16 @@ section.th.dk [data-navy]{box-shadow:0 0 0 1px rgba(244,241,234,.2)}
 <p style="margin: 0">of local businesses get recommended by ChatGPT. On regular Google results, about 36% get seen. AI picks very few winners.</p>
 <p style="margin: 8px 0 0; font-size: 13px; color: #5A6779">SOCi, Local Visibility Index 2026</p>
 </div>
+</div>
 
-<div style="border: 1px solid #D9DEE7; border-radius: 18px; padding: 22px">
-<div class="stage" style="height:120px;margin:0 0 16px"></div>
+<div style="border: 1px solid #D9DEE7; border-radius: 18px; padding: 22px; display: flex; gap: 18px; align-items: flex-start">
+<div style="flex:0 0 56px;padding-top:6px"><svg viewBox="0 0 64 84" width="56" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8 h40 a6 6 0 0 1 6 6 v18 a6 6 0 0 1 -6 6 h-28 l-8 7 v-7 h-4 a6 6 0 0 1 -6 -6 v-18 a6 6 0 0 1 6 -6 z" stroke="#1F4FE0"/><path stroke="#1F4FE0" d="M28 15 l2 5 l5 2 l-5 2 l-2 5 l-2 -5 l-5 -2 l5 -2 z"/><circle cx="20" cy="62" r="7" opacity=".55"/><path d="M25 67 l6 6" opacity=".55"/><path d="M40 70 v-14 M35 61 l5 -5 l5 5" stroke="#FF5A3C"/></svg></div><div style="flex:1;min-width:0">
 <div style="display: flex; align-items: baseline; gap: 10px; margin-bottom: 12px">
 <span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 40px; line-height: 1.05; color: #1F4FE0">AI first</span>
 </div>
 <p style="margin: 0">For the highest-income customers, AI has already passed Google as the place they start looking. That is your patient.</p>
 <p style="margin: 8px 0 0; font-size: 13px; color: #5A6779">Yext, Consumer Search Survey 2026</p>
+</div>
 </div>
 
 </div>
@@ -473,12 +485,12 @@ section.th.dk [data-navy]{box-shadow:0 0 0 1px rgba(244,241,234,.2)}
 <div style="max-width: 720px; margin: 0 auto">
 <h2 style="font-family: 'Cormorant', Georgia, serif; font-weight: 600; font-size: 36px; line-height: 1.05; margin: 0 0 22px">Skeptical? Good. Here is why us.</h2>
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px">
-<div style="grid-column: 1 / -1; background: #0B1A2E; color: #F4F1EA; border-radius: 16px; padding: 18px; display: flex; gap: 16px; align-items: center; flex-wrap: wrap"><div style="flex:0 0 100%;padding:4px 4px 0"><svg class="story" viewBox="-4 -10 328 104" role="img" aria-label="A path from search to software to aesthetics to your med spa" style="display:block;width:100%;height:auto;margin:0 0 16px;overflow:visible" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path id="journey" data-d="0.05,0.85" stroke-dasharray="0" d="M14 60 C 50 10, 80 92, 116 52 S 186 18, 214 54 S 270 78, 300 40"/><g data-d="0.12,0.25"><circle cx="34" cy="26" r="9"/><path d="M41 33 l7 7"/></g><g data-d="0.3,0.45"><rect x="100" y="66" width="22" height="18" rx="2"/><path d="M111 66 v18 M100 75 h22"/></g><g data-d="0.5,0.65"><path d="M186 16 l18 18 M190 20 l-5 5 l12 12 l5 -5 M204 34 l5 5 M195 29 l3 -3" stroke="#1F4FE0"/></g><g data-d="0.72,0.86"><path d="M280 40 v-18 h36 v18 M276 22 l6 -10 h32 l6 10 z M292 40 v-10 h10 v10"/></g><path data-d="0.88,1" stroke="#FF5A3C" stroke-width="1.6" d="M298 4 v-6 M308 6 l4 -4 M288 6 l-4 -4"/><circle data-f="0.05,0.85,journey,1,1" r="5" fill="#FF5A3C" stroke="none"/></svg></div>
+<div style="grid-column: 1 / -1; background: #0B1A2E; color: #F4F1EA; border-radius: 16px; padding: 18px; display: flex; gap: 16px; align-items: center; flex-wrap: wrap"><div style="flex:0 0 100%;padding:4px 4px 0"><svg class="story" viewBox="0 0 320 150" role="img" aria-label="Venn diagram: big tech (Google, Microsoft) and medical aesthetics (Revance, Evolus) overlap at Local AI Registry" style="display:block;width:100%;height:auto;margin:0;overflow:visible" fill="none" stroke-width="2"><circle data-d="0,0.3" cx="118" cy="75" r="68" stroke="#4F7BFF"/><circle data-d="0.1,0.4" cx="202" cy="75" r="68" stroke="#FF5A3C"/><g font-family="Bricolage Grotesque, sans-serif" fill="currentColor" stroke="none" text-anchor="middle"><g data-o="0.3,0.4"><text x="88" y="52" font-size="10" font-weight="700" fill="#8FA9FF" letter-spacing=".08em">BIG TECH</text><text x="86" y="78" font-size="15" font-weight="700">Google</text><text x="86" y="98" font-size="15" font-weight="700">Microsoft</text></g><g data-o="0.4,0.5"><text x="234" y="52" font-size="10" font-weight="700" fill="#FF8A73" letter-spacing=".08em">AESTHETICS</text><text x="234" y="78" font-size="15" font-weight="700">Revance</text><text x="234" y="98" font-size="15" font-weight="700">Evolus</text></g><g data-o="0.55,0.65"><text x="160" y="72" font-size="11" font-weight="800">Local AI</text><text x="160" y="86" font-size="11" font-weight="800">Registry</text></g></g></svg></div>
 <span class="face" style="position: relative; overflow: hidden; flex: 0 0 64px; width: 64px; height: 64px; border-radius: 50%; background: #1F4FE0; color: #FFFFFF; border: none; box-sizing: border-box; display: flex; align-items: center; justify-content: center; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 20px">SL<img data-slug="steve-lee" alt="" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 0; transition: opacity .3s"></span>
 <div><div style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 18px; line-height: 1.2">Steve Lee, Founder</div><div style="font-size: 15px; color: #C9D2E0; line-height: 1.4; margin-top: 4px">Ex-Google and Microsoft executive. Ex-Revance and Evolus. He knows how search works and how med spas run.</div></div>
 </div>
 <div style="border: 1px solid #D9DEE7; border-radius: 16px; padding: 18px"><svg class="story" viewBox="0 0 320 118" role="img" aria-label="Scissors cut a contract in half" style="display:block;width:100%;height:auto;margin:0 0 16px;overflow:visible" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><g data-d="0,0.25" data-m="0.62,0.95,0,0,-42,8,0,-9,1,1"><path d="M160 10 H114 a4 4 0 0 0 -4 4 V106 a4 4 0 0 0 4 4 H160"/><path stroke-width="1.4" d="M122 30 h30"/><path stroke-width="1.4" d="M122 42 h34"/><path stroke-width="1.4" d="M122 54 h26"/><path stroke-width="1.4" d="M122 66 h32"/><path stroke-width="1.6" d="M124 92 c6 -10 12 6 18 -4 s8 8 18 0"/></g><g data-d="0,0.25" data-m="0.62,0.95,0,0,42,8,0,9,1,1"><path d="M160 10 H206 a4 4 0 0 1 4 4 V106 a4 4 0 0 1 -4 4 H160"/><path stroke-width="1.4" d="M166 30 h32"/><path stroke-width="1.4" d="M166 42 h28"/><path stroke-width="1.4" d="M166 54 h34"/><path stroke-width="1.4" d="M166 66 h22"/><path stroke-width="1.6" d="M160 88 c6 -6 10 6 16 -2 s8 4 12 -2"/></g><path data-d="0.25,0.6" stroke="#FF5A3C" stroke-dasharray="0" d="M160 8 l-3 8 l6 8 l-6 8 l6 8 l-6 8 l6 8 l-6 8 l6 8 l-6 8 l6 8 l-3 8 v4"/><path id="cut" d="M160 0 V112" stroke="none"/><g data-f="0.25,0.6,cut,1,1" data-o="0.22,0.27" data-o2="0.62,0.7" transform="rotate(180)"><circle cx="-7" cy="-14" r="5"/><circle cx="7" cy="-14" r="5"/><path d="M-4 -10 L5 8 M4 -10 L-5 8"/></g></svg><div style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 17px; margin-bottom: 4px">No contract</div><div style="color: #3D4A5C; font-size: 16px">Month to month. Stay because it works.</div></div>
-<div style="border: 1px solid #D9DEE7; border-radius: 16px; padding: 18px"><svg class="story" viewBox="0 -26 320 176" role="img" aria-label="Nothing posts until you tap approve on your phone, then it flies" style="display:block;width:100%;height:auto;margin:0 0 16px;overflow:visible" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><g data-d="0,0.25"><rect x="122" y="6" width="76" height="136" rx="14"/><path d="M150 14 h20"/><rect x="132" y="26" width="56" height="34" rx="4"/><path stroke-width="1.4" d="M136 56 l14 -14 l10 10 l6 -6 l18 14"/><circle cx="174" cy="36" r="4" stroke-width="1.4"/><path stroke-width="1.4" d="M134 70 h50 M134 78 h40 M134 86 h46"/><rect x="134" y="100" width="52" height="20" rx="10"/></g><rect data-o="0.62,0.68" x="134" y="100" width="52" height="20" rx="10" fill="#1F4FE0" stroke="#1F4FE0"/><path data-d="0.66,0.76" stroke="#FFFFFF" stroke-width="2.4" d="M151 110 l6 6 l12 -12"/><g data-m="0.3,0.62,262,-30,160,80,180,180,0.8,0.8"><path d="M-6 -38 V-6 c0 -6 -12 -6 -12 2 v12 c0 14 10 22 24 22 s20 -8 20 -20 v-14 c0 -6 -10 -6 -10 0 v-2 c0 -6 -10 -6 -10 0 v-36 c0 -8 -12 -8 -12 0 z"/></g><g data-m="0,0.7,66,74,66,70,0,6,1,1" data-o2="0.72,0.74"><path stroke-width="1.2" stroke-dasharray="3 4" d="M52 74 c-10 0 -16 6 -24 6"/><path d="M-14 0 L16 -10 L4 12 L0 2 z M0 2 L16 -10"/></g><g data-m="0.72,0.98,66,74,330,-6,0,-14,1,0.6" data-o="0.72,0.74" stroke="#1F4FE0"><path d="M-14 0 L16 -10 L4 12 L0 2 z M0 2 L16 -10"/></g><path data-d="0.76,0.88" stroke="#FF5A3C" d="M116 40 L106 34"/><path data-d="0.76,0.88" stroke="#FF5A3C" d="M204 40 L214 34"/><path data-d="0.76,0.88" stroke="#FF5A3C" d="M112 96 L100 98"/><path data-d="0.76,0.88" stroke="#FF5A3C" d="M208 96 L220 98"/><path data-d="0.76,0.88" stroke="#FF5A3C" d="M118 130 L110 138"/><path data-d="0.76,0.88" stroke="#FF5A3C" d="M202 130 L210 138"/></svg><div style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 17px; margin-bottom: 4px">Nothing goes live without you</div><div style="color: #3D4A5C; font-size: 16px">Every post, reply and article waits for your OK.</div></div>
+<div style="border: 1px solid #D9DEE7; border-radius: 16px; padding: 18px"><svg class="story" viewBox="0 -26 320 176" role="img" aria-label="Nothing posts until you tap approve on your phone, then it flies" style="display:block;width:100%;height:auto;margin:0 0 16px;overflow:visible" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><g data-d="0,0.25"><rect x="122" y="6" width="76" height="136" rx="14"/><path d="M150 14 h20"/><rect x="132" y="26" width="56" height="34" rx="4"/><path stroke-width="1.4" d="M136 56 l14 -14 l10 10 l6 -6 l18 14"/><circle cx="174" cy="36" r="4" stroke-width="1.4"/><path stroke-width="1.4" d="M134 70 h50 M134 78 h40 M134 86 h46"/><rect x="134" y="100" width="52" height="20" rx="10"/></g><rect data-o="0.62,0.68" x="134" y="100" width="52" height="20" rx="10" fill="#1F4FE0" stroke="#1F4FE0"/><path data-d="0.66,0.76" stroke="#FFFFFF" stroke-width="2.4" d="M151 110 l6 6 l12 -12"/><g data-m="0,0.7,66,74,66,70,0,6,1,1" data-o2="0.72,0.74"><path stroke-width="1.2" stroke-dasharray="3 4" d="M52 74 c-10 0 -16 6 -24 6"/><path d="M-14 0 L16 -10 L4 12 L0 2 z M0 2 L16 -10"/></g><g data-m="0.72,0.98,66,74,330,-6,0,-14,1,0.6" data-o="0.72,0.74" stroke="#1F4FE0"><path d="M-14 0 L16 -10 L4 12 L0 2 z M0 2 L16 -10"/></g><path data-d="0.76,0.88" stroke="#FF5A3C" d="M116 40 L106 34"/><path data-d="0.76,0.88" stroke="#FF5A3C" d="M204 40 L214 34"/><path data-d="0.76,0.88" stroke="#FF5A3C" d="M112 96 L100 98"/><path data-d="0.76,0.88" stroke="#FF5A3C" d="M208 96 L220 98"/><path data-d="0.76,0.88" stroke="#FF5A3C" d="M118 130 L110 138"/><path data-d="0.76,0.88" stroke="#FF5A3C" d="M202 130 L210 138"/><circle data-o="0.5,0.56" data-o2="0.66,0.74" cx="160" cy="110" r="16" stroke="#1F4FE0" stroke-width="1.6"/><circle data-o="0.54,0.6" data-o2="0.7,0.78" cx="160" cy="110" r="26" stroke="#1F4FE0" stroke-width="1.2"/></svg><div style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 17px; margin-bottom: 4px">Nothing goes live without you</div><div style="color: #3D4A5C; font-size: 16px">Every post, reply and article waits for your OK.</div></div>
 </div>
 </div>
 </section>
@@ -557,52 +569,27 @@ var ticking=false;addEventListener('scroll',function(){if(!ticking){ticking=true
 /* flip happens while only the empty top padding is on screen, so text always arrives already inverted */
 /* slow, scroll-scrubbed inversion: the new color washes in over the last half of the screen */
 function onScroll(){var vh=innerHeight;themed.forEach(function(sec){var r=sec.getBoundingClientRect();theme(sec,secs.indexOf(sec),cl((vh*1.05-r.top)/(vh*0.6)))});
- notes.forEach(function(n){var r=n.getBoundingClientRect();n.style.opacity=RM?1:cl((vh*0.88-r.top)/(vh*0.12))});drawLine()}
+ notes.forEach(function(n){var r=n.getBoundingClientRect();n.style.opacity=RM?1:cl((vh*0.88-r.top)/(vh*0.12))})}
 /* scary checklist notes */
 var notes=[].slice.call(document.querySelectorAll('.note'));
-/* stats: one continuous line that tells the story card to card */
-var st=document.getElementById('stats'),stages=[].slice.call(st.querySelectorAll('.stage')),NS='http://www.w3.org/2000/svg',ov,main,dashed,head,marks=[],samples=[],TL=0;
-function mk(t,a){var e=document.createElementNS(NS,t);for(var k in a)e.setAttribute(k,a[k]);return e}
-function build(){if(ov)ov.remove();marks=[];var R=st.getBoundingClientRect(),H=st.offsetHeight;
- ov=mk('svg',{id:'storyline',height:H,viewBox:'0 0 '+R.width+' '+H,fill:'none',stroke:'currentColor','stroke-width':'2.2','stroke-linecap':'round','stroke-linejoin':'round'});
- var b=stages.map(function(g){var r=g.getBoundingClientRect(),c=g.parentNode.getBoundingClientRect();return {x:r.left-R.left,y:r.top-R.top,w:r.width,h:r.height,cr:c.right-R.left,cb:c.bottom-R.top}});
- var grid=stages[0].parentNode.parentNode.getBoundingClientRect(),gt=grid.top-R.top,gb=grid.bottom-R.top;
- var d='',p0=b[0];d+='M'+(p0.x+8)+' '+(gt-70)+' C '+(p0.x+8)+' '+(gt-30)+', '+(p0.x+8)+' '+(p0.y+p0.h-60)+', '+(p0.x+8)+' '+(p0.y+p0.h-12);
- var pts=[];
- // card 1: line chart, flat at 6%, then climbs to 45%
- var c=b[0],base=c.y+c.h-12,top=c.y+12;
- d+=' L '+(c.x+c.w*0.42)+' '+(base-6)+' C '+(c.x+c.w*0.62)+' '+(base-8)+', '+(c.x+c.w*0.78)+' '+(top+30)+', '+(c.x+c.w-10)+' '+top;
- pts.push([c.x+c.w*0.42,base-6],[c.x+c.w-10,top]);
- function hop(c,n){var ex=c.x+c.w-10,ey=c.y+(c===b[0]?12:c.h-12),gx=c.cr+10;
-  return ' C '+gx+' '+ey+', '+gx+' '+ey+', '+gx+' '+(ey+24)+' L '+gx+' '+(n.y-24)+' C '+gx+' '+(n.y+n.h-12)+', '+(n.x+8)+' '+(n.y+n.h-40)+', '+(n.x+8)+' '+(n.y+n.h-12)}
- d+=hop(b[0],b[1]);
- // card 2: 36 tiny bumps (seen on Google), flat, then one tall spike (named by AI)
- c=b[1];base=c.y+c.h-12;var x=c.x+8,bw=(c.w*0.42)/36;
- for(var k=0;k<36;k++){d+=' q '+(bw/2)+' -9 '+bw+' 0';}x+=bw*36;
- var sx=c.x+c.w*0.8;d+=' L '+(sx-8)+' '+base+' L '+sx+' '+(c.y+10)+' L '+(sx+8)+' '+base+' L '+(c.x+c.w-10)+' '+base;
- pts.push([sx,c.y+10]);
- d+=hop(b[1],b[2]);
- // card 3: our line climbs past the dashed Google line
- c=b[2];base=c.y+c.h-12;var gy0=c.y+c.h*0.5,gy1=c.y+c.h*0.34;
- dashed=mk('path',{d:'M'+(c.x+8)+' '+gy0+' C '+(c.x+c.w*0.4)+' '+(gy0-6)+', '+(c.x+c.w*0.7)+' '+(gy1+4)+', '+(c.x+c.w-10)+' '+gy1,'stroke-dasharray':'5 6','stroke-width':'1.8',opacity:'.5'});
- d+=' C '+(c.x+c.w*0.35)+' '+base+', '+(c.x+c.w*0.55)+' '+(c.y+c.h*0.55)+', '+(c.x+c.w*0.66)+' '+(c.y+c.h*0.42)+' S '+(c.x+c.w*0.86)+' '+(c.y+18)+', '+(c.x+c.w-10)+' '+(c.y+12);
- pts.push([c.x+c.w*0.62,c.y+c.h*0.45]);
- // exit: one line down to the end
- var gx=b[2].cr+10,cx=R.width/2;d+=' C '+gx+' '+(c.y+12)+', '+gx+' '+(c.y+12)+', '+gx+' '+(c.y+36)+' L '+gx+' '+(gb+10)+' C '+gx+' '+(gb+60)+', '+cx+' '+(gb+20)+', '+cx+' '+(gb+70);
- main=mk('path',{d:d});ov.appendChild(dashed);ov.appendChild(main);
- var colors=['#FF5A3C','#1F4FE0','#FF5A3C','#FF5A3C'];
- pts.forEach(function(p,i){var m=mk('circle',{cx:p[0],cy:p[1],r:i===2?7:5,fill:i===1?'#1F4FE0':'#FF5A3C',stroke:'none',opacity:0});ov.appendChild(m);marks.push({el:m,x:p[0],y:p[1]})});
- var endDot=mk('circle',{cx:cx,cy:gb+70,r:4,fill:'currentColor',stroke:'none',opacity:0});ov.appendChild(endDot);marks.push({el:endDot,x:cx,y:gb+70});
- head=mk('circle',{r:5,fill:'#FF5A3C',stroke:'none'});ov.appendChild(head);
- st.insertBefore(ov,st.firstChild);
- TL=main.getTotalLength();main.style.strokeDasharray=TL;samples=[];for(var l=0;l<=TL;l+=4){var q=main.getPointAtLength(l);samples.push([l,q.x,q.y])}
- marks.forEach(function(m){var best=0,bd=1e9;samples.forEach(function(sm){var dd=Math.abs(sm[1]-m.x)+Math.abs(sm[2]-m.y);if(dd<bd){bd=dd;best=sm[0]}});m.L=best});
- drawLine()}
-function drawLine(){if(!main)return;var R=st.getBoundingClientRect(),target=innerHeight*0.62-R.top,L=TL;
- if(!RM){L=0;for(var i=0;i<samples.length;i++){if(samples[i][2]>target)break;L=samples[i][0]}}
- main.style.strokeDashoffset=TL-L;var q=main.getPointAtLength(L);head.setAttribute('cx',q.x);head.setAttribute('cy',q.y);head.style.opacity=(L>2&&L<TL-2)?1:0;
- marks.forEach(function(m){m.el.style.opacity=L>=m.L-2?1:0})}
-build();addEventListener('resize',build);if(document.fonts)document.fonts.ready.then(build);addEventListener('load',build);
+
+/* stats count up once when they come into view */
+var cio=new IntersectionObserver(function(es){es.forEach(function(e){if(!e.isIntersecting)return;cio.unobserve(e.target);var sp=e.target,m=/^(\d+(?:\.\d+)?)%$/.exec(sp.dataset.v),end=+m[1],dec=m[1].indexOf('.')>-1?1:0,t0=null;
+ if(RM){sp.textContent=sp.dataset.v;return}(function f(ts){if(!t0)t0=ts;var p=Math.min(1,(ts-t0)/1800),e2=1-Math.pow(1-p,3);sp.textContent=(end*e2).toFixed(dec)+'%';if(p<1)requestAnimationFrame(f)})(performance.now())})},{threshold:.6});
+[].forEach.call(document.querySelectorAll('#stats span'),function(sp){var v=sp.textContent.trim();if(/^\d+(\.\d+)?%$/.test(v)&&sp.style.fontSize==='56px'){sp.dataset.v=v;sp.textContent=v.indexOf('.')>-1?'0.0%':'0%';cio.observe(sp)}});
+
+/* above the fold: the chat plays out, and a gentle arrow invites the scroll */
+var hero=secs[0],card=hero.querySelector('[style*="box-shadow"]');
+if(card&&!RM){var kids=[].slice.call(card.children),rows=[].slice.call(card.querySelectorAll('div[style*="gap: 10px; align-items: center"]'));
+ kids.concat(rows).forEach(function(k){k.classList.add('cm')});var ans=kids[1],first=ans&&ans.firstElementChild,dots=document.createElement('div');dots.className='dots';dots.innerHTML='<i></i><i></i><i></i>';
+ setTimeout(function(){kids[0].classList.add('on')},700);
+ setTimeout(function(){ans.classList.add('on');if(first){first.style.display='none';ans.insertBefore(dots,first)}},1500);
+ setTimeout(function(){dots.remove();if(first)first.style.display='';rows.forEach(function(r,i){setTimeout(function(){r.classList.add('on')},i*500)})},3000);
+ setTimeout(function(){var last=kids[kids.length-1];last.classList.add('on');setTimeout(function(){last.classList.add('miss')},500)},4800)}
+var nudge=document.createElement('div');nudge.id='nudge';nudge.setAttribute('role','button');nudge.setAttribute('aria-label','Scroll down');
+nudge.innerHTML='<svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="#F4F1EA" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 8l5 5 5-5"/></svg>';
+document.body.appendChild(nudge);nudge.addEventListener('click',function(){scrollTo({top:secs[1].offsetTop-10,behavior:'smooth'})});
+addEventListener('scroll',function(){nudge.classList.toggle('off',scrollY>60)},{passive:true});
 if(RM)[].forEach.call(document.querySelectorAll('animateMotion'),function(a){a.parentNode.remove()});
 addEventListener('scroll',onScroll,{passive:true});addEventListener('resize',onScroll);onScroll();
 })();
