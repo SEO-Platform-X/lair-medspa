@@ -1,8 +1,0 @@
-logos/evolus.svg https://cdn.prod.website-files.com/6679ed659d8fe8e03a8a0da9/673a80f7276d648b64d8ee37_evolus-logo-blk.svg
-logos/merz.svg https://merzaesthetics.com/app/themes/merzaesthetics/images/logos/ma-logo-primary-white-rgb.svg
-logos/allergan.svg https://upload.wikimedia.org/wikipedia/en/5/5e/Allergan_plc_logo.svg
-logos/allergan2.svg https://upload.wikimedia.org/wikipedia/en/5/5e/Allergan_plc_logo.svg
-logos/allergan3.svg https://upload.wikimedia.org/wikipedia/commons/c/cd/Allergan_logo.svg
-logos/revance.svg https://upload.wikimedia.org/wikipedia/commons/0/05/Revance_Therapeutics_logo.svg
-logos/revance2.svg https://upload.wikimedia.org/wikipedia/en/0/05/Revance_Therapeutics_logo.svg
-logos/revance3.png https://www.revance.com/wp-content/themes/revance/images/logo.png
