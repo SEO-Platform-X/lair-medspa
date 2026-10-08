@@ -1,5 +1,0 @@
-logos/daydermatology.png https://dorisdaymd.com/cdn/shop/files/image_110.png?v=1737766544
-logos/busso.webp https://drbusso.com/wp-content/uploads/2025/07/drbusso.webp
-logos/defineclinic.svg https://www.defineclinic.com/wp-content/themes/define-clinic/images/define-clinic-logo.svg
-logos/scarlessnose.svg https://www.datocms-assets.com/142261/1725917709-logo-white.svg
-logos/revance-fav.png https://www.google.com/s2/favicons?domain=revance.com&sz=256
