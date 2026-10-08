@@ -1,0 +1,59 @@
+name: scrape
+on:
+  push:
+    paths: ['scrape/targets.txt','scrape/wiki.txt','scrape/download.txt','.github/workflows/scrape.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: scrape
+        run: |
+          python3 - <<'PY'
+          import re, json, urllib.request, urllib.parse, os, html
+          UA={'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36'}
+          def get(u,b=False):
+              r=urllib.request.urlopen(urllib.request.Request(u,headers=UA),timeout=25); d=r.read()
+              return d if b else d.decode('utf-8','ignore')
+          os.makedirs('scrape/out',exist_ok=True)
+          res={}
+          for line in open('scrape/targets.txt'):
+              line=line.strip()
+              if not line: continue
+              slug,url=line.split(None,1)
+              try:
+                  h=get(url)
+                  urls=set()
+                  for m in re.finditer(r'(?:src|data-src|data-lazy-src|href|content|data-bg|srcset)=["\']([^"\']+\.(?:jpe?g|png|webp|svg)[^"\'\s]*)',h,re.I): urls.add(m.group(1))
+                  for m in re.finditer(r'url\(([^)]+\.(?:jpe?g|png|webp|svg)[^)]*)\)',h,re.I): urls.add(m.group(1).strip('\'"'))
+                  urls={urllib.parse.urljoin(url,html.unescape(u.split(' ')[0])) for u in urls}
+                  res.setdefault(slug,[]).append({'url':url,'ok':True,'imgs':sorted(urls)})
+              except Exception as e:
+                  res.setdefault(slug,[]).append({'url':url,'ok':False,'err':str(e)[:120]})
+          json.dump(res,open('scrape/out/pages.json','w'),indent=1)
+          wiki={}
+          for t in open('scrape/wiki.txt'):
+              t=t.strip()
+              if not t: continue
+              try:
+                  j=json.loads(get('https://en.wikipedia.org/w/api.php?action=query&prop=pageimages|images&piprop=original&imlimit=50&format=json&titles='+t))
+                  wiki[t]=j
+              except Exception as e: wiki[t]=str(e)
+          json.dump(wiki,open('scrape/out/wiki.json','w'),indent=1)
+          # downloads: lines "path url"
+          if os.path.exists('scrape/download.txt'):
+              for line in open('scrape/download.txt'):
+                  line=line.strip()
+                  if not line: continue
+                  p,u=line.split(None,1)
+                  try:
+                      d=get(u,True); os.makedirs(os.path.dirname(p),exist_ok=True); open(p,'wb').write(d); print('ok',p,len(d))
+                  except Exception as e: print('fail',p,e)
+          PY
+      - name: commit
+        run: |
+          git config user.name bot; git config user.email bot@users.noreply.github.com
+          git add -A; git commit -m "scrape results" || true; git push
