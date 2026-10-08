@@ -33,7 +33,7 @@ section.th.dk [data-navy]{box-shadow:0 0 0 1px rgba(244,241,234,.2)}
 .ln.short{font-weight:700}
 .note{flex:0 0 100%;padding-left:32px;font-family:'Caveat',cursive;font-weight:700;font-size:21px;line-height:1;color:#D63A1C;transform:rotate(-2deg);transform-origin:left center;opacity:0}
 .chore:nth-child(odd) .note{transform:rotate(1.5deg)}
-.ct{display:inline-block;flex:1 1 0;min-width:0}.mk{position:absolute;left:-2%;top:0;width:104%;height:100%;overflow:visible;pointer-events:none}.mk.ring{left:-6%;top:-25%;width:112%;height:150%}
+.ct{display:inline-block;flex:0 1 auto;min-width:0}.mk{position:absolute;left:-2%;top:0;width:104%;height:100%;overflow:visible;pointer-events:none}.mk.ring{left:-6%;top:-25%;width:112%;height:150%}
 .wob{animation:wob 1.6s ease-in-out infinite}.wob:nth-of-type(2n){animation-duration:1.15s;animation-delay:.3s}.wob:nth-of-type(3n){animation-duration:2.1s;animation-delay:.7s}
 @keyframes wob{0%,100%{transform:rotate(0) scale(1)}20%{transform:rotate(-9deg) scale(1.08)}40%{transform:rotate(7deg)}60%{transform:rotate(-4deg) scale(1.05)}}
 .calm line{stroke-dasharray:5 9;animation:calm 4.5s linear infinite}
@@ -516,7 +516,7 @@ section.th.dk [data-navy]{box-shadow:0 0 0 1px rgba(244,241,234,.2)}
 (function(){
 var secs=[].slice.call(document.querySelectorAll('section'));
 /* headlines: one sentence per line, static, for breathing room */
-[].forEach.call(document.querySelectorAll('h1, section h2'),function(h){var txt=h.textContent.replace(/\s+/g,' ').trim();var parts=txt.match(/[^.?!]+[.?!]+|[^.?!]+$/g)||[txt];if(parts.length<2)return;
+[].forEach.call(document.querySelectorAll("h1, section h2, section p[style*=Cormorant]"),function(h){var txt=h.textContent.replace(/\s+/g,' ').trim();var parts=txt.match(/[^.?!]+[.?!]+|[^.?!]+$/g)||[txt];if(parts.length<2)return;
  h.innerHTML='';parts.forEach(function(p){var sp=document.createElement('span');sp.className='ln'+(p.trim().split(' ').length<=3?' short':'');sp.textContent=p.trim();h.appendChild(sp)})});
 /* 6. The 180: each new section inverts the one before it */
 var LIGHT={'1':'#F4F1EA','2':'#FFFFFF','3':'#F4F1EA','4':'#FFFFFF','5':'#F4F1EA','6':'#FFFFFF','7':'#F4F1EA','8':'#FFFFFF'};
