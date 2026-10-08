@@ -1,16 +1,13 @@
-page|pg-dhillon|https://www.defineclinic.com/dr-dhillon/
-page|pg-bellevie-team|https://www.belleviemedical.com/team
-page|pg-busso|https://drbusso.com/about/
-page|pg-dugar|https://www.scarlessnose.com/meet-dr-deepak-dugar/
-page|pg-anwar|https://modernaestheticsmd.com/about/
-page|pg-naomi|https://injectionartistryclinic.com/
-braveweb|w-bhatia|Ashish Bhatia MD Oak Dermatology Naperville
-braveweb|w-taryn|Taryn Conway Revance Allergan marketing
-braveweb|w-kellie|Kellie Lao marketing Revance Evolus
-braveweb|w-aneesh|Aneesh Patel PharmD Evolus Galderma
-braveweb|w-benjamin|Benjamin Hahr HintMD Growth99
-braveweb|w-brandon|Brandon Hahr Kingsmen
-braveweb|w-naomi|Naomi Barrett NP-C Injection Artistry
-braveweb|w-anwar|Shahzad Anwar MD Modern Aesthetics Roseville
-brave|logo-revance|Revance logo svg
-brave|logo-hintmd|HintMD logo
+page|pg-bhatia|https://www.oakderm.com/providers/ashish-bhatia-m-d-faad
+page|pg-taryn|https://www.theaestheticguide.com/aesthetic-practice-management/women-in-aesthetics-taryn-conway-determined-to
+page|pg-benhahr|http://benhahr.com/about-me/
+page|pg-anwar-rs|https://www.realself.com/find/California/Roseville/NovaThreads
+page|pg-dhillon2|https://www.defineclinic.com/dr-benji-dhillon-founder-of-define-clinic-blog/
+page|pg-dhillon3|https://www.defineclinic.com/eden-aesthetics-appoints-dr-benji-dhillon-as-key-opinion-leader/
+page|pg-naomi2|https://injectionartistryclinic.com/mentorship-shadowing-opportunities/
+page|pg-est|https://eyesurgerytoday.com/about/
+page|pg-prentice|https://prentice1.com/
+page|pg-revance-ir|https://investors.revance.com/
+braveweb|w-brandon2|"Brandon Hahr"
+braveweb|w-kingsmen|Kingsmen agency Galderma Merz Evolus
+braveweb|w-naomi2|"Naomi Barrett" nurse practitioner Newport Beach
