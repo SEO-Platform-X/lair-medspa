@@ -1,9 +1,4 @@
-page|o-evolus|https://theorg.com/org/evolus
-page|o-evolus-mkt|https://theorg.com/org/evolus/teams/marketing
-page|o-revance|https://theorg.com/org/revance-therapeutics
-page|o-revance-mkt|https://theorg.com/org/revance-therapeutics/teams/marketing
-page|o-growth99|https://theorg.com/org/growth99
-page|o-bl|https://theorg.com/org/bausch-lomb
-page|o-rxsight|https://theorg.com/org/rxsight
-page|g99-about|https://growth99.com/about-us/
-page|o-galderma|https://theorg.com/org/galderma
+page|pg-revance-about|https://www.revance.com/about-us/
+page|pg-revance-home|https://revance.com/
+page|pg-rivkin1|https://www.rivkinaesthetics.com/
+page|pg-rivkin2|https://westsideaesthetics.com/
