@@ -18,6 +18,34 @@ input[type=range]{accent-color:#1F4FE0}
 @keyframes lairblink{0%,100%{opacity:1}50%{opacity:.35}}
 </style>
 
+<style id="motion">
+html{scroll-behavior:smooth}
+.seam{height:140px;margin:-1px 0;pointer-events:none}
+.r{opacity:0;transform:translateY(28px) scale(.98);filter:blur(6px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1),filter .9s}
+.r.in{opacity:1;transform:none;filter:none}
+#prog{position:fixed;top:0;left:0;height:3px;width:100%;transform-origin:0 50%;transform:scaleX(0);background:linear-gradient(90deg,#1F4FE0,#FF5A3C);z-index:60}
+.hero-in>*{opacity:0;transform:translateY(22px);animation:hin .9s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes hin{to{opacity:1;transform:none}}
+.chatmsg{opacity:0;transform:translateY(10px) scale(.97);transition:all .5s cubic-bezier(.2,.7,.2,1)}
+.chatmsg.on{opacity:1;transform:none}
+.typing{display:inline-flex;gap:4px;padding:6px 2px}.typing i{width:6px;height:6px;border-radius:50%;background:#9AA8BD;animation:tp 1s infinite}.typing i:nth-child(2){animation-delay:.15s}.typing i:nth-child(3){animation-delay:.3s}
+@keyframes tp{0%,60%,100%{opacity:.3;transform:none}30%{opacity:1;transform:translateY(-3px)}}
+.flow line{stroke-dasharray:4 4;animation:flow 1.2s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-16}}
+.draw line{stroke-dasharray:120;stroke-dashoffset:120;transition:stroke-dashoffset 1.2s ease}
+.draw.in line{stroke-dashoffset:0}
+.pulse{transform-origin:170px 150px;animation:pl 2.4s ease-in-out infinite}
+@keyframes pl{0%,100%{transform:scale(1)}50%{transform:scale(1.07)}}
+.chk rect{transition:fill .3s,stroke .3s}.chk path{stroke-dasharray:20;stroke-dashoffset:20;transition:stroke-dashoffset .35s ease}
+.chk.on rect{fill:#1F4FE0;stroke:#1F4FE0}.chk.on path{stroke-dashoffset:0}
+.tilt{transition:transform .2s ease-out;will-change:transform}
+.glow{position:relative}.glow::after{content:"";position:absolute;inset:-2px;border-radius:16px;background:linear-gradient(90deg,#1F4FE0,#FF5A3C,#1F4FE0);background-size:200% 100%;z-index:-1;filter:blur(14px);opacity:.55;animation:gl 4s linear infinite}
+@keyframes gl{to{background-position:200% 0}}
+#stick{position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:50;transform:translateY(140%);transition:transform .5s cubic-bezier(.2,.7,.2,1)}
+#stick.on{transform:none}
+.face img{transition:opacity .4s, transform .6s}.face:hover img{transform:scale(1.08)}
+@media (prefers-reduced-motion: reduce){.r,.chatmsg,.hero-in>*{opacity:1!important;transform:none!important;filter:none!important;animation:none!important}.flow line,.pulse,.glow::after,.typing i{animation:none!important}.draw line{stroke-dashoffset:0!important}}
+</style>
 </head>
 <body>
 
@@ -481,6 +509,57 @@ input[type=range]{accent-color:#1F4FE0}
   img.onload=function(){if(img.naturalWidth>1)img.style.opacity=1;else next();};
   img.onerror=next;next();
  });
+})();
+</script>
+<div id="prog"></div>
+<a id="stick" href="https://localairegistry.com" style="display:flex;min-height:54px;align-items:center;justify-content:center;background:#0B1A2E;color:#fff;border-radius:16px;font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:17px;text-decoration:none;box-shadow:0 12px 30px rgba(11,26,46,.35)">See what AI says about my med spa</a>
+<script>
+(function(){
+var RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
+var secs=[].slice.call(document.querySelectorAll('section'));
+/* gradient seams: dark to light fades between sections */
+for(var i=1;i<secs.length;i++){var a=getComputedStyle(secs[i-1]).backgroundColor,b=getComputedStyle(secs[i]).backgroundColor;
+ if(a!==b){var d=document.createElement('div');d.className='seam';d.style.background='linear-gradient(180deg,'+a+','+b+')';secs[i].parentNode.insertBefore(d,secs[i]);}}
+/* hero entrance */
+var hero=secs[0], hcol=hero.querySelector('h1').parentNode; hcol.classList.add('hero-in');
+[].forEach.call(hcol.children,function(c,i){c.style.animationDelay=(0.1+i*0.12)+'s'});
+/* chat sequence */
+var card=hero.querySelector('[style*="box-shadow"]');
+if(card){var parts=[].slice.call(card.children);parts.forEach(function(p){p.classList.add('chatmsg')});
+ var rows=[].slice.call(card.querySelectorAll('div[style*="gap: 10px; align-items: center"]'));rows.forEach(function(r){r.classList.add('chatmsg')});
+ var ai=parts[1],holder=ai&&ai.firstElementChild,typing=document.createElement('span');typing.className='typing';typing.innerHTML='<i></i><i></i><i></i>';
+ var t=RM?0:1;
+ setTimeout(function(){parts[0].classList.add('on')},600*t);
+ setTimeout(function(){ai.classList.add('on');if(!RM){holder.style.display='none';ai.insertBefore(typing,holder)}},1300*t);
+ setTimeout(function(){typing.remove();holder.style.display='';rows.forEach(function(r,i){setTimeout(function(){r.classList.add('on')},i*350*t)})},2600*t);
+ setTimeout(function(){parts[2]&&parts[2].classList.add('on')},3900*t);
+ if(RM){parts.concat(rows).forEach(function(p){p.classList.add('on')})}}
+/* reveal on scroll, staggered */
+var targets=[];secs.slice(1).forEach(function(sec){var box=sec.firstElementChild;[].forEach.call(box.children,function(c){
+ if(c.style.display==='grid'||/display: grid|flex-direction: column/.test(c.getAttribute('style')||'')&&c.children.length>2){[].forEach.call(c.children,function(k,j){k.classList.add('r');k.style.transitionDelay=(j%6*0.07)+'s';targets.push(k)})}
+ else{c.classList.add('r');targets.push(c)}})});
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);fire(e.target)}})},{threshold:.15,rootMargin:'0px 0px -8% 0px'});
+targets.forEach(function(t){io.observe(t)});
+/* count-up for stats */
+function fire(el){[].forEach.call(el.querySelectorAll('span'),function(sp){var m=/^(\d+(?:\.\d+)?)%$/.exec(sp.textContent.trim());if(!m||RM)return;var end=+m[1],dec=m[1].indexOf('.')>-1?1:0,st=null;
+ function step(ts){if(!st)st=ts;var p=Math.min(1,(ts-st)/1400),e=1-Math.pow(1-p,3);sp.textContent=(end*e).toFixed(dec)+'%';if(p<1)requestAnimationFrame(step)}requestAnimationFrame(step)});
+ [].forEach.call(el.querySelectorAll('rect[width="117"]'),function(r){if(RM)return;r.setAttribute('width','0');setTimeout(function(){r.style.transition='width 1.4s cubic-bezier(.2,.7,.2,1)';r.setAttribute('width','117')},50)});
+ if(el.tagName==='FIGURE'){var g=el.querySelector('g[stroke-dasharray]');if(g)g.classList.add('flow');var c=el.querySelector('circle[r="36"]');if(c)c.classList.add('pulse');var dg=el.querySelector('g[stroke="#1F4FE0"]');if(dg){dg.classList.add('draw');setTimeout(function(){dg.classList.add('in')},150)}}}
+/* chore checklist ticks itself off */
+var chores=[].slice.call(document.querySelectorAll('section svg[viewBox="0 0 20 20"]'));
+chores.forEach(function(sv){sv.classList.add('chk');var p=document.createElementNS('http://www.w3.org/2000/svg','path');p.setAttribute('d','M5.5 10.5l3 3 6-7');p.setAttribute('fill','none');p.setAttribute('stroke','#fff');p.setAttribute('stroke-width','2.2');p.setAttribute('stroke-linecap','round');p.setAttribute('stroke-linejoin','round');sv.appendChild(p)});
+if(chores.length){var cio=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){chores.forEach(function(c,i){setTimeout(function(){c.classList.add('on')},RM?0:300+i*180)});cio.disconnect()}})},{threshold:.3});cio.observe(chores[0].closest('section'))}
+/* blue +100 card glow, tilt on cards */
+[].forEach.call(document.querySelectorAll('div[style*="background: #1F4FE0; color: #FFFFFF; border-radius: 16px"]'),function(d){d.classList.add('glow')});
+if(!RM&&matchMedia('(hover:hover)').matches){[].forEach.call(document.querySelectorAll('section div[style*="border-radius: 16px"]'),function(c){c.classList.add('tilt');
+ c.addEventListener('mousemove',function(e){var b=c.getBoundingClientRect(),x=(e.clientX-b.left)/b.width-.5,y=(e.clientY-b.top)/b.height-.5;c.style.transform='perspective(700px) rotateX('+(-y*6)+'deg) rotateY('+(x*6)+'deg) translateY(-3px)'});
+ c.addEventListener('mouseleave',function(){c.style.transform=''})})}
+/* scroll progress, hero parallax, sticky CTA */
+var prog=document.getElementById('prog'),stick=document.getElementById('stick'),fin=secs[secs.length-1],hc=card;
+function onScroll(){var y=scrollY,h=document.documentElement.scrollHeight-innerHeight;prog.style.transform='scaleX('+(h>0?y/h:0)+')';
+ if(!RM&&hc&&y<innerHeight*1.2){hc.style.transform='translateY('+(y*-0.08)+'px) rotate('+(y*0.005)+'deg)'}
+ var fr=fin.getBoundingClientRect();stick.classList.toggle('on',y>hero.offsetHeight*0.8&&fr.top>innerHeight*0.6)}
+addEventListener('scroll',onScroll,{passive:true});onScroll();
 })();
 </script>
 </body>
