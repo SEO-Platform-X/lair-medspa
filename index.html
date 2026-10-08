@@ -19,36 +19,17 @@ input[type=range]{accent-color:#1F4FE0}
 </style>
 
 <style id="motion">
-html{scroll-behavior:smooth}
 section:not(:first-of-type){padding-top:120px!important;padding-bottom:120px!important}
 section h2{margin-bottom:56px!important}
-.ln{display:block;opacity:0;transform:translateY(14px);transition:opacity 1s cubic-bezier(.2,.7,.2,1),transform 1s cubic-bezier(.2,.7,.2,1)}
-.ln+.ln{margin-top:.62em}
-.ln.on{opacity:1;transform:none}
-.r{opacity:0;transform:translateY(18px);transition:opacity 1s cubic-bezier(.2,.7,.2,1),transform 1s cubic-bezier(.2,.7,.2,1)}
-.r.in{opacity:1;transform:none}
-.uline{position:relative;white-space:nowrap}
-.uline svg{position:absolute;left:-2%;bottom:-.18em;width:104%;height:.42em;overflow:visible;pointer-events:none}
-.uline path{fill:none;stroke:#FF5A3C;stroke-width:3;stroke-linecap:round;stroke-dasharray:400;stroke-dashoffset:400;transition:stroke-dashoffset 1.3s cubic-bezier(.65,0,.35,1)}
-.ln.on .uline path{stroke-dashoffset:0;transition-delay:.5s}
-figure svg [data-d]{transition:stroke-dashoffset 1.6s cubic-bezier(.65,0,.35,1)}
-figure svg .fadein{opacity:0;transition:opacity .9s ease}
-figure.in svg .fadein{opacity:1}
-.chatmsg{opacity:0;transform:translateY(8px);transition:opacity .7s ease,transform .7s ease}
-.chatmsg.on{opacity:1;transform:none}
-.chk rect{transition:fill .4s,stroke .4s}.chk path{stroke-dasharray:20;stroke-dashoffset:20;transition:stroke-dashoffset .4s ease}
-.chk:not(.on) rect{fill:transparent!important;stroke:#9AA8BD!important}.chk:not(.on) *:not(rect){opacity:0}.chk *{transition:opacity .3s,fill .4s,stroke .4s,stroke-dashoffset .4s}.chk.on rect{fill:#1F4FE0;stroke:#1F4FE0}.chk.on path{stroke-dashoffset:0}
-section.th,section.th *{transition:background-color 1.2s cubic-bezier(.4,0,.2,1),color 1.2s cubic-bezier(.4,0,.2,1),border-color 1.2s cubic-bezier(.4,0,.2,1),box-shadow 1.2s}
+.ln{display:block}.ln+.ln{margin-top:.62em}
+section.th,section.th *{transition:background-color .45s ease,color .45s ease,border-color .45s ease,box-shadow .45s ease}
 section.th.dk{background-color:#0B1A2E!important;color:#F4F1EA!important}
 section.th.lt{background-color:var(--lb)!important;color:#0B1A2E!important}
 section.th.dk [data-t]{color:#F4F1EA!important}section.th.lt [data-t]{color:#0B1A2E!important}
-section.th.dk [data-t2]{color:rgba(244,241,234,.82)!important}section.th.lt [data-t2]{color:#3E4A5C!important}
-section.th.dk [data-tb]{border-color:rgba(244,241,234,.18)!important}section.th.lt [data-tb]{border-color:rgba(11,26,46,.14)!important}
-section.th.dk [data-navy]{box-shadow:0 0 0 1px rgba(244,241,234,.18)}
-#prog{position:fixed;top:0;left:0;height:2px;width:100%;transform-origin:0 50%;transform:scaleX(0);background:#1F4FE0;z-index:60;opacity:.8}
-#stick{position:fixed;left:50%;bottom:calc(14px + env(safe-area-inset-bottom,0px));z-index:50;transform:translate(-50%,160%);transition:transform .7s cubic-bezier(.2,.7,.2,1)}
-#stick.on{transform:translate(-50%,0)}
-@media (prefers-reduced-motion: reduce){.ln,.r,.chatmsg{opacity:1!important;transform:none!important}.uline path,figure svg [data-d]{stroke-dashoffset:0!important}section.th,section.th *{transition:none!important}}
+section.th.dk [data-t2]{color:rgba(244,241,234,.85)!important}section.th.lt [data-t2]{color:#3E4A5C!important}
+section.th.dk [data-tb]{border-color:rgba(244,241,234,.2)!important}section.th.lt [data-tb]{border-color:rgba(11,26,46,.14)!important}
+section.th.dk [data-navy]{box-shadow:0 0 0 1px rgba(244,241,234,.2)}
+@media (prefers-reduced-motion: reduce){section.th,section.th *{transition:none!important}}
 </style>
 </head>
 <body>
@@ -516,52 +497,12 @@ section.th.dk [data-navy]{box-shadow:0 0 0 1px rgba(244,241,234,.18)}
  });
 })();
 </script>
-<div id="prog"></div>
-<a id="stick" href="https://localairegistry.com" style="display:inline-flex;white-space:nowrap;padding:14px 22px;background:#0B1A2E;color:#fff;border-radius:999px;font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:15px;text-decoration:none;box-shadow:0 10px 24px rgba(11,26,46,.28)">See what AI says about you</a>
 <script>
 (function(){
-var RM=matchMedia('(prefers-reduced-motion: reduce)').matches, GAP=RM?0:850;
 var secs=[].slice.call(document.querySelectorAll('section'));
-function obs(el,fn,th){var o=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){fn(e.target);o.unobserve(e.target)}})},{threshold:th||.2,rootMargin:'0px 0px -10% 0px'});o.observe(el)}
-/* 1. Paced headlines: one sentence at a time, with room to think */
-var UL={'Is your name on the list?':'on the list?','Skeptical?':null,'Be the name AI gives.':'AI gives.'};
-function split(h){var txt=h.textContent.replace(/\s+/g,' ').trim();var parts=txt.match(/[^.?!]+[.?!]+|[^.?!]+$/g)||[txt];
- h.innerHTML='';parts.forEach(function(p){p=p.trim();var sp=document.createElement('span');sp.className='ln';var u=UL[p];
-  if(u){var i=p.lastIndexOf(u);sp.innerHTML=p.slice(0,i)+'<span class="uline">'+u+'<svg viewBox="0 0 200 12" preserveAspectRatio="none"><path d="M2 8 C 40 3, 90 2, 130 5 S 185 9, 198 4"/></svg></span>'}else sp.textContent=p;
-  h.appendChild(sp)});return parts.length}
-var heads=[].slice.call(document.querySelectorAll('h1, section h2, section p[style*="Cormorant"]'));
-heads.forEach(function(h){var n=split(h);h.dataset.n=n});
-function playHead(h,base){var ls=h.querySelectorAll('.ln');[].forEach.call(ls,function(l,i){setTimeout(function(){l.classList.add('on')},base+i*GAP)});return base+ls.length*GAP}
-/* 2. Section content waits for its headline */
-secs.forEach(function(sec,si){var box=sec.firstElementChild,h=sec.querySelector('h1,h2');var items=[];
- [].forEach.call(box.children,function(c){if(c===h||c.contains(h))return;var st=c.getAttribute('style')||'';
-  if(/display: grid/.test(st)||(/flex-direction: column/.test(st)&&c.children.length>2)){[].forEach.call(c.children,function(k){items.push(k)})}else items.push(c)});
- items.forEach(function(k){k.classList.add('r')});
- function go(){var t=h?playHead(h,si===0?250:0):0;items.forEach(function(k,i){setTimeout(function(){k.classList.add('in');fire(k)},t+Math.min(i,8)*90)})}
- if(si===0)go();else obs(h||box,go,.35)});
-[].forEach.call(document.querySelectorAll('section p[style*="Cormorant"]'),function(p){obs(p,function(){playHead(p,0)},.5)});
-/* 3. Chat plays out calmly */
-var hero=secs[0],card=hero.querySelector('[style*="box-shadow"]');
-if(card){var parts=[].slice.call(card.children),rows=[].slice.call(card.querySelectorAll('div[style*="gap: 10px; align-items: center"]'));
- parts.concat(rows).forEach(function(p){p.classList.add('chatmsg')});var T=RM?0:1,b=(+(hero.querySelector('h1').dataset.n)*GAP)+900;
- setTimeout(function(){parts[0].classList.add('on')},b*T);setTimeout(function(){parts[1].classList.add('on')},(b+900)*T);
- rows.forEach(function(r,i){setTimeout(function(){r.classList.add('on')},(b+1500+i*450)*T)});
- setTimeout(function(){parts[2]&&parts[2].classList.add('on')},(b+3000)*T)}
-/* 4. Drawings draw themselves in */
-[].forEach.call(document.querySelectorAll('figure svg'),function(sv){
- [].forEach.call(sv.querySelectorAll('line,path,polyline,circle,rect,ellipse'),function(el){var stroke=el.getAttribute('stroke')||(el.parentNode.getAttribute&&el.parentNode.getAttribute('stroke'));
-  if(stroke&&stroke!=='none'&&el.getTotalLength&&!el.parentNode.getAttribute('stroke-dasharray')&&!el.getAttribute('stroke-dasharray')){try{var L=Math.ceil(el.getTotalLength());el.style.strokeDasharray=L;el.style.strokeDashoffset=RM?0:L;el.setAttribute('data-d','')}catch(e){}}
-  else if(el.tagName!=='line'){}});
- [].forEach.call(sv.querySelectorAll('text,g[stroke-dasharray],image'),function(t){t.classList.add('fadein')})});
-function fire(el){
- if(el.tagName==='FIGURE'){el.classList.add('in');[].forEach.call(el.querySelectorAll('[data-d]'),function(d,i){setTimeout(function(){d.style.strokeDashoffset=0},120+i*60)})}
- [].forEach.call(el.querySelectorAll('figure'),fire);
- [].forEach.call(el.querySelectorAll('span'),function(sp){var m=/^(\d+(?:\.\d+)?)%$/.exec(sp.textContent.trim());if(!m||RM)return;var end=+m[1],dec=m[1].indexOf('.')>-1?1:0,st=null;
-  (function step(ts){if(ts){if(!st)st=ts;var p=Math.min(1,(ts-st)/1600),e=1-Math.pow(1-p,4);sp.textContent=(end*e).toFixed(dec)+'%';if(p>=1)return}requestAnimationFrame(step)})()})}
-/* 5. Checklist ticks itself off, slowly */
-var chores=[].slice.call(document.querySelectorAll('section svg[viewBox="0 0 20 20"]'));
-chores.forEach(function(sv){sv.classList.add('chk');var p=document.createElementNS('http://www.w3.org/2000/svg','path');p.setAttribute('d','M5.5 10.5l3 3 6-7');p.setAttribute('fill','none');p.setAttribute('stroke','#fff');p.setAttribute('stroke-width','2.2');p.setAttribute('stroke-linecap','round');p.setAttribute('stroke-linejoin','round');sv.appendChild(p)});
-if(chores.length)obs(chores[0],function(){chores.forEach(function(c,i){setTimeout(function(){c.classList.add('on')},RM?0:900+i*220)})},.6);
+/* headlines: one sentence per line, static, for breathing room */
+[].forEach.call(document.querySelectorAll('h1, section h2'),function(h){var txt=h.textContent.replace(/\s+/g,' ').trim();var parts=txt.match(/[^.?!]+[.?!]+|[^.?!]+$/g)||[txt];if(parts.length<2)return;
+ h.innerHTML='';parts.forEach(function(p){var sp=document.createElement('span');sp.className='ln';sp.textContent=p.trim();h.appendChild(sp)})});
 /* 6. The 180: each new section inverts the one before it */
 var LIGHT={'1':'#F4F1EA','2':'#FFFFFF','3':'#F4F1EA','4':'#FFFFFF','5':'#F4F1EA','6':'#FFFFFF','7':'#F4F1EA','8':'#FFFFFF'};
 var THEME=[1,0,1,0,1,0,1,0,0,1]; /* 1 = navy, 0 = light; final CTA stays navy */
@@ -577,11 +518,9 @@ secs.forEach(function(sec,i){if(i===0)return;sec.classList.add('th');sec.style.s
   if(!c||PRI.test(c)||/^H|STRONG|B$/.test(el.tagName))el.setAttribute('data-t','');else el.setAttribute('data-t2','')})});
 function theme(sec,i,on){var mine=THEME[i],prev=THEME[i-1];var d=on?mine:prev;sec.classList.toggle('dk',!!d);sec.classList.toggle('lt',!d)}
 themed.forEach(function(sec){theme(sec,secs.indexOf(sec),false)});
-function onScroll(){var y=scrollY,vh=innerHeight,h=document.documentElement.scrollHeight-vh;prog.style.transform='scaleX('+(h>0?y/h:0)+')';
- themed.forEach(function(sec){var r=sec.getBoundingClientRect();theme(sec,secs.indexOf(sec),r.top<vh*0.6)});
- var fin=secs[secs.length-1].getBoundingClientRect();stick.classList.toggle('on',y>hero.offsetHeight*0.9&&fin.top>vh*0.7)}
-var prog=document.getElementById('prog'),stick=document.getElementById('stick');
-addEventListener('scroll',onScroll,{passive:true});onScroll();
+/* flip happens while only the empty top padding is on screen, so text always arrives already inverted */
+function onScroll(){var vh=innerHeight;themed.forEach(function(sec){var r=sec.getBoundingClientRect();theme(sec,secs.indexOf(sec),r.top<vh+80)})}
+addEventListener('scroll',onScroll,{passive:true});addEventListener('resize',onScroll);onScroll();
 })();
 </script>
 </body>
