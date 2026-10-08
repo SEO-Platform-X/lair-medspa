@@ -1,21 +1,16 @@
-img|ashish-bhatia|Dr Ashish Bhatia dermatologist
-img|benji-dhillon|Dr Benji Dhillon
-img|naomi-barrett|Naomi Barrett NP injector Newport Beach
-img|janell-ocampo|Janell Ocampo nurse practitioner Belle Vie
-img|shahzad-anwar|Dr Shahzad Anwar Roseville
-img|taryn-conway|Taryn Conway Allergan
-img|kellie-lao|Kellie Lao marketing
-img|aneesh-patel|Aneesh Patel Evolus
-img|benjamin-hahr|Benjamin Hahr Growth99
-img|brandon-hahr|Brandon Hahr Kingsmen
-img|logo-revance|Revance logo
-img|logo-hintmd|HintMD logo
-img|logo-kingsmen|Kingsmen digital agency logo
-img|logo-scarlessnose|Beverly Hills Rhinoplasty Center logo
-img|logo-defineclinic|Define Clinic logo
-img|logo-busso|Dr Busso logo
-img|logo-daydermatology|Doris Day MD logo
-page|pg-revance|https://www.revance.com/
-page|pg-oak|https://oakdermatology.com/
-page|pg-bellevie|https://www.belleviemedical.com/about-us/
-page|pg-injection|https://injectionartistryclinic.com/about/
+page|pg-dhillon|https://www.defineclinic.com/dr-dhillon/
+page|pg-bellevie-team|https://www.belleviemedical.com/team
+page|pg-busso|https://drbusso.com/about/
+page|pg-dugar|https://www.scarlessnose.com/meet-dr-deepak-dugar/
+page|pg-anwar|https://modernaestheticsmd.com/about/
+page|pg-naomi|https://injectionartistryclinic.com/
+braveweb|w-bhatia|Ashish Bhatia MD Oak Dermatology Naperville
+braveweb|w-taryn|Taryn Conway Revance Allergan marketing
+braveweb|w-kellie|Kellie Lao marketing Revance Evolus
+braveweb|w-aneesh|Aneesh Patel PharmD Evolus Galderma
+braveweb|w-benjamin|Benjamin Hahr HintMD Growth99
+braveweb|w-brandon|Brandon Hahr Kingsmen
+braveweb|w-naomi|Naomi Barrett NP-C Injection Artistry
+braveweb|w-anwar|Shahzad Anwar MD Modern Aesthetics Roseville
+brave|logo-revance|Revance logo svg
+brave|logo-hintmd|HintMD logo
