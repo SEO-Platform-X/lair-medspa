@@ -1,3 +1,1 @@
-scrape/out/commons-revance.json https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=Revance&srnamespace=6&format=json
-scrape/out/commons-revance2.json https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=Daxxify&srnamespace=6&format=json
-scrape/out/wd-revance.json https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Revance&language=en&format=json
+cand/rivkin-wide.jpg https://mdxvitals-res.cloudinary.com/private_images/c_thumb,g_face,z_0.6,w_400,h_400,f_jpg/professionals/1549998/photo.jpg
