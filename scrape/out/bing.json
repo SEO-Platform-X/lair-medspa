@@ -1,302 +1,102 @@
 {
- "lg-colorescience|Colorescience logo": [
+ "lg-daxxify|DAXXIFY logo": [
   {
    "murl": "https://cdn.search.brave.com/serp/v3/_app/immutable/assets/brave-logo-light.D0nx3pfh.svg",
    "t": "Brave logo",
    "w": 129,
    "purl": "https://search.brave.com/",
-   "file": "cand/lg-colorescience/0.svg"
+   "file": "cand/lg-daxxify/0.svg"
   },
   {
    "murl": "https://cdn.search.brave.com/serp/v3/_app/immutable/assets/brave-logo-dark.5D16vJCY.svg",
    "t": "Brave logo",
    "w": 129,
    "purl": "https://search.brave.com/",
-   "file": "cand/lg-colorescience/1.svg"
+   "file": "cand/lg-daxxify/1.svg"
   },
   {
-   "murl": "https://imgs.search.brave.com/a-yVfVmTxmmx3KVCrytqTQlnIwM1PJIGqV_qyueLMVU/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9hZHZl/cnRpc2luZy53YWxt/YXJ0LmNvbS90aHVu/ZGVyL2Fzc2V0cy9t/ZWRpYS1zZXJ2aWNl/L3djbnAtcHJvZC9p/bWFnZXMvMTEwNGYx/ZGEtN2EwZS00ODcz/LWIwMzEtYzk4OGJi/NjVkMWEwLzkyODg5/ZjgzLWI4ODAtNDZi/Zi04MmQ0LTk1MDlj/MTFmM2M4OS5qcGVn",
-   "t": "Colorescience brand logo - reads know better skin",
-   "w": 1368,
+   "murl": "https://imgs.search.brave.com/Dy4xlA3G1-aH_sX8ps64vgLQ-vJZfi-GRUlBjwst-Ng/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9za2lu/Y2FyZXBoeXNpY2lh/bnNvZmdhLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyMi8x/Mi9Mb2dvX0RBWFhJ/RlktMzAweDE5Mi5q/cGc",
+   "t": "daxxify logo",
+   "w": 500,
    "purl": "",
-   "file": "cand/lg-colorescience/2.img"
+   "file": "cand/lg-daxxify/2.img"
   },
   {
-   "murl": "https://imgs.search.brave.com/THnAJ6KQLIabD57zMCJUfjmbjCt7ar3L0xJYNLlb_VI/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9wYXJp/c2VyZGVybS5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMjEv/MDYvQ29sb3Jlc2Np/ZW5jZS1Mb2dvLTI4/OC14LTk3LmpwZw",
+   "murl": "https://imgs.search.brave.com/ZDVFnkC61fm_0QCdba10v1_b3TX4NYfDrvc9uRJPm8Y/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly93d3cu/ZGVybWxhc2Vyc3Vy/Z2VyeS5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMjQvMTAv/ZGF4eGlmeS1sb2dv/LndlYnA",
+   "t": "daxxify logo",
+   "w": 546,
+   "purl": "",
+   "file": "cand/lg-daxxify/3.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/HO7bhqntWRndj8HIPnJ1fij3wgPafPI18n6Bt6Fr9RA/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly93d3cu/c2Nod2VpZ2VyZGVy/bS5jb20vd3AtY29u/dGVudC91cGxvYWRz/LzIwMjMvMDUvREFY/WElGWS1Mb2dvX0Js/YWNrLXNtYWxsLmpw/Zw",
    "t": "",
-   "w": 534,
+   "w": 458,
    "purl": "",
-   "file": "cand/lg-colorescience/3.img"
+   "file": "cand/lg-daxxify/4.img"
   },
   {
-   "murl": "https://imgs.search.brave.com/HUZ4H0xq_1ZNWj-g7TLYuqtwYEIPdI-vIjogYP1rD3w/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9zdG9y/ZS1jZG4tbWVkaWEu/ZGVybXByby5jb20v/Y2F0YWxvZy9jYXRl/Z29yeS9Db2xvcmVz/Y2llbmNlLUxvZ28t/dXNkcC5wbmc",
-   "t": "Colorescience",
-   "w": 630,
-   "purl": "",
-   "file": "cand/lg-colorescience/4.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/s9LDvgQPnhzcckyLWEJIoEWU1NQksaRfsxm7mmEoO7A/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zeXJh/Y3VzZXBsYXN0aWNz/dXJnZXJ5LmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyMC8x/Mi9Db2xvcmVzY2ll/bmNlLUxvZ28tMS1z/Y2FsZWQtMS0zMDB4/MjQwLmpwZw",
-   "t": "",
+   "murl": "https://imgs.search.brave.com/mc_HBOHK107Re6jMCnogovwDcAFJKY997eH8uKtY_JI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jb25j/aWVyZ2Vjb3NtZXRp/Y3NhbmRhZXN0aGV0/aWNzLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyMy8xMS9k/YXh4aWZ5LmpwZw",
+   "t": "Daxxify logo",
    "w": 500,
    "purl": "",
-   "file": "cand/lg-colorescience/5.img"
+   "file": "cand/lg-daxxify/5.img"
   },
   {
-   "murl": "https://imgs.search.brave.com/8fi74qugV9fqFH8LDZgtKqcj0xpRm75Q2J90xRYu2og/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vamF2aWVy/Z29uemFsZXptZC5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjEvMTEvY29sb3Jl/c2NpZW5jZS1sb2dv/LnBuZz9maXQ9MjI1/LDIyNSZzc2w9MQ",
-   "t": "",
+   "murl": "https://imgs.search.brave.com/4WDB6hFiyjNo1FDhWos_3Q3tCUbRaFsB-EW3D8mc53c/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tdXNp/Y2tkZXJtYXRvbG9n/eS5jb20vd3AtY29u/dGVudC91cGxvYWRz/LzIwMjMvMDYvREFY/WElGWS1FeGNsdXNp/dmUtUHJvdmlkZXIt/TG9nb19CbGFjay0x/LmpwZw",
+   "t": "DAXXIFY Swansea IL",
    "w": 500,
    "purl": "",
-   "file": "cand/lg-colorescience/6.img"
+   "file": "cand/lg-daxxify/6.img"
   },
   {
-   "murl": "https://imgs.search.brave.com/jpIstpbdvIqwPURjG5SGQzGuIojJtOVa2akG3rD9omQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hYWRl/cm1hdG9sb2d5LmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/NC8xMi9jb2xvcmVz/Y2llbmNlLXByb2R1/Y3QtbWluLnBuZw",
-   "t": "colorescience logo",
+   "murl": "https://imgs.search.brave.com/iKr4UY3O1IRLXhu3UyG_DlqSx1zNG80gfIgBzPuHjd0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/ZHJhbGlzb25ibGFj/ay5jb20vd3AtY29u/dGVudC91cGxvYWRz/LzIwMjQvMDYvZGF4/eGlmeS1sb2dvLmpw/Zw",
+   "t": "daxxify logo",
    "w": 500,
    "purl": "",
-   "file": "cand/lg-colorescience/7.img"
+   "file": "cand/lg-daxxify/7.img"
   },
   {
-   "murl": "https://imgs.search.brave.com/2tbUHeYB0NXfPsMRd3Rptb8b-AO63rBs5ntaxWd5evA/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly93d3cu/Y2xhcmlvbm1lZGlj/YWwuY29tL2h1YmZz/L3Byb2R1Y3QtaW1h/Z2VzL2Flc3RoZXRp/Y3MvY29sb3Jlc2Np/ZW5jZS9DUy1mdWxs/LWxvZ28ucG5n",
-   "t": "Colorescience\u00ae logo",
-   "w": 1136,
+   "murl": "https://imgs.search.brave.com/0DYE99ngW-B0e-TvWxiDCwFjUzyA3af6T93KtUWPh4A/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9oY3Au/ZGF4eGlmeWNlcnZp/Y2FsZHlzdG9uaWEu/Y29tL19hcHAvaW1t/dXRhYmxlL2Fzc2V0/cy9hY2Nlc3MtZGF4/eGlmeS1sb2dvLnFQ/eXRSc1JQLnBuZw",
+   "t": "Access Daxxify Logo",
+   "w": 578,
    "purl": "",
-   "file": "cand/lg-colorescience/8.img"
+   "file": "cand/lg-daxxify/8.img"
   },
   {
-   "murl": "https://imgs.search.brave.com/ITsc_04rHAsirdF-AXK08W2SzDkjyewDrtLr4wlXK6A/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2l4c3RhdGlj/LmNvbS9tZWRpYS9m/MTdhM2JfMmRkOTU3/MTdkNDI0NDFjZWI1/OWU1M2ZlNTgyYWRl/MzN-bXYyLnBuZy92/MS9maWxsL3dfMjI1/LGhfODEsYWxfYyxx/Xzg1LHVzbV8wLjY2/XzEuMDBfMC4wMSxl/bmNfYXZpZixxdWFs/aXR5X2F1dG8vQ29s/b3Jlc2NpZW5jZS1s/b2dvLnBuZw",
-   "t": "Colorescience-logo.webp",
+   "murl": "https://imgs.search.brave.com/worzC8rf-JPo6SyNDCPLT_LbE-z2oOUeBmEjKpvwKVI/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly90aW1l/bGVzc3NraW5zb2x1/dGlvbnMuY29tL3N0/b3JhZ2UvcGljcy9U/U1MtcHJpbWFyeS1s/b2dvLXdoaXRlODk2/OS5zdmc",
+   "t": "logo for Timeless Skin Solutions",
+   "w": 636,
+   "purl": "",
+   "file": "cand/lg-daxxify/9.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/PnpolrFupiJdZ1XM5vU0Z9uA3KYzgQvUQV1ye0ETHKs/rs:fit:0:180:1:0/g:ce/aHR0cDovL2xlbm5v/eGFlc3RoZXRpY3Mu/Y29tL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDIzLzAzL0xvZ29f/TGVubm94X3doaXRl/LnBuZw",
+   "t": "Lennox Aesthetics",
+   "w": 719,
+   "purl": "",
+   "file": "cand/lg-daxxify/10.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/bXXAeIaFlHb54OdEQ2vQ_MQm82bDikABNp554N-xVxM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/dmlyZ2luaWFmYWNp/YWxwbGFzdGljc3Vy/Z2VyeS5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMjMvMDgv/YWFmcHJzLWxvZ28u/c3Zn",
+   "t": "aafprs-logo",
    "w": 500,
    "purl": "",
-   "file": "cand/lg-colorescience/9.img"
+   "file": "cand/lg-daxxify/11.img"
   },
   {
-   "murl": "https://imgs.search.brave.com/xWIcbhAW9Qtd04rghKtu9Bph9cpKSLr2Jw-DsUg5Phs/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdG9y/ZS1jZG4tbWVkaWEu/ZGVybXByby5jb20v/Y2F0YWxvZy9jYXRl/Z29yeS9sb2dvLWNv/bG9yZXNjaWVuY2Vf/NC5wbmc",
-   "t": "Colorescience",
+   "murl": "https://imgs.search.brave.com/xxwaBr6hNtmuYBGZ0Ym7zkuOlEF9s_S-3Rcle5yvkxM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/dmlyZ2luaWFmYWNp/YWxwbGFzdGljc3Vy/Z2VyeS5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMjMvMDgv/YXNwcy1sb2dvLnN2/Zw",
+   "t": "asps-logo",
    "w": 500,
    "purl": "",
-   "file": "cand/lg-colorescience/10.img"
+   "file": "cand/lg-daxxify/12.img"
   },
   {
-   "murl": "https://imgs.search.brave.com/cnbeKszk3kYWr_cfw4nX2zH4cmlnShUE2FHqXoEZVyA/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9hZHZl/cnRpc2luZy53YWxt/YXJ0LmNvbS90aHVu/ZGVyL2Fzc2V0cy9t/ZWRpYS1zZXJ2aWNl/L3djbnAtcHJvZC9p/bWFnZXMvYjI0NTQz/OWQtMmVhZC00ZWE3/LWJlOWUtMTk1OGNm/OWM4MGRjL2JlZmJl/OTgxLTg4NDYtNDRm/OS1hZWVhLTY2MDM5/ODk5Zjg3Ny5wbmc_/b2RuSGVpZ2h0PTEy/MCZvZG5XaWR0aD0x/MjAmb2RuQmc9",
-   "t": "ColoreScience logo",
-   "w": 180,
-   "purl": "",
-   "file": "cand/lg-colorescience/11.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/ltVPrKFtGcti8LuuWbeBmMFEGlvP8ifhVGb7u6xbuaM/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9yZXMu/Y2xvdWRpbmFyeS5j/b20vem9vbWluZm8t/aW1hZ2VzL2ltYWdl/L3VwbG9hZC93XzEy/MCxoXzEyMCxjX2Zp/dC9jb2xvcmVzY2ll/bmNlLmNvbQ",
-   "t": "logo for Colorescience",
-   "w": 180,
-   "purl": "",
-   "file": "cand/lg-colorescience/12.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/OcLpXVAkfHHVnZYi-odJRNsI-gxY2itCndBzwxsFx9g/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9jb2xv/cmVzY2llbmNlc2Eu/Y28uemEvd3AtY29u/dGVudC91cGxvYWRz/LzIwMjMvMDQvQ29s/b3Jlc2NpZW5jZS1C/YWNrLXRvLUJhc2lj/cy5qcGc",
-   "t": "",
-   "w": 1053,
-   "purl": "",
-   "file": "cand/lg-colorescience/13.img"
-  }
- ],
- "lg-alastin|Alastin Skincare logo": [
-  {
-   "murl": "https://cdn.search.brave.com/serp/v3/_app/immutable/assets/brave-logo-light.D0nx3pfh.svg",
-   "t": "Brave logo",
-   "w": 129,
-   "purl": "https://search.brave.com/",
-   "file": "cand/lg-alastin/0.svg"
-  },
-  {
-   "murl": "https://cdn.search.brave.com/serp/v3/_app/immutable/assets/brave-logo-dark.5D16vJCY.svg",
-   "t": "Brave logo",
-   "w": 129,
-   "purl": "https://search.brave.com/",
-   "file": "cand/lg-alastin/1.svg"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/L5KHKhuLI9xGjn6BXrVBe20Z9HKkJxOfzOFLuGljPmo/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/c3RlcGhlbnNwbGFz/dGljc3VyZ2VyeS5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjAvMDMvQWxhc3Rp/bi1Ta2luY2FyZS1s/b2dvLmpwZw",
-   "t": "Alastin Skincare Logo",
+   "murl": "https://imgs.search.brave.com/GseHQg3kUWx9G1eziM7QLiPfBFkC5YBYNh1CI2I9XGQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/cmV2YW5jZWFlc3Ro/ZXRpY3MuY29tL19h/cHAvaW1tdXRhYmxl/L2Fzc2V0cy9iaW9q/dXZlLWxvZ28uRDZ5/cGFqNVYucG5n",
+   "t": "BIOJUVE",
    "w": 500,
    "purl": "",
-   "file": "cand/lg-alastin/2.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/jrfCBirAHgMHZFbG0HvELgulOROhBR3ndHz4wKWKVW8/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly93d3cu/cHVyZWxpZmVtZWRp/c3BhLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyMy8wNi9B/bGFzdGluLVNraW5j/YXJlLUxvZ28tMzAw/eDkyLnBuZw",
-   "t": "Alastin Skincare Logo",
-   "w": 587,
-   "purl": "",
-   "file": "cand/lg-alastin/3.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/a1-Q7zPRfTSEX1yvkyatVFC0ubAJQMtxKn40MTP0Nek/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly93d3cu/ZGF0b2Ntcy1hc3Nl/dHMuY29tLzM2ODE0/LzE2NjUwMDQ3ODUt/MzQwMTYxbG9nby5q/cGc",
-   "t": "Alastin Skincare logo",
-   "w": 753,
-   "purl": "",
-   "file": "cand/lg-alastin/4.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/pmVf93FQJeMiZNTjXBGWl7VwXKDay3Gbujuvt8HYQjs/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9mYWNl/c21lZHNwYS5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMjAv/MTEvYWxhc3Rpbi1z/a2luY2FyZS1sb2dv/LTIwMjAtMTAyNHgy/NDQucG5n",
-   "t": "Alastin Skincare logo",
-   "w": 755,
-   "purl": "",
-   "file": "cand/lg-alastin/5.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/yWpQoZztQ30SAmQVyglqUQ2zqWVypsPlcrgo1UN4viw/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9hc3Bp/cmVza2luLmhlYWx0/aC93cC1jb250ZW50/L3VwbG9hZHMvMjAy/My8wNS9BbGFzdGlu/LVNraW5jYXJlLUxv/Z28tMjA0OHg0ODkt/MS53ZWJw",
-   "t": "Alastin Skincare Logo 2048x489",
-   "w": 754,
-   "purl": "",
-   "file": "cand/lg-alastin/6.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/gdi8_epNgVH7wz4ImeaeptvS3A0FVOqCuYepbPUDPHs/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9wdXJl/aGVhbHRoYWxsaWFu/Y2UuY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDI1LzAxL0Fs/YXN0aW4tU2tpbmNh/cmUtbG9nby13aGl0/ZS10ZXh0LnBuZw",
-   "t": "Alastin Skincare-logo-white-text",
-   "w": 476,
-   "purl": "",
-   "file": "cand/lg-alastin/7.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/k5DhBW737_2xBY8GEUbgzJrjN9WmRHgNMpB4PHhIKCs/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9jZG4u/YnJhbmRmZXRjaC5p/by9pZEsyOEVOVERn/L3RoZW1lL2Rhcmsv/bG9nby5zdmc_Yz0x/YnhpZDY0TXVwN2Fj/emV3U0FZTVgmdD0x/Nzc4MDU3OTE0Mzc1",
-   "t": "ALASTIN Skincare's logos",
-   "w": 406,
-   "purl": "",
-   "file": "cand/lg-alastin/8.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/47Bm4XWzTXcJ8dZQZqV3AlSAES8CWH74pVRbbouRsdE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/c3BlY3RydW1kZXJt/YXRvbG9neXNlYXR0/bGUuY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDIxLzAyL3Nw/ZWN0cnVtX2xvZ29f/YWxhc3Rpbi5wbmc",
-   "t": "Alastin Skin Care Logo",
-   "w": 500,
-   "purl": "",
-   "file": "cand/lg-alastin/9.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/SGV8PCesxRHzzO_wDqXWzoluh_g1jBroNcTD3TzrVw4/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9kM2s4/MWNoOWh2dWN0Yy5j/bG91ZGZyb250Lm5l/dC9jb21wYW55L1JL/ajNCSC9pbWFnZXMv/OWZiZjY1NDYtMjE2/ZS00NzBjLTllZWIt/OWEwZGRiZTNlZjkw/LmpwZWc",
-   "t": "Rejuvent Skincare logo",
-   "w": 540,
-   "purl": "",
-   "file": "cand/lg-alastin/10.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/rYWVTYB9b7xkz2Iet1OHdWpCRuMUZGF8DHhb8zTf9pg/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2l4c3RhdGlj/LmNvbS9tZWRpYS9l/NDI1YjZfMmJkZGVl/MDhjYTBlNDdhMDg3/ZjA1YWY0MzY0YTlh/NGR-bXYyLndlYnAv/djEvZmlsbC93XzUw/MixoXzE3NyxhbF9j/LHFfODAsdXNtXzAu/NjZfMS4wMF8wLjAx/LGVuY19hdmlmLHF1/YWxpdHlfYXV0by9h/bGFzdGluX2xvZ29f/Mjk5YTBkYTMtYmNi/Ni00Y2Y2LTliZWYt/Yzc5OWFkN2Q1YjA4/LndlYnA",
-   "t": "alastin_logo_299a0da3-bcb6-4cf6-9bef-c799ad7d5b08.webp",
-   "w": 511,
-   "purl": "",
-   "file": "cand/lg-alastin/11.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/3ZdnA6W6n4NHkLBtv8_SsVXU1AQWG7Qcfc1WCfxYEdo/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/Z3JlYXRsYWtlc2hl/YWx0aGFuZHdlbGxu/ZXNzLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyNi8wMy9V/bnRpdGxlZC1kZXNp/Z24tNjEucG5n",
-   "t": "Alastin Skincare",
-   "w": 500,
-   "purl": "",
-   "file": "cand/lg-alastin/12.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/LMSV2tOJ-3S7aQjl-0xut-o4OGx5Eg5DRC6hEBiEeEY/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9hbGFz/dGluLmNvbS9jZG4v/c2hvcC9maWxlcy9G/cmFtZV83MjAzLnN2/Zz92PTE3NDI5MjA0/MTUmd2lkdGg9Mjgw",
-   "t": "",
-   "w": 450,
-   "purl": "",
-   "file": "cand/lg-alastin/13.img"
-  }
- ],
- "lg-esteelauder|Estee Lauder logo svg": [
-  {
-   "murl": "https://cdn.search.brave.com/serp/v3/_app/immutable/assets/brave-logo-light.D0nx3pfh.svg",
-   "t": "Brave logo",
-   "w": 129,
-   "purl": "https://search.brave.com/",
-   "file": "cand/lg-esteelauder/0.svg"
-  },
-  {
-   "murl": "https://cdn.search.brave.com/serp/v3/_app/immutable/assets/brave-logo-dark.5D16vJCY.svg",
-   "t": "Brave logo",
-   "w": 129,
-   "purl": "https://search.brave.com/",
-   "file": "cand/lg-esteelauder/1.svg"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/QL5NhV-UJmV08Uz65x7u_YXsMOl8wcPaAFpR3ExPY20/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/ZnJlZWJpZXN1cHBs/eS5jb20vbG9nb3Mv/bGFyZ2UvMngvZXN0/ZWUtbGF1ZGVyLTEt/bG9nby1zdmctdmVj/dG9yLnN2Zw",
-   "t": "Estee Lauder Logo svg vector",
-   "w": 500,
-   "purl": "",
-   "file": "cand/lg-esteelauder/2.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/mcWCf3EoHPETPji8-Cibt5plCDeiWgtnpdkLXRhzCfE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/ZnJlZWJpZXN1cHBs/eS5jb20vbG9nb3Mv/bGFyZ2UvMngvZXN0/ZWUtbGF1ZGVyLWxv/Z28tc3ZnLXZlY3Rv/ci5zdmc",
-   "t": "Estee Lauder Logo svg vector",
-   "w": 500,
-   "purl": "",
-   "file": "cand/lg-esteelauder/3.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/uhOVKIHd8msQsB7h74DHXBFoOzTPGE7-mxMjVq112YA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pY29u/bG9nb3ZlY3Rvci5j/b20vdXBsb2Fkcy9p/bWFnZXMvMjAyNC8w/NS9sZy02NjU1Y2Fl/ZThhYzVjLUVzdGVl/LUxhdWRlci53ZWJw",
-   "t": "Estee Lauder Logo PNG, Vector  (AI, EPS, CDR, PDF, SVG)",
-   "w": 500,
-   "purl": "",
-   "file": "cand/lg-esteelauder/4.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/P6mOdghQv6HB-paIN3GQubVqmqC0UEwNsn_853pY2BM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zZWVr/dmVjdG9ycy5jb20v/c3RvcmFnZS9pbWFn/ZXMvNmM3ZGE5ZThh/MzFiNjE5YjhmOGVh/NzQxYWU2Njc2NmMu/c3Zn",
-   "t": "Estee Lauder Logo in SVG format",
-   "w": 500,
-   "purl": "",
-   "file": "cand/lg-esteelauder/5.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/2mRUOtBIaodhCYLwGnh2azpOpZvWbDJfmlVWxsTcGro/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/dmVjdG9ya2hhemFu/YS5jb20vYXNzZXRz/L2ltYWdlcy9wcm9k/dWN0cy9Fc3RlZV9M/YXVkZXJfTG9nby5w/bmc",
-   "t": "Estee Lauder Logo Svg",
-   "w": 500,
-   "purl": "",
-   "file": "cand/lg-esteelauder/6.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/QcfU3ie_KS14GNf72EN7HpmcOBxTIZDSTx20ruaAVG4/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/dmVjdG9ya2hhemFu/YS5jb20vYXNzZXRz/L2ltYWdlcy9wcm9k/dWN0cy9FTF9Fc3Rl/ZV9MYXVkZXJfU3Zn/LnBuZw",
-   "t": "Estee Lauder Logo And Symbol Svg",
-   "w": 500,
-   "purl": "",
-   "file": "cand/lg-esteelauder/7.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/YSL5Bk8-H0OWoYkcsGVQLKoFq8JelltwSQMx1WsjFLQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pY29u/YXBlLmNvbS93cC1j/b250ZW50L3BuZ19s/b2dvX3ZlY3Rvci9l/c3RlZS1sYXVkZXIt/cGxlYXN1cmVzLWxv/Z28ucG5n",
-   "t": "Estee Lauder Pleasures Logo ,Logo , icon , SVG Estee Lauder Pleasures Logo",
-   "w": 500,
-   "purl": "",
-   "file": "cand/lg-esteelauder/8.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/GrySx9e7yyAaAKF_zxUHZyqbx25jA-jujsHIgrx6aMk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMuY2RubG9nby5j/b20vbG9nb3MvZS81/Ni9lc3RlLWxhdWRl/ci1jb21wYW5pZXMu/c3Zn",
-   "t": "Est\u00e9e Lauder Companies Logo PNG Vector SVG",
-   "w": 500,
-   "purl": "",
-   "file": "cand/lg-esteelauder/9.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/ZJ-JCVQef3HfgdKOP7Zvqhsw1xrwGBcYBhAAXNFLja0/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9pY29u/YXBlLmNvbS93cC1j/b250ZW50L3BuZ19s/b2dvX3ZlY3Rvci9l/c3RlZS1sYXVkZXIt/Y29tcGFuaWVzLWxv/Z28tMi5wbmc",
-   "t": "Est\u00e9e Lauder Companies Logo ,Logo , icon , SVG Est\u00e9e Lauder Companies Logo",
-   "w": 360,
-   "purl": "",
-   "file": "cand/lg-esteelauder/10.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/mzUlFLEyGOdmuhnF7R5hLJ8mZ2_216yct0EMl_ad7tw/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9sb2dv/ZGl4LmNvbS9sb2dv/LzY2NTU0Ni5wbmc",
-   "t": "Estee Lauder Logo - Estee Lauder Logo \u00ab Logos Of Brands. Estee Lauder",
-   "w": 500,
-   "purl": "",
-   "file": "cand/lg-esteelauder/11.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/7F4gGAEzhz4GHVHCCFtpoxUajJpuBdzusgmuQwXHIO8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9icmFu/ZGxvZ29zLm5ldC93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyMi8w/Ni9lc3RlZV9sYXVk/ZXJfY29tcGFuaWVz/LWxvZ29fYnJhbmRs/b2dvcy5uZXRfM3dp/OXMtNTEyeDUxMi5w/bmc",
-   "t": "The Est\u00e9e Lauder Companies logo",
-   "w": 500,
-   "purl": "",
-   "file": "cand/lg-esteelauder/12.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/Y8_MXmcKV0z1CUn5R69j3-iDHJdBxf4osdTnLkeAf24/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9sb2dv/ZGl4LmNvbS9sb2dv/LzExODMzMDYucG5n",
-   "t": "Estee Lauder Logo - SOGO",
-   "w": 500,
-   "purl": "",
-   "file": "cand/lg-esteelauder/13.img"
+   "file": "cand/lg-daxxify/13.img"
   }
  ]
 }
