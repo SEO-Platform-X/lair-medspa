@@ -1,0 +1,4 @@
+page|pg-tag|https://www.theaestheticguide.com/
+page|pg-mi|https://www.medicalinsight.com/
+page|pg-daxx|https://www.daxxify.com/
+page|pg-rhacom|https://www.rhacollection.com/
