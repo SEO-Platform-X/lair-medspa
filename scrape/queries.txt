@@ -1,22 +1,18 @@
-img|ashish-bhatia|Dr. Ashish Bhatia dermatologist Naperville Oak Dermatology
-img|benji-dhillon|Dr Benji Dhillon Define Clinic
-img|naomi-barrett|Naomi Barrett NP-C Injection Artistry Newport Beach
-img|janell-ocampo|Janell Ocampo DNP Belle Vie Wellness Cerritos
-img|shahzad-anwar|Dr. Shahzad Anwar Modern Aesthetics Roseville
-img|taryn-conway|Taryn Conway Revance marketing
-img|kellie-lao|Kellie Lao Evolus
-img|aneesh-patel|Aneesh Patel PharmD Evolus Galderma
-img|benjamin-hahr|Benjamin Hahr HintMD
-img|brandon-hahr|Brandon Hahr Kingsmen
-img|logo-revance|Revance logo png
+img|ashish-bhatia|Ashish Bhatia MD dermatologist
+img|benji-dhillon|Benji Dhillon Define Clinic
+img|naomi-barrett|Naomi Barrett injection artistry
+img|janell-ocampo|Janell Ocampo NP
+img|shahzad-anwar|Shahzad Anwar MD Roseville
+img|taryn-conway|Taryn Conway Bausch Lomb
+img|kellie-lao|Kellie Lao
+img|aneesh-patel|Aneesh Patel PharmD
+img|benjamin-hahr|Benjamin Hahr
+img|brandon-hahr|Brandon Hahr
+img|logo-revance|Revance Therapeutics logo
 img|logo-hintmd|HintMD logo
-img|logo-kingsmen|Kingsmen agency Brandon Hahr logo
-img|logo-scarlessnose|Beverly Hills Rhinoplasty Center Scarless Nose logo
-img|logo-definesclinic|Define Clinic London logo
-img|logo-busso|Dr. Busso Cosmetic Dermatology logo
-img|logo-rivkin|RIVKIN Aesthetics logo
-web|brandon-hahr|"Brandon Hahr" Kingsmen
-web|benjamin-hahr|"Benjamin Hahr"
-web|kellie-lao|"Kellie Lao" Evolus OR Revance OR Allergan
-web|taryn-conway|"Taryn Conway" Revance
-web|aneesh-patel|"Aneesh Patel" PharmD Evolus
+img|logo-kingsmen|Kingsmen Brandon Hahr
+img|logo-scarlessnose|Scarless Nose logo Dugar
+img|logo-defineclinic|Define Clinic logo
+img|logo-busso|Busso cosmetic dermatology logo
+img|logo-rivkin|Rivkin Aesthetics logo
+img|logo-daydermatology|Day Dermatology Aesthetics Doris Day logo
