@@ -1,7 +1,7 @@
 name: scrape
 on:
   push:
-    paths: ['scrape/targets.txt','scrape/wiki.txt','scrape/download.txt','.github/workflows/scrape.yml']
+    paths: ['scrape/queries.txt','scrape/bing.py','scrape/targets.txt','scrape/wiki.txt','scrape/download.txt','.github/workflows/scrape.yml']
   workflow_dispatch:
 permissions:
   contents: write
@@ -53,6 +53,8 @@ jobs:
                       d=get(u,True); os.makedirs(os.path.dirname(p),exist_ok=True); open(p,'wb').write(d); print('ok',p,len(d))
                   except Exception as e: print('fail',p,e)
           PY
+      - name: bing
+        run: python3 scrape/bing.py || true
       - name: commit
         run: |
           git config user.name bot; git config user.email bot@users.noreply.github.com
