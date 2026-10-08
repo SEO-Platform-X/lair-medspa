@@ -1,13 +1,9 @@
-page|pg-bhatia|https://www.oakderm.com/providers/ashish-bhatia-m-d-faad
-page|pg-taryn|https://www.theaestheticguide.com/aesthetic-practice-management/women-in-aesthetics-taryn-conway-determined-to
-page|pg-benhahr|http://benhahr.com/about-me/
-page|pg-anwar-rs|https://www.realself.com/find/California/Roseville/NovaThreads
-page|pg-dhillon2|https://www.defineclinic.com/dr-benji-dhillon-founder-of-define-clinic-blog/
-page|pg-dhillon3|https://www.defineclinic.com/eden-aesthetics-appoints-dr-benji-dhillon-as-key-opinion-leader/
-page|pg-naomi2|https://injectionartistryclinic.com/mentorship-shadowing-opportunities/
-page|pg-est|https://eyesurgerytoday.com/about/
-page|pg-prentice|https://prentice1.com/
-page|pg-revance-ir|https://investors.revance.com/
-braveweb|w-brandon2|"Brandon Hahr"
-braveweb|w-kingsmen|Kingsmen agency Galderma Merz Evolus
-braveweb|w-naomi2|"Naomi Barrett" nurse practitioner Newport Beach
+page|pg-theorg-brandon|https://theorg.com/org/kingsmen-digital-ventures/org-chart/brandon-hahr
+page|pg-kingsmen-about|https://kingsmendv.com/about/
+page|pg-mesh-brandon|https://me.sh/profile/brandon-hahr-05d36e12
+page|pg-benhahr2|https://benhahr.com/about-me/
+page|pg-commons-revance|https://commons.wikimedia.org/w/index.php?search=Revance+logo&title=Special:MediaSearch&type=image
+braveweb|w-theorg-kellie|theorg.com Kellie Lao
+braveweb|w-theorg-aneesh|theorg.com Aneesh Patel Evolus
+braveweb|w-theorg-taryn|theorg.com Taryn Conway
+braveweb|w-ben2|"Ben Hahr" Growth99
