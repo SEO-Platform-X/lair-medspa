@@ -1,358 +1,1146 @@
 {
- "pg-theorg-brandon|https://theorg.com/org/kingsmen-digital-ventures/org-chart/brandon-hahr": [
+ "o-evolus|https://theorg.com/org/evolus": [
   {
-   "murl": "https://cdn.theorg.com/c326fedd-89d8-4876-9bbf-33b5606c3dfd_thumb.jpg",
-   "t": "Kingsmen Digital Ventures logo",
+   "murl": "https://cdn.theorg.com/75d53032-7dd6-409f-aaf3-0739ff891af6_thumb.jpg",
+   "t": "Evolus logo",
    "w": 200,
-   "file": "cand/pg-theorg-brandon/0.img"
+   "file": "cand/o-evolus/0.img"
   },
   {
-   "murl": "https://cdn.theorg.com/fa2859e6-8845-4719-a486-ce5517fff98f_thumb.jpg",
-   "t": "Brandon Hahr's profile picture",
+   "murl": "https://cdn.theorg.com/75f4cb0c-86e3-4df8-85b5-a186e6e5c5ac_thumb.jpg",
+   "t": "David Moatazedi's profile picture",
    "w": 200,
-   "file": "cand/pg-theorg-brandon/1.img"
+   "file": "cand/o-evolus/1.img"
   },
   {
-   "murl": "https://cdn.theorg.com/07ad3579-43df-4c07-bc8d-61f0003d580f_thumb.jpg",
-   "t": "Bauyrzhan Toktagazy's profile picture",
+   "murl": "https://cdn.theorg.com/b4b9ffa9-d819-4491-8e1a-80dd701ddb57_thumb.jpg",
+   "t": "Vikram Malik's profile picture",
    "w": 200,
-   "file": "cand/pg-theorg-brandon/2.img"
+   "file": "cand/o-evolus/2.img"
   },
   {
-   "murl": "https://cdn.theorg.com/36f42ea4-0249-454e-8426-020b204dc161_thumb.jpg",
-   "t": "NETPEAK logo",
+   "murl": "https://cdn.theorg.com/416d57ea-66e3-4f9c-87ab-1485c3bf39a1_thumb.jpg",
+   "t": "eMed logo",
    "w": 200,
-   "file": "cand/pg-theorg-brandon/3.img"
+   "file": "cand/o-evolus/3.img"
   },
   {
-   "murl": "https://cdn.theorg.com/dfb794aa-6d5f-4be1-b2f2-7c0ea269ba9a_thumb.jpg",
-   "t": "Bluedge Ventures logo",
+   "murl": "https://cdn.theorg.com/691248f2-a09e-4607-ae86-2bfe39c279c7_thumb.jpg",
+   "t": "Hello Heart logo",
    "w": 200,
-   "file": "cand/pg-theorg-brandon/4.img"
+   "file": "cand/o-evolus/4.img"
   },
   {
-   "murl": "https://cdn.theorg.com/a87f55d1-6383-4f19-95e1-23b9352093b8_thumb.jpg",
-   "t": "Jose Raul Paramo's profile picture",
+   "murl": "https://cdn.theorg.com/493e4d5e-b6e2-443c-93be-a755db2b68ce_thumb.jpg",
+   "t": "Progyny logo",
    "w": 200,
-   "file": "cand/pg-theorg-brandon/5.img"
+   "file": "cand/o-evolus/5.img"
   },
   {
-   "murl": "https://cdn.theorg.com/66ed388f-b120-4143-a76f-403ad289bb78_thumb.jpg",
-   "t": "Expansion Americas logo",
+   "murl": "https://cdn.theorg.com/d35414ea-b249-4d92-82d1-ed66352e51ef_thumb.jpg",
+   "t": "Bloom Health Centers logo",
    "w": 200,
-   "file": "cand/pg-theorg-brandon/6.img"
+   "file": "cand/o-evolus/6.img"
   },
   {
-   "murl": "https://cdn.theorg.com/6a8e7c07-6527-40dc-a3cc-11bf0b68b3b3_thumb.jpg",
-   "t": "Sosheel Samuel's profile picture",
+   "murl": "https://cdn.theorg.com/8b576498-a343-494a-83ef-d7e346595de3_thumb.jpg",
+   "t": "Cohere Health logo",
    "w": 200,
-   "file": "cand/pg-theorg-brandon/7.img"
+   "file": "cand/o-evolus/7.img"
   },
   {
-   "murl": "https://cdn.theorg.com/8643c2b2-2b2f-434c-abe1-e3b2a40fd941_thumb.jpg",
-   "t": "POPin logo",
+   "murl": "https://cdn.theorg.com/ac3c73a6-c374-4bbf-808c-eb9a0eb3f7b5_thumb.jpg",
+   "t": "Talkiatry logo",
    "w": 200,
-   "file": "cand/pg-theorg-brandon/8.img"
+   "file": "cand/o-evolus/8.img"
   },
   {
-   "murl": "https://cdn.theorg.com/f5ecf3e8-5d8b-4660-ab68-33e491bab258_thumb.jpg",
-   "t": "Gus Alfonso's profile picture",
+   "murl": "https://cdn.theorg.com/6d378a02-b12a-4fd8-8289-b494645f85c9_thumb.jpg",
+   "t": "Rhythm Pharmaceuticals logo",
    "w": 200,
-   "file": "cand/pg-theorg-brandon/9.img"
+   "file": "cand/o-evolus/9.img"
   },
   {
-   "murl": "https://cdn.theorg.com/faa2a49e-c387-431a-9db6-3c3bd834dbb0_thumb.jpg",
-   "t": "Florida Value Partners logo",
+   "murl": "https://cdn.theorg.com/169db88e-2e84-4fab-aa13-beef5f042296_thumb.jpg",
+   "t": "Soothe logo",
    "w": 200,
-   "file": "cand/pg-theorg-brandon/10.img"
+   "file": "cand/o-evolus/10.img"
   },
   {
-   "murl": "https://cdn.theorg.com/96e86910-79fd-42ab-b3e5-f72a1d07b5f8_thumb.jpg",
-   "t": "Tanuj Bhatia's profile picture",
+   "murl": "https://cdn.theorg.com/ccbe4bd0-81f6-448d-9cec-494e7523862f_thumb.jpg",
+   "t": "Onnit logo",
    "w": 200,
-   "file": "cand/pg-theorg-brandon/11.img"
+   "file": "cand/o-evolus/11.img"
   },
   {
-   "murl": "https://cdn.theorg.com/bf03b21c-6434-41c5-9ade-bcd59905f62b_thumb.jpg",
-   "t": "MagnusBridge & Company logo",
+   "murl": "https://cdn.theorg.com/b35fd345-542c-4af0-8a1d-f42e2f3c27fb_thumb.jpg",
+   "t": "Homethrive logo",
    "w": 200,
-   "file": "cand/pg-theorg-brandon/12.img"
+   "file": "cand/o-evolus/12.img"
   },
   {
-   "murl": "https://cdn.theorg.com/cfe444a1-243d-4807-a275-9aea4866762e_thumb.jpg",
-   "t": "Kimi Ellen's profile picture",
+   "murl": "https://cdn.theorg.com/48b7a596-4657-461a-af21-5b5ff9def387_thumb.jpg",
+   "t": "1440 Multiversity logo",
    "w": 200,
-   "file": "cand/pg-theorg-brandon/13.img"
+   "file": "cand/o-evolus/13.img"
   },
   {
-   "murl": "https://cdn.theorg.com/9d12261d-4c63-43f8-8de1-8777511b1e0b_thumb.jpg",
-   "t": "Benford Brown & Associates, LLC logo",
+   "murl": "https://cdn.theorg.com/c8240b07-ea56-4375-b34b-18c87e631b3f_thumb.jpg",
+   "t": "Abridge logo",
    "w": 200,
-   "file": "cand/pg-theorg-brandon/14.img"
+   "file": "cand/o-evolus/14.img"
   },
   {
-   "murl": "https://cdn.theorg.com/a1f4e2f2-a75e-4f1f-ad1b-b84bd88698be_thumb.jpg",
-   "t": "Jorgen Van hellemont's profile picture",
-   "w": 200,
-   "file": "cand/pg-theorg-brandon/15.img"
-  },
-  {
-   "murl": "https://cdn.theorg.com/b226ce57-1d6c-4431-957e-1b6702c6f4d7_thumb.jpg",
-   "t": "SMS Agency logo",
-   "w": 200,
-   "file": "cand/pg-theorg-brandon/16.img"
-  },
-  {
-   "murl": "https://cdn.theorg.com/6653c6b6-bfb0-4ae5-9f02-15327b1a409f_thumb.jpg",
-   "t": "Sean M. Campbell's profile picture",
-   "w": 200,
-   "file": "cand/pg-theorg-brandon/17.img"
-  },
-  {
-   "murl": "https://cdn.theorg.com/68b40332-ad55-429e-adde-9022eb1f726e_thumb.jpg",
-   "t": "CAM|G logo",
-   "w": 200,
-   "file": "cand/pg-theorg-brandon/18.img"
-  },
-  {
-   "murl": "https://cdn.theorg.com/a5cc1ec4-5d77-4a62-979d-92ff6e25c345_thumb.jpg",
-   "t": "Stevan Alarcon Viola's profile picture",
-   "w": 200,
-   "file": "cand/pg-theorg-brandon/19.img"
-  },
-  {
-   "murl": "https://cdn.theorg.com/5cd586ba-e69f-45c3-9fad-7e9330af34d3_thumb.jpg",
-   "t": "Boureal Group logo",
-   "w": 200,
-   "file": "cand/pg-theorg-brandon/20.img"
-  },
-  {
-   "murl": "https://cdn.theorg.com/b8b8d41b-21a9-44fa-9f64-b732aeb181ab_thumb.jpg",
-   "t": "Renaat Berckmoes' profile picture",
-   "w": 200,
-   "file": "cand/pg-theorg-brandon/21.img"
-  },
-  {
-   "murl": "https://cdn.theorg.com/565cd9fb-b896-4a85-9d34-3f95046cfc1e_thumb.jpg",
-   "t": "Fortino Capital logo",
-   "w": 200,
-   "file": "cand/pg-theorg-brandon/22.img"
-  },
-  {
-   "murl": "https://cdn.theorg.com/df05a97b-0dd4-4ed9-a423-ba25bb833b8b_thumb.jpg",
-   "t": "Tara Santos' profile picture",
-   "w": 200,
-   "file": "cand/pg-theorg-brandon/23.img"
-  },
-  {
-   "murl": "https://cdn.theorg.com/a33f6924-8ba9-4210-abd4-0e3136612d48_thumb.jpg",
-   "t": "Tensor Engineering & Consulting, LLC logo",
-   "w": 200,
-   "file": "cand/pg-theorg-brandon/24.img"
-  },
-  {
-   "murl": "https://cdn.theorg.com/og/position?name=Brandon+Hahr&image=https%3A%2F%2Fcdn.theorg.com%2Ffa2859e6-8845-4719-a486-ce5517fff98f_thumb.jpg&position=CEO+%2F+Managing+Partner&company=Kingsmen+Digital+Ventures&logo=https%3A%2F%2Fcdn.theorg.com%2Fc326fedd-89d8-4876-9bbf-33b5606c3dfd_thumb.jpg&description=Brandon+Hahr+is+a+managing+partner+and+Chief+Executive+Officer+of+Kingsmen+Digital+Ventures%2C+where+they+lead+a+specialized+consulting+firm+focused+on+building+digital+products+and+solutions+in+healthcare%2C+biotechnology%2C+and+fintech.",
+   "murl": "https://cdn.theorg.com/og/org?data=JTdCJTIybmFtZSUyMiUzQSUyMkV2b2x1cyUyMiUyQyUyMmltYWdlU3JjJTIyJTNBJTIyaHR0cHMlM0ElMkYlMkZjZG4udGhlb3JnLmNvbSUyRjc1ZDUzMDMyLTdkZDYtNDA5Zi1hYWYzLTA3MzlmZjg5MWFmNl9zbWFsbC5qcGclMjIlMkMlMjJwZW9wbGUlMjIlM0ElNUIlN0IlMjJuYW1lJTIyJTNBJTIyRGF2aWQlMjBNb2F0YXplZGklMjIlMkMlMjJ0aXRsZSUyMiUzQSUyMlByZXNpZGVudCUyMGFuZCUyMENFTyUyMiUyQyUyMmltYWdlU3JjJTIyJTNBJTIyaHR0cHMlM0ElMkYlMkZjZG4udGhlb3JnLmNvbSUyRjc1ZjRjYjBjLTg2ZTMtNGRmOC04NWI1LWExODZlNmU1YzVhY19zbWFsbC5qcGclMjIlMkMlMjJjaGlsZENvdW50JTIyJTNBMTc5JTdEJTJDJTdCJTIybmFtZSUyMiUzQSUyMlJ1aSUyMEF2ZWxhciUyMiUyQyUyMnRpdGxlJTIyJTNBJTIyQ2hpZWYlMjBNZWRpY2FsJTIwT2ZmaWNlciUyMCUyNiUyMEhlYWQlMjBvZiUyMFJlc2VhcmNoJTIwJTI2JTIwRGV2ZWxvcG1lbnQlMjIlMkMlMjJpbWFnZVNyYyUyMiUzQSUyMmh0dHBzJTNBJTJGJTJGY2RuLnRoZW9yZy5jb20lMkZjZTViMDBiNy0wNmE3LTRmZGItYjY3My0yYzUyNzc3YWViYzVfc21hbGwuanBnJTIyJTJDJTIyY2hpbGRDb3VudCUyMiUzQTE5JTdEJTJDJTdCJTIybmFtZSUyMiUzQSUyMkplc3NpY2ElMjBOb3ZhayUyMiUyQyUyMnRpdGxlJTIyJTNBJTIyU1ZQJTJDJTIwSHVtYW4lMjBSZXNvdXJjZXMlMjIlMkMlMjJpbWFnZVNyYyUyMiUzQSUyMmh0dHBzJTNBJTJGJTJGY2RuLnRoZW9yZy5jb20lMkY5YzA5OTZiMy1jN2JmLTQ5YzQtYTM1MC01Njk3MzM3ODRiODZfc21hbGwuanBnJTIyJTJDJTIyY2hpbGRDb3VudCUyMiUzQTExJTdEJTJDJTdCJTIybmFtZSUyMiUzQSUyMkt1cnQlMjBLbmFiJTIyJTJDJTIydGl0bGUlMjIlM0ElMjJTZW5pb3IlMjBWaWNlJTIwUHJlc2lkZW50JTIwT2YlMjBTYWxlcyUyMiUyQyUyMmltYWdlU3JjJTIyJTNBJTIyaHR0cHMlM0ElMkYlMkZjZG4udGhlb3JnLmNvbSUyRmY2MjE3YmIzLTRhZGYtNGExOS1iN2M1LTQ1MzEwZGEyMzRjZV9zbWFsbC5qcGclMjIlMkMlMjJjaGlsZENvdW50JTIyJTNBNDIlN0QlNUQlN0Q=&slug=evolus",
    "t": "og",
-   "file": "cand/pg-theorg-brandon/25.img"
+   "file": "cand/o-evolus/15.img"
   }
  ],
- "pg-kingsmen-about|https://kingsmendv.com/about/": [
+ "o-evolus-mkt|https://theorg.com/org/evolus/teams/marketing": [
   {
-   "murl": "https://kingsmendv.com/wp-content/uploads/2022/12/Hero-1@2x.png.webp",
-   "t": "Men discussing market strategy in front of a blackboard with a laptop.",
-   "w": 608,
-   "file": "cand/pg-kingsmen-about/0.img"
+   "murl": "https://cdn.theorg.com/75d53032-7dd6-409f-aaf3-0739ff891af6_thumb.jpg",
+   "t": "Evolus logo",
+   "w": 200,
+   "file": "cand/o-evolus-mkt/0.img"
   },
   {
-   "murl": "https://kingsmendv.com/wp-content/uploads/2022/12/Hero-2@2x.png.webp",
-   "t": "Graphic designer using computer with color palette tool.",
-   "w": 608,
-   "file": "cand/pg-kingsmen-about/1.img"
+   "murl": "https://cdn.theorg.com/75f4cb0c-86e3-4df8-85b5-a186e6e5c5ac_thumb.jpg",
+   "t": "David Moatazedi's profile picture",
+   "w": 200,
+   "file": "cand/o-evolus-mkt/1.img"
   },
   {
-   "murl": "https://kingsmendv.com/wp-content/uploads/2022/12/Hero-3@2x.png.webp",
-   "t": "A Kingsmen employee engaged in virtual reality, wearing a headset, playing an intense video game.",
-   "w": 608,
-   "file": "cand/pg-kingsmen-about/2.img"
+   "murl": "https://cdn.theorg.com/b4b9ffa9-d819-4491-8e1a-80dd701ddb57_thumb.jpg",
+   "t": "Vikram Malik's profile picture",
+   "w": 200,
+   "file": "cand/o-evolus-mkt/2.img"
   },
   {
-   "murl": "https://kingsmendv.com/wp-content/uploads/2022/12/Hero-4@2x.png.webp",
-   "t": "Two individuals focused on a laptop screen displaying a website.",
-   "w": 608,
-   "file": "cand/pg-kingsmen-about/3.img"
+   "murl": "https://cdn.theorg.com/416d57ea-66e3-4f9c-87ab-1485c3bf39a1_thumb.jpg",
+   "t": "eMed logo",
+   "w": 200,
+   "file": "cand/o-evolus-mkt/3.img"
   },
   {
-   "murl": "https://kingsmendv.com/wp-content/uploads/2022/12/Hero-1@2x.png.webp",
-   "t": "Men discussing market strategy in front of a blackboard with a laptop.",
-   "w": 608,
-   "file": "cand/pg-kingsmen-about/4.img"
+   "murl": "https://cdn.theorg.com/691248f2-a09e-4607-ae86-2bfe39c279c7_thumb.jpg",
+   "t": "Hello Heart logo",
+   "w": 200,
+   "file": "cand/o-evolus-mkt/4.img"
   },
   {
-   "murl": "https://kingsmendv.com/wp-content/uploads/2022/12/Hero-2@2x.png.webp",
-   "t": "Graphic designer using computer with color palette tool.",
-   "w": 608,
-   "file": "cand/pg-kingsmen-about/5.img"
+   "murl": "https://cdn.theorg.com/493e4d5e-b6e2-443c-93be-a755db2b68ce_thumb.jpg",
+   "t": "Progyny logo",
+   "w": 200,
+   "file": "cand/o-evolus-mkt/5.img"
   },
   {
-   "murl": "https://kingsmendv.com/wp-content/uploads/2022/12/Hero-3@2x.png.webp",
-   "t": "A Kingsmen employee engaged in virtual reality, wearing a headset, playing an intense video game.",
-   "w": 608,
-   "file": "cand/pg-kingsmen-about/6.img"
+   "murl": "https://cdn.theorg.com/d35414ea-b249-4d92-82d1-ed66352e51ef_thumb.jpg",
+   "t": "Bloom Health Centers logo",
+   "w": 200,
+   "file": "cand/o-evolus-mkt/6.img"
   },
   {
-   "murl": "https://kingsmendv.com/wp-content/uploads/2022/12/Hero-4@2x.png.webp",
-   "t": "Two individuals focused on a laptop screen displaying a website.",
-   "w": 608,
-   "file": "cand/pg-kingsmen-about/7.img"
+   "murl": "https://cdn.theorg.com/8b576498-a343-494a-83ef-d7e346595de3_thumb.jpg",
+   "t": "Cohere Health logo",
+   "w": 200,
+   "file": "cand/o-evolus-mkt/7.img"
   },
   {
-   "murl": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20128%20128'%3E%3C/svg%3E",
-   "t": "",
-   "w": 150,
+   "murl": "https://cdn.theorg.com/ac3c73a6-c374-4bbf-808c-eb9a0eb3f7b5_thumb.jpg",
+   "t": "Talkiatry logo",
+   "w": 200,
+   "file": "cand/o-evolus-mkt/8.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/6d378a02-b12a-4fd8-8289-b494645f85c9_thumb.jpg",
+   "t": "Rhythm Pharmaceuticals logo",
+   "w": 200,
+   "file": "cand/o-evolus-mkt/9.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/169db88e-2e84-4fab-aa13-beef5f042296_thumb.jpg",
+   "t": "Soothe logo",
+   "w": 200,
+   "file": "cand/o-evolus-mkt/10.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/ccbe4bd0-81f6-448d-9cec-494e7523862f_thumb.jpg",
+   "t": "Onnit logo",
+   "w": 200,
+   "file": "cand/o-evolus-mkt/11.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/b35fd345-542c-4af0-8a1d-f42e2f3c27fb_thumb.jpg",
+   "t": "Homethrive logo",
+   "w": 200,
+   "file": "cand/o-evolus-mkt/12.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/48b7a596-4657-461a-af21-5b5ff9def387_thumb.jpg",
+   "t": "1440 Multiversity logo",
+   "w": 200,
+   "file": "cand/o-evolus-mkt/13.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/c8240b07-ea56-4375-b34b-18c87e631b3f_thumb.jpg",
+   "t": "Abridge logo",
+   "w": 200,
+   "file": "cand/o-evolus-mkt/14.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/images?url=/_next/static/media/signupBlockVisual.1f416417.png&q=100&fm=webp",
+   "t": "Picture of people with contact information",
+   "w": 588,
+   "file": "cand/o-evolus-mkt/15.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/og/org?data=JTdCJTIybmFtZSUyMiUzQSUyMkV2b2x1cyUyMiUyQyUyMmltYWdlU3JjJTIyJTNBJTIyaHR0cHMlM0ElMkYlMkZjZG4udGhlb3JnLmNvbSUyRjc1ZDUzMDMyLTdkZDYtNDA5Zi1hYWYzLTA3MzlmZjg5MWFmNl9zbWFsbC5qcGclMjIlMkMlMjJwZW9wbGUlMjIlM0ElNUIlN0IlMjJuYW1lJTIyJTNBJTIyRGF2aWQlMjBNb2F0YXplZGklMjIlMkMlMjJ0aXRsZSUyMiUzQSUyMlByZXNpZGVudCUyMGFuZCUyMENFTyUyMiUyQyUyMmltYWdlU3JjJTIyJTNBJTIyaHR0cHMlM0ElMkYlMkZjZG4udGhlb3JnLmNvbSUyRjc1ZjRjYjBjLTg2ZTMtNGRmOC04NWI1LWExODZlNmU1YzVhY19zbWFsbC5qcGclMjIlMkMlMjJjaGlsZENvdW50JTIyJTNBMTc5JTdEJTJDJTdCJTIybmFtZSUyMiUzQSUyMlJ1aSUyMEF2ZWxhciUyMiUyQyUyMnRpdGxlJTIyJTNBJTIyQ2hpZWYlMjBNZWRpY2FsJTIwT2ZmaWNlciUyMCUyNiUyMEhlYWQlMjBvZiUyMFJlc2VhcmNoJTIwJTI2JTIwRGV2ZWxvcG1lbnQlMjIlMkMlMjJpbWFnZVNyYyUyMiUzQSUyMmh0dHBzJTNBJTJGJTJGY2RuLnRoZW9yZy5jb20lMkZjZTViMDBiNy0wNmE3LTRmZGItYjY3My0yYzUyNzc3YWViYzVfc21hbGwuanBnJTIyJTJDJTIyY2hpbGRDb3VudCUyMiUzQTE5JTdEJTJDJTdCJTIybmFtZSUyMiUzQSUyMkplc3NpY2ElMjBOb3ZhayUyMiUyQyUyMnRpdGxlJTIyJTNBJTIyU1ZQJTJDJTIwSHVtYW4lMjBSZXNvdXJjZXMlMjIlMkMlMjJpbWFnZVNyYyUyMiUzQSUyMmh0dHBzJTNBJTJGJTJGY2RuLnRoZW9yZy5jb20lMkY5YzA5OTZiMy1jN2JmLTQ5YzQtYTM1MC01Njk3MzM3ODRiODZfc21hbGwuanBnJTIyJTJDJTIyY2hpbGRDb3VudCUyMiUzQTExJTdEJTJDJTdCJTIybmFtZSUyMiUzQSUyMkt1cnQlMjBLbmFiJTIyJTJDJTIydGl0bGUlMjIlM0ElMjJTZW5pb3IlMjBWaWNlJTIwUHJlc2lkZW50JTIwT2YlMjBTYWxlcyUyMiUyQyUyMmltYWdlU3JjJTIyJTNBJTIyaHR0cHMlM0ElMkYlMkZjZG4udGhlb3JnLmNvbSUyRmY2MjE3YmIzLTRhZGYtNGExOS1iN2M1LTQ1MzEwZGEyMzRjZV9zbWFsbC5qcGclMjIlMkMlMjJjaGlsZENvdW50JTIyJTNBNDIlN0QlNUQlN0Q=&slug=evolus",
+   "t": "og",
+   "file": "cand/o-evolus-mkt/16.img"
+  }
+ ],
+ "o-revance|https://theorg.com/org/revance-therapeutics": [
+  {
+   "murl": "https://cdn.theorg.com/3a944c11-915f-4d50-a652-4b85b24e8c04_thumb.jpg",
+   "t": "Revance Therapeutics logo",
+   "w": 200,
+   "file": "cand/o-revance/0.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/6e9f3d28-d594-4117-8818-fa0d82b7cd93_thumb.jpg",
+   "t": "Mark Foley's profile picture",
+   "w": 200,
+   "file": "cand/o-revance/1.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/28f2a5e7-3d0a-449c-ad0b-0c1edbee51ed_thumb.jpg",
+   "t": "Angus C. Russell's profile picture",
+   "w": 200,
+   "file": "cand/o-revance/2.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/e7f69b1c-bc79-4b5d-9bb8-3e16811cb0f2_thumb.jpg",
+   "t": "Chris Nolet's profile picture",
+   "w": 200,
+   "file": "cand/o-revance/3.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/3b401ca9-d7fa-4940-8acb-aa8cf863bf46_thumb.jpg",
+   "t": "Julian S. Gangolli's profile picture",
+   "w": 200,
+   "file": "cand/o-revance/4.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/3cfd7436-7d66-4294-9b14-376e4f5fc125_thumb.jpg",
+   "t": "Olivia C. Ware's profile picture",
+   "w": 200,
+   "file": "cand/o-revance/5.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/f1dbdd09-b5df-46a6-a540-5b434ffd76df_thumb.jpg",
+   "t": "BridgeBio logo",
+   "w": 200,
+   "file": "cand/o-revance/6.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/28e303d8-7879-4ffc-b45c-4075c3f01b22_thumb.jpg",
+   "t": "Beam logo",
+   "w": 200,
+   "file": "cand/o-revance/7.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/7f5140d2-285c-4c90-863e-5f18ccb9b064_thumb.jpg",
+   "t": "Denali Therapeutics logo",
+   "w": 200,
+   "file": "cand/o-revance/8.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/d0327b39-217c-416d-9781-aca8805e52ad_thumb.jpg",
+   "t": "Kiniksa Pharmaceuticals logo",
+   "w": 200,
+   "file": "cand/o-revance/9.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/7334eb68-5fd7-4c91-981e-719310d077a4_thumb.jpg",
+   "t": "Biodesix logo",
+   "w": 200,
+   "file": "cand/o-revance/10.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/b1eb4ad6-f6e6-4482-b5f1-ebd336c587e8_thumb.jpg",
+   "t": "NotCo logo",
+   "w": 151,
+   "file": "cand/o-revance/11.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/db6f90ac-1ac1-46e1-a306-c0598cfdb258_thumb.jpg",
+   "t": "AxoGen logo",
+   "w": 200,
+   "file": "cand/o-revance/12.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/8229b315-64fb-47b8-a971-84c58622bce9_thumb.jpg",
+   "t": "INTEGRA logo",
+   "w": 200,
+   "file": "cand/o-revance/13.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/14ef074f-0526-4f01-8243-58d28ead6db0_thumb.jpg",
+   "t": "MacroGenics logo",
+   "w": 200,
+   "file": "cand/o-revance/14.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/23ef39f1-3f93-480d-a331-619d42a3f37a_thumb.jpg",
+   "t": "Allogene Therapeutics logo",
+   "w": 400,
+   "file": "cand/o-revance/15.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/86aaad7c-a6e8-498f-9419-1943e052a51e_thumb.jpg",
+   "t": "Berlin Heart logo",
+   "w": 200,
+   "file": "cand/o-revance/16.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/fdcd440a-4225-4ac9-b3ca-a5b6a54d6e8f_thumb.jpg",
+   "t": "Stratogent logo",
+   "w": 200,
+   "file": "cand/o-revance/17.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/og/org?data=JTdCJTIybmFtZSUyMiUzQSUyMlJldmFuY2UlMjBUaGVyYXBldXRpY3MlMjIlMkMlMjJpbWFnZVNyYyUyMiUzQSUyMmh0dHBzJTNBJTJGJTJGY2RuLnRoZW9yZy5jb20lMkYzYTk0NGMxMS05MTVmLTRkNTAtYTY1Mi00Yjg1YjI0ZThjMDRfc21hbGwuanBnJTIyJTJDJTIycGVvcGxlJTIyJTNBJTVCJTdCJTIybmFtZSUyMiUzQSUyMk1hcmslMjBGb2xleSUyMiUyQyUyMnRpdGxlJTIyJTNBJTIyUHJlc2lkZW50JTIwJTI2JTIwQ0VPJTIyJTJDJTIyaW1hZ2VTcmMlMjIlM0ElMjJodHRwcyUzQSUyRiUyRmNkbi50aGVvcmcuY29tJTJGNmU5ZjNkMjgtZDU5NC00MTE3LTg4MTgtZmEwZDgyYjdjZDkzX3NtYWxsLmpwZyUyMiUyQyUyMmNoaWxkQ291bnQlMjIlM0E2JTdEJTJDJTdCJTIybmFtZSUyMiUzQSUyMkRhdmlkJTIwQS4lMjBIb2xsYW5kZXIlMjIlMkMlMjJ0aXRsZSUyMiUzQSUyMkNoaWVmJTIwTWVkaWNhbCUyME9mZmljZXIlMjIlMkMlMjJpbWFnZVNyYyUyMiUzQSUyMmh0dHBzJTNBJTJGJTJGY2RuLnRoZW9yZy5jb20lMkY4MDkxODkzMy0xZTdkLTQ1MDgtODE1MC04Nzk1YTRiZmM4MTRfc21hbGwuanBnJTIyJTJDJTIyY2hpbGRDb3VudCUyMiUzQW51bGwlN0QlMkMlN0IlMjJuYW1lJTIyJTNBJTIyRHdpZ2h0JTIwTW94aWUlMjIlMkMlMjJ0aXRsZSUyMiUzQSUyMlNWUCUyQyUyMEdlbmVyYWwlMjBDb3Vuc2VsJTIwJTI2JTIwQ29ycG9yYXRlJTIwU2VjcmV0YXJ5JTIyJTJDJTIyaW1hZ2VTcmMlMjIlM0ElMjJodHRwcyUzQSUyRiUyRmNkbi50aGVvcmcuY29tJTJGNjdjOGQzNjctZjk5ZS00ZTdlLWI3ZTUtOGUzNGExMGI3M2M1X3NtYWxsLmpwZyUyMiUyQyUyMmNoaWxkQ291bnQlMjIlM0FudWxsJTdEJTJDJTdCJTIybmFtZSUyMiUzQSUyMk5pY2slMjBDcm93ZSUyMiUyQyUyMnRpdGxlJTIyJTNBJTIyQ09PJTIyJTJDJTIyaW1hZ2VTcmMlMjIlM0ElMjJodHRwcyUzQSUyRiUyRmNkbi50aGVvcmcuY29tJTJGODUxNjJlNjYtZWU2OS00NGNmLTgxMTUtMThkYmFkZmNjNzI4X3NtYWxsLmpwZyUyMiUyQyUyMmNoaWxkQ291bnQlMjIlM0FudWxsJTdEJTVEJTdE&slug=revance-therapeutics",
+   "t": "og",
+   "file": "cand/o-revance/18.img"
+  }
+ ],
+ "o-revance-mkt|https://theorg.com/org/revance-therapeutics/teams/marketing": [
+  {
+   "murl": "https://cdn.theorg.com/3a944c11-915f-4d50-a652-4b85b24e8c04_thumb.jpg",
+   "t": "Revance Therapeutics logo",
+   "w": 200,
+   "file": "cand/o-revance-mkt/0.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/6e9f3d28-d594-4117-8818-fa0d82b7cd93_thumb.jpg",
+   "t": "Mark Foley's profile picture",
+   "w": 200,
+   "file": "cand/o-revance-mkt/1.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/28f2a5e7-3d0a-449c-ad0b-0c1edbee51ed_thumb.jpg",
+   "t": "Angus C. Russell's profile picture",
+   "w": 200,
+   "file": "cand/o-revance-mkt/2.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/e7f69b1c-bc79-4b5d-9bb8-3e16811cb0f2_thumb.jpg",
+   "t": "Chris Nolet's profile picture",
+   "w": 200,
+   "file": "cand/o-revance-mkt/3.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/3b401ca9-d7fa-4940-8acb-aa8cf863bf46_thumb.jpg",
+   "t": "Julian S. Gangolli's profile picture",
+   "w": 200,
+   "file": "cand/o-revance-mkt/4.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/3cfd7436-7d66-4294-9b14-376e4f5fc125_thumb.jpg",
+   "t": "Olivia C. Ware's profile picture",
+   "w": 200,
+   "file": "cand/o-revance-mkt/5.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/f1dbdd09-b5df-46a6-a540-5b434ffd76df_thumb.jpg",
+   "t": "BridgeBio logo",
+   "w": 200,
+   "file": "cand/o-revance-mkt/6.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/28e303d8-7879-4ffc-b45c-4075c3f01b22_thumb.jpg",
+   "t": "Beam logo",
+   "w": 200,
+   "file": "cand/o-revance-mkt/7.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/7f5140d2-285c-4c90-863e-5f18ccb9b064_thumb.jpg",
+   "t": "Denali Therapeutics logo",
+   "w": 200,
+   "file": "cand/o-revance-mkt/8.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/d0327b39-217c-416d-9781-aca8805e52ad_thumb.jpg",
+   "t": "Kiniksa Pharmaceuticals logo",
+   "w": 200,
+   "file": "cand/o-revance-mkt/9.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/7334eb68-5fd7-4c91-981e-719310d077a4_thumb.jpg",
+   "t": "Biodesix logo",
+   "w": 200,
+   "file": "cand/o-revance-mkt/10.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/b1eb4ad6-f6e6-4482-b5f1-ebd336c587e8_thumb.jpg",
+   "t": "NotCo logo",
+   "w": 151,
+   "file": "cand/o-revance-mkt/11.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/db6f90ac-1ac1-46e1-a306-c0598cfdb258_thumb.jpg",
+   "t": "AxoGen logo",
+   "w": 200,
+   "file": "cand/o-revance-mkt/12.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/8229b315-64fb-47b8-a971-84c58622bce9_thumb.jpg",
+   "t": "INTEGRA logo",
+   "w": 200,
+   "file": "cand/o-revance-mkt/13.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/14ef074f-0526-4f01-8243-58d28ead6db0_thumb.jpg",
+   "t": "MacroGenics logo",
+   "w": 200,
+   "file": "cand/o-revance-mkt/14.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/23ef39f1-3f93-480d-a331-619d42a3f37a_thumb.jpg",
+   "t": "Allogene Therapeutics logo",
+   "w": 400,
+   "file": "cand/o-revance-mkt/15.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/86aaad7c-a6e8-498f-9419-1943e052a51e_thumb.jpg",
+   "t": "Berlin Heart logo",
+   "w": 200,
+   "file": "cand/o-revance-mkt/16.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/fdcd440a-4225-4ac9-b3ca-a5b6a54d6e8f_thumb.jpg",
+   "t": "Stratogent logo",
+   "w": 200,
+   "file": "cand/o-revance-mkt/17.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/images?url=/_next/static/media/signupBlockVisual.1f416417.png&q=100&fm=webp",
+   "t": "Picture of people with contact information",
+   "w": 588,
+   "file": "cand/o-revance-mkt/18.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/og/org?data=JTdCJTIybmFtZSUyMiUzQSUyMlJldmFuY2UlMjBUaGVyYXBldXRpY3MlMjIlMkMlMjJpbWFnZVNyYyUyMiUzQSUyMmh0dHBzJTNBJTJGJTJGY2RuLnRoZW9yZy5jb20lMkYzYTk0NGMxMS05MTVmLTRkNTAtYTY1Mi00Yjg1YjI0ZThjMDRfc21hbGwuanBnJTIyJTJDJTIycGVvcGxlJTIyJTNBJTVCJTdCJTIybmFtZSUyMiUzQSUyMk1hcmslMjBGb2xleSUyMiUyQyUyMnRpdGxlJTIyJTNBJTIyUHJlc2lkZW50JTIwJTI2JTIwQ0VPJTIyJTJDJTIyaW1hZ2VTcmMlMjIlM0ElMjJodHRwcyUzQSUyRiUyRmNkbi50aGVvcmcuY29tJTJGNmU5ZjNkMjgtZDU5NC00MTE3LTg4MTgtZmEwZDgyYjdjZDkzX3NtYWxsLmpwZyUyMiUyQyUyMmNoaWxkQ291bnQlMjIlM0E2JTdEJTJDJTdCJTIybmFtZSUyMiUzQSUyMkRhdmlkJTIwQS4lMjBIb2xsYW5kZXIlMjIlMkMlMjJ0aXRsZSUyMiUzQSUyMkNoaWVmJTIwTWVkaWNhbCUyME9mZmljZXIlMjIlMkMlMjJpbWFnZVNyYyUyMiUzQSUyMmh0dHBzJTNBJTJGJTJGY2RuLnRoZW9yZy5jb20lMkY4MDkxODkzMy0xZTdkLTQ1MDgtODE1MC04Nzk1YTRiZmM4MTRfc21hbGwuanBnJTIyJTJDJTIyY2hpbGRDb3VudCUyMiUzQW51bGwlN0QlMkMlN0IlMjJuYW1lJTIyJTNBJTIyRHdpZ2h0JTIwTW94aWUlMjIlMkMlMjJ0aXRsZSUyMiUzQSUyMlNWUCUyQyUyMEdlbmVyYWwlMjBDb3Vuc2VsJTIwJTI2JTIwQ29ycG9yYXRlJTIwU2VjcmV0YXJ5JTIyJTJDJTIyaW1hZ2VTcmMlMjIlM0ElMjJodHRwcyUzQSUyRiUyRmNkbi50aGVvcmcuY29tJTJGNjdjOGQzNjctZjk5ZS00ZTdlLWI3ZTUtOGUzNGExMGI3M2M1X3NtYWxsLmpwZyUyMiUyQyUyMmNoaWxkQ291bnQlMjIlM0FudWxsJTdEJTJDJTdCJTIybmFtZSUyMiUzQSUyMk5pY2slMjBDcm93ZSUyMiUyQyUyMnRpdGxlJTIyJTNBJTIyQ09PJTIyJTJDJTIyaW1hZ2VTcmMlMjIlM0ElMjJodHRwcyUzQSUyRiUyRmNkbi50aGVvcmcuY29tJTJGODUxNjJlNjYtZWU2OS00NGNmLTgxMTUtMThkYmFkZmNjNzI4X3NtYWxsLmpwZyUyMiUyQyUyMmNoaWxkQ291bnQlMjIlM0FudWxsJTdEJTVEJTdE&slug=revance-therapeutics",
+   "t": "og",
+   "file": "cand/o-revance-mkt/19.img"
+  }
+ ],
+ "o-growth99|https://theorg.com/org/growth99": [
+  {
+   "murl": "https://cdn.theorg.com/827bd0a9-d3b2-4370-8849-f744eb4aa2d6_thumb.jpg",
+   "t": "Growth99 logo",
+   "w": 200,
+   "file": "cand/o-growth99/0.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/6c06afb3-fbdb-42a1-a5ce-40d2aa8c204f_thumb.jpg",
+   "t": "Rob Pickell's profile picture",
+   "w": 200,
+   "file": "cand/o-growth99/1.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/59ca4d71-ce31-4ea6-8894-cb8494caff35_thumb.jpg",
+   "t": "Saurav Sinha's profile picture",
+   "w": 200,
+   "file": "cand/o-growth99/2.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/ae3e4b65-9dbb-49f5-8e8a-f2324188244e_thumb.jpg",
+   "t": "Nisha Jhamvar's profile picture",
+   "w": 200,
+   "file": "cand/o-growth99/3.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/e365cc31-3686-4ac7-9172-9d7a9a956553_thumb.jpg",
+   "t": "Muskan Arora's profile picture",
+   "w": 200,
+   "file": "cand/o-growth99/4.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/de0ebe2a-2b41-477e-bae6-f5b2b129432e_thumb.jpg",
+   "t": "Ragu Prasath S's profile picture",
+   "w": 200,
+   "file": "cand/o-growth99/5.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/a1c2aba7-9ef0-47b6-ae30-95a7d30c3b63_thumb.jpg",
+   "t": "Nayan Kamdi's profile picture",
+   "w": 200,
+   "file": "cand/o-growth99/6.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/696b42d0-59ea-47a2-994a-ac7731b24504_thumb.jpg",
+   "t": "Shivam pal's profile picture",
+   "w": 200,
+   "file": "cand/o-growth99/7.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/a9e5cfc6-963d-410d-91b2-0b72324e00d4_thumb.jpg",
+   "t": "Medium logo",
+   "w": 200,
+   "file": "cand/o-growth99/8.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/ff6bb0f6-d238-4860-b291-a6d42aa4c5f7_thumb.jpg",
+   "t": "Khan Academy logo",
+   "w": 400,
+   "file": "cand/o-growth99/9.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/96f75867-2ca5-46b7-bdc7-b64d76c5370b_thumb.jpg",
+   "t": "Thoma Bravo logo",
+   "w": 200,
+   "file": "cand/o-growth99/10.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/1769b94d-10bc-4a9a-91ed-fe15612ab2f8_thumb.jpg",
+   "t": "Island logo",
+   "w": 200,
+   "file": "cand/o-growth99/11.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/a7689942-eff6-4b93-b277-a0724693f3c6_thumb.jpg",
+   "t": "ComplianceQuest logo",
+   "w": 200,
+   "file": "cand/o-growth99/12.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/6b71be45-f6d9-430c-b980-b412e29c419f_thumb.jpg",
+   "t": "CData Software logo",
+   "w": 200,
+   "file": "cand/o-growth99/13.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/6b498634-b4ce-4117-aeb7-46ff8b1ef734_thumb.jpg",
+   "t": "Surge AI logo",
+   "w": 200,
+   "file": "cand/o-growth99/14.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/dc9e15d2-9e3d-46e7-b773-feb42c4e5e62_thumb.jpg",
+   "t": "DataRails logo",
+   "w": 200,
+   "file": "cand/o-growth99/15.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/80688726-0ce8-40f4-8bb6-87b02db0b43b_thumb.jpg",
+   "t": "Suki logo",
+   "w": 200,
+   "file": "cand/o-growth99/16.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/0389d42d-f6a1-46e2-a9d8-86e95cd1da11_thumb.jpg",
+   "t": "Fieldwire logo",
+   "w": 200,
+   "file": "cand/o-growth99/17.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/7f26e8d9-0e46-4e9b-a182-8e10273207b5_thumb.jpg",
+   "t": "Whatnot logo",
+   "w": 200,
+   "file": "cand/o-growth99/18.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/79d1df4f-129c-45d6-a460-d0c10c225c6c_thumb.jpg",
+   "t": "Constructor.io logo",
+   "w": 200,
+   "file": "cand/o-growth99/19.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/og/org?data=JTdCJTIybmFtZSUyMiUzQSUyMkdyb3d0aDk5JTIyJTJDJTIyaW1hZ2VTcmMlMjIlM0ElMjJodHRwcyUzQSUyRiUyRmNkbi50aGVvcmcuY29tJTJGODI3YmQwYTktZDNiMi00MzcwLTg4NDktZjc0NGViNGFhMmQ2X3NtYWxsLmpwZyUyMiUyQyUyMnBlb3BsZSUyMiUzQSU1QiU3QiUyMm5hbWUlMjIlM0ElMjJSb2IlMjBQaWNrZWxsJTIyJTJDJTIydGl0bGUlMjIlM0ElMjJDaGllZiUyMEV4ZWN1dGl2ZSUyME9mZmljZXIlMjIlMkMlMjJpbWFnZVNyYyUyMiUzQSUyMmh0dHBzJTNBJTJGJTJGY2RuLnRoZW9yZy5jb20lMkY2YzA2YWZiMy1mYmRiLTQyYTEtYTVjZS00MGQyYWE4YzIwNGZfc21hbGwuanBnJTIyJTJDJTIyY2hpbGRDb3VudCUyMiUzQTEyOCU3RCUyQyU3QiUyMm5hbWUlMjIlM0ElMjJKb2huJTIwRGVCcmluY2F0JTIyJTJDJTIydGl0bGUlMjIlM0ElMjJWUCUyQyUyME1hcmtldGluZyUyMiUyQyUyMmltYWdlU3JjJTIyJTNBJTIyaHR0cHMlM0ElMkYlMkZjZG4udGhlb3JnLmNvbSUyRmRiNDkwNjliLWRlNmMtNGJiYi04YTMzLWU0MjdhMzdjMGQ4ZV9zbWFsbC5qcGclMjIlMkMlMjJjaGlsZENvdW50JTIyJTNBNDMlN0QlMkMlN0IlMjJuYW1lJTIyJTNBJTIyUG9vbmFtJTIwTWFsaSUyMiUyQyUyMnRpdGxlJTIyJTNBJTIySGVhZCUyMG9mJTIwT3BlcmF0aW9ucyUyMiUyQyUyMmltYWdlU3JjJTIyJTNBJTIyaHR0cHMlM0ElMkYlMkZjZG4udGhlb3JnLmNvbSUyRmQ0MTMyOWRiLTcxMjktNDE1NC05ZjZkLWIwNDk1NTZlN2NjOF9zbWFsbC5qcGclMjIlMkMlMjJjaGlsZENvdW50JTIyJTNBNjYlN0QlMkMlN0IlMjJuYW1lJTIyJTNBJTIyU2FudG9zaCUyMFN1cnlhd2Fuc2hpJTIyJTJDJTIydGl0bGUlMjIlM0ElMjJDaGllZiUyMFRlY2hub2xvZ3klMjBPZmZpY2VyJTIyJTJDJTIyaW1hZ2VTcmMlMjIlM0FudWxsJTJDJTIyY2hpbGRDb3VudCUyMiUzQTEzJTdEJTVEJTdE&slug=growth99",
+   "t": "og",
+   "file": "cand/o-growth99/20.img"
+  }
+ ],
+ "o-bl|https://theorg.com/org/bausch-lomb": [
+  {
+   "murl": "https://cdn.theorg.com/715cd20e-0eb4-4d20-9ab4-9e755715a11c_thumb.jpg",
+   "t": "Bausch + Lomb logo",
+   "w": 200,
+   "file": "cand/o-bl/0.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/18c078cb-ed97-4bfa-bd6a-a6d9b57cc3cd_thumb.jpg",
+   "t": "Kelly Tehan's profile picture",
+   "w": 200,
+   "file": "cand/o-bl/1.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/9a08248c-0499-49d1-a599-90b5c4cb8299_thumb.jpg",
+   "t": "Stryker logo",
+   "w": 200,
+   "file": "cand/o-bl/2.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/0b298416-bce2-44f0-99e6-7311da80b866_thumb.jpg",
+   "t": "Boston Scientific logo",
+   "w": 200,
+   "file": "cand/o-bl/3.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/fe8ca60c-b985-42d0-b52d-dab2accd4dfd_thumb.jpg",
+   "t": "Becton Dickinson logo",
+   "w": 200,
+   "file": "cand/o-bl/4.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/9a007add-3a84-4859-9515-dbe1001325db_thumb.jpg",
+   "t": "Baxter logo",
+   "w": 200,
+   "file": "cand/o-bl/5.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/39b35ad0-7f0f-4c91-ab1e-5552e86c8cb4_thumb.jpg",
+   "t": "Danaher logo",
+   "w": 200,
+   "file": "cand/o-bl/6.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/6834a448-91c5-4f97-8680-0ad05259c337_thumb.jpg",
+   "t": "Zimmer Biomet logo",
+   "w": 200,
+   "file": "cand/o-bl/7.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/761ff5db-0e15-4108-89c9-7f810a66dc72_thumb.jpg",
+   "t": "Edwards Lifesciences logo",
+   "w": 200,
+   "file": "cand/o-bl/8.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/5bdbd047-e12f-494c-9752-44a36cb510dd_thumb.jpg",
+   "t": "Align Technology logo",
+   "w": 200,
+   "file": "cand/o-bl/9.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/99fc6ad3-a517-4ce4-8e56-25aebbdd0cdb_thumb.jpg",
+   "t": "Henry Schein logo",
+   "w": 200,
+   "file": "cand/o-bl/10.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/b72e8a25-377c-4094-a34c-33ae9aa604df_thumb.jpg",
+   "t": "Dentsply Sirona logo",
+   "w": 200,
+   "file": "cand/o-bl/11.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/b441ef6d-be8c-40b1-937b-d2fbbf0092e5_thumb.jpg",
+   "t": "STERIS logo",
+   "w": 200,
+   "file": "cand/o-bl/12.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/699a0993-b7d4-45cc-bb4f-3db0a892d383_thumb.jpg",
+   "t": "Cook Medical logo",
+   "w": 200,
+   "file": "cand/o-bl/13.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/og/org?data=JTdCJTIybmFtZSUyMiUzQSUyMkJhdXNjaCUyMCUyQiUyMExvbWIlMjIlMkMlMjJpbWFnZVNyYyUyMiUzQSUyMmh0dHBzJTNBJTJGJTJGY2RuLnRoZW9yZy5jb20lMkY3MTVjZDIwZS0wZWI0LTRkMjAtOWFiNC05ZTc1NTcxNWExMWNfc21hbGwuanBnJTIyJTJDJTIycGVvcGxlJTIyJTNBJTVCJTdCJTIybmFtZSUyMiUzQSUyMkJyZW50JTIwU2F1bmRlcnMlMjIlMkMlMjJ0aXRsZSUyMiUzQSUyMkNoaWVmJTIwRXhlY3V0aXZlJTIwT2ZmaWNlciUyMiUyQyUyMmltYWdlU3JjJTIyJTNBbnVsbCUyQyUyMmNoaWxkQ291bnQlMjIlM0ExMiU3RCUyQyU3QiUyMm5hbWUlMjIlM0ElMjJZYW5nJTIwWWFuZyUyMiUyQyUyMnRpdGxlJTIyJTNBJTIyUHJlc2lkZW50JTJDJTIwVmlzaW9uJTIwQ2FyZSUyMiUyQyUyMmltYWdlU3JjJTIyJTNBbnVsbCUyQyUyMmNoaWxkQ291bnQlMjIlM0FudWxsJTdEJTJDJTdCJTIybmFtZSUyMiUzQSUyMkx1YyUyMEJvbm5lZm95JTIyJTJDJTIydGl0bGUlMjIlM0ElMjJQcmVzaWRlbnQlMkMlMjBTdXJnaWNhbCUyMiUyQyUyMmltYWdlU3JjJTIyJTNBbnVsbCUyQyUyMmNoaWxkQ291bnQlMjIlM0ExJTdEJTJDJTdCJTIybmFtZSUyMiUzQSUyMkFuZHJldyUyMFN0ZXdhcnQlMjIlMkMlMjJ0aXRsZSUyMiUzQSUyMlByZXNpZGVudCUyQyUyMEdsb2JhbCUyMFBoYXJtYWNldXRpY2FscyUyMCUyNiUyMEludGVybmF0aW9uYWwlMjBDb25zdW1lciUyMiUyQyUyMmltYWdlU3JjJTIyJTNBbnVsbCUyQyUyMmNoaWxkQ291bnQlMjIlM0FudWxsJTdEJTVEJTdE&slug=bausch-lomb",
+   "t": "og",
+   "file": "cand/o-bl/14.img"
+  }
+ ],
+ "o-rxsight|https://theorg.com/org/rxsight": [
+  {
+   "murl": "https://cdn.theorg.com/e0362328-3b3d-4457-b67b-20765f91aa51_thumb.jpg",
+   "t": "RxSight logo",
+   "w": 200,
+   "file": "cand/o-rxsight/0.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/e1440b06-4e37-4d0c-8188-994607d2c4df_thumb.jpg",
+   "t": "Juliet Tammenoms Bakker's profile picture",
+   "w": 200,
+   "file": "cand/o-rxsight/1.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/970d7cef-0dcc-4b19-94e6-bd5505c019bd_thumb.jpg",
+   "t": "Robert Warner's profile picture",
+   "w": 200,
+   "file": "cand/o-rxsight/2.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/f8ece3cb-a8cb-4790-9610-951e955fb877_thumb.jpg",
+   "t": "Blackrock Neurotech logo",
+   "w": 200,
+   "file": "cand/o-rxsight/3.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/beadb41c-e6f6-4ed7-be0f-49abe264b128_thumb.jpg",
+   "t": "UCSF Benioff Children's Physicians logo",
+   "w": 200,
+   "file": "cand/o-rxsight/4.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/012a8432-7c4c-4c37-833a-7ddea8133bba_thumb.jpg",
+   "t": "Life Science Outsourcing logo",
+   "w": 200,
+   "file": "cand/o-rxsight/5.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/69734d25-bc7e-45b8-8022-108a0233a034_thumb.jpg",
+   "t": "PROCEPT BioRobotics logo",
+   "w": 200,
+   "file": "cand/o-rxsight/6.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/fafec6b7-92a5-45a5-8391-99625cf960e5_thumb.jpg",
+   "t": "Exeltis USA logo",
+   "w": 200,
+   "file": "cand/o-rxsight/7.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/27a779de-ff43-4a23-b25d-e3bfab0c0f81_thumb.jpg",
+   "t": "Enable Injections logo",
+   "w": 200,
+   "file": "cand/o-rxsight/8.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/9a08248c-0499-49d1-a599-90b5c4cb8299_thumb.jpg",
+   "t": "Stryker logo",
+   "w": 200,
+   "file": "cand/o-rxsight/9.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/0b298416-bce2-44f0-99e6-7311da80b866_thumb.jpg",
+   "t": "Boston Scientific logo",
+   "w": 200,
+   "file": "cand/o-rxsight/10.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/fe8ca60c-b985-42d0-b52d-dab2accd4dfd_thumb.jpg",
+   "t": "Becton Dickinson logo",
+   "w": 200,
+   "file": "cand/o-rxsight/11.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/9a007add-3a84-4859-9515-dbe1001325db_thumb.jpg",
+   "t": "Baxter logo",
+   "w": 200,
+   "file": "cand/o-rxsight/12.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/50743c85-5691-4bfb-ad86-fe360e9e0098_thumb.jpg",
+   "t": "Intuitive Surgical logo",
+   "w": 200,
+   "file": "cand/o-rxsight/13.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/39b35ad0-7f0f-4c91-ab1e-5552e86c8cb4_thumb.jpg",
+   "t": "Danaher logo",
+   "w": 200,
+   "file": "cand/o-rxsight/14.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/og/org?data=JTdCJTIybmFtZSUyMiUzQSUyMlJ4U2lnaHQlMjIlMkMlMjJpbWFnZVNyYyUyMiUzQSUyMmh0dHBzJTNBJTJGJTJGY2RuLnRoZW9yZy5jb20lMkZlMDM2MjMyOC0zYjNkLTQ0NTctYjY3Yi0yMDc2NWY5MWFhNTFfc21hbGwuanBnJTIyJTJDJTIycGVvcGxlJTIyJTNBJTVCJTdCJTIybmFtZSUyMiUzQSUyMlJvbiUyMEt1cnR6JTIyJTJDJTIydGl0bGUlMjIlM0ElMjJNRCUyQyUyMFByZXNpZGVudCUyMCUyNiUyMENFTyUyMiUyQyUyMmltYWdlU3JjJTIyJTNBbnVsbCUyQyUyMmNoaWxkQ291bnQlMjIlM0ExNDklN0QlMkMlN0IlMjJuYW1lJTIyJTNBJTIySWx5YSUyMEdvbGRzaGxlZ2VyJTIyJTJDJTIydGl0bGUlMjIlM0ElMjJDaGllZiUyME9wZXJhdGluZyUyME9mZmljZXIlMjIlMkMlMjJpbWFnZVNyYyUyMiUzQSUyMmh0dHBzJTNBJTJGJTJGY2RuLnRoZW9yZy5jb20lMkZmMjg2MTdkMS01NzIwLTQwYmEtOWUzNS00ZDI3MGI4ODUxZThfc21hbGwuanBnJTIyJTJDJTIyY2hpbGRDb3VudCUyMiUzQTIyJTdEJTJDJTdCJTIybmFtZSUyMiUzQSUyMlNoZWxsZXklMjBUaHVuZW4lMjIlMkMlMjJ0aXRsZSUyMiUzQSUyMkNoaWVmJTIwRmluYW5jaWFsJTIwT2ZmaWNlciUyMiUyQyUyMmltYWdlU3JjJTIyJTNBJTIyaHR0cHMlM0ElMkYlMkZjZG4udGhlb3JnLmNvbSUyRjlkODQ3NzAwLTkwYmQtNGJiMS1hMjBjLWFlNWNkMzRhMmNjNF9zbWFsbC5qcGclMjIlMkMlMjJjaGlsZENvdW50JTIyJTNBMTYlN0QlMkMlN0IlMjJuYW1lJTIyJTNBJTIyTWF0dCUyMEhhbGxlciUyMiUyQyUyMnRpdGxlJTIyJTNBJTIyQ1RPJTIyJTJDJTIyaW1hZ2VTcmMlMjIlM0ElMjJodHRwcyUzQSUyRiUyRmNkbi50aGVvcmcuY29tJTJGNWJmMGYxODYtMGE3ZS00YmViLWE4ZDYtZjQ1MDhlZTM1M2FiX3NtYWxsLmpwZyUyMiUyQyUyMmNoaWxkQ291bnQlMjIlM0EyMCU3RCU1RCU3RA==&slug=rxsight",
+   "t": "og",
+   "file": "cand/o-rxsight/15.img"
+  }
+ ],
+ "g99-about|https://growth99.com/about-us/": [
+  {
+   "murl": "https://growth99.com/storage/2024/09/logo-growth99.svg",
+   "t": "Growth99 logo mark and text logo in black",
+   "w": 1726,
+   "file": "cand/g99-about/0.svg"
+  },
+  {
+   "murl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20500%20300%22%20width%3D%22500%22%20height%3D%22300%22%3E%3C%2Fsvg%3E",
+   "t": "2026 Growth99 Benchmarking Report",
+   "w": 500,
    "err": "APIRequestContext.get: Protocol \"data:\" not supported. Expec"
   },
   {
-   "murl": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20128%20128'%3E%3C/svg%3E",
-   "t": "",
-   "w": 150,
+   "murl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20500%20300%22%20width%3D%22500%22%20height%3D%22300%22%3E%3C%2Fsvg%3E",
+   "t": "2026 Growth99 Benchmarking Report",
+   "w": 500,
    "err": "APIRequestContext.get: Protocol \"data:\" not supported. Expec"
   },
   {
-   "murl": "https://kingsmendv.com/wp-content/uploads/2023/01/About@2x-1024x538.png",
+   "murl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201726%20226%22%20width%3D%221726%22%20height%3D%22226%22%3E%3C%2Fsvg%3E",
+   "t": "Growth99 logo mark and text logo in black",
+   "w": 1726,
+   "err": "APIRequestContext.get: Protocol \"data:\" not supported. Expec"
+  },
+  {
+   "murl": "https://growth99.com/storage/2026/07/growth99-effective-marketing.webp",
+   "t": "Aesthetic practice provider performing a facial treatment on a client",
+   "w": 673,
+   "file": "cand/g99-about/4.img"
+  },
+  {
+   "murl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201200%20801%22%20width%3D%221200%22%20height%3D%22801%22%3E%3C%2Fsvg%3E",
+   "t": "Headshot of a women in white coat smiling",
+   "w": 1200,
+   "err": "APIRequestContext.get: Protocol \"data:\" not supported. Expec"
+  },
+  {
+   "murl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22512%22%20height%3D%22512%22%3E%3C%2Fsvg%3E",
+   "t": "Green icon showing the map outline of North and South America",
+   "w": 512,
+   "err": "APIRequestContext.get: Protocol \"data:\" not supported. Expec"
+  },
+  {
+   "murl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22512%22%20height%3D%22512%22%3E%3C%2Fsvg%3E",
+   "t": "Green icon showing the map outline of Europe",
+   "w": 512,
+   "err": "APIRequestContext.get: Protocol \"data:\" not supported. Expec"
+  },
+  {
+   "murl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22512%22%20height%3D%22512%22%3E%3C%2Fsvg%3E",
+   "t": "Green icon showing the map outline of Africa",
+   "w": 512,
+   "err": "APIRequestContext.get: Protocol \"data:\" not supported. Expec"
+  },
+  {
+   "murl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22512%22%20height%3D%22512%22%3E%3C%2Fsvg%3E",
+   "t": "Green icon showing the map outline of Asia",
+   "w": 512,
+   "err": "APIRequestContext.get: Protocol \"data:\" not supported. Expec"
+  },
+  {
+   "murl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20500%20565%22%20width%3D%22500%22%20height%3D%22565%22%3E%3C%2Fsvg%3E",
+   "t": "Rob Pickell, Chief Executive Officer at Growth99",
+   "w": 500,
+   "err": "APIRequestContext.get: Protocol \"data:\" not supported. Expec"
+  },
+  {
+   "murl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20500%20565%22%20width%3D%22500%22%20height%3D%22565%22%3E%3C%2Fsvg%3E",
+   "t": "Poonam Mali, Head of Operations at Growth99",
+   "w": 500,
+   "err": "APIRequestContext.get: Protocol \"data:\" not supported. Expec"
+  },
+  {
+   "murl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20500%20565%22%20width%3D%22500%22%20height%3D%22565%22%3E%3C%2Fsvg%3E",
+   "t": "Amyra de Carion, Vice President, Growth at Growth99",
+   "w": 500,
+   "err": "APIRequestContext.get: Protocol \"data:\" not supported. Expec"
+  },
+  {
+   "murl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20500%20565%22%20width%3D%22500%22%20height%3D%22565%22%3E%3C%2Fsvg%3E",
+   "t": "Amy Kaminski, Vice President, Finance & Accounting at Growth99",
+   "w": 500,
+   "err": "APIRequestContext.get: Protocol \"data:\" not supported. Expec"
+  },
+  {
+   "murl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20325%20367%22%20width%3D%22325%22%20height%3D%22367%22%3E%3C%2Fsvg%3E",
+   "t": "Santosh Maknikar, Head of Technology at Growth99",
+   "w": 325,
+   "err": "APIRequestContext.get: Protocol \"data:\" not supported. Expec"
+  },
+  {
+   "murl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20500%20565%22%20width%3D%22500%22%20height%3D%22565%22%3E%3C%2Fsvg%3E",
+   "t": "",
+   "w": 500,
+   "err": "APIRequestContext.get: Protocol \"data:\" not supported. Expec"
+  },
+  {
+   "murl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20500%20565%22%20width%3D%22500%22%20height%3D%22565%22%3E%3C%2Fsvg%3E",
+   "t": "Larissa Fogaca, Onboarding Director at Growth99",
+   "w": 500,
+   "err": "APIRequestContext.get: Protocol \"data:\" not supported. Expec"
+  },
+  {
+   "murl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20976%201103%22%20width%3D%22976%22%20height%3D%221103%22%3E%3C%2Fsvg%3E",
+   "t": "Kymber Heinze, GM of Marketing Services at Growth99",
+   "w": 976,
+   "err": "APIRequestContext.get: Protocol \"data:\" not supported. Expec"
+  },
+  {
+   "murl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20500%20565%22%20width%3D%22500%22%20height%3D%22565%22%3E%3C%2Fsvg%3E",
+   "t": "Rob Pickell, Chief Executive Officer at Growth99",
+   "w": 500,
+   "err": "APIRequestContext.get: Protocol \"data:\" not supported. Expec"
+  },
+  {
+   "murl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20500%20565%22%20width%3D%22500%22%20height%3D%22565%22%3E%3C%2Fsvg%3E",
+   "t": "Poonam Mali, Head of Operations at Growth99",
+   "w": 500,
+   "err": "APIRequestContext.get: Protocol \"data:\" not supported. Expec"
+  },
+  {
+   "murl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20500%20565%22%20width%3D%22500%22%20height%3D%22565%22%3E%3C%2Fsvg%3E",
+   "t": "Amyra de Carion, Vice President, Growth at Growth99",
+   "w": 500,
+   "err": "APIRequestContext.get: Protocol \"data:\" not supported. Expec"
+  },
+  {
+   "murl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20500%20565%22%20width%3D%22500%22%20height%3D%22565%22%3E%3C%2Fsvg%3E",
+   "t": "Amy Kaminski, Vice President, Finance & Accounting at Growth99",
+   "w": 500,
+   "err": "APIRequestContext.get: Protocol \"data:\" not supported. Expec"
+  },
+  {
+   "murl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20325%20367%22%20width%3D%22325%22%20height%3D%22367%22%3E%3C%2Fsvg%3E",
+   "t": "Santosh Maknikar, Head of Technology at Growth99",
+   "w": 325,
+   "err": "APIRequestContext.get: Protocol \"data:\" not supported. Expec"
+  },
+  {
+   "murl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20500%20565%22%20width%3D%22500%22%20height%3D%22565%22%3E%3C%2Fsvg%3E",
+   "t": "",
+   "w": 500,
+   "err": "APIRequestContext.get: Protocol \"data:\" not supported. Expec"
+  },
+  {
+   "murl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20500%20565%22%20width%3D%22500%22%20height%3D%22565%22%3E%3C%2Fsvg%3E",
+   "t": "Larissa Fogaca, Onboarding Director at Growth99",
+   "w": 500,
+   "err": "APIRequestContext.get: Protocol \"data:\" not supported. Expec"
+  },
+  {
+   "murl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20976%201103%22%20width%3D%22976%22%20height%3D%221103%22%3E%3C%2Fsvg%3E",
+   "t": "Kymber Heinze, GM of Marketing Services at Growth99",
+   "w": 976,
+   "err": "APIRequestContext.get: Protocol \"data:\" not supported. Expec"
+  },
+  {
+   "murl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20265%2074%22%20width%3D%22265%22%20height%3D%2274%22%3E%3C%2Fsvg%3E",
+   "t": "search fund partners venture capital logo in black",
+   "w": 265,
+   "err": "APIRequestContext.get: Protocol \"data:\" not supported. Expec"
+  },
+  {
+   "murl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20289%2033%22%20width%3D%22289%22%20height%3D%2233%22%3E%3C%2Fsvg%3E",
+   "t": "pracinco private equity black logo with leaf at the end",
+   "w": 289,
+   "err": "APIRequestContext.get: Protocol \"data:\" not supported. Expec"
+  },
+  {
+   "murl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201726%20226%22%20width%3D%221726%22%20height%3D%22226%22%3E%3C%2Fsvg%3E",
+   "t": "white growth99 logo mark and text logo",
+   "w": 1726,
+   "err": "APIRequestContext.get: Protocol \"data:\" not supported. Expec"
+  },
+  {
+   "murl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20480%20140%22%20width%3D%22480%22%20height%3D%22140%22%3E%3C%2Fsvg%3E",
+   "t": "Apple app store logo",
+   "w": 480,
+   "err": "APIRequestContext.get: Protocol \"data:\" not supported. Expec"
+  },
+  {
+   "murl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20484%20140%22%20width%3D%22484%22%20height%3D%22140%22%3E%3C%2Fsvg%3E",
+   "t": "Google Play app store logo",
+   "w": 484,
+   "err": "APIRequestContext.get: Protocol \"data:\" not supported. Expec"
+  },
+  {
+   "murl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20160%2021%22%20width%3D%22160%22%20height%3D%2221%22%3E%3C%2Fsvg%3E",
+   "t": "black growth99 word logo with blue-green logo mark",
+   "w": 160,
+   "err": "APIRequestContext.get: Protocol \"data:\" not supported. Expec"
+  },
+  {
+   "murl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20500%20300%22%20width%3D%22500%22%20height%3D%22300%22%3E%3C%2Fsvg%3E",
+   "t": "2026 Growth99 Benchmarking Report",
+   "w": 500,
+   "err": "APIRequestContext.get: Protocol \"data:\" not supported. Expec"
+  },
+  {
+   "murl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20600%20600%22%20width%3D%22600%22%20height%3D%22600%22%3E%3C%2Fsvg%3E",
+   "t": "Shelby Miller",
+   "w": 600,
+   "err": "APIRequestContext.get: Protocol \"data:\" not supported. Expec"
+  },
+  {
+   "murl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20268%20268%22%20width%3D%22268%22%20height%3D%22268%22%3E%3C%2Fsvg%3E",
+   "t": "shelby miller, founder of ruma aesthetics, looking at camera and smiling",
+   "w": 268,
+   "err": "APIRequestContext.get: Protocol \"data:\" not supported. Expec"
+  },
+  {
+   "murl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20600%20600%22%20width%3D%22600%22%20height%3D%22600%22%3E%3C%2Fsvg%3E",
+   "t": "Kelly Hermans",
+   "w": 600,
+   "err": "APIRequestContext.get: Protocol \"data:\" not supported. Expec"
+  },
+  {
+   "murl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20600%20600%22%20width%3D%22600%22%20height%3D%22600%22%3E%3C%2Fsvg%3E",
+   "t": "Gretchen Frieling",
+   "w": 600,
+   "err": "APIRequestContext.get: Protocol \"data:\" not supported. Expec"
+  },
+  {
+   "murl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20600%20600%22%20width%3D%22600%22%20height%3D%22600%22%3E%3C%2Fsvg%3E",
+   "t": "Brian Harris",
+   "w": 600,
+   "err": "APIRequestContext.get: Protocol \"data:\" not supported. Expec"
+  },
+  {
+   "murl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20600%20600%22%20width%3D%22600%22%20height%3D%22600%22%3E%3C%2Fsvg%3E",
+   "t": "Amy Lynn",
+   "w": 600,
+   "err": "APIRequestContext.get: Protocol \"data:\" not supported. Expec"
+  },
+  {
+   "murl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20171%2052%22%20width%3D%22171%22%20height%3D%2252%22%3E%3C%2Fsvg%3E",
+   "t": "ariba med spa black logo",
+   "w": 171,
+   "err": "APIRequestContext.get: Protocol \"data:\" not supported. Expec"
+  }
+ ],
+ "o-galderma|https://theorg.com/org/galderma": [
+  {
+   "murl": "https://cdn.theorg.com/aec467b6-e70f-4a59-9cd3-164ed6869b6e_thumb.jpg",
+   "t": "Galderma logo",
+   "w": 200,
+   "file": "cand/o-galderma/0.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/cddf83c7-1f1e-442a-9b4c-f617ef36b035_thumb.jpg",
+   "t": "Flemming \u00d8rnskov's profile picture",
+   "w": 200,
+   "file": "cand/o-galderma/1.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/bd49f2ec-1903-4c7d-b5c5-bda2ef990984_thumb.jpg",
+   "t": "Mikala Dufek's profile picture",
+   "w": 200,
+   "file": "cand/o-galderma/2.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/3ec1fbbf-7ec0-4954-b601-4d7e76c0f016_thumb.jpg",
+   "t": "Saurav Bhardwaj's profile picture",
+   "w": 200,
+   "file": "cand/o-galderma/3.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/2409c113-0e0e-4811-9c17-e0c399c6e0d2_thumb.jpg",
+   "t": "Jennifer Kinney's profile picture",
+   "w": 200,
+   "file": "cand/o-galderma/4.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/0b26f672-134b-4c2c-8948-2d8382794705_thumb.jpg",
+   "t": "Julia Miles-Davis' profile picture",
+   "w": 200,
+   "file": "cand/o-galderma/5.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/81f76043-a432-42fc-8a3b-63ce01948b16_thumb.jpg",
+   "t": "Breahna Wennergren's profile picture",
+   "w": 200,
+   "file": "cand/o-galderma/6.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/07829a61-1146-46c2-a00b-77c34cd54c5e_thumb.jpg",
+   "t": "Nilofar Hamdard's profile picture",
+   "w": 200,
+   "file": "cand/o-galderma/7.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/a4174d25-95d8-4258-9e02-fa54cb82bb9c_thumb.jpg",
+   "t": "Martie Cronje's profile picture",
+   "w": 200,
+   "file": "cand/o-galderma/8.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/9cc932a0-b567-4328-b1f5-242064ad8064_thumb.jpg",
+   "t": "Victoria Valdez's profile picture",
+   "w": 200,
+   "file": "cand/o-galderma/9.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/6978b635-602f-4cf5-a2ac-a7edb47f9f30_thumb.jpg",
+   "t": "Nikki Tran's profile picture",
+   "w": 200,
+   "file": "cand/o-galderma/10.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/97290188-ff8e-41b4-adb6-ff6e18b63f87_thumb.jpg",
+   "t": "Taylor Weiss' profile picture",
+   "w": 200,
+   "file": "cand/o-galderma/11.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/bbbbff84-05b4-46f4-923b-73cc3f0e868a_thumb.jpg",
+   "t": "Ferring Pharmaceuticals logo",
+   "w": 200,
+   "file": "cand/o-galderma/12.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/a74ace72-a230-4e0c-8f0c-ffa982bd80b5_thumb.jpg",
+   "t": "Wella Company logo",
+   "w": 200,
+   "file": "cand/o-galderma/13.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/6e5a72a3-0406-4611-9b48-6e47f18de354_thumb.jpg",
+   "t": "Novartis logo",
+   "w": 200,
+   "file": "cand/o-galderma/14.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/a20c5ea7-aa4a-4d6c-99bb-14379dd0c153_thumb.jpg",
+   "t": "UCB logo",
+   "w": 120,
+   "file": "cand/o-galderma/15.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/5b869e69-4bc6-4d5b-982f-48478f1f0630_thumb.jpg",
+   "t": "Leo Pharma logo",
+   "w": 200,
+   "file": "cand/o-galderma/16.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/cd9c815b-05ac-40be-a1d4-2ef8ae15e9a3_thumb.jpg",
+   "t": "Ipsen logo",
+   "w": 200,
+   "file": "cand/o-galderma/17.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/a0788c1b-b461-47ba-8192-925f4d2943f9_thumb.jpg",
+   "t": "L'Occitane en Provence logo",
+   "w": 200,
+   "file": "cand/o-galderma/18.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/fc526bd9-f60b-41a9-8ff6-3331c47cc2be_thumb.jpg",
+   "t": "Chiesi Group logo",
+   "w": 200,
+   "file": "cand/o-galderma/19.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/baaf182a-1796-4d91-9209-c981616a9577_thumb.jpg",
+   "t": "Mary Kay logo",
+   "w": 200,
+   "file": "cand/o-galderma/20.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/be53c4b4-5a85-4ca1-9f0c-d39d433c57f8_thumb.jpg",
+   "t": "Clarins logo",
+   "w": 200,
+   "file": "cand/o-galderma/21.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/e122903d-9009-464b-9def-38e521c5e96c_thumb.jpg",
+   "t": "Ceva logo",
+   "w": 200,
+   "file": "cand/o-galderma/22.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/f2bcfafb-460d-4351-bcdd-18756865f5e5_thumb.jpg",
+   "t": "Alembic Pharmaceuticals Ltd logo",
+   "w": 200,
+   "file": "cand/o-galderma/23.img"
+  },
+  {
+   "murl": "https://cdn.theorg.com/og/org?data=JTdCJTIybmFtZSUyMiUzQSUyMkdhbGRlcm1hJTIyJTJDJTIyaW1hZ2VTcmMlMjIlM0ElMjJodHRwcyUzQSUyRiUyRmNkbi50aGVvcmcuY29tJTJGYWVjNDY3YjYtZTcwZi00YTU5LTljZDMtMTY0ZWQ2ODY5YjZlX3NtYWxsLmpwZyUyMiUyQyUyMnBlb3BsZSUyMiUzQSU1QiU3QiUyMm5hbWUlMjIlM0ElMjJGbGVtbWluZyUyMCVDMyU5OHJuc2tvdiUyMiUyQyUyMnRpdGxlJTIyJTNBJTIyQ0VPJTIyJTJDJTIyaW1hZ2VTcmMlMjIlM0ElMjJodHRwcyUzQSUyRiUyRmNkbi50aGVvcmcuY29tJTJGY2RkZjgzYzctMWYxZS00NDJhLTliNGMtZjYxN2VmMzZiMDM1X3NtYWxsLmpwZyUyMiUyQyUyMmNoaWxkQ291bnQlMjIlM0ExMTQzJTdEJTJDJTdCJTIybmFtZSUyMiUzQSUyMk1pY2hhZWwlMjBTaGlyZXMlMjIlMkMlMjJ0aXRsZSUyMiUzQSUyMkNoaWVmJTIwUHJvZ3JhbSUyME9mZmljZXIlM0ElMjBQb3J0Zm9saW8lMkMlMjBHcm93dGglMjAlMjYlMjBDb21tZXJjaWFsJTIwRXhwYW5zaW9uJTJDJTIwYW5kJTIwTG9jYXRpb24lMjBTdHJhdGVneSUyMiUyQyUyMmltYWdlU3JjJTIyJTNBJTIyaHR0cHMlM0ElMkYlMkZjZG4udGhlb3JnLmNvbSUyRjgyMTQyNjdkLTAxNmYtNGU1ZS04MmMyLThhNzcyNjhiZjNmNl9zbWFsbC5qcGclMjIlMkMlMjJjaGlsZENvdW50JTIyJTNBMzQlN0QlMkMlN0IlMjJuYW1lJTIyJTNBJTIyQWRyaWFuJTIwTXVycGh5JTIyJTJDJTIydGl0bGUlMjIlM0ElMjJIZWFkJTIwb2YlMjBHbG9iYWwlMjBPcGVyYXRpb25zJTIyJTJDJTIyaW1hZ2VTcmMlMjIlM0ElMjJodHRwcyUzQSUyRiUyRmNkbi50aGVvcmcuY29tJTJGZDQ1M2I3MTktMmQ1My00NDJjLThiNjktNDQ4NTcyOTFmZTljX3NtYWxsLmpwZyUyMiUyQyUyMmNoaWxkQ291bnQlMjIlM0E0MjElN0QlMkMlN0IlMjJuYW1lJTIyJTNBJTIyQ2hpbmF0c3UlMjBLaXRhaGFyYSUyMiUyQyUyMnRpdGxlJTIyJTNBJTIyUmVwcmVzZW50YXRpdmUlMjBEaXJlY3RvciUyMCUyNiUyMFByZXNpZGVudCUyQyUyMEphcGFuJTIyJTJDJTIyaW1hZ2VTcmMlMjIlM0FudWxsJTJDJTIyY2hpbGRDb3VudCUyMiUzQTQlN0QlNUQlN0Q=&slug=galderma",
    "t": "og",
-   "file": "cand/pg-kingsmen-about/10.img"
-  }
- ],
- "pg-mesh-brandon|https://me.sh/profile/brandon-hahr-05d36e12": [
-  {
-   "err": "Page.goto: Timeout 40000ms exceeded.\nCall log:\n  - navigating to \"https://me.sh/profile/brandon-hahr-05d36e12\", waiting until \"load\"\n"
-  }
- ],
- "pg-benhahr2|https://benhahr.com/about-me/": [
-  {
-   "err": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://benhahr.com/about-me/\nCall log:\n  - navigating to \"https://benhahr.com/about-me/\", waiting unt"
-  }
- ],
- "pg-commons-revance|https://commons.wikimedia.org/w/index.php?search=Revance+logo&title=Special:MediaSearch&type=image": [
-  {
-   "err": "Page.goto: Navigation to \"https://commons.wikimedia.org/w/index.php?search=Revance+logo&title=Special:MediaSearch&type=image\" is interrupted by anothe"
-  }
- ],
- "w-theorg-kellie|theorg.com Kellie Lao": [
-  {
-   "err": "Page.goto: Navigation to \"https://search.brave.com/search?q=theorg.com%20Kellie%20Lao\" is interrupted by another navigation to \"https://commons.wikime"
-  }
- ],
- "w-theorg-aneesh|theorg.com Aneesh Patel Evolus": [
-  {
-   "err": "Page.goto: Navigation to \"https://search.brave.com/search?q=theorg.com%20Aneesh%20Patel%20Evolus\" is interrupted by another navigation to \"https://sea"
-  }
- ],
- "w-theorg-taryn|theorg.com Taryn Conway": [
-  {
-   "err": "Page.goto: Timeout 40000ms exceeded.\nCall log:\n  - navigating to \"https://search.brave.com/search?q=theorg.com%20Taryn%20Conway\", waiting until \"load\""
-  }
- ],
- "w-ben2|\"Ben Hahr\" Growth99": [
-  {
-   "url": "https://www.zoominfo.com/p/Ben-Hahr/14306730231",
-   "t": "ZoomInfo\nzoominfo.com \u203a growth99 \u203a growth99 employee directory \u203a ben hahr\nContact Ben Hahr, Email: b***@growth99.com & P"
-  },
-  {
-   "url": "https://www.zoominfo.com/pricing",
-   "t": "Pricing"
-  },
-  {
-   "url": "https://www.zoominfo.com/free-trial",
-   "t": "Start your free trial"
-  },
-  {
-   "url": "https://www.zoominfo.com/products/chorus",
-   "t": "ZoomInfo Chorus AI"
-  },
-  {
-   "url": "https://www.zoominfo.com/b2b/contact-company-information",
-   "t": "Contact Company Information"
-  },
-  {
-   "url": "https://growth99.com/about-us/",
-   "t": "Growth99\ngrowth99.com \u203a home \u203a about us\nAbout Growth99 | Marketing Built For Aesthetic Practices"
-  },
-  {
-   "url": "https://www.newswire.com/news/growth99-unveils-bold-vision-for-aesthetic-and-elective-wellness-22451183",
-   "t": "Newswire\nnewswire.com \u203a news \u203a growth99-unveils-bold-vision-for-aesthetic-and-elective-wellness-22451183\nGrowth99 Unveil"
-  },
-  {
-   "url": "https://www.newswire.com/news/growth99-unveils-bold-vision-for-aesthetic-and-elective-wellness-22451183",
-   "t": " "
-  },
-  {
-   "url": "https://www.newswire.com/news/growth99-unveils-bold-vision-for-aesthetic-and-elective-wellness-22451183",
-   "t": ""
-  },
-  {
-   "url": "https://www.zoominfo.com/p/Ben-Hahr/14306730231",
-   "t": ""
-  },
-  {
-   "url": "https://www.zoominfo.com/p/Ben-Hahr/14306730231",
-   "t": ""
-  },
-  {
-   "url": "https://www.zoominfo.com/p/Ben-Hahr/14306730231",
-   "t": ""
-  },
-  {
-   "url": "https://finance.yahoo.com/news/growth99-unveils-bold-vision-aesthetic-173000034.html",
-   "t": "Yahoo! Finance\nfinance.yahoo.com \u203a news \u203a growth99-unveils-bold-vision-aesthetic-173000034.html\nGrowth99 Unveils Bold Vi"
-  },
-  {
-   "url": "https://finance.yahoo.com/news/growth99-unveils-bold-vision-aesthetic-173000034.html",
-   "t": " "
-  },
-  {
-   "url": "https://finance.yahoo.com/news/growth99-unveils-bold-vision-aesthetic-173000034.html",
-   "t": ""
-  },
-  {
-   "url": "https://www.zoominfo.com/p/Charan-Raj/16266846632",
-   "t": "ZoomInfo\nzoominfo.com \u203a growth99 \u203a growth99 employee directory \u203a charan raj\nContact Charan Raj, Email: c***@growth99.com"
-  },
-  {
-   "url": "https://www.zoominfo.com/p/Suchit-Senghani/9185199996",
-   "t": "ZoomInfo\nzoominfo.com \u203a growth99 \u203a growth99 employee directory \u203a suchit senghani\nContact Suchit Senghani, Email: s***@gr"
-  },
-  {
-   "url": "https://www.zoominfo.com/p/Shivani-Malpe/14947533575",
-   "t": "ZoomInfo\nzoominfo.com \u203a growth99 \u203a growth99 employee directory \u203a shivani malpe\nContact Shivani Malpe, Email: ****@growth"
-  },
-  {
-   "url": "https://www.zoominfo.com/p/Shweta-Chauhan/16793397115",
-   "t": "ZoomInfo\nzoominfo.com \u203a growth99 \u203a growth99 employee directory \u203a shweta chauhan\nContact Shweta Chauhan, Email: s***@grow"
-  },
-  {
-   "url": "https://data-lead.com/person/name/Ben+Hahr/id/259073676/v/8bbb4",
-   "t": "Data Lead\ndata-lead.com \u203a person \u203a name \u203a Ben+Hahr \u203a id \u203a 259073676 \u203a v \u203a 8bbb4\nBen Hahr, Sr. Director of Product at Rev"
-  },
-  {
-   "url": "https://podcasts.apple.com/ae/podcast/148-filling-chairs-and-shelves-understanding-your/id1549585189?i=1000684364029&l=ar",
-   "t": "Apple Podcasts\npodcasts.apple.com \u203a ae \u203a podcast \u203a 148-filling-chairs-and-shelves-understanding-your \u203a id1549585189\n#148"
-  },
-  {
-   "url": "https://podcasts.apple.com/ae/podcast/148-filling-chairs-and-shelves-understanding-your/id1549585189?i=1000684364029&l=ar",
-   "t": " "
-  },
-  {
-   "url": "https://podcasts.apple.com/ae/podcast/148-filling-chairs-and-shelves-understanding-your/id1549585189?i=1000684364029&l=ar",
-   "t": ""
-  },
-  {
-   "url": "https://hackerone.com/brave",
-   "t": "Report a security issue"
-  },
-  {
-   "url": "https://status.brave.app/",
-   "t": "Status"
+   "file": "cand/o-galderma/24.img"
   }
  ]
 }
