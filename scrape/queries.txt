@@ -1,4 +1,3 @@
-page|pg-revance-about|https://www.revance.com/about-us/
-page|pg-revance-home|https://revance.com/
-page|pg-rivkin1|https://www.rivkinaesthetics.com/
-page|pg-rivkin2|https://westsideaesthetics.com/
+page|pg-bw-revance|https://www.businesswire.com/news/home/20190409005158/en/Revance-Appoints-Former-Allergan-Marketing-Veteran-Taryn-Conway-as-Vice-President-of-Marketing
+page|pg-bio-revance|https://www.biospace.com/revance-appoints-former-allergan-marketing-veteran-taryn-conway-as-vice-president-of-marketing
+page|pg-rivkin3|https://www.realself.com/find/California/Los-Angeles/Physician/Alexander-Rivkin
