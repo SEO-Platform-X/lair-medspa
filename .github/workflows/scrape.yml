@@ -54,7 +54,9 @@ jobs:
                   except Exception as e: print('fail',p,e)
           PY
       - name: bing
-        run: python3 scrape/bing.py || true
+        run: |
+          pip install playwright >/dev/null && python3 -m playwright install --with-deps chromium >/dev/null
+          python3 scrape/bing.py || true
       - name: commit
         run: |
           git config user.name bot; git config user.email bot@users.noreply.github.com
