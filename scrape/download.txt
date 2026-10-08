@@ -1,6 +1,0 @@
-cand/rev-bf.png https://cdn.brandfetch.io/revance.com/w/512/h/128/logo
-cand/rev-bf2.svg https://cdn.brandfetch.io/revance.com/logo.svg
-cand/rev-cb.png https://logo.clearbit.com/revance.com?size=512
-cand/tag-bf.png https://cdn.brandfetch.io/theaestheticguide.com/w/512/h/128/logo
-cand/mi-bf.png https://cdn.brandfetch.io/medicalinsight.com/w/512/h/128/logo
-cand/rev-wiki.json https://en.wikipedia.org/w/api.php?action=query&titles=Revance_Therapeutics&prop=pageimages|images&format=json&pithumbsize=600
