@@ -1,4 +1,3 @@
-img|lg-revance|Revance Therapeutics logo png transparent
-brave|lg-revance2|Revance logo
-img|lg-tag|"THE Aesthetic Guide" logo
-img|lg-mi|"Medical Insight" aesthetic guide logo
+brave|lg-tag2|The Aesthetic Guide magazine logo
+brave|lg-mi2|Medical Insight Inc logo Michael Moretti
+page|pg-tag2|https://www.theaestheticguide.com/about-us
