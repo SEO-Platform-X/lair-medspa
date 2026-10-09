@@ -1,5 +1,2 @@
-brave|f-hash|Angela Hash RN aesthetics
-brave|f-hash2|Angela Hash BSN RN med spa injector
-brave|f-lis|Jeffrey Lisiecki MD plastic surgeon New York
-brave|lg-lis|Jeffrey Lisiecki MD plastic surgery logo
-brave|lg-el2|Estee Lauder wordmark logo horizontal
+brave|lg-savage|Savage Serenity MedSpa Fresno logo
+brave|lg-lis2|Jeffrey Lisiecki MD logo LJ
