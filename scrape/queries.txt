@@ -1,2 +1,7 @@
-brave|lg-savage|Savage Serenity MedSpa Fresno logo
-brave|lg-lis2|Jeffrey Lisiecki MD logo LJ
+brave|f-jill|Jill Gregory Acorn Biolabs
+brave|f-jill2|Jill Gregory Revance aesthetic New York
+brave|lg-acorn|Acorn Biolabs logo
+brave|lg-juvederm|Juvederm logo
+brave|lg-clarisonic|Clarisonic logo
+brave|lg-cpin|Collagen PIN logo Induction Therapies
+brave|lg-teoxane|Teoxane logo
