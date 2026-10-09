@@ -1,1 +1,4 @@
-brave|lg-daxxify|DAXXIFY logo
+brave|lg-medshift|MedShift logo aesthetics
+brave|lg-genesis|Genesis Lifestyle Medicine logo
+brave|lg-rha|RHA Collection Revance logo
+brave|lg-endo|Endo Aesthetics logo
