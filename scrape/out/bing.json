@@ -1,74 +1,274 @@
 {
- "lg-revelyx|Revelyx Bio logo": [
+ "jh2|\"Jasmine Hill\" aesthetic influencer marketing speaker": [
   {
    "murl": "https://cdn.search.brave.com/serp/v3/_app/immutable/assets/brave-logo-light.D0nx3pfh.svg",
    "t": "Brave logo",
    "w": 129,
    "purl": "https://search.brave.com/",
-   "file": "cand/lg-revelyx/0.svg"
+   "file": "cand/jh2/0.svg"
   },
   {
    "murl": "https://cdn.search.brave.com/serp/v3/_app/immutable/assets/brave-logo-dark.5D16vJCY.svg",
    "t": "Brave logo",
    "w": 129,
    "purl": "https://search.brave.com/",
-   "file": "cand/lg-revelyx/1.svg"
+   "file": "cand/jh2/1.svg"
   },
   {
-   "murl": "https://imgs.search.brave.com/JUgybDqyI4WwgFOcWtfx0NC6Jc7jZoSkyXMbngIAMeg/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly91c3B0/by5yZXBvcnQvVE0v/OTkzODU0MjAvbWFy/ay5qcGVn",
-   "t": "Trademark Logo REVELYX BIO",
-   "w": 433,
-   "purl": "",
-   "file": "cand/lg-revelyx/2.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/tPrmGlKqDMYQz5oBmqUt4FWGrUyntVICtWPY96m4Cuc/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9kYWls/eWd1YXJkaWFuLmNh/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIz/LzExL2QtbG9nby5w/bmc",
-   "t": "Daily Guardian",
-   "w": 897,
-   "purl": "",
-   "file": "cand/lg-revelyx/3.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/G4tNj6tKtJOPtb-jYURXdq9cK8YS0nzm9H87XqfL00A/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMud2Jya3MuY29t/L2Fzc2V0cy9sb2dv/L2Jhc2Utb2ctaW1n/LmpwZw",
-   "t": "logo-seo",
+   "murl": "https://imgs.search.brave.com/Jw-RjA8tWoZD0UrfClUFOCjS6wRtMK_lP4ygw0fDwCc/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9ib3Vu/Y2V3YXRjaC5jb20v/YXNzZXRzL2ltYWdl/cy91c2VyLXBsYWNl/aG9sZGVyLmpwZw",
+   "t": "Jasmine Hill - Founder",
    "w": 500,
    "purl": "",
-   "file": "cand/lg-revelyx/4.img"
+   "file": "cand/jh2/2.img"
   },
   {
-   "murl": "https://imgs.search.brave.com/fKV5J4OBTsD3YkGngVMRet7ljezMIUmyLI2p0WlfOGs/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly92Y2Ru/LnBoYXJtY3ViZS5j/b20vMTY4NzE2MjQy/NjYzOV9sb2dvLTIl/MjAoMikuc3Zn",
+   "murl": "https://imgs.search.brave.com/1qBrzZqeK_zwdwKHDSjKqB3siWmOKuLn2gl40oSW_Vg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMucm9ja2V0cmVh/Y2guY28vaW1hZ2Vz/L3Byb2ZpbGVfcGlj/cy92Mi4xL2RwcG02/LnBuZw",
+   "t": "Sogeti Employee Jasmine Hill's profile photo",
+   "w": 500,
+   "purl": "",
+   "file": "cand/jh2/3.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/V4YO6rQ21qnWpEUIeNy3sZ_EiWrKcribao3Jxc8C_z8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zMy5h/bWF6b25hd3MuY29t/L21lZGlhLm1peHJh/bmsuY29tL3Byb2Zp/bGVwaWMvNWI2YWY3/MDA2MGViYWViOGVj/MmUyZjM4NTJlNWQ0/MWY",
+   "t": "Enterprise Holdings Employee Jasmine Hill's profile photo",
+   "w": 500,
+   "purl": "",
+   "file": "cand/jh2/4.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/C2wVEFaRdu-xYW5PGTGggJmS2HuPrtSNVbzp3Bdeilk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3dvb2dvLmNv/bS91cGxvYWRzL21l/ZGl1bS80NzIzNjE1/LTY3NjMyYTk4MTNk/ODMucG5n",
+   "t": "Jasmine Hill",
+   "w": 500,
+   "purl": "",
+   "file": "cand/jh2/5.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/Bv7ymllkM1dB7ODFNhNK7xHRNXkOVTZbDmFj83OkUZs/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9kMmdq/cWg5ajI2dW5wMC5j/bG91ZGZyb250Lm5l/dC9wcm9maWxlcGlj/LzkxZDRlZGI3MDUz/MjA1MGMyNzhhOGFl/NTI5NWJkMDgx",
+   "t": "Massage Envy Spa Employee Jasmine Hill's profile photo",
+   "w": 500,
+   "purl": "",
+   "file": "cand/jh2/6.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/XHw5u-lhydOKq6zYc5oeafaQBI5AmhA38IdMivsjQ60/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9kMmdq/cWg5ajI2dW5wMC5j/bG91ZGZyb250Lm5l/dC9wcm9maWxlcGlj/L2JlOGZlNjBkNGM1/ZTc3ZjM5YzMyNGM5/ODQ1MjVjZDY5",
+   "t": "Aesthetic Influencer Employee Jasmine Hill's profile photo",
+   "w": 500,
+   "purl": "",
+   "file": "cand/jh2/7.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/DQuxv16pa4JoouUH0RBo3RkFma-jb_FJ2urtopjD3aQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9kMmdq/cWg5ajI2dW5wMC5j/bG91ZGZyb250Lm5l/dC9wcm9maWxlcGlj/LzA1NzllMmI0NDMx/OWMwZGU3MmNlMjU2/YTdjZTk2M2Jk",
+   "t": "Jasmine Hill Email",
+   "w": 500,
+   "purl": "",
+   "file": "cand/jh2/8.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/pxWTUUlxUuk0c1O7odK8WNqzWdwO3WB506IqbNGw_Q8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMucm9ja2V0cmVh/Y2guY28vaW1hZ2Vz/L3Byb2ZpbGVfcGlj/cy92Mi4xL2RwcGY0/LnBuZw",
+   "t": "Listen Employee Jasmine Hill's profile photo",
+   "w": 500,
+   "purl": "",
+   "file": "cand/jh2/9.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/drLvvQS0hX0M5dWiNtRS-rTLizyf4tp9r1mHOrEAXvs/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9kMmdq/cWg5ajI2dW5wMC5j/bG91ZGZyb250Lm5l/dC9wcm9maWxlcGlj/LzQ0ODU2MTU1Mzdm/ZmUyYzVmYTRhM2Zi/NTM2MzcyMjhi",
+   "t": "University of California, Los Angeles Employee Jasmine Hill's profile photo",
+   "w": 500,
+   "purl": "",
+   "file": "cand/jh2/10.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/ymrlZkiU-1_UVMVImXXGjmFDraFnlDHezo1BxBwTAHc/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9kMmdq/cWg5ajI2dW5wMC5j/bG91ZGZyb250Lm5l/dC9wcm9maWxlcGlj/LzE4ZjM0YTZlNDBi/YjgwYmRkMzQ2ODMy/MjhmMWQxYjg3",
+   "t": "University of Essex Employee Jasmine Hill's profile photo",
+   "w": 500,
+   "purl": "",
+   "file": "cand/jh2/11.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/4qwb05dFG_ZOyAy6YN_T0nyI1N5cnjIZVzYMD2-PTyA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9kMmdq/cWg5ajI2dW5wMC5j/bG91ZGZyb250Lm5l/dC9wcm9maWxlcGlj/Lzg5YjA3NzM5Mzg2/MmZmZGRiMTgzY2Zj/N2I3ZWU2OTIy",
+   "t": "Build Twenty Two Employee Jasmine Hill's profile photo",
+   "w": 500,
+   "purl": "",
+   "file": "cand/jh2/12.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/pUnK-qXaaaZIC5OEk5J4kK3qvWyKopSI3G4AS4zsS4c/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMucm9ja2V0cmVh/Y2guY28vaW1hZ2Vz/L3Byb2ZpbGVfcGlj/cy92Mi4xL2RwcG04/LnBuZw",
+   "t": "Sogeti Employee Jasmine Hill's profile photo",
+   "w": 500,
+   "purl": "",
+   "file": "cand/jh2/13.img"
+  }
+ ],
+ "jh3|Jasmine Hill MBA aesthetics social media KOL": [
+  {
+   "murl": "https://cdn.search.brave.com/serp/v3/_app/immutable/assets/brave-logo-light.D0nx3pfh.svg",
+   "t": "Brave logo",
+   "w": 129,
+   "purl": "https://search.brave.com/",
+   "file": "cand/jh3/0.svg"
+  },
+  {
+   "murl": "https://cdn.search.brave.com/serp/v3/_app/immutable/assets/brave-logo-dark.5D16vJCY.svg",
+   "t": "Brave logo",
+   "w": 129,
+   "purl": "https://search.brave.com/",
+   "file": "cand/jh3/1.svg"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/XXZ2zPWPjQ58m-WKjpip_hRe_tTkEpi1a7-XpHvvi7E/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc3F1YXJlc3Bh/Y2UtY2RuLmNvbS9j/b250ZW50L3YxLzU3/M2E5Y2ZmM2M0NGQ4/OGJlNjg5MDIyNC9m/ZjBhYzBiOC0xZDFh/LTQ0MGUtYmMyMi1i/MmEyNWJhNTZmMWYv/c29jaWFsK21lZGlh/K21pc3Rha2UrLnBu/Zw",
    "t": "",
    "w": 500,
    "purl": "",
-   "file": "cand/lg-revelyx/5.img"
+   "file": "cand/jh3/2.img"
   },
   {
-   "murl": "https://imgs.search.brave.com/YgxOdrJjeZ0jEIj42d1IADhz4J4KImpnFDT3KQzKtfo/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtcGxhdGZvcm0u/OTlzdGF0aWMuY29t/Ly9uWjVWd0FlSDN2/UjdndzZCZjRKd3VF/QTJNSnM9LzB4MDox/MjAweDEyMDAvZml0/LWluLzUwMHg1MDAv/OTlkZXNpZ25zLWNv/bnRlc3RzLWF0dGFj/aG1lbnRzLzk3Lzk3/MzAzL2F0dGFjaG1l/bnRfOTczMDM2Nzg",
-   "t": "Biology logo with the title 'Logo concept for Bio engineering Laboratory website'",
+   "murl": "https://imgs.search.brave.com/kVfv8k9oHob4GHkaUoSpx500_d5TwpDMxzNA-L2g1ig/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/aHVmZmluZ3RvbnBv/c3QuY29tL2Fzc2V0/LzZhN2Y2Njc3MTkw/MDAwMzQwNzYwYzRj/Yy5qcGc_Y2FjaGU9/dGtXNFBTdDJ2MiZv/cHM9NDM0XzI0NCxx/dWFsaXR5Xzc1",
+   "t": "",
    "w": 500,
    "purl": "",
-   "file": "cand/lg-revelyx/6.img"
+   "file": "cand/jh3/3.img"
   },
   {
-   "murl": "https://imgs.search.brave.com/u04TX7Kl3choq4zwSt9iOB15ritwS2-doFf0OvxTrGU/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly93ZWxs/Zm91bmQuY29tL2Nk/bi1jZ2kvaW1hZ2Uv/d2lkdGg9MTQwLGhl/aWdodD0xNDAsZml0/PXNjYWxlLWRvd24s/Z3Jhdml0eT0wLjV4/MC41LHF1YWxpdHk9/OTAsZm9ybWF0PWF1/dG8vaHR0cHM6Ly9w/aG90b3Mud2VsbGZv/dW5kLmNvbS9zdGFy/dHVwcy9pLzEwNjQ0/MjAwLTcwNjlkY2Zj/YTc3YTI1ODNlZDI4/NmE0ZDA2MWY4ZTdk/LW1lZGl1bV9qcGcu/anBnP2J1c3Rlcj0x/NzU1MjAzMDI4",
-   "t": "Revalia Bio company logo",
+   "murl": "https://imgs.search.brave.com/hu2FseDA8cVtI9AM30AQhmPQ_Jegib5nmVZAW6ksvNQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc3F1YXJlc3Bh/Y2UtY2RuLmNvbS9j/b250ZW50L3YxLzU3/YTYwM2M5MzdjNTgx/NTNjMTdiMTQ5Yy8x/NTkxNjc2NjYyMTkz/LTNDVTkwMUo1U04w/SU9aNVFSQTNXL3B1/YmxpYy5qcGVn",
+   "t": "public.jpeg",
+   "w": 500,
+   "purl": "",
+   "file": "cand/jh3/4.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/sB4HgBfqWihVxymuVdq7Sk75B-euQvwIJ2DwscnsJPI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc3F1YXJlc3Bh/Y2UtY2RuLmNvbS9j/b250ZW50L3YxLzU3/M2E5Y2ZmM2M0NGQ4/OGJlNjg5MDIyNC8x/NTIzOTg3MzAyMzM0/LVlTMTQ0VTBPNldL/MEJZTVc1NVI3L21k/K2NvdGUrYXByaWwr/Mi5qcGc",
+   "t": "md cote april 2.jpg",
+   "w": 500,
+   "purl": "",
+   "file": "cand/jh3/5.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/n5x1Q-YoNOCWQVuvgdUqebTHT3ZkuRGTCVvvF4E1YZk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc3F1YXJlc3Bh/Y2UtY2RuLmNvbS9j/b250ZW50L3YxLzU3/M2E5Y2ZmM2M0NGQ4/OGJlNjg5MDIyNC8x/NzIwODEzMTg3NTAw/LVhYUFNTOUEzWTJX/WVpTSDdNMjRUL3Vu/ZGVyc3RhbmRpbmcr/eW91cittZWRpY2Fs/K3NwYXMrdW5pcXVl/K3ZhbHVlK3Byb3Bv/c2l0aW9uLnBuZw",
+   "t": "Standing Out in Aesthetics: Understanding Your Medspa's Unique Value Proposition",
+   "w": 500,
+   "purl": "",
+   "file": "cand/jh3/6.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/2bypBZbcF5gHIV19P61mrh6AMWk65RiIWDsx1GPn60Q/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/aHVmZmluZ3RvbnBv/c3QuY29tL2Fzc2V0/LzY5MmIzZWU0MjIw/MDAwZTM5YTYwYzJj/Yy5wbmc_Y2FjaGU9/cGFRTWdWTDdhRCZv/cHM9NDM0XzI0NCxx/dWFsaXR5Xzc1",
+   "t": "",
+   "w": 500,
+   "purl": "",
+   "file": "cand/jh3/7.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/sB7r4HZ4I9j5fYNam3Wi-m2p4FPO86-KGTNePRtnvI8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc3F1YXJlc3Bh/Y2UtY2RuLmNvbS9j/b250ZW50L3YxLzU3/YTYwM2M5MzdjNTgx/NTNjMTdiMTQ5Yy8x/NTkxNjc2OTg4NzY5/LUNVR0NNMTNQV0k3/M0ZJSEtXOTNUL3B1/YmxpYy5qcGVn",
+   "t": "public.jpeg",
+   "w": 500,
+   "purl": "",
+   "file": "cand/jh3/8.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/4sT-2Lkol68hq9Kvg0LViHAwLYjGvureIF7ziEHPCiw/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc3F1YXJlc3Bh/Y2UtY2RuLmNvbS9j/b250ZW50L3YxLzU3/M2E5Y2ZmM2M0NGQ4/OGJlNjg5MDIyNC8z/NWY5NzM5NS0wMGU5/LTQxZDgtOGFjZS1j/YmUxZmQxNmQ5YmMv/aW5mbHVlbmNlcitt/YXJrZXRpbmcraW4r/YWVzdGhldGljcyth/K2d1aWRlK2Zvcitw/cmFjdGljZStvd25l/cnMucG5n",
+   "t": "",
+   "w": 500,
+   "purl": "",
+   "file": "cand/jh3/9.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/bqJmNkQoTxiHr8xGnZlV2FCZGCy4GmDN5Jva1kMbN1s/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc3F1YXJlc3Bh/Y2UtY2RuLmNvbS9j/b250ZW50L3YxLzU3/M2E5Y2ZmM2M0NGQ4/OGJlNjg5MDIyNC82/NmUxZmJkMi1iMzdj/LTQ1ZTQtYjdjZS02/ZTYwYzZjODg5MDUv/NDUrSUcrVGVtcGxh/dGVzK0NoZXJyeStD/b2RlZCsoMTA4MCt4/KzEzNTArcHgpLmpw/Zw",
+   "t": "",
+   "w": 500,
+   "purl": "",
+   "file": "cand/jh3/10.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/uUIof56ldDMIKqUZt_a6x7nK2tITAaJMp9VOVRp1f1Y/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc3F1YXJlc3Bh/Y2UtY2RuLmNvbS9j/b250ZW50L3YxLzU3/M2E5Y2ZmM2M0NGQ4/OGJlNjg5MDIyNC84/NGU0MWIzMi1hYjFi/LTRjMjYtYTNlMS1j/YmY0M2Y2MDVhMzkv/SUcrVGVtcGxhdGVz/K0NoZXJyeStDb2Rl/ZCsoMTMpLnBuZw",
+   "t": "",
+   "w": 500,
+   "purl": "",
+   "file": "cand/jh3/11.img"
+  }
+ ],
+ "jh4|aestheticinfluencer.com Jasmine Hill founder": [
+  {
+   "murl": "https://cdn.search.brave.com/serp/v3/_app/immutable/assets/brave-logo-light.D0nx3pfh.svg",
+   "t": "Brave logo",
+   "w": 129,
+   "purl": "https://search.brave.com/",
+   "file": "cand/jh4/0.svg"
+  },
+  {
+   "murl": "https://cdn.search.brave.com/serp/v3/_app/immutable/assets/brave-logo-dark.5D16vJCY.svg",
+   "t": "Brave logo",
+   "w": 129,
+   "purl": "https://search.brave.com/",
+   "file": "cand/jh4/1.svg"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/DrrF9fEHyIOFlRAAsSp2BeYmDsoEuUXF_FlH_JnPZCM/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly93d3cu/em9vbWluZm8uY29t/L2dlLWFzc2V0cy9j/b21tb24vcGxhY2Vo/b2xkZXJzLzIwMjVf/cGVyc29uX3BsYWNl/aG9sZGVyXzEyMC5z/dmc",
+   "t": "Avatar of Jasmine Hill, Founder at Aesthetic Influencer",
    "w": 180,
    "purl": "",
-   "file": "cand/lg-revelyx/7.img"
+   "file": "cand/jh4/2.img"
   },
   {
-   "murl": "https://imgs.search.brave.com/QYzELCoQpfdaEE1Xbp4A8a7f7oBxnO2AyExXblr6UI8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWc2/LmRvbmV3cy5jb20v/c3RhdGljL3YzL2lt/YWdlcy9zbWFsbC1s/b2dvLnBuZw",
-   "t": "logo",
+   "murl": "https://imgs.search.brave.com/Jw-RjA8tWoZD0UrfClUFOCjS6wRtMK_lP4ygw0fDwCc/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9ib3Vu/Y2V3YXRjaC5jb20v/YXNzZXRzL2ltYWdl/cy91c2VyLXBsYWNl/aG9sZGVyLmpwZw",
+   "t": "Jasmine Hill - Founder",
    "w": 500,
    "purl": "",
-   "file": "cand/lg-revelyx/8.img"
+   "file": "cand/jh4/3.img"
   },
   {
-   "murl": "https://imgs.search.brave.com/yPFmffN0PTg3j1TbdCVFHD-ABmMmXRJlXcsm5DxkVM4/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly92Y2Ru/LnBoYXJtY3ViZS5j/b20vMTY3MjMwMTE2/NDYyM19sb2dvLTIu/c3Zn",
+   "murl": "https://imgs.search.brave.com/KvhZ807wtFvBz3cvUGkReraktrYiaokdynOsblWFLs4/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdG9y/YWdlLnpvb21pbmZv/LmNvbS8zMjE4Njg1/MjEw",
+   "t": "Barbra Salet, Founder at ILNP Cosmetics",
+   "w": 500,
+   "purl": "",
+   "file": "cand/jh4/4.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/XHw5u-lhydOKq6zYc5oeafaQBI5AmhA38IdMivsjQ60/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9kMmdq/cWg5ajI2dW5wMC5j/bG91ZGZyb250Lm5l/dC9wcm9maWxlcGlj/L2JlOGZlNjBkNGM1/ZTc3ZjM5YzMyNGM5/ODQ1MjVjZDY5",
+   "t": "Aesthetic Influencer Employee Jasmine Hill's profile photo",
+   "w": 500,
+   "purl": "",
+   "file": "cand/jh4/5.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/P8y7ry2QyMvtmP2d6ESArPUIpG6s9gykWRrUNMfLZ14/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc3F1YXJlc3Bh/Y2UtY2RuLmNvbS9j/b250ZW50L3YxLzU3/M2E5Y2ZmM2M0NGQ4/OGJlNjg5MDIyNC8x/NDk0OTcwNDA3NzM1/LTRXNFBVVVVFSEgx/MzVPNzZMTTkzL3Nu/YXBjaGF0",
+   "t": "snapchat",
+   "w": 500,
+   "purl": "",
+   "file": "cand/jh4/6.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/5JW88bYsXsRZehpZBomxwx1DPeZpEUvmuP9WB6VVaZk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc3F1YXJlc3Bh/Y2UtY2RuLmNvbS9j/b250ZW50L3YxLzU3/M2E5Y2ZmM2M0NGQ4/OGJlNjg5MDIyNC9m/MGYxOTFlMi05Nzcy/LTQyYmEtOTc5Yi1m/OGUxMDhlNGQ2MzQv/YWVzdGhldGljK2F1/dGhvcml0eS5wbmc",
    "t": "",
    "w": 500,
    "purl": "",
-   "file": "cand/lg-revelyx/9.img"
+   "file": "cand/jh4/7.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/oSKnySULRojrBdgkNM1VDuhtvuM5Pmaj3JbgI9CbDa0/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly93d3cu/em9vbWluZm8uY29t/L2dlLWFzc2V0cy9j/b21tb24vcGxhY2Vo/b2xkZXJzLzIwMjNf/Y29tcGFueV9wbGFj/ZWhvbGRlcl8xMjAu/c3Zn",
+   "t": "Florida Agricultural and Mechanical University",
+   "w": 180,
+   "purl": "",
+   "file": "cand/jh4/8.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/4sT-2Lkol68hq9Kvg0LViHAwLYjGvureIF7ziEHPCiw/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc3F1YXJlc3Bh/Y2UtY2RuLmNvbS9j/b250ZW50L3YxLzU3/M2E5Y2ZmM2M0NGQ4/OGJlNjg5MDIyNC8z/NWY5NzM5NS0wMGU5/LTQxZDgtOGFjZS1j/YmUxZmQxNmQ5YmMv/aW5mbHVlbmNlcitt/YXJrZXRpbmcraW4r/YWVzdGhldGljcyth/K2d1aWRlK2Zvcitw/cmFjdGljZStvd25l/cnMucG5n",
+   "t": "",
+   "w": 500,
+   "purl": "",
+   "file": "cand/jh4/9.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/KDfRlyTWlpsNgnZ3_RsZ6bvx-eguV0v0JdcEb9OyRFA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMucm9ja2V0cmVh/Y2guY28vaW1hZ2Vz/L3Byb2ZpbGVfcGlj/cy92Mi4xL2RwcG01/LnBuZw",
+   "t": "Sogeti Employee Jasmine Hill's profile photo",
+   "w": 500,
+   "purl": "",
+   "file": "cand/jh4/10.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/0G_GWCzg-VWGcMV2tfF069GYTSE43xwJl6WAeipaZ0I/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc3F1YXJlc3Bh/Y2UtY2RuLmNvbS9j/b250ZW50L3YxLzU3/M2E5Y2ZmM2M0NGQ4/OGJlNjg5MDIyNC8x/NTAwNTMzNDIwMDA2/LUtOSVdWTVpYSE1F/NTNRM1FHS0FQL2lt/YWdlLWFzc2V0LnBu/Zw",
+   "t": "",
+   "w": 500,
+   "purl": "",
+   "file": "cand/jh4/11.img"
   }
  ]
 }
