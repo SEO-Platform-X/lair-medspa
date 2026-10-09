@@ -1,4 +1,2 @@
-brave|f-hayag|Dr Marie Hayag dermatologist headshot
-brave|f-joseph|Dr Walter Joseph MD Beverly Hills plastic surgeon
-brave|lg-fifthave|Fifth Avenue Aesthetics Marie Hayag logo
-brave|lg-wjoseph|Walter Joseph MD plastic surgery logo
+brave|lg-tas|THE Aesthetic Show logo Las Vegas
+brave|lg-avita|AVITA Medical logo
