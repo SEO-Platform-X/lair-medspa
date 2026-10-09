@@ -19,6 +19,14 @@ input[type=range]{accent-color:#1F4FE0}
 </style>
 
 <style id="lux">
+.shim{background:linear-gradient(90deg,#7D8AA0 0%,#F2EFE9 45%,#7D8AA0 90%);background-size:220% 100%;-webkit-background-clip:text;background-clip:text;color:transparent!important;animation:shim 1.3s linear infinite;font-weight:500}
+@keyframes shim{from{background-position:120% 0}to{background-position:-120% 0}}
+.cur{display:inline-block;width:10px;height:10px;border-radius:50%;background:#F2EFE9;margin-left:5px;vertical-align:middle;animation:curp .9s ease-in-out infinite}
+@keyframes curp{0%,100%{transform:scale(.7);opacity:.6}50%{transform:scale(1);opacity:1}}
+.alive{animation:alive 2.2s ease-in-out infinite;transform-origin:center}
+@keyframes alive{0%,100%{transform:scale(1);box-shadow:0 0 0 0 rgba(255,59,48,0)}50%{transform:scale(1.08);box-shadow:0 0 22px 3px rgba(255,59,48,.6)}}
+@media (prefers-reduced-motion: reduce){.shim,.cur,.alive{animation:none!important}}
+
 @keyframes lairalert{0%{box-shadow:0 0 0 0 rgba(255,59,48,.65)}70%{box-shadow:0 0 0 10px rgba(255,59,48,0)}100%{box-shadow:0 0 0 0 rgba(255,59,48,0)}}
 @media (prefers-reduced-motion: reduce){[style*="lairalert"]{animation:none!important}}
 h1,section h2,section p[style*="Cormorant"]{font-weight:500!important;letter-spacing:-0.005em}
@@ -674,12 +682,21 @@ var cio=new IntersectionObserver(function(es){es.forEach(function(e){if(!e.isInt
 
 /* above the fold: the chat plays out, and a gentle arrow invites the scroll */
 var hero=secs[0],card=hero.querySelector('[style*="box-shadow"]');
-if(card&&!RM){var kids=[].slice.call(card.children),rows=[].slice.call(card.querySelectorAll('div[style*="gap: 10px; align-items: center"]'));
- kids.concat(rows).forEach(function(k){k.classList.add('cm')});var ans=kids[1],first=ans&&ans.firstElementChild,dots=document.createElement('div');dots.className='dots';dots.innerHTML='<i></i><i></i><i></i>';
- setTimeout(function(){kids[0].classList.add('on')},700);
- setTimeout(function(){ans.classList.add('on');if(first){first.style.display='none';ans.insertBefore(dots,first)}},1500);
- setTimeout(function(){dots.remove();if(first)first.style.display='';rows.forEach(function(r,i){setTimeout(function(){r.classList.add('on')},i*500)})},3000);
- setTimeout(function(){var last=kids[kids.length-1];last.classList.add('on');setTimeout(function(){last.classList.add('miss')},500)},4800)}
+if(card){var badge=card.querySelector('svg[aria-hidden="true"]');badge=badge&&badge.parentNode;}
+if(card&&!RM){var kids=[].slice.call(card.children),ans=kids[1],last=kids[kids.length-1],first=ans.firstElementChild,
+ rows=[].slice.call(ans.querySelectorAll('div[style*="gap: 10px; align-items: center"]')),
+ targets=[first].concat(rows.map(function(r){return r.lastElementChild})),texts=targets.map(function(t){return t.textContent});
+ kids.forEach(function(k){k.classList.add('cm')});rows.forEach(function(r){r.style.visibility='hidden'});targets.forEach(function(t){t.textContent=''});
+ var think=document.createElement('p');think.className='shim';think.textContent='Searching the web';think.style.margin='0 0 12px';
+ var cur=document.createElement('span');cur.className='cur';
+ function stream(el,txt,done){var w=txt.split(' '),i=0;el.textContent='';el.appendChild(cur);
+  (function step(){if(i>=w.length){done&&done();return}cur.insertAdjacentText('beforebegin',(i?' ':'')+w[i]);i++;setTimeout(step,70+Math.random()*70)})()}
+ setTimeout(function(){kids[0].classList.add('on')},600);
+ setTimeout(function(){ans.classList.add('on');first.style.display='none';ans.insertBefore(think,first)},1300);
+ setTimeout(function(){think.remove();first.style.display='';
+  var k=0;(function nxt(){if(k>=targets.length){cur.remove();setTimeout(function(){last.classList.add('on');setTimeout(function(){last.classList.add('miss');badge&&badge.classList.add('alive')},500)},400);return}
+   if(k>0)rows[k-1].style.visibility='';stream(targets[k],texts[k],function(){k++;setTimeout(nxt,180)})})()},3300)}
+else if(card&&badge){badge.classList.add('alive')}
 var nudge=document.createElement('div');nudge.id='nudge';nudge.setAttribute('role','button');nudge.setAttribute('aria-label','Scroll down');
 nudge.innerHTML='<svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="#F4F1EA" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 8l5 5 5-5"/></svg>';
 document.body.appendChild(nudge);nudge.addEventListener('click',function(){scrollTo({top:secs[1].offsetTop-10,behavior:'smooth'})});
