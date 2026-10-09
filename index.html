@@ -8,7 +8,7 @@
 <meta name="referrer" content="no-referrer">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500;600;700&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Caveat:wght@600;700&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Caveat:wght@600;700&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 body{margin:0}
 a{color:#1F4FE0}a:hover{color:#163BB0}
@@ -18,6 +18,12 @@ input[type=range]{accent-color:#1F4FE0}
 @keyframes lairblink{0%,100%{opacity:1}50%{opacity:.35}}
 </style>
 
+<style id="lux">
+h1,section h2,section p[style*="Cormorant"]{font-weight:500!important;letter-spacing:-0.005em}
+.ln.short{font-weight:500!important}
+.hero-h .ln+.ln{color:#5B6577;font-style:italic;margin-top:.35em}
+#nudge{background:#0B1A2E!important;border-color:#F2EFE9!important}
+</style>
 <style id="motion">
 section:not(:first-of-type){padding-top:120px!important;padding-bottom:120px!important}
 section h2{margin-bottom:56px!important}
@@ -63,7 +69,7 @@ h2.beat,p.beat{margin-bottom:24px!important}
 .dcard span[style*="56px"],.dcard span[style*="40px"]{color:#6E92FF!important}
 .us circle{fill-opacity:.16;transition:fill .5s ease,fill-opacity .5s ease}.us circle.c{fill:#FF5A3C;fill-opacity:1}.us circle.b{fill:#6E92FF;fill-opacity:1}
 .fl{opacity:0;transition:opacity .6s ease}.fl.on{opacity:1}
-#hero-radar{position:absolute;inset:0;overflow:hidden;pointer-events:none;-webkit-mask-image:linear-gradient(180deg,#000 0%,#000 45%,transparent 85%);mask-image:linear-gradient(180deg,#000 0%,#000 45%,transparent 85%)}
+#hero-radar{display:none!important;position:absolute;inset:0;overflow:hidden;pointer-events:none;-webkit-mask-image:linear-gradient(180deg,#000 0%,#000 45%,transparent 85%);mask-image:linear-gradient(180deg,#000 0%,#000 45%,transparent 85%)}
 #hero-radar svg{position:absolute;right:-30%;top:-4%;width:120%;min-width:520px;opacity:.9}
 .sweep{transform-origin:260px 260px;animation:sw 6s linear infinite}
 @keyframes sw{to{transform:rotate(360deg)}}
@@ -81,42 +87,43 @@ h2.beat,p.beat{margin-bottom:24px!important}
 <div style="font-family: 'Hanken Grotesk', 'Helvetica Neue', sans-serif; color: #0B1A2E; background: #FFFFFF; font-size: 17px; line-height: 1.5">
 
 <!-- HERO -->
-<section style="background: #0B1A2E; color: #F4F1EA; padding: 20px 20px 56px">
+<section style="background: #F2EFE9; color: #0B1A2E; padding: 22px 24px 88px">
 <div style="max-width: 1040px; margin: 0 auto">
-<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 36px">
-<img src="assets/lair-lockup-white.svg" alt="Local AI Registry" style="height: 22px; width: auto">
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 84px">
+<img src="assets/lair-lockup-ink.svg" alt="Local AI Registry" style="height: 22px; width: auto">
+<a href="https://localairegistry.com/pricing" style="font-family: 'Hanken Grotesk', sans-serif; font-size: 14px; font-weight: 500; color: #0B1A2E; text-decoration: none; border: 1px solid rgba(11,26,46,.22); border-radius: 999px; padding: 9px 16px">Pricing</a>
 </div>
-
-<div style="display: flex; flex-wrap: wrap; gap: 40px; align-items: center">
-<div style="flex: 1 1 320px; min-width: 0">
-<h1 style="font-family: 'Cormorant', Georgia, serif; font-weight: 600; font-size: 44px; line-height: 1.02; letter-spacing: -0.01em; margin: 0 0 18px">Ask ChatGPT for the best med spa near you. Is your name on the list?</h1>
-<p style="margin: 0 0 26px; font-size: 18px; color: #C9D2E0; max-width: 34em">Almost half of patients now ask AI where to go. AI only names a few places. We make sure one of them is yours.</p>
-<a href="https://localairegistry.com" style="display: flex; width: 100%; max-width: 420px; box-sizing: border-box; min-height: 56px; align-items: center; justify-content: center; padding: 0 22px; background: #1F4FE0; color: #FFFFFF; border-radius: 14px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 18px; text-decoration: none">See what AI says about my med spa</a>
-<p style="margin: 10px 0 28px; font-size: 14px; color: #A9B5C7">Free check. No contract, ever.</p>
-
-<div style="display: flex; align-items: center; gap: 12px">
-<div style="display: flex"><span style="margin-left: 0px; border: 2px solid #0B1A2E; border-radius: 50%; display: flex"><span class="face" style="position: relative; overflow: hidden; flex: 0 0 40px; width: 40px; height: 40px; border-radius: 50%; background: #1F4FE0; color: #FFFFFF; border: none; box-sizing: border-box; display: flex; align-items: center; justify-content: center; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 12px">DD<img data-slug="doris-day" data-src="https://dorisdaymd.com/cdn/shop/files/Scrub_Top_Edit_5.png?v=1785436174" data-ig="drdorisday" alt="" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 0; transition: opacity .3s"></span></span><span style="margin-left: -12px; border: 2px solid #0B1A2E; border-radius: 50%; display: flex"><span class="face" style="position: relative; overflow: hidden; flex: 0 0 40px; width: 40px; height: 40px; border-radius: 50%; background: #0B1A2E; color: #F4F1EA; border: none; box-sizing: border-box; display: flex; align-items: center; justify-content: center; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 12px">MB<img data-slug="mariano-busso" data-src="https://hauteliving.com/hautebeauty/wp-content/uploads/2020/10/Busso-Beverly-Hills.jpg" data-ig="drbusso" alt="" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 0; transition: opacity .3s"></span></span><span style="margin-left: -12px; border: 2px solid #0B1A2E; border-radius: 50%; display: flex"><span class="face" style="position: relative; overflow: hidden; flex: 0 0 40px; width: 40px; height: 40px; border-radius: 50%; background: #1F4FE0; color: #FFFFFF; border: none; box-sizing: border-box; display: flex; align-items: center; justify-content: center; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 12px">SS<img data-slug="sachin-shridharani" data-src="https://www.theaestheticsociety.org/sites/default/files/profile-pictures/2022-03/Lux-HS-21.jpg" data-ig="luxurgery" alt="" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 0; transition: opacity .3s"></span></span><span style="margin-left: -12px; border: 2px solid #0B1A2E; border-radius: 50%; display: flex"><span class="face" style="position: relative; overflow: hidden; flex: 0 0 40px; width: 40px; height: 40px; border-radius: 50%; background: #0B1A2E; color: #F4F1EA; border: none; box-sizing: border-box; display: flex; align-items: center; justify-content: center; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 12px">AR<img data-slug="alex-rivkin" data-src="https://mdxvitals-res.cloudinary.com/private_images/h_300,w_300,c_fill,g_face,f_auto,dpr_auto/professionals/1549998/photo.jpg" data-ig="dr.rivkin" alt="" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 0; transition: opacity .3s"></span></span><span style="margin-left: -12px; border: 2px solid #0B1A2E; border-radius: 50%; display: flex"><span class="face" style="position: relative; overflow: hidden; flex: 0 0 40px; width: 40px; height: 40px; border-radius: 50%; background: #1F4FE0; color: #FFFFFF; border: none; box-sizing: border-box; display: flex; align-items: center; justify-content: center; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 12px">RD<img data-slug="roberta-del-campo" data-src="https://www.livderm.org/wp-content/uploads/2021/08/DelCampo_Roberta.jpg" alt="" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 0; transition: opacity .3s"></span></span><span style="margin-left: -12px; width: 40px; height: 40px; border-radius: 50%; border: 2px solid #0B1A2E; background: #FF5A3C; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 12px">100+</span></div>
-<p style="margin: 0; font-size: 14px; line-height: 1.35; color: #C9D2E0">Trusted by Dr. Doris Day, Dr. Mariano Busso, Dr. Sachin Shridharani and 100+ more</p>
-</div>
-</div>
-
-<!-- Chat mock: the memorable moment -->
-<div style="flex: 1 1 320px; min-width: 0; max-width: 460px">
-<div style="background: #FFFFFF; color: #0B1A2E; border-radius: 22px; padding: 16px; box-shadow: 0 20px 50px rgba(0,0,0,0.35)">
-<div style="display: flex; justify-content: flex-end; margin-bottom: 12px">
-<div style="background: #1F4FE0; color: #FFFFFF; border-radius: 18px 18px 4px 18px; padding: 10px 14px; font-size: 15px; max-width: 85%">Who is the best med spa for Botox near me?</div>
-</div>
-<div style="background: #F2F4F8; border-radius: 18px 18px 18px 4px; padding: 14px; font-size: 15px">
-<p style="margin: 0 0 10px; color: #3D4A5C">Here are the top places people recommend:</p>
-<div style="display: flex; flex-direction: column; gap: 8px">
-<div style="display: flex; gap: 10px; align-items: center"><span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; color: #1F4FE0; width: 16px">1</span><span>The med spa down the street</span></div>
-<div style="display: flex; gap: 10px; align-items: center"><span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; color: #1F4FE0; width: 16px">2</span><span>The one with more reviews</span></div>
-<div style="display: flex; gap: 10px; align-items: center"><span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; color: #1F4FE0; width: 16px">3</span><span>The one AI knows best</span></div>
+<div style="display: flex; flex-wrap: wrap; gap: 72px 64px; align-items: center">
+<div style="flex: 1 1 340px; min-width: 0">
+<p style="margin: 0 0 22px; font-family: 'Hanken Grotesk', sans-serif; font-weight: 600; font-size: 12px; letter-spacing: 0.22em; text-transform: uppercase; color: #5B6577">For med spas</p>
+<h1 class="hero-h" style="font-family: 'Cormorant', Georgia, serif; font-weight: 500; font-size: 46px; line-height: 1.04; letter-spacing: -0.01em; margin: 0 0 28px; color: #0B1A2E">Ask ChatGPT for the best med spa near you. Is your name on the list?</h1>
+<p style="margin: 0 0 40px; font-family: 'Hanken Grotesk', sans-serif; font-size: 18px; line-height: 1.55; color: #4A5567; max-width: 30em">Almost half of patients now ask AI where to go. We make sure it names you.</p>
+<a href="https://localairegistry.com" style="display: inline-flex; align-items: center; gap: 12px; min-height: 54px; padding: 0 28px; background: #0B1A2E; color: #F2EFE9; border-radius: 999px; font-family: 'Hanken Grotesk', sans-serif; font-weight: 600; font-size: 16px; text-decoration: none">See what AI says about you<svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+<p style="margin: 16px 0 0; font-family: 'Hanken Grotesk', sans-serif; font-size: 14px; color: #7A8394">Free check. No contract, ever.</p>
+<div style="display: flex; align-items: center; gap: 14px; margin-top: 56px; padding-top: 28px; border-top: 1px solid rgba(11,26,46,.12)">
+<div style="display: flex"><span style="margin-left: 0px; border: 2px solid #F2EFE9; border-radius: 50%; display: flex"><span class="face" style="position: relative; overflow: hidden; flex: 0 0 34px; width: 34px; height: 34px; border-radius: 50%; background: #1F4FE0; color: #FFFFFF; border: none; box-sizing: border-box; display: flex; align-items: center; justify-content: center; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 12px">DD<img data-slug="doris-day" data-src="https://dorisdaymd.com/cdn/shop/files/Scrub_Top_Edit_5.png?v=1785436174" data-ig="drdorisday" alt="" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 0; transition: opacity .3s"></span></span><span style="margin-left: -12px; border: 2px solid #F2EFE9; border-radius: 50%; display: flex"><span class="face" style="position: relative; overflow: hidden; flex: 0 0 34px; width: 34px; height: 34px; border-radius: 50%; background: #0B1A2E; color: #F4F1EA; border: none; box-sizing: border-box; display: flex; align-items: center; justify-content: center; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 12px">MB<img data-slug="mariano-busso" data-src="https://hauteliving.com/hautebeauty/wp-content/uploads/2020/10/Busso-Beverly-Hills.jpg" data-ig="drbusso" alt="" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 0; transition: opacity .3s"></span></span><span style="margin-left: -12px; border: 2px solid #F2EFE9; border-radius: 50%; display: flex"><span class="face" style="position: relative; overflow: hidden; flex: 0 0 34px; width: 34px; height: 34px; border-radius: 50%; background: #1F4FE0; color: #FFFFFF; border: none; box-sizing: border-box; display: flex; align-items: center; justify-content: center; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 12px">SS<img data-slug="sachin-shridharani" data-src="https://www.theaestheticsociety.org/sites/default/files/profile-pictures/2022-03/Lux-HS-21.jpg" data-ig="luxurgery" alt="" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 0; transition: opacity .3s"></span></span><span style="margin-left: -12px; border: 2px solid #F2EFE9; border-radius: 50%; display: flex"><span class="face" style="position: relative; overflow: hidden; flex: 0 0 34px; width: 34px; height: 34px; border-radius: 50%; background: #0B1A2E; color: #F4F1EA; border: none; box-sizing: border-box; display: flex; align-items: center; justify-content: center; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 12px">AR<img data-slug="alex-rivkin" data-src="https://mdxvitals-res.cloudinary.com/private_images/h_300,w_300,c_fill,g_face,f_auto,dpr_auto/professionals/1549998/photo.jpg" data-ig="dr.rivkin" alt="" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 0; transition: opacity .3s"></span></span><span style="margin-left: -12px; border: 2px solid #F2EFE9; border-radius: 50%; display: flex"><span class="face" style="position: relative; overflow: hidden; flex: 0 0 34px; width: 34px; height: 34px; border-radius: 50%; background: #1F4FE0; color: #FFFFFF; border: none; box-sizing: border-box; display: flex; align-items: center; justify-content: center; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 12px">RD<img data-slug="roberta-del-campo" data-src="https://www.livderm.org/wp-content/uploads/2021/08/DelCampo_Roberta.jpg" alt="" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 0; transition: opacity .3s"></span></span><span style="margin-left: -12px; width: 40px; height: 40px; border-radius: 50%; border: 2px solid #F2EFE9; background: #0B1A2E; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 12px">100+</span></div>
+<p style="margin: 0; font-family: 'Hanken Grotesk', sans-serif; font-size: 14px; line-height: 1.4; color: #5B6577">Trusted by 100+ practices</p>
 </div>
 </div>
-<div style="margin-top: 12px; border: 2px dashed #FF5A3C; border-radius: 14px; padding: 12px 14px; display: flex; justify-content: space-between; align-items: center; gap: 10px">
-<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700">Your med spa</span>
-<span style="display: flex; align-items: center; gap: 6px; color: #D63A1C; font-size: 14px; font-weight: 600"><span style="width: 8px; height: 8px; border-radius: 50%; background: #FF5A3C; animation: lairblink 1.6s ease-in-out infinite"></span>Not mentioned</span>
+<div style="flex: 1 1 340px; min-width: 0; max-width: 460px">
+<div style="background: #0F1A2B; color: #F2EFE9; border-radius: 28px; padding: 22px 20px 24px">
+<div style="display: flex; align-items: center; gap: 10px; padding-bottom: 16px; margin-bottom: 18px; border-bottom: 1px solid rgba(242,239,233,.12); font-family: 'Hanken Grotesk', sans-serif; font-weight: 600; font-size: 12px; letter-spacing: 0.22em; color: #A9B3C4"><span style="font-size: 18px; letter-spacing: 0; color: #F2EFE9">&#10035;</span>AI ASSISTANT</div>
+<div style="box-shadow: 0 0 0 transparent">
+<div style="display: flex; justify-content: flex-end; margin-bottom: 18px">
+<div style="background: #2A3446; color: #F2EFE9; border-radius: 16px; padding: 11px 16px; font-family: 'Hanken Grotesk', sans-serif; font-size: 15px; max-width: 85%">Who is the best med spa for Botox near me?</div>
+</div>
+<div style="font-family: 'Hanken Grotesk', sans-serif; font-size: 15px; color: #DCE1EA; padding-left: 4px">
+<p style="margin: 0 0 12px; color: #A9B3C4">A few stand out:</p>
+<div style="display: flex; flex-direction: column; gap: 10px">
+<div style="display: flex; gap: 10px; align-items: center"><span style="color: #6E92FF; width: 16px; font-weight: 600">1</span><span>The med spa down the street</span></div>
+<div style="display: flex; gap: 10px; align-items: center"><span style="color: #6E92FF; width: 16px; font-weight: 600">2</span><span>The one with more reviews</span></div>
+<div style="display: flex; gap: 10px; align-items: center"><span style="color: #6E92FF; width: 16px; font-weight: 600">3</span><span>The one AI knows best</span></div>
+</div>
+</div>
+<div style="margin-top: 20px; padding-top: 16px; border-top: 1px solid rgba(242,239,233,.12); display: flex; justify-content: space-between; align-items: center; gap: 10px; font-family: 'Hanken Grotesk', sans-serif">
+<span style="font-weight: 600; color: #F2EFE9">Your med spa</span>
+<span style="display: flex; align-items: center; gap: 7px; color: #FF7A5E; font-size: 14px; font-weight: 500"><span style="width: 7px; height: 7px; border-radius: 50%; background: #FF5A3C; animation: lairblink 1.6s ease-in-out infinite"></span>Not mentioned</span>
+</div>
 </div>
 </div>
 </div>
@@ -129,24 +136,24 @@ h2.beat,p.beat{margin-bottom:24px!important}
 <section style="background: #F4F1EA; padding: 36px 20px 40px">
 <div style="max-width: 1040px; margin: 0 auto">
 <h2 style="font-family: 'Cormorant', Georgia, serif; font-weight: 600; font-size: 34px; line-height: 1.05; margin: 0 0 22px">Built by former leaders from</h2>
-<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px"><svg width="26" height="26" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="#1F4FE0" stroke-width="2.6"></circle><line x1="15.5" y1="15.5" x2="21" y2="21" stroke="#1F4FE0" stroke-width="2.6" stroke-linecap="round"></line></svg><span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 16px; color: #1F4FE0">Search and AI</span></div>
-<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-bottom: 22px">
-<span style="display: flex; align-items: center; justify-content: center; min-height: 64px; padding: 0 14px; border-radius: 14px; background: #FFFFFF; border: 1.5px solid #D9DEE7"><img src="logos/google.svg" alt="Google" style="height: 30px; width: auto; max-width: 100%; "></span>
-<span style="display: flex; align-items: center; justify-content: center; min-height: 64px; padding: 0 14px; border-radius: 14px; background: #FFFFFF; border: 1.5px solid #D9DEE7"><img src="logos/microsoft.svg" alt="Microsoft" style="height: 24px; width: auto; max-width: 100%; "></span>
+<p style="margin: 40px 0 16px; font-family: 'Hanken Grotesk', sans-serif; font-weight: 600; font-size: 12px; letter-spacing: 0.22em; text-transform: uppercase; color: #5B6577">Search and AI</p>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-bottom: 0">
+<span style="display: flex; align-items: center; justify-content: center; min-height: 72px; padding: 0 14px; border-radius: 18px; background: #FFFFFF; border: 1px solid rgba(11,26,46,.07)"><img src="logos/google.svg" alt="Google" style="height: 30px; width: auto; max-width: 100%; "></span>
+<span style="display: flex; align-items: center; justify-content: center; min-height: 72px; padding: 0 14px; border-radius: 18px; background: #FFFFFF; border: 1px solid rgba(11,26,46,.07)"><img src="logos/microsoft.svg" alt="Microsoft" style="height: 24px; width: auto; max-width: 100%; "></span>
 </div>
-<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px"><svg width="26" height="26" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="#0B1A2E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3l4 4"></path><path d="M19 5l-3 3"></path><rect x="5.5" y="7.5" width="6" height="13" rx="1.5" transform="rotate(45 8.5 14)"></rect><path d="M3 21l3-3"></path></g></svg><span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 16px; color: #0B1A2E">Aesthetics</span></div>
-<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px">
-<span style="display: flex; align-items: center; justify-content: center; min-height: 64px; padding: 0 14px; border-radius: 14px; background: #FFFFFF; border: 1.5px solid #D9DEE7"><img src="logos/allergan.svg" alt="Allergan" style="height: 26px; width: auto; max-width: 100%; "></span>
-<span style="display: flex; align-items: center; justify-content: center; min-height: 64px; padding: 0 14px; border-radius: 14px; background: #FFFFFF; border: 1.5px solid #D9DEE7"><img src="logos/revance.png" alt="Revance" style="height: 20px; width: auto; max-width: 100%"></span>
-<span style="display: flex; align-items: center; justify-content: center; min-height: 64px; padding: 0 14px; border-radius: 14px; background: #FFFFFF; border: 1.5px solid #D9DEE7"><img src="logos/evolus.svg" alt="Evolus" style="height: 26px; width: auto; max-width: 100%; "></span>
-<span style="display: flex; align-items: center; justify-content: center; min-height: 64px; padding: 0 14px; border-radius: 14px; background: #FFFFFF; border: 1.5px solid #D9DEE7"><img src="logos/galderma.svg" alt="Galderma" style="height: 22px; width: auto; max-width: 100%; "></span>
+<p style="margin: 40px 0 16px; font-family: 'Hanken Grotesk', sans-serif; font-weight: 600; font-size: 12px; letter-spacing: 0.22em; text-transform: uppercase; color: #5B6577">Aesthetics</p>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px">
+<span style="display: flex; align-items: center; justify-content: center; min-height: 72px; padding: 0 14px; border-radius: 18px; background: #FFFFFF; border: 1px solid rgba(11,26,46,.07)"><img src="logos/allergan.svg" alt="Allergan" style="height: 26px; width: auto; max-width: 100%; "></span>
+<span style="display: flex; align-items: center; justify-content: center; min-height: 72px; padding: 0 14px; border-radius: 18px; background: #FFFFFF; border: 1px solid rgba(11,26,46,.07)"><img src="logos/revance.png" alt="Revance" style="height: 20px; width: auto; max-width: 100%"></span>
+<span style="display: flex; align-items: center; justify-content: center; min-height: 72px; padding: 0 14px; border-radius: 18px; background: #FFFFFF; border: 1px solid rgba(11,26,46,.07)"><img src="logos/evolus.svg" alt="Evolus" style="height: 26px; width: auto; max-width: 100%; "></span>
+<span style="display: flex; align-items: center; justify-content: center; min-height: 72px; padding: 0 14px; border-radius: 18px; background: #FFFFFF; border: 1px solid rgba(11,26,46,.07)"><img src="logos/galderma.svg" alt="Galderma" style="height: 22px; width: auto; max-width: 100%; "></span>
 </div>
-<div style="display: flex; align-items: center; gap: 10px; margin: 22px 0 10px"><svg width="26" height="26" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="#0B1A2E" stroke-width="2.2" stroke-linejoin="round"><rect x="6" y="2.5" width="12" height="19" rx="2.5"></rect><line x1="10" y1="18" x2="14" y2="18" stroke-linecap="round"></line></g></svg><span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 16px; color: #0B1A2E">Med spa software</span></div>
-<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px">
-<span style="display: flex; align-items: center; justify-content: center; min-height: 64px; padding: 0 14px; border-radius: 14px; background: #FFFFFF; border: 1.5px solid #D9DEE7"><svg role="img" aria-label="HintMD" viewBox="0 0 268 56" style="height:28px;width:auto;display:block"><g fill="none" stroke="#4B4560" stroke-width="4.5" stroke-linecap="square"><path d="M4 5 H40 M4 51 H40"/><path d="M9 5 L35 51 M35 5 L9 51"/></g><path d="M15 47 L22 36 L29 47 Z" fill="#4B4560"/><text x="52" y="46" font-family="Bricolage Grotesque, Hanken Grotesk, sans-serif" font-size="48" fill="#4B4560" letter-spacing="1.5"><tspan font-weight="800">HINT</tspan><tspan font-weight="500">MD</tspan></text></svg></span>
-<span style="display: flex; align-items: center; justify-content: center; min-height: 64px; padding: 0 14px; border-radius: 14px; background: #FFFFFF; border: 1.5px solid #D9DEE7"><img src="logos/growth99.png" alt="Growth99" style="height: 40px; width: auto; max-width: 100%; "></span>
+<p style="margin: 40px 0 16px; font-family: 'Hanken Grotesk', sans-serif; font-weight: 600; font-size: 12px; letter-spacing: 0.22em; text-transform: uppercase; color: #5B6577">Med spa software</p>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px">
+<span style="display: flex; align-items: center; justify-content: center; min-height: 72px; padding: 0 14px; border-radius: 18px; background: #FFFFFF; border: 1px solid rgba(11,26,46,.07)"><svg role="img" aria-label="HintMD" viewBox="0 0 268 56" style="height:28px;width:auto;display:block"><g fill="none" stroke="#4B4560" stroke-width="4.5" stroke-linecap="square"><path d="M4 5 H40 M4 51 H40"/><path d="M9 5 L35 51 M35 5 L9 51"/></g><path d="M15 47 L22 36 L29 47 Z" fill="#4B4560"/><text x="52" y="46" font-family="Bricolage Grotesque, Hanken Grotesk, sans-serif" font-size="48" fill="#4B4560" letter-spacing="1.5"><tspan font-weight="800">HINT</tspan><tspan font-weight="500">MD</tspan></text></svg></span>
+<span style="display: flex; align-items: center; justify-content: center; min-height: 72px; padding: 0 14px; border-radius: 18px; background: #FFFFFF; border: 1px solid rgba(11,26,46,.07)"><img src="logos/growth99.png" alt="Growth99" style="height: 40px; width: auto; max-width: 100%; "></span>
 </div>
-<p style="margin: 18px 0 0; font-size: 16px; color: #3D4A5C">We know how AI search works and how med spas actually run.</p>
+<p style="margin: 48px 0 0; font-family: 'Hanken Grotesk', sans-serif; font-size: 17px; line-height: 1.55; color: #4A5567">We know how AI search works and how med spas actually run.</p>
 </div>
 </section>
 
@@ -596,8 +603,8 @@ var secs=[].slice.call(document.querySelectorAll('section'));
 [].forEach.call(document.querySelectorAll("h1, section h2, section p[style*=Cormorant]"),function(h){var txt=h.textContent.replace(/\s+/g,' ').trim();var parts=txt.match(/[^.?!]+[.?!]+|[^.?!]+$/g)||[txt];if(parts.length<2)return;
  h.innerHTML='';parts.forEach(function(p){var sp=document.createElement('span');sp.className='ln'+(p.trim().split(' ').length<=3?' short':'');sp.textContent=p.trim();h.appendChild(sp)})});
 /* 6. The 180: each new section inverts the one before it */
-var LIGHT={'1':'#F4F1EA','2':'#FFFFFF','3':'#F4F1EA','4':'#FFFFFF','5':'#F4F1EA','6':'#FFFFFF','7':'#F4F1EA','8':'#FFFFFF'};
-var THEME=[1,0,1,0,1,0,1,0,0,1]; /* 1 = navy, 0 = light; final CTA stays navy */
+var LIGHT={'0':'#F2EFE9','1':'#F4F1EA','2':'#FFFFFF','3':'#F4F1EA','4':'#FFFFFF','5':'#F4F1EA','6':'#FFFFFF','7':'#F4F1EA','8':'#FFFFFF'};
+var THEME=[0,0,1,0,1,0,1,0,0,1]; /* 1 = navy, 0 = light; final CTA stays navy */
 var PRI=/#0B1A2E|#F4F1EA|#FFFFFF|#111|#1A202C|#0F172A/i, ACC=/#1F4FE0|#FF5A3C|#2F5BEA|#D63A1C/i;
 function inCard(el,sec){for(var p=el;p&&p!==sec;p=p.parentNode){var st=p.getAttribute&&p.getAttribute('style')||'';if(/background(-color)?:\s*(#|rgb|white)/i.test(st)&&p.tagName!=='SPAN'){if(/background(-color)?:\s*(#FFF\b|#FFFFFF|#F4F1EA|#F7F8FA|white)/i.test(st))p.setAttribute('data-card','');return p}}return null}
 var themed=[];
