@@ -1,4 +1,4 @@
-brave|lg-medshift|MedShift logo aesthetics
-brave|lg-genesis|Genesis Lifestyle Medicine logo
-brave|lg-rha|RHA Collection Revance logo
-brave|lg-endo|Endo Aesthetics logo
+brave|jh-face|Jasmine Hill Aesthetic Influencer
+brave|lg-aestinf|Aesthetic Influencer logo Jasmine Hill
+brave|lg-cynosure|Cynosure logo
+brave|lg-pierrefabre|Pierre Fabre logo
