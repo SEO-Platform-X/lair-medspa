@@ -1,102 +1,402 @@
 {
- "lg-daxxify|DAXXIFY logo": [
+ "lg-medshift|MedShift logo aesthetics": [
   {
    "murl": "https://cdn.search.brave.com/serp/v3/_app/immutable/assets/brave-logo-light.D0nx3pfh.svg",
    "t": "Brave logo",
    "w": 129,
    "purl": "https://search.brave.com/",
-   "file": "cand/lg-daxxify/0.svg"
+   "file": "cand/lg-medshift/0.svg"
   },
   {
    "murl": "https://cdn.search.brave.com/serp/v3/_app/immutable/assets/brave-logo-dark.5D16vJCY.svg",
    "t": "Brave logo",
    "w": 129,
    "purl": "https://search.brave.com/",
-   "file": "cand/lg-daxxify/1.svg"
+   "file": "cand/lg-medshift/1.svg"
   },
   {
-   "murl": "https://imgs.search.brave.com/Dy4xlA3G1-aH_sX8ps64vgLQ-vJZfi-GRUlBjwst-Ng/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9za2lu/Y2FyZXBoeXNpY2lh/bnNvZmdhLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyMi8x/Mi9Mb2dvX0RBWFhJ/RlktMzAweDE5Mi5q/cGc",
-   "t": "daxxify logo",
-   "w": 500,
+   "murl": "https://imgs.search.brave.com/LHCzEg3p44XjoVYIpXsU1AGeUiett_IZSouDuQZIQeo/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9tbWEu/cHJuZXdzd2lyZS5j/b20vbWVkaWEvMjc3/Nzc4Ny9NZWRTaGlm/dF9Mb2dvLmpwZz93/PTMwMA",
+   "t": "Velocity Lending Sees Rapid Growth & Adoption Across Top Aesthetic Manufacturers in First Year",
+   "w": 345,
    "purl": "",
-   "file": "cand/lg-daxxify/2.img"
+   "file": "cand/lg-medshift/2.img"
   },
   {
-   "murl": "https://imgs.search.brave.com/ZDVFnkC61fm_0QCdba10v1_b3TX4NYfDrvc9uRJPm8Y/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly93d3cu/ZGVybWxhc2Vyc3Vy/Z2VyeS5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMjQvMTAv/ZGF4eGlmeS1sb2dv/LndlYnA",
-   "t": "daxxify logo",
-   "w": 546,
-   "purl": "",
-   "file": "cand/lg-daxxify/3.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/HO7bhqntWRndj8HIPnJ1fij3wgPafPI18n6Bt6Fr9RA/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly93d3cu/c2Nod2VpZ2VyZGVy/bS5jb20vd3AtY29u/dGVudC91cGxvYWRz/LzIwMjMvMDUvREFY/WElGWS1Mb2dvX0Js/YWNrLXNtYWxsLmpw/Zw",
+   "murl": "https://imgs.search.brave.com/z54XCsVnpHSJ9_UyYk_qtkXoyopIh_2BHcQeh4uSlag/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9jZG4u/cHJvZC53ZWJzaXRl/LWZpbGVzLmNvbS82/NmUzMzYwODg2YmQ0/MzE2NDAxMDA1N2Iv/NjZlMzM2MDg4NmJk/NDMxNjQwMTAwNWRj/X01lZFNoaWZ0LUxv/Z28uc3Zn",
    "t": "",
-   "w": 458,
+   "w": 653,
    "purl": "",
-   "file": "cand/lg-daxxify/4.img"
+   "file": "cand/lg-medshift/3.img"
   },
   {
-   "murl": "https://imgs.search.brave.com/mc_HBOHK107Re6jMCnogovwDcAFJKY997eH8uKtY_JI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jb25j/aWVyZ2Vjb3NtZXRp/Y3NhbmRhZXN0aGV0/aWNzLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyMy8xMS9k/YXh4aWZ5LmpwZw",
-   "t": "Daxxify logo",
+   "murl": "https://imgs.search.brave.com/La5TDyDY7p1SIQnMvuuuTRL3DU8o68vfzV2IVWug0Kw/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5saWNkbi5jb20v/ZG1zL2ltYWdlL3Yy/L0Q0RTBCQVFHZmZm/aDBnWEgzeVEvY29t/cGFueS1sb2dvXzEw/MF8xMDAvY29tcGFu/eS1sb2dvXzEwMF8x/MDAvMC8xNzE5NTg2/Njk0OTUxL21lZHNo/aWZ0X2xvZ28_ZT0y/MTQ3NDgzNjQ3JnY9/YmV0YSZ0PUdvYmlw/cUpCQkE2UGdXU0lf/V3IwUFJlNXRyTG8t/eEtSRnQ0cFBZZVMw/bWM",
+   "t": "",
+   "w": 180,
+   "purl": "",
+   "file": "cand/lg-medshift/4.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/HjEX82iZhRN0JWI8LGxRRut3PWhoSyOMDeOpVeuNNyo/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdG9y/ZS5tZWRzaGlmdC5j/b20vY2RuL3Nob3Av/ZmlsZXMvQmVIZXJQ/b3dlcmVkQnlNZWRT/aGlmdC5wbmc_dj0x/NzM1MDU3Mjgz",
+   "t": "MedShift",
    "w": 500,
    "purl": "",
-   "file": "cand/lg-daxxify/5.img"
+   "file": "cand/lg-medshift/5.img"
   },
   {
-   "murl": "https://imgs.search.brave.com/4WDB6hFiyjNo1FDhWos_3Q3tCUbRaFsB-EW3D8mc53c/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tdXNp/Y2tkZXJtYXRvbG9n/eS5jb20vd3AtY29u/dGVudC91cGxvYWRz/LzIwMjMvMDYvREFY/WElGWS1FeGNsdXNp/dmUtUHJvdmlkZXIt/TG9nb19CbGFjay0x/LmpwZw",
-   "t": "DAXXIFY Swansea IL",
+   "murl": "https://imgs.search.brave.com/zco_gh0DW46EAV8fGzrHqP0DhHT66vyHiz6G8T6tnFU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdG9y/ZS5tZWRzaGlmdC5j/b20vY2RuL3Nob3Av/ZmlsZXMvMl80ZGZj/MTFlMi01NTUyLTQw/MjAtOGJjYS1jNDBh/MmJhMjk5ZDQucG5n/P3Y9MTczNTU5NDk3/Ng",
+   "t": "MedShift",
    "w": 500,
    "purl": "",
-   "file": "cand/lg-daxxify/6.img"
+   "file": "cand/lg-medshift/6.img"
   },
   {
-   "murl": "https://imgs.search.brave.com/iKr4UY3O1IRLXhu3UyG_DlqSx1zNG80gfIgBzPuHjd0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/ZHJhbGlzb25ibGFj/ay5jb20vd3AtY29u/dGVudC91cGxvYWRz/LzIwMjQvMDYvZGF4/eGlmeS1sb2dvLmpw/Zw",
-   "t": "daxxify logo",
+   "murl": "https://imgs.search.brave.com/aJWn9VOE0eh1WVPpgf2PFSi1YRCDo1P5DrpQ6ZfEtvw/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdG9y/YWdlLmdldGxhdGth/LmNvbS9pbWFnZXMv/bWVkc2hpZnQuY29t/LnBuZw",
+   "t": "MedShift logo",
    "w": 500,
    "purl": "",
-   "file": "cand/lg-daxxify/7.img"
+   "file": "cand/lg-medshift/7.img"
   },
   {
-   "murl": "https://imgs.search.brave.com/0DYE99ngW-B0e-TvWxiDCwFjUzyA3af6T93KtUWPh4A/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9oY3Au/ZGF4eGlmeWNlcnZp/Y2FsZHlzdG9uaWEu/Y29tL19hcHAvaW1t/dXRhYmxlL2Fzc2V0/cy9hY2Nlc3MtZGF4/eGlmeS1sb2dvLnFQ/eXRSc1JQLnBuZw",
-   "t": "Access Daxxify Logo",
-   "w": 578,
-   "purl": "",
-   "file": "cand/lg-daxxify/8.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/worzC8rf-JPo6SyNDCPLT_LbE-z2oOUeBmEjKpvwKVI/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly90aW1l/bGVzc3NraW5zb2x1/dGlvbnMuY29tL3N0/b3JhZ2UvcGljcy9U/U1MtcHJpbWFyeS1s/b2dvLXdoaXRlODk2/OS5zdmc",
-   "t": "logo for Timeless Skin Solutions",
-   "w": 636,
-   "purl": "",
-   "file": "cand/lg-daxxify/9.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/PnpolrFupiJdZ1XM5vU0Z9uA3KYzgQvUQV1ye0ETHKs/rs:fit:0:180:1:0/g:ce/aHR0cDovL2xlbm5v/eGFlc3RoZXRpY3Mu/Y29tL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDIzLzAzL0xvZ29f/TGVubm94X3doaXRl/LnBuZw",
-   "t": "Lennox Aesthetics",
-   "w": 719,
-   "purl": "",
-   "file": "cand/lg-daxxify/10.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/bXXAeIaFlHb54OdEQ2vQ_MQm82bDikABNp554N-xVxM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/dmlyZ2luaWFmYWNp/YWxwbGFzdGljc3Vy/Z2VyeS5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMjMvMDgv/YWFmcHJzLWxvZ28u/c3Zn",
-   "t": "aafprs-logo",
+   "murl": "https://imgs.search.brave.com/jX6tNx8a8jexoD_ywGNT2M8tDxCtdaH9gEomjiZUd30/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdG9y/ZS5tZWRzaGlmdC5j/b20vY2RuL3Nob3Av/ZmlsZXMvSW5ub3Zh/dGl2ZS1PcHRpY3Mu/cG5nP3Y9MTczMzQz/MTYyMw",
+   "t": "MedShift, Rx",
    "w": 500,
    "purl": "",
-   "file": "cand/lg-daxxify/11.img"
+   "file": "cand/lg-medshift/8.img"
   },
   {
-   "murl": "https://imgs.search.brave.com/xxwaBr6hNtmuYBGZ0Ym7zkuOlEF9s_S-3Rcle5yvkxM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/dmlyZ2luaWFmYWNp/YWxwbGFzdGljc3Vy/Z2VyeS5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMjMvMDgv/YXNwcy1sb2dvLnN2/Zw",
-   "t": "asps-logo",
+   "murl": "https://imgs.search.brave.com/QbqHGCB4Gtt_xK8-8ZfhGJPxfwc0r5g-t7jyrMlY8t8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdG9y/ZS5tZWRzaGlmdC5j/b20vY2RuL3Nob3Av/ZmlsZXMvMV9kNTIw/ODc1MC01NThlLTRi/ZjYtOTJjZS1mMDhk/NThiNTViYjEucG5n/P3Y9MTczNTU5NTkx/OQ",
+   "t": "MedShift",
    "w": 500,
    "purl": "",
-   "file": "cand/lg-daxxify/12.img"
+   "file": "cand/lg-medshift/9.img"
   },
   {
-   "murl": "https://imgs.search.brave.com/GseHQg3kUWx9G1eziM7QLiPfBFkC5YBYNh1CI2I9XGQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/cmV2YW5jZWFlc3Ro/ZXRpY3MuY29tL19h/cHAvaW1tdXRhYmxl/L2Fzc2V0cy9iaW9q/dXZlLWxvZ28uRDZ5/cGFqNVYucG5n",
-   "t": "BIOJUVE",
+   "murl": "https://imgs.search.brave.com/wL6tLVlS0x0k6lcDIBCVm7CdspSEw2z6yuIXJO4GvUk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdG9y/ZS5tZWRzaGlmdC5j/b20vY2RuL3Nob3Av/ZmlsZXMvRGVybWFT/Y3VscHQucG5nP3Y9/MTczMzQzMTYyMw",
+   "t": "MedShift, Rx",
    "w": 500,
    "purl": "",
-   "file": "cand/lg-daxxify/13.img"
+   "file": "cand/lg-medshift/10.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/ynlb_ak0e4jof1CtUjtqm9ZoLHoHSQfh9HWYXDhbn3w/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9hdHRl/bmRhaXMuY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDI1LzAz/L01lZHNoaWZ0LTIu/cG5n",
+   "t": "Medshift (2)",
+   "w": 540,
+   "purl": "",
+   "file": "cand/lg-medshift/11.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/1rQg72t6NKRRL78_XfPzbK7rufpZHvoLjxG6ynrBeeM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdG9y/ZS5tZWRzaGlmdC5j/b20vY2RuL3Nob3Av/ZmlsZXMvR0VfSGVh/bHRoY2FyZS5wbmc_/dj0xNzMzNDMxNjIz",
+   "t": "MedShift, Rx",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-medshift/12.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/MfTXGuUGBqMhxxrloeTqK2dLsq6vIoL4ta1uFN7mE-w/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdG9y/ZS5tZWRzaGlmdC5j/b20vY2RuL3Nob3Av/ZmlsZXMvR2x1dGF0/aGlvbmUtQm94Mi5w/bmc_dj0xNzQzNjQz/MzA2",
+   "t": "MedShift",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-medshift/13.img"
+  }
+ ],
+ "lg-genesis|Genesis Lifestyle Medicine logo": [
+  {
+   "murl": "https://cdn.search.brave.com/serp/v3/_app/immutable/assets/brave-logo-light.D0nx3pfh.svg",
+   "t": "Brave logo",
+   "w": 129,
+   "purl": "https://search.brave.com/",
+   "file": "cand/lg-genesis/0.svg"
+  },
+  {
+   "murl": "https://cdn.search.brave.com/serp/v3/_app/immutable/assets/brave-logo-dark.5D16vJCY.svg",
+   "t": "Brave logo",
+   "w": 129,
+   "purl": "https://search.brave.com/",
+   "file": "cand/lg-genesis/1.svg"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/Mv5w-spIySb11wJxRWkM2FxIqP57_IRHKRz5xMnCeR8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/ZGF0b2Ntcy1hc3Nl/dHMuY29tLzMwNjM5/LzE1OTU0NDA0MTUt/bG9nby1lbWJsZW1h/LnBuZz9hdXRvPWZv/cm1hdCxjb21wcmVz/cyZ3PTIyNw",
+   "t": "Genesis Lifestyle Medicine logo",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-genesis/2.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/sjEQ289WcdpPf9iD-tr3mQLB_LM2nbNFRNyK5IegiM0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/ZGF0b2Ntcy1hc3Nl/dHMuY29tLzE2MDY0/OC8xNzU1NzIxMTgy/LTExLWxvZ28tbWFy/ay0xLnN2Zw",
+   "t": "Genesis Lifestyle Medicine logo",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-genesis/3.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/K5-iHBqtyVSvUKT44gwcCGyEcRMPhRkO6MBpYklLX3s/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/ZGF0b2Ntcy1hc3Nl/dHMuY29tLzMwNjM5/LzE3Njg1OTM2NTUt/bG9nby1mb2xkLTJh/LnBuZz9hdXRvPWZv/cm1hdCxjb21wcmVz/cyZ3PTMwMA",
+   "t": "Genesis Lifestyle Medicine Logo",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-genesis/4.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/hxyeNZSkC7xNC9LSw20Lsj9hLdbbIfg18wMKZF4pdd0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/ZGF0b2Ntcy1hc3Nl/dHMuY29tLzE2MDY0/OC8xNzU1NzIxMTgy/LTEwLWxvZ28tMy5z/dmc",
+   "t": "Genesis Lifestyle Medicine logo",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-genesis/5.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/ysoE8hoBJ_lCg30X4NNjl4delvHEGhaAdhmd10D4KbI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/ZGF0b2Ntcy1hc3Nl/dHMuY29tLzE2MDY0/OC8xNzU1NzIxMTgy/LTEyLWxvZ28tbWFy/ay0yLnN2Zw",
+   "t": "Genesis Lifestyle Medicine logo",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-genesis/6.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/XKcwSkt-bkj1GooMDSykAxgtvHEYGv69Ns1UYEXuB20/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/ZGF0b2Ntcy1hc3Nl/dHMuY29tLzE2MDY0/OC8xNzU1NzIxMTgy/LTgtbG9nby0xLnN2/Zw",
+   "t": "Genesis Lifestyle Medicine logo",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-genesis/7.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/XGS8t7vTgS7qwQYbzTjn6p-0fPZHj-XXzVzZTGkIBPI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly8xMnBv/aW50c2lnbndvcmtz/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyNC8xMS8xMlBv/aW50LUdlbmVzaXMt/TG9nby1MZXR0ZXJp/bmcucG5n",
+   "t": "genesis logo vinyl lettering on an interior office wall",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-genesis/8.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/4EPfq6bRXkOj18gZvClvnUEvsEg_pPsZQixke6BKuOw/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/Z2hpbnN0aXR1dGUu/Y29tL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDI2LzAxL2dlbmVz/aXNfbG9nb193aGl0/ZV8yeC5wbmc",
+   "t": "",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-genesis/9.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/yNuLYE03UcoQ1DdWhQjCgUAoCXG-6Fy_s9PUVXCDYoU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly8xMnBv/aW50c2lnbndvcmtz/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyNC8xMS8xMlBv/aW50LUdlbmVzaXMt/TG9nby1EZXNrLnBu/Zw",
+   "t": "genesis logo on receptionist's welcome desk",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-genesis/10.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/iJq9cE_q0Ooz7rKqfS4hlLO16SZL9WQWqRKyfgE8vxM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly8xMnBv/aW50c2lnbndvcmtz/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyNS8wMi8xMlBv/aW50LWFjcnlsaWMt/c2lnbi1nZW5lc2lz/LWdyb3VwLW1haW4u/cG5n",
+   "t": "Acrylic Logo Sign for The Genesis Group",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-genesis/11.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/dXM0J1-Jl3JevMVjEOJhSFnR57IRolTtdprGRMNg5yE/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9nZW5l/c2lzbGlmZXN0eWxl/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyNS8wNy9HZW5l/c2lzLWxvZ28tMTAy/NHgyNDAucG5n",
+   "t": "",
+   "w": 768,
+   "purl": "",
+   "file": "cand/lg-genesis/12.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/eWfzcVCNsA1EOQv1fb7gfoI90t2sxbFLMIaimUFpMVM/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly93d3cu/ZGF0b2Ntcy1hc3Nl/dHMuY29tLzMwNjM5/LzE1OTU0NDAxNDAt/bG9nby1mb2xkLnBu/Zz9hdXRvPWZvcm1h/dCxjb21wcmVzcyZ3/PTExNzg",
+   "t": "Logo media",
+   "w": 930,
+   "purl": "",
+   "file": "cand/lg-genesis/13.img"
+  }
+ ],
+ "lg-rha|RHA Collection Revance logo": [
+  {
+   "murl": "https://cdn.search.brave.com/serp/v3/_app/immutable/assets/brave-logo-light.D0nx3pfh.svg",
+   "t": "Brave logo",
+   "w": 129,
+   "purl": "https://search.brave.com/",
+   "file": "cand/lg-rha/0.svg"
+  },
+  {
+   "murl": "https://cdn.search.brave.com/serp/v3/_app/immutable/assets/brave-logo-dark.5D16vJCY.svg",
+   "t": "Brave logo",
+   "w": 129,
+   "purl": "https://search.brave.com/",
+   "file": "cand/lg-rha/1.svg"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/2I1kNX4Heos6THAkGZTUOlqS6jDk5viyaQ98CZJIJkc/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vY3ludGhp/YWdyZWdnbWQuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIw/LzExL3JldmFuY2Vf/cmhhX2xvZ28ucG5n/P3Jlc2l6ZT0yNTAs/MTIyJnNzbD0x",
+   "t": "",
+   "w": 369,
+   "purl": "",
+   "file": "cand/lg-rha/2.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/8yhJhM74PgsB_33sRjA2I_CQaTSojR27CdafCOkdq1g/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9pbm5l/cmltYWdlLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyMC8x/MS9SSEEtTG9nby5w/bmc",
+   "t": "",
+   "w": 576,
+   "purl": "",
+   "file": "cand/lg-rha/3.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/xFtZiYMKi36LVy2zxRRGRoKN2AfChGDP_sF0xGSikZ8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9henVy/YXNraW4uY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDIxLzAz/L1JldmFuY2UtUkhB/JUMyJUFFLUNvbGxl/Y3Rpb24tYXQtQXp1/cmEtU2tpbi1DYXJl/LUNlbnRlci0zLmpw/Zw",
+   "t": "Revance RHA\u00ae Collection at Azura Skin Care Center",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-rha/4.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/6JqzANDQPaD_SStu49CKXvcmJLMvrmiLMOrk8YxF3_g/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/YXVkdWJvbmRlcm1h/dG9sb2d5LmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyMS8w/OC9BdWR1Ym9uLWxv/Z29fMDcxMy5wbmc",
+   "t": "Audubon Dermatology Logo",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-rha/5.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/WrG4FgYZdxz3YvcMsN3MWizhh8DsuSOtr3Sfjyz4Ta4/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdG9y/ZS1jZG4tbWVkaWEu/ZGVybXByby5jb20v/bG9nby9zdG9yZXMv/NjQvMTc3MzE3NzMz/NDM2OS1yZXZpdmVt/ZWRpY2Fsc3BhLXN0/b3JlLWxvZ28ucG5n",
+   "t": "Revive Medical Spa, LLC",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-rha/6.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/IHF-RDCek592yeTOxX9KS3ziXrCmo_3X5pwAW72RGqM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hbXNw/YS5ueWMzLmRpZ2l0/YWxvY2VhbnNwYWNl/cy5jb20vaW1hZ2Vz/L2Ftc3BhLWNyb3du/LWFlc3RoZXRpY3Mt/bG9nby0yMDI0Lmpw/Zw",
+   "t": "Crown Aesthetics: Skin Science for Life",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-rha/7.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/TzRsqzaVCaRoJsmB58HNA5K3vMtvDEvSWVVKMqsLpgw/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly93d3cu/Ym95bnRvbnBsYXN0/aWNzdXJnZXJ5LmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/Mi8xMC9SSEEtQ29s/bGVjdGlvbi1Mb2dv/LnBuZw",
+   "t": "",
+   "w": 587,
+   "purl": "",
+   "file": "cand/lg-rha/8.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/imtxLmZPqOVwJINiB9w9AAmKdYcCP1Q-FqlkC0-f3ms/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly93ZXN0/Y291bnR5cGxhc3Rp/Y3N1cmdlb25zLnd1/c3RsLmVkdS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyNi8wMy9s/b2dvMi5wbmc",
+   "t": "West County Plastic Surgeons of WashU Medicine",
+   "w": 718,
+   "purl": "",
+   "file": "cand/lg-rha/9.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/46KDiUy8VVhYhGjygijP1Q_wsIq1rqeOXlDjpeZh2Fc/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly93d3cu/Z290b3JhZGlhbmNl/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMy8wNC9SZXZh/bmNlOC0zMDB4OTIu/cG5n",
+   "t": "",
+   "w": 587,
+   "purl": "",
+   "file": "cand/lg-rha/10.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/DxzsQwnwkpxi5TMJM92yyBzODQ0182x1f5kCApDaHKw/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc3F1YXJlc3Bh/Y2UtY2RuLmNvbS9j/b250ZW50L3YxLzU1/YTU3YjAzZTRiMGJi/OWMzYTJjMWZkMi8x/NjA1MjkxMTIyMDk5/LTlRUVU0TUZOSDAw/R1lKVDZNNkZOL1JI/QStDb2xsZWN0aW9u/K29mK0ZpbGxlcnMr/bm93K29mZmVyZWQr/YnkrRHIuK0phY2sr/WmFtb3Jh",
+   "t": "TNS ADVANCED+ SERUM IN DENVER",
+   "w": 504,
+   "purl": "",
+   "file": "cand/lg-rha/11.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/zRVBIvh14_57W_fym5zqcixWwgcJ8Ji84MtuRjQIYUg/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9pbWcu/bWVkZXN0aGV0aWNz/bWFnLmNvbS9maWxl/cy9iYXNlL2FsbHVy/ZWQvYWxsL2ltYWdl/LzIwMjAvMDgvUmV2/YW5jZUxvZ28uNWY0/OTU2MjRjMWVhNC5w/bmc_YXV0bz1mb3Jt/YXQsY29tcHJlc3Mm/Zml0PW1heCZxPTcw/Jnc9NDAw",
+   "t": "Revance Logo",
+   "w": 667,
+   "purl": "",
+   "file": "cand/lg-rha/12.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/UwgRy5XAAxjz8Bgyz1SOA6_02xPUc-8CqIYywyxcESc/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/cmVzdG9ybWVkaWNh/bHNwYS5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMjQvMTAv/MTY1MTUyNzg3NC1z/b2xpZC1waW5rLXIt/bG9nby5wbmc",
+   "t": "",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-rha/13.img"
+  }
+ ],
+ "lg-endo|Endo Aesthetics logo": [
+  {
+   "murl": "https://cdn.search.brave.com/serp/v3/_app/immutable/assets/brave-logo-light.D0nx3pfh.svg",
+   "t": "Brave logo",
+   "w": 129,
+   "purl": "https://search.brave.com/",
+   "file": "cand/lg-endo/0.svg"
+  },
+  {
+   "murl": "https://cdn.search.brave.com/serp/v3/_app/immutable/assets/brave-logo-dark.5D16vJCY.svg",
+   "t": "Brave logo",
+   "w": 129,
+   "purl": "https://search.brave.com/",
+   "file": "cand/lg-endo/1.svg"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/IQVAgmg6Rp-gLYjAsZGxtzDFcCK_7g15c0GFyGajpFE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hbXNw/YS5ueWMzLmRpZ2l0/YWxvY2VhbnNwYWNl/cy5jb20vaW1hZ2Vz/L2Ftc3BhLWVuZG8t/YWVzdGhldGljcy1s/b2dvLmpwZw",
+   "t": "Endo Aesthetics",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-endo/2.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/P9qP22jOZVJExxPE9Fg92e4_c4UMEJPqqTe35RFglzU/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9hdHRl/bmRhaXMuY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE5LzA0/L0VuZG8tQWVzdGhl/dGljcy0yMDE5LTMw/MHgxMjAuanBn",
+   "t": "Endo Aesthetics",
+   "w": 450,
+   "purl": "",
+   "file": "cand/lg-endo/3.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/nn5cqW_skTlLiPbgcU9xGa-dM3NotX1XaF1fp9yGmdE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9sb2dv/LmNvbS9pbWFnZS1j/ZG4vaW1hZ2VzL2t0/czkyOHBkL3Byb2R1/Y3Rpb24vMjhiMTc3/ZTIwMmViMmViY2Nj/NTdlOWJmNzVmOGE3/NTU2OTkzZTAzNi03/MzF4NzMxLnBuZz93/PTEwODAmcT03MiZm/bT13ZWJw",
+   "t": "Aesthetics",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-endo/4.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/b9yaJoSHrJILEN9PfqE0v49FIB3a3liRFUuXGlauguo/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9sb2dv/LmNvbS9pbWFnZS1j/ZG4vaW1hZ2VzL2t0/czkyOHBkL3Byb2R1/Y3Rpb24vMGIxYzli/MGZmN2ZjNWU0ZWNl/YzM4MmNlMGE3Mjdi/Y2ExMDJkOTg3Yy03/MzF4NzMxLnBuZz93/PTEwODAmcT03MiZm/bT13ZWJw",
+   "t": "Aesthetics",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-endo/5.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/XTgbIG6cklTDIsnocnmN8n4iY9uWrldJCmIVmfFkkzI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9sb2dv/LmNvbS9pbWFnZS1j/ZG4vaW1hZ2VzL2t0/czkyOHBkL3Byb2R1/Y3Rpb24vYjQ3Zjcw/NDdkZjA1OGIzYTlm/OTRjOGRjMzRjMmMz/MWI2MGQxNmE3Zi03/MzF4NzMxLnBuZz93/PTEwODAmcT03MiZm/bT13ZWJw",
+   "t": "Aesthetics",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-endo/6.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/N_D0xpArBmLzgvbkew0wHbrXvfwWb2B12hHHxGKb2nU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9sb2dv/LmNvbS9pbWFnZS1j/ZG4vaW1hZ2VzL2t0/czkyOHBkL3Byb2R1/Y3Rpb24vZTViMDUw/ZTk3ZDUxNTExMzFj/MzNiNzMxYzllNGQ2/ODliODEwMTBkNi03/MzF4NzMxLnBuZz93/PTEwODAmcT03MiZm/bT13ZWJw",
+   "t": "Aesthetics",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-endo/7.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/gMqhtBZASAyubU8Kfmel9bIo-2Io9SJIjDo4YrSPaY8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9sb2dv/LmNvbS9pbWFnZS1j/ZG4vaW1hZ2VzL2t0/czkyOHBkL3Byb2R1/Y3Rpb24vNjk0YzM4/MDg3NmI1N2FhNGFm/NDJiMjA1NmM3OWZl/OTIyNTAyZGQ2Ny03/MzF4NzMxLnBuZz93/PTEwODAmcT03MiZm/bT13ZWJw",
+   "t": "Aesthetics",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-endo/8.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/ReIcDgpIi-7IeHytBNwRgFZymjrgTRePnIVo4ZH8n9s/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9sb2dv/LmNvbS9pbWFnZS1j/ZG4vaW1hZ2VzL2t0/czkyOHBkL3Byb2R1/Y3Rpb24vODIyOWVh/NWVhNGY0ZjVmNTcz/ZDNjNmZkYmMzNzBi/NWQxZGJlMGU4MC03/MzF4NzMxLnBuZz93/PTEwODAmcT03MiZm/bT13ZWJw",
+   "t": "Aesthetics",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-endo/9.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/JN895Xw5CetdijB0-_epUjW4GE4Ahu4tzq2OCKp78U4/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9lbmRv/c3BoZXJlYTE5MWE2/ODUyMS5ibG9iLmNv/cmUud2luZG93cy5u/ZXQvYmxvYmVuZG9z/cGhlcmVhMTkxYTY4/NTIxLzIwMjMvMDYv/bWFyaWVjbGFpcmUu/cG5n",
+   "t": "",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-endo/10.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/1xZPTr9JeRNdreQ0usGchWS4DF-gwH62ss3MEmAUAJU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/ZW5kb2xpZnR4LmNv/bS9hcHAvdGhlbWVz/L2VmZXN0by1zdGFy/dGVyLXRoZW1lL3N0/YXRpYy9pbWFnZXMv/aW1hZ2UtZm9ybS5q/cGc",
+   "t": "image-form",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-endo/11.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/gg6qL2DIvdsTbMnft9g12LO2J5UFqDCM2Vv5sXcW8AI/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9hbXNw/YS5ueWMzLmRpZ2l0/YWxvY2VhbnNwYWNl/cy5jb20vaW1hZ2Vz/L05leHRlY2gtQmFu/bmVyLUFkLTEyLjEu/MjUtMTIuMzEuMjUu/anBn",
+   "t": "",
+   "w": 1224,
+   "purl": "",
+   "file": "cand/lg-endo/12.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/F-8gsvRLPwTIgyKcqzhMBYwqt5A4Zf3V5beT2u4ADho/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzg3Lzky/L2U1Lzg3OTJlNTQw/MmU2MGMxMDZjZjQw/MzBmNWFkMjg2NTJl/LmpwZw",
+   "t": "the word fondly is written in blue on a light pink background with an orange circle",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-endo/13.img"
   }
  ]
 }
