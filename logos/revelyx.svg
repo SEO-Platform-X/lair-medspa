@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="70 52 1420 266"><g fill="none" stroke="#2E2620" stroke-width="19" stroke-linecap="round" stroke-linejoin="round">
+<path d="M97 185V84q0-12 12-12h131c40 0 60 30 60 58c0 30-24 53-57 53h-20l62 96q10 16 30 16h205"/>
+<path d="M330 72h148q32 0 44 28l90 200q6 12 13 0l80-190q17-38 55-38h140"/>
+<path d="M330 183h122"/>
+<path d="M848 183H740q-12 0-12 12v88q0 12 12 12h170"/>
+<path d="M955 72v211q0 12 12 12h118q22 0 35-18l150-182q10-12 20 0l175 200"/>
+<path d="M1095 72l90 98"/>
+<path d="M1465 72l-180 223"/>
+</g>
+<text x="82" y="303" textLength="98" lengthAdjust="spacingAndGlyphs" font-family="Hanken Grotesk, Arial, sans-serif" font-weight="500" font-size="74" fill="#2E2620">BIO</text>
+</svg>
