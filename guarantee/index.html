@@ -55,6 +55,20 @@ ol.clauses p{font-size:15.5px;line-height:1.6;color:#2A3646;margin:0}
 .req .note{font-size:13px;color:#A9B3C4;margin:12px 0 0}
 .req .ok{display:none;margin-top:16px;padding:12px 14px;border-radius:12px;background:rgba(31,79,224,.25);color:#F2EFE9;font-size:15px}
 .err{color:#FF8A75;font-size:13px;margin-top:6px;display:none}
+.heroseal{width:112px;margin:36px 0 -24px}
+.sheet{background:#FFFFFF;background-image:radial-gradient(rgba(31,79,224,.035) 1px,transparent 1px);background-size:9px 9px}
+.sheet:before{inset:7px;border:1px solid rgba(31,79,224,.25)}
+.sheet:after{content:"";position:absolute;inset:12px;border:1px solid rgba(31,79,224,.12);pointer-events:none}
+.sheetseal{position:absolute;top:22px;right:18px;width:74px;opacity:.95}
+.doc-title,.doc-meta{padding-right:84px}
+.glance{background:#F4F6FD;border:1px solid rgba(31,79,224,.18);border-radius:12px;padding:16px 16px 6px;margin:0 0 24px}
+.glance-t{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:15px;margin:0 0 8px;color:#1F4FE0}
+.glance ul{list-style:none;margin:0;padding:0}
+.glance li{display:flex;gap:10px;align-items:flex-start;font-size:15px;line-height:1.45;padding:7px 0;border-top:1px solid rgba(31,79,224,.1)}
+.glance li:first-child{border-top:0}
+.glance li svg{flex:0 0 18px;margin-top:2px}
+.sig .line{position:relative}
+.stamp{display:inline-block;margin-top:10px;transform:rotate(-4deg);border:2px solid #1F4FE0;color:#1F4FE0;border-radius:6px;padding:3px 8px;font:700 10px 'Bricolage Grotesque',sans-serif;letter-spacing:.06em;text-transform:uppercase;opacity:.85;background:rgba(255,255,255,.7)}
 footer{padding:36px 0 48px;font-size:13px;color:var(--mute)}
 @media (min-width:760px){h1{font-size:64px}h2{font-size:42px}}
 </style>
@@ -67,14 +81,24 @@ footer{padding:36px 0 48px;font-size:13px;color:var(--mute)}
 </header>
 
 <section style="padding-top:0">
-<h1>Not named by AI in 90 days? You stop paying.</h1>
-<p class="lede">No long contracts. This page is our promise, in plain English. Want it on paper? Get a signed copy at the bottom.</p>
+<div class="heroseal"><svg class="story" viewBox="0 0 120 120" width="100%" role="img" aria-label="Seal: Local AI Registry AI visibility guarantee, 90 days" style="display:block;overflow:visible">
+<defs><path id="ringh" d="M60 60 m-44 0 a44 44 0 1 1 88 0 a44 44 0 1 1 -88 0"/></defs>
+<g fill="none" stroke="#1F4FE0" stroke-linecap="round">
+<circle data-d="0,0.4" cx="60" cy="60" r="56" stroke-width="1.6"/>
+<circle data-d="0,0.4" cx="60" cy="60" r="52" stroke-width="0.8" stroke-dasharray="1.5 3"/>
+<circle data-d="0,0.4" cx="60" cy="60" r="34" stroke-width="1.6"/></g>
+<g data-o="0.3,0.5"><text font-family="Bricolage Grotesque, sans-serif" font-size="8.6" font-weight="700" letter-spacing="1.6" fill="#1F4FE0"><textPath href="#ringh" startOffset="0">LOCAL AI REGISTRY • AI VISIBILITY GUARANTEE •</textPath></text></g>
+<g data-m="0.5,0.7,0,0,0,0,-14,0,1.25,1"><path d="M60 36 L79 70 L67 70 L60 58 L53 70 L41 70 Z" fill="#1F4FE0"/><path d="M60 36 L65 45 L55 45 Z" fill="#FF5A3C"/>
+<text x="60" y="84" text-anchor="middle" font-family="Bricolage Grotesque, sans-serif" font-size="8.5" font-weight="700" letter-spacing="1.2" fill="#0B1A2E">90 DAYS</text></g>
+</svg></div>
+<h1>Not named by AI in 90 days? We work for free until you are.</h1>
+<p class="lede">No long contracts. This page is our promise, written to protect you, not us. Want it on paper? Get a signed copy at the bottom.</p>
 <div class="art"><svg class="story" fill="none" stroke="#0B1A2E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:block;width:100%;height:auto;overflow:visible" viewBox="0 -10 340 150" role="img" aria-label="A 90 day calendar, then AI names your med spa">
 <g data-d="0,0.3"><rect x="20" y="16" width="124" height="112" rx="12"/><path d="M20 42 H144"/><path d="M50 6 V22 M114 6 V22"/></g>
 <g data-d="0.1,0.3" stroke-width="1.3"><path d="M36 58 h7 M56 58 h7 M76 58 h7 M96 58 h7 M116 58 h7"/></g>
 <text data-o="0.22,0.34" x="82" y="100" text-anchor="middle" font-family="Bricolage Grotesque, Hanken Grotesk, sans-serif" font-size="38" font-weight="700" fill="#0B1A2E" stroke="none">90</text>
 <text data-o="0.26,0.36" x="82" y="120" text-anchor="middle" font-family="Hanken Grotesk, sans-serif" font-size="10" font-weight="600" fill="#5B6577" stroke="none">days</text>
-<path data-d="0.38,0.52" stroke="#FF5A3C" stroke-width="2.4" d="M68 66 C88 60 114 68 114 86 C114 104 96 110 81 109 C61 108 49 97 50 84 C51 71 66 64 83 63"/>
+<path data-d="0.38,0.54" stroke="#FF5A3C" stroke-width="2.4" d="M60 74 C72 62 108 60 115 81 C121 100 101 113 80 112 C58 111 45 99 48 84 C51 69 69 63 90 64 C100 65 107 69 111 75"/>
 <path data-d="0.52,0.62" stroke="#1F4FE0" stroke-width="1.6" stroke-dasharray="3 5" d="M150 72 C162 72 166 68 176 68"/>
 <g data-m="0.56,0.76,30,0,0,0,0,0,0.9,1" data-o="0.56,0.66">
 <path d="M182 36 h120 a12 12 0 0 1 12 12 v38 a12 12 0 0 1 -12 12 h-90 l-14 13 v-13 h-16 a12 12 0 0 1 -12 -12 v-38 a12 12 0 0 1 12 -12 z" fill="#FFFFFF"/>
@@ -119,7 +143,7 @@ footer{padding:36px 0 48px;font-size:13px;color:var(--mute)}
 <g data-o="0.66,0.76"><circle cx="58" cy="76" r="26" fill="#EEF2FD" stroke="#1F4FE0" stroke-width="1.6"/><path stroke="#1F4FE0" stroke-width="2.4" d="M48 66 l6 -6 l6 6 M54 60 v24 M66 86 l-6 6 l-6 -6"/></g>
 <text data-o="0.72,0.8" x="58" y="122" text-anchor="middle" font-family="Hanken Grotesk, sans-serif" font-size="10" font-weight="600" fill="#5B6577" stroke="none">we keep working</text>
 <path data-d="0.84,0.95" stroke="#FF5A3C" d="M296 56 l8 -6 M300 72 h10 M296 118 l8 6"/>
-</svg></div><h3>Named, or you stop paying</h3><p>If AI isn't naming you by day 90, your billing stops and we keep working until it does. You'll see the screenshot before billing starts again.</p></div>
+</svg></div><h3>Not named yet? We work for free</h3><p>If AI isn't naming you by day 90, your billing stops and we keep working until it does. You'll see the screenshot before billing starts again.</p></div>
 </section>
 
 <section>
@@ -144,15 +168,43 @@ footer{padding:36px 0 48px;font-size:13px;color:var(--mute)}
 <p class="small">The typical shape, not a promise of exact numbers.</p>
 </section>
 
+<section>
+<h2>What a met guarantee looks like</h2>
+<p>Every month you get a Proof Report: real screenshots of what AI says when patients ask about the treatments on your record. The day AI names you, the report says so.</p>
+<div class="art"><svg class="story" fill="none" stroke="#0B1A2E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:block;width:100%;height:auto;overflow:visible" viewBox="0 0 320 210" role="img" aria-label="Sample Proof Report: on day 74, ChatGPT names the practice for Botox in Irvine, and the guarantee is marked met">
+<g data-d="0,0.25"><rect x="34" y="8" width="252" height="196" rx="8" fill="#FFFFFF"/><path d="M34 40 H286"/></g>
+<g data-o="0.15,0.25" font-family="Hanken Grotesk, sans-serif" stroke="none"><text x="48" y="28" font-size="11" font-weight="700" fill="#0B1A2E">Proof Report</text><text x="272" y="28" text-anchor="end" font-size="9.5" fill="#5B6577">Day 74</text></g>
+<g data-o="0.22,0.32" font-family="Hanken Grotesk, sans-serif" stroke="none"><text x="48" y="58" font-size="9" font-weight="600" fill="#5B6577">ChatGPT, tested from Irvine, CA</text></g>
+<g data-d="0.28,0.42"><rect x="48" y="66" width="224" height="78" rx="10" fill="#0F1A2B" stroke="#0F1A2B"/></g>
+<g data-o="0.38,0.48" font-family="Hanken Grotesk, sans-serif" stroke="none"><rect x="128" y="74" width="136" height="20" rx="8" fill="#2A3446"/><text x="196" y="88" text-anchor="middle" font-size="9" fill="#F2EFE9">Where should I get Botox?</text></g>
+<g data-o="0.46,0.56" font-family="Hanken Grotesk, sans-serif" stroke="none"><text x="58" y="112" font-size="9" fill="#A9B3C4">My top pick is</text><text x="58" y="130" font-size="12" font-weight="700" fill="#FFFFFF">Coastal Dermatology</text></g>
+<path data-d="0.54,0.66" stroke="#FF5A3C" stroke-width="2" d="M54 136 C90 140 140 139 178 134"/>
+<g data-o="0.6,0.7"><rect x="48" y="154" width="70" height="8" rx="4" fill="#EEF2FD" stroke="none"/><rect x="48" y="170" width="110" height="8" rx="4" fill="#EEF2FD" stroke="none"/><rect x="48" y="186" width="90" height="8" rx="4" fill="#EEF2FD" stroke="none"/></g>
+<g data-m="0.66,0.82,0,-20,0,0,-30,-12,1.8,1" data-o="0.66,0.74"><g transform="translate(222 172)"><circle r="30" fill="#FFFFFF" stroke="#1F4FE0" stroke-width="2.4"/><circle r="25" stroke="#1F4FE0" stroke-width="1" stroke-dasharray="1.5 3"/>
+<text y="-4" text-anchor="middle" font-family="Bricolage Grotesque, sans-serif" font-size="6.6" font-weight="700" letter-spacing=".6" fill="#1F4FE0" stroke="none">GUARANTEE</text><text y="9" text-anchor="middle" font-family="Bricolage Grotesque, sans-serif" font-size="11" font-weight="700" letter-spacing="1" fill="#1F4FE0" stroke="none">MET</text></g></g>
+</svg></div>
+<p class="small">Sample report. Your reports use your practice, your treatments and your city.</p>
+</section>
 <section class="agree" id="agreement">
 <h2>The agreement</h2>
-<p>This is the whole thing. Read it once and you know exactly where you stand.</p>
+<p>This is the whole thing. It’s written to protect you, and it’s the same for every practice on our top plan.</p>
 <div class="sheet" id="sheet">
 <p class="doc-title">AI Visibility Guarantee and Service Terms</p>
-<p class="doc-meta">Local AI Registry. Version 1.0, effective October 10, 2026.</p>
-<ol class="clauses"><li class="clause"><h3>What this is</h3><p>We don’t lock practices into long contracts. This page is our agreement with you, written in plain English on purpose. There is no separate contract and no fine print anywhere else. If you want a signed copy for your records, request one at the bottom of this page.</p></li><li class="clause"><h3>Who it covers</h3><p>This guarantee applies to practices on our top plan, the one where we also work on your website. It doesn’t apply to free listings or to our other plans.</p></li><li class="clause"><h3>Our promise</h3><p>If AI isn’t naming your practice 90 days after the clock starts, we stop billing you and keep working until it does. Billing resumes the month after you’re named, and you’ll see the proof first.</p></li><li class="clause"><h3>When the clock starts</h3><p>The 90 days start on the later of two dates: the day onboarding is complete, meaning we have access to your Google profile and website and you’ve confirmed your facts, or the last day you edited your registry record. Changing your record restarts the clock, because AI has to learn the new facts.</p></li><li class="clause"><h3>What counts as being named</h3><p>Your practice is named in an answer from ChatGPT, Google Gemini, Perplexity or Google AI Overviews when asked where to get one of the treatments or services listed on your registry record, in your city. We test in a fresh session from your area and share the screenshot in your monthly Proof Report.</p></li><li class="clause"><h3>What we do every month</h3><p>We keep your facts in sync across Google, Apple Maps, Yelp and the directories AI reads. We answer new reviews, publish posts and articles about your treatments, and keep your website readable by AI. Nothing goes live without your approval.</p></li><li class="clause"><h3>What we need from you</h3><p>You review our drafts within 3 business days. You keep our access to your Google profile and website. Your account stays current, and your Google profile stays in good standing.</p></li><li class="clause"><h3>Billing and cancelling</h3><p>Billing is month to month. You can cancel any time, with no cancellation fee. You keep everything we made for you, and it stays in your name.</p></li><li class="clause"><h3>Limits</h3><p>AI tools are owned and run by other companies, and their answers can vary by person, place and time. We can’t control them, so this guarantee is limited to what’s written here: we stop billing and keep working. It doesn’t cover refunds of past payments.</p></li><li class="clause"><h3>Changes to these terms</h3><p>If we ever change these terms, we’ll tell you at least 30 days before. The version in your signed copy applies until you agree to a new one.</p></li></ol>
+<p class="doc-meta">Local AI Registry. Agreement no. LAIR-G-1.0. Effective October 10, 2026.</p>
+<div class="sheetseal"><svg viewBox="0 0 120 120" width="100%" role="img" aria-label="Seal: Local AI Registry AI visibility guarantee, 90 days" style="display:block;overflow:visible">
+<defs><path id="rings" d="M60 60 m-44 0 a44 44 0 1 1 88 0 a44 44 0 1 1 -88 0"/></defs>
+<g fill="none" stroke="#1F4FE0" stroke-linecap="round">
+<circle cx="60" cy="60" r="56" stroke-width="1.6"/>
+<circle cx="60" cy="60" r="52" stroke-width="0.8" stroke-dasharray="1.5 3"/>
+<circle cx="60" cy="60" r="34" stroke-width="1.6"/></g>
+<g><text font-family="Bricolage Grotesque, sans-serif" font-size="8.6" font-weight="700" letter-spacing="1.6" fill="#1F4FE0"><textPath href="#rings" startOffset="0">LOCAL AI REGISTRY • AI VISIBILITY GUARANTEE •</textPath></text></g>
+<g><path d="M60 36 L79 70 L67 70 L60 58 L53 70 L41 70 Z" fill="#1F4FE0"/><path d="M60 36 L65 45 L55 45 Z" fill="#FF5A3C"/>
+<text x="60" y="84" text-anchor="middle" font-family="Bricolage Grotesque, sans-serif" font-size="8.5" font-weight="700" letter-spacing="1.2" fill="#0B1A2E">90 DAYS</text></g>
+</svg></div>
+<div class="glance"><p class="glance-t">Your protections at a glance</p><ul><li><svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M9 1.5 L15.5 4 V8.5 C15.5 12.5 12.7 15.2 9 16.5 C5.3 15.2 2.5 12.5 2.5 8.5 V4 Z" fill="#EEF2FD" stroke="#1F4FE0" stroke-width="1.4"/><path d="M6 9 L8.2 11.2 L12.2 6.8" fill="none" stroke="#1F4FE0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Cancel any time. No fees, no notice period.</li><li><svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M9 1.5 L15.5 4 V8.5 C15.5 12.5 12.7 15.2 9 16.5 C5.3 15.2 2.5 12.5 2.5 8.5 V4 Z" fill="#EEF2FD" stroke="#1F4FE0" stroke-width="1.4"/><path d="M6 9 L8.2 11.2 L12.2 6.8" fill="none" stroke="#1F4FE0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Not named in 90 days? We work for free until you are.</li><li><svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M9 1.5 L15.5 4 V8.5 C15.5 12.5 12.7 15.2 9 16.5 C5.3 15.2 2.5 12.5 2.5 8.5 V4 Z" fill="#EEF2FD" stroke="#1F4FE0" stroke-width="1.4"/><path d="M6 9 L8.2 11.2 L12.2 6.8" fill="none" stroke="#1F4FE0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Nothing goes live without your OK.</li><li><svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M9 1.5 L15.5 4 V8.5 C15.5 12.5 12.7 15.2 9 16.5 C5.3 15.2 2.5 12.5 2.5 8.5 V4 Z" fill="#EEF2FD" stroke="#1F4FE0" stroke-width="1.4"/><path d="M6 9 L8.2 11.2 L12.2 6.8" fill="none" stroke="#1F4FE0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>You own everything we make, in your name.</li><li><svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M9 1.5 L15.5 4 V8.5 C15.5 12.5 12.7 15.2 9 16.5 C5.3 15.2 2.5 12.5 2.5 8.5 V4 Z" fill="#EEF2FD" stroke="#1F4FE0" stroke-width="1.4"/><path d="M6 9 L8.2 11.2 L12.2 6.8" fill="none" stroke="#1F4FE0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>$750K cyber insurance and a signed HIPAA BAA.</li><li><svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M9 1.5 L15.5 4 V8.5 C15.5 12.5 12.7 15.2 9 16.5 C5.3 15.2 2.5 12.5 2.5 8.5 V4 Z" fill="#EEF2FD" stroke="#1F4FE0" stroke-width="1.4"/><path d="M6 9 L8.2 11.2 L12.2 6.8" fill="none" stroke="#1F4FE0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>30 days’ notice before any change to these terms.</li></ul></div>
+<ol class="clauses"><li class="clause"><h3>What this is</h3><p>We don’t lock practices into long contracts. This page is our agreement with you, written in plain English on purpose. There is no separate contract and no fine print anywhere else. If you want a signed copy for your records, request one at the bottom of this page.</p></li><li class="clause"><h3>Who it covers</h3><p>This guarantee applies to practices on our top plan, the one where we also work on your website. It doesn’t apply to free listings or to our other plans.</p></li><li class="clause"><h3>Our promise</h3><p>If AI isn’t naming your practice 90 days after the clock starts, we stop billing you and keep working until it does. Billing resumes the month after you’re named, and you’ll see the proof first.</p></li><li class="clause"><h3>When the clock starts</h3><p>The 90 days start on the later of two dates: the day onboarding is complete, meaning we have access to your Google profile and website and you’ve confirmed your facts, or the last day you edited your registry record. Changing your record restarts the clock, because AI has to learn the new facts.</p></li><li class="clause"><h3>What counts as being named</h3><p>Your practice is named in an answer from ChatGPT, Google Gemini, Perplexity or Google AI Overviews when asked where to get one of the treatments or services listed on your registry record, in your city. We test in a fresh session from your area and share the screenshot in your monthly Proof Report.</p></li><li class="clause"><h3>What we do every month</h3><p>We keep your facts in sync across Google, Apple Maps, Yelp and the directories AI reads. We answer new reviews, publish posts and articles about your treatments, and keep your website readable by AI. Nothing goes live without your approval.</p></li><li class="clause"><h3>What we need from you</h3><p>You review our drafts within 3 business days. You keep our access to your Google profile and website. Your account stays current, and your Google profile stays in good standing.</p></li><li class="clause"><h3>Your data</h3><p>We sign a HIPAA business associate agreement with you, encrypt your data with AES-256, and carry $750K in cyber insurance in case anything ever goes wrong. Our team is based in the US.</p></li><li class="clause"><h3>Billing and cancelling</h3><p>Billing is month to month. You can cancel any time, with no cancellation fee. You keep everything we made for you, and it stays in your name.</p></li><li class="clause"><h3>Limits</h3><p>AI tools are owned and run by other companies, and their answers can vary by person, place and time. We can’t control them, so this guarantee is limited to what’s written here: we stop billing and keep working. It doesn’t cover refunds of past payments.</p></li><li class="clause"><h3>Changes to these terms</h3><p>If we ever change these terms, we’ll tell you at least 30 days before. The version in your signed copy applies until you agree to a new one.</p></li></ol>
 <div class="sigs">
-<div class="sig"><div class="line"><span class="hand">Steve Lee</span></div><div class="who">Steve Lee, CEO, for Local AI Registry</div></div>
+<div class="sig"><div class="line"><span class="hand">Steve Lee</span></div><div class="who">Steve Lee, CEO, for Local AI Registry</div><span class="stamp">Signed and in effect</span></div>
 <div class="sig"><div class="line"><span class="pending" id="youSig">Signed when you request your copy</span></div><div class="who" id="youWho">Your practice</div></div>
 </div>
 </div>
@@ -207,10 +259,11 @@ f.addEventListener('submit',function(e){e.preventDefault();
   var J=window.jspdf.jsPDF,doc=new J({unit:'pt',format:'letter'}),W=612,M=60,y=72,lh=15;
   function need(h){if(y+h>732){doc.addPage();y=72}}
   doc.setFont('times','bold');doc.setFontSize(20);doc.text('AI Visibility Guarantee and Service Terms',M,y);y+=20;
-  doc.setFont('helvetica','normal');doc.setFontSize(9.5);doc.setTextColor(91,101,119);doc.text('Local AI Registry. Version 1.0, effective October 10, 2026.',M,y);y+=24;
+  doc.setFont('helvetica','normal');doc.setFontSize(9.5);doc.setTextColor(91,101,119);doc.text('Local AI Registry. Agreement no. LAIR-G-1.0. Effective October 10, 2026.',M,y);var sx=W-M-38,sy=62;doc.setDrawColor(31,79,224);doc.setLineWidth(1.4);doc.circle(sx,sy,36);doc.setLineWidth(.6);doc.circle(sx,sy,31);doc.setLineWidth(1.2);doc.circle(sx,sy,22);doc.setTextColor(31,79,224);doc.setFont('helvetica','bold');doc.setFontSize(5.6);doc.text('LOCAL AI REGISTRY',sx,sy-25.5,{align:'center'});doc.text('AI VISIBILITY GUARANTEE',sx,sy+29.5,{align:'center'});doc.setFillColor(31,79,224);doc.triangle(sx,sy-14,sx+11,sy+6,sx-11,sy+6,'F');doc.setFillColor(255,255,255);doc.triangle(sx,sy-1,sx+4,sy+6,sx-4,sy+6,'F');doc.setFillColor(255,90,60);doc.triangle(sx,sy-14,sx+3,sy-8.5,sx-3,sy-8.5,'F');doc.setFontSize(6);doc.text('90 DAYS',sx,sy+14,{align:'center'});doc.setTextColor(11,26,46);doc.setDrawColor(210);doc.setLineWidth(.5);y+=24;
   doc.setDrawColor(210);doc.line(M,y,W-M,y);y+=20;doc.setTextColor(11,26,46);
   doc.setFont('helvetica','bold');doc.setFontSize(10);doc.text('Prepared for',M,y);y+=14;doc.setFont('helvetica','normal');
   [name,prac,email,phone].filter(Boolean).forEach(function(t){doc.text(t,M,y);y+=13});y+=12;
+  need(40);doc.setFillColor(244,246,253);var gl=[].map.call(document.querySelectorAll('.glance li'),function(li){return li.textContent});var gh=22+gl.length*14+8;doc.roundedRect(M,y-12,W-2*M,gh,6,6,'F');doc.setFont('helvetica','bold');doc.setFontSize(10.5);doc.setTextColor(31,79,224);doc.text('Your protections at a glance',M+12,y+4);y+=20;doc.setFont('helvetica','normal');doc.setFontSize(10);doc.setTextColor(11,26,46);gl.forEach(function(t){doc.setTextColor(31,79,224);doc.text('\u2713',M+12,y);doc.setTextColor(11,26,46);doc.text(t,M+26,y);y+=14});y+=18;
   [].forEach.call(document.querySelectorAll('.clause'),function(li,i){var h=(i+1)+'. '+li.querySelector('h3').textContent,b=doc.splitTextToSize(li.querySelector('p').textContent,W-2*M);
    need(18+b.length*lh);doc.setFont('helvetica','bold');doc.setFontSize(11);doc.text(h,M,y);y+=15;doc.setFont('helvetica','normal');doc.setFontSize(10.5);doc.text(b,M,y);y+=b.length*lh+10});
   need(150);y+=10;doc.line(M,y,W-M,y);y+=26;
