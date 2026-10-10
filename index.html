@@ -616,7 +616,7 @@ h2.beat,p.beat{margin-bottom:24px!important}
  function upd(){document.getElementById('ptsOut').textContent=p.value;document.getElementById('valOut').textContent=money(+v.value);document.getElementById('totOut').textContent=money(p.value*12*v.value);}
  p.addEventListener('input',upd);v.addEventListener('input',upd);upd();
  document.querySelectorAll('img[data-slug]').forEach(function(img){
-  var c=['faces/'+img.dataset.slug+'.jpg?v=19','faces/'+img.dataset.slug+'.png'];
+  var c=['faces/'+img.dataset.slug+'.jpg?v=20','faces/'+img.dataset.slug+'.png'];
   if(img.dataset.src)c.push(img.dataset.src);
   if(img.dataset.ig)c.push('https://unavatar.io/instagram/'+img.dataset.ig+'?fallback=false');
   var i=0;
