@@ -1,102 +1,102 @@
 {
- "lg-fidelity|Fidelity Investments wordmark logo green": [
+ "lg-hydra|HydraFacial logo": [
   {
    "murl": "https://cdn.search.brave.com/serp/v3/_app/immutable/assets/brave-logo-light.D0nx3pfh.svg",
    "t": "Brave logo",
    "w": 129,
    "purl": "https://search.brave.com/",
-   "file": "cand/lg-fidelity/0.svg"
+   "file": "cand/lg-hydra/0.svg"
   },
   {
    "murl": "https://cdn.search.brave.com/serp/v3/_app/immutable/assets/brave-logo-dark.5D16vJCY.svg",
    "t": "Brave logo",
    "w": 129,
    "purl": "https://search.brave.com/",
-   "file": "cand/lg-fidelity/1.svg"
+   "file": "cand/lg-hydra/1.svg"
   },
   {
-   "murl": "https://imgs.search.brave.com/DUgT-i72zZbHA__Kz9Fq_3d6SU7FdKXs4pcDOGU9dK4/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2E2L2E4/LzUxL2E2YTg1MTZl/ZGFlYmE0N2UxNzA4/YzE0NjkzNmY2OGY3/LmpwZw",
-   "t": "Logo of the brand Invest featuring the word 'invest' in a modern font with a green symbol.",
+   "murl": "https://imgs.search.brave.com/_LqbEcgM4kb9oD_Qd9cpYhZ7bGhTA59RCBUiLBY6XJ0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2Vla2xvZ28u/Y29tL2xvZ28tcG5n/LzM2LzEvaHlkcmFm/YWNpYWwtbG9nby1w/bmdfc2Vla2xvZ28t/MzY2OTk4LnBuZw",
+   "t": "HydraFacial Logo PNG Vector",
    "w": 500,
    "purl": "",
-   "file": "cand/lg-fidelity/2.img"
+   "file": "cand/lg-hydra/2.img"
   },
   {
-   "murl": "https://imgs.search.brave.com/AX-GcYpvICJK1_RvUhn47CP1Ak-wlJmqCYW4h7RGwWE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly96b25h/bG9nby5jb20vYXNz/ZXRzL2ZpZGVsaXR5/LWludmVzdG1lbnRz/LWxvZ28tcG5nLXN2/Zy53ZWJw",
-   "t": "Fidelity Investments logo",
+   "murl": "https://imgs.search.brave.com/wYB8far-YtwKw72bz1fk48R3VSsRRIvg0N6LD-XQl60/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/YWVzdGhldGljc2J5/a2F0LmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyNS8wMy9o/eWRyYWZhY2lhbC1s/b2dvLXNxdWFyZS0x/LTMwMHgzMDAuanBn",
+   "t": "",
    "w": 500,
    "purl": "",
-   "file": "cand/lg-fidelity/3.img"
+   "file": "cand/lg-hydra/3.img"
   },
   {
-   "murl": "https://imgs.search.brave.com/RY4m-BaXyiebJyJICVQAYwy0TUpcHUPIfrwOEP3znHE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly96b25h/bG9nby5jb20vYXNz/ZXRzL2ZpZGVsaXR5/LWludmVzdG1lbnRz/LWxvZ28tcG5nLXN2/Zy53ZWJwP2Fzc2V0/PTQzODc",
-   "t": "Fidelity Investments white logo SVG",
+   "murl": "https://imgs.search.brave.com/Z6tvgNqrUDWcQZoKQyJDJoJx1SksKD6-pqDitbC1IGY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tdXNp/Y2tkZXJtYXRvbG9n/eS5jb20vd3AtY29u/dGVudC91cGxvYWRz/LzIwMjMvMDgvaHlk/cmFmYWNpYWwtbG9n/by5wbmc",
+   "t": "HydraFacial Swansea IL",
    "w": 500,
    "purl": "",
-   "file": "cand/lg-fidelity/4.img"
+   "file": "cand/lg-hydra/4.img"
   },
   {
-   "murl": "https://imgs.search.brave.com/wln3bQHXjUj7tYHaRrky7d-4QGJ9aOtmao1tz0URuvQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly96b25h/bG9nby5jb20vYXNz/ZXRzL2ZpZGVsaXR5/LWludmVzdG1lbnRz/LWxvZ28tcG5nLXN2/Zy53ZWJwP2Fzc2V0/PTQzODk",
-   "t": "Fidelity Investments black logo SVG",
+   "murl": "https://imgs.search.brave.com/2ZRXKhTo9WJIvOrtpYwE8k2XnTgRaobDifTtQR4LNOM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/bG9nby1kZXNpZ25l/ci5jby9zdG9yYWdl/LzIwMjMvMDIvMjAy/My1oeWRyYWZhY2lh/bC1uZXctbG9nby1w/YWNrYWdpbmctZGVz/aWduLWJ5LWZyZWUt/dGhlLWJpcmRzLTMt/NTIweDMyMS5wbmc",
+   "t": "",
    "w": 500,
    "purl": "",
-   "file": "cand/lg-fidelity/5.img"
+   "file": "cand/lg-hydra/5.img"
   },
   {
-   "murl": "https://imgs.search.brave.com/8Y39j1f9S2keKu97Jp8UgLjJ-m9aWwVFI0uTyT5u22I/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hYnVu/YWh5YW4uY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDI0LzA4/L1Bhc3RlbC1HcmVl/bi1BbmQtV2hpdGUt/U2ltcGxlLU1vZGVy/bi1NZWV0aW5nLUFn/ZW5kYS1Eb2N1bWVu/dC0yMy0xLmpwZw",
-   "t": "fidelity investments logo, all logos of fidelity, meaning of logo, by abu nahyan alnuaimi",
+   "murl": "https://imgs.search.brave.com/-NzWXZV_GXsHGNhKGi9roQrxYj3gunK1riXSOVhbHNQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vdGhlcGlu/a2Rvb3JodW5nZXJm/b3JkLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyMy8wNC9I/eWRyYWZhY2lhbC1M/b2dvLmpwZz9maXQ9/MzAwLDIyNSZzc2w9/MQ",
+   "t": "Hydrafacial Logo",
    "w": 500,
    "purl": "",
-   "file": "cand/lg-fidelity/6.img"
+   "file": "cand/lg-hydra/6.img"
   },
   {
-   "murl": "https://imgs.search.brave.com/jgNwZ-gBCKU4Kpw5xRIjwVWTHReXnjPJ-gGnUdKfLwE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzA1LzEw/L2FlLzA1MTBhZTZj/NGI0MGIxODI2ZmVj/ZjMwNzdiM2YxMGE1/LmpwZw",
-   "t": "Pin",
-   "w": 500,
+   "murl": "https://imgs.search.brave.com/Wg1aqDAI_JooUOYFlpEME7GzCUWNjwiarBHxQaRtICk/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9kcmFt/eXZhdWdoYW4uY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDE4/LzAxL0h5ZHJhRmFj/aWFsLUxvZ28tMzAw/eDEwNi5qcGc",
+   "t": "",
+   "w": 509,
    "purl": "",
-   "file": "cand/lg-fidelity/7.img"
+   "file": "cand/lg-hydra/7.img"
   },
   {
-   "murl": "https://imgs.search.brave.com/JqsJOLGdeo5k42-PECtJvgk7RM7cO2aiJDFEu_Ra9AQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzJmLzJi/L2ZjLzJmMmJmYzQ4/N2IwZDhmMTAzMmIx/NWQyZWVkYzIwMjFj/LmpwZw",
-   "t": "Pin",
+   "murl": "https://imgs.search.brave.com/E1KBFReM6nw8unze523A8mfBu1HmhpURrTeh7FLGm9k/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/bmljZXBuZy5jb20v/cG5nL2Z1bGwvMTA4/LTEwODMxMzlfaHlk/cmFmYWNpYWwtbG9n/by1oeWRyYS1mYWNp/YWwtbG9nby5wbmc",
+   "t": "Hydrafacial Logo - Hydra Facial Logo (984x424), Png Download",
    "w": 500,
    "purl": "",
-   "file": "cand/lg-fidelity/8.img"
+   "file": "cand/lg-hydra/8.img"
   },
   {
-   "murl": "https://imgs.search.brave.com/dg-4LUfyKhaU0AiTcmyvvKLVxcF8Y__JlM5WhwF_dbA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9paDEu/cmVkYnViYmxlLm5l/dC9pbWFnZS45MTE0/ODc3MjYuMzc2Ny9z/dCxzbWFsbCw1MDd4/NTA3LXBhZCw2MDB4/NjAwLGY4ZjhmOC5q/cGc",
-   "t": "Item preview, Dividend investor designed and sold by rehatschek.",
+   "murl": "https://imgs.search.brave.com/vGYVveF54H5lWL_4IBrtrDTj5jeIdUp5j9HOoJHEpRI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/bmljZXBuZy5jb20v/cG5nL2RldGFpbC8x/MDgtMTA4MzEzOV9o/eWRyYWZhY2lhbC1s/b2dvLWh5ZHJhLWZh/Y2lhbC1sb2dvLnBu/Zw",
+   "t": "Hydrafacial Logo - Hydra Facial Logo, transparent png download",
    "w": 500,
    "purl": "",
-   "file": "cand/lg-fidelity/9.img"
+   "file": "cand/lg-hydra/9.img"
   },
   {
-   "murl": "https://imgs.search.brave.com/DZiRg2oEMOZBl10SMoPq8-mBmdp5BB2K6uOa0KNjVys/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9sb2dv/cy13b3JsZC5uZXQv/d3AtY29udGVudC91/cGxvYWRzLzIwMjEv/MDIvRmlkZWxpdHkt/RW1ibGVtLTcwMHgz/OTQucG5n",
-   "t": "Fidelity Emblem",
+   "murl": "https://imgs.search.brave.com/tGS-H9IHZqaPiCy1MA18V_v6S7uE_AbfjqgsisirZ7g/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/bG9nby1kZXNpZ25l/ci5jby9zdG9yYWdl/LzIwMjMvMDIvMjAy/My1oeWRyYWZhY2lh/bC1uZXctbG9nby1w/YWNrYWdpbmctZGVz/aWduLWJ5LWZyZWUt/dGhlLWJpcmRzLnBu/Zw",
+   "t": "",
    "w": 500,
    "purl": "",
-   "file": "cand/lg-fidelity/10.img"
+   "file": "cand/lg-hydra/10.img"
   },
   {
-   "murl": "https://imgs.search.brave.com/8rYso6WzU5UsvD3ZV5gh-7fj9lrpLAcXQdHWZMVtZ4o/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9uZXct/eW9yay1ueS1hdWd1/c3Qtc2hpbnktbWV0/YWwtc2lnbi1maWRl/bGl0eS1pbnZlc3Rt/ZW50cy1uYW1lLWxv/Z28tb2ZmaWNlLWJ1/aWxkaW5nLW1pZHRv/d24tbWFuaGF0dGFu/LW1hbmhhdC0yMzAx/NDIwNTQuanBn",
-   "t": "New York, NY - August 26, 2021: Shiny metal sign for Fidelity Investments with name and logo on office building in Midtown, Manhattan. Fidelity logo stock images, royalty-free photos and pictures",
-   "w": 500,
+   "murl": "https://imgs.search.brave.com/tYLZOSN6efdoSVq5dHjMeBwKJqhWpuISZwwPXN-TnYQ/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly93d3cu/cG5naXRlbS5jb20v/cGltZ3MvbS82NjIt/NjYyNTEwN19oeWRy/YWZhY2lhbC1tZC1s/b2dvLXBuZy1oeWRy/YWZhY2lhbC10cmFu/c3BhcmVudC1wbmcu/cG5n",
+   "t": "Hydrafacial Md Logo Png - Hydrafacial, Transparent Png",
+   "w": 557,
    "purl": "",
-   "file": "cand/lg-fidelity/11.img"
+   "file": "cand/lg-hydra/11.img"
   },
   {
-   "murl": "https://imgs.search.brave.com/2EgwPIAn1ccbMOMs66LlGaTeWhhi_DJZQe7ylRKnw8A/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTA1/MjMzMzExNi9waG90/by9pbi10aGlzLXBo/b3RvLWlsbHVzdHJh/dGlvbi10aGUtZmlk/ZWxpdHktaW52ZXN0/bWVudHMtZmluYW5j/aWFsLXNlcnZpY2Vz/LWNvbXBhbnktbG9n/by1zZWVuLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1Td0RZ/OGNwZ3d5TE5VWnpM/YUhtYzVDMEZudklG/UldIdG9Uem4zQWE2/am9VPQ",
-   "t": "In this photo illustration, the Fidelity Investments Financial services company logo seen displayed on a smartphone. Fidelity Investments Inc.,...",
-   "w": 500,
+   "murl": "https://imgs.search.brave.com/qBJVDSw1A5Mp5iJ-LQTeCDtphuOmy7eKgtQ7d_weA7g/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly93d3cu/cm9zZXZpbGxlZmFj/aWFscGxhc3RpY3N1/cmdlcnkuY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE2LzAz/L0h5ZHJhRmFjaWFs/LU1ELUxvZ28tMzAw/eDg4LmpwZw",
+   "t": "",
+   "w": 614,
    "purl": "",
-   "file": "cand/lg-fidelity/12.img"
+   "file": "cand/lg-hydra/12.img"
   },
   {
-   "murl": "https://imgs.search.brave.com/DboEoQWhBzwCeVe9Ji8qLXLifBESkAVbvKOBTIXGZAc/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9paDEu/cmVkYnViYmxlLm5l/dC9pbWFnZS44NTAw/Njk2NjguMDc3Ny9z/dCxzbWFsbCw1MDd4/NTA3LXBhZCw2MDB4/NjAwLGY4ZjhmOC5q/cGc",
-   "t": "Item preview, init freedom designed and sold by QuillRegister.",
+   "murl": "https://imgs.search.brave.com/m8pom8ezXdnUMuHHUUjSW-Wj5gQlOGZl7Lg404HNTO0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/bG9nby1kZXNpZ25l/ci5jby9zdG9yYWdl/LzIwMjMvMDIvMjAy/My1oeWRyYWZhY2lh/bC1uZXctbG9nby1w/YWNrYWdpbmctZGVz/aWduLWJ5LWZyZWUt/dGhlLWJpcmRzLTUu/cG5n",
+   "t": "",
    "w": 500,
    "purl": "",
-   "file": "cand/lg-fidelity/13.img"
+   "file": "cand/lg-hydra/13.img"
   }
  ]
 }
