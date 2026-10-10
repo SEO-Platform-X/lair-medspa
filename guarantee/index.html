@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AI Visibility Guarantee | Local AI Registry</title>
+<meta name="description" content="If AI isn't naming your practice in 90 days, we keep working for free until it does. Here is exactly what happens, what counts, and the fine print in plain English.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,500;0,600;1,500&family=Bricolage+Grotesque:wght@600;700&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#F2EFE9;--ink:#0B1A2E;--blue:#1F4FE0;--coral:#E5402A;--mute:#5B6577;--line:rgba(11,26,46,.12);--card:#FFFFFF}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:17px;line-height:1.55;padding-top:env(safe-area-inset-top,0);padding-bottom:env(safe-area-inset-bottom,0)}
+a{color:var(--blue)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--blue);outline-offset:3px;border-radius:6px}
+.wrap{max-width:720px;margin:0 auto;padding:0 24px}
+header{display:flex;align-items:center;justify-content:space-between;padding:22px 0}
+header img{height:22px;width:auto;display:block}
+header a.back{font-size:14px;font-weight:500;color:var(--ink);text-decoration:none;border:1px solid rgba(11,26,46,.22);border-radius:999px;padding:8px 15px}
+h1,h2{font-family:'Cormorant',Georgia,serif;font-weight:500;letter-spacing:-.005em;margin:0}
+h1{font-size:46px;line-height:1.04;margin:56px 0 22px}
+h2{font-size:34px;line-height:1.08;margin:0 0 14px}
+h3{font-family:'Bricolage Grotesque',sans-serif;font-size:18px;font-weight:700;margin:0 0 6px;line-height:1.25}
+p{margin:0 0 14px}
+.lede{font-size:19px;color:#3D4A5C;max-width:32em}
+.btn{display:inline-flex;align-items:center;gap:12px;min-height:54px;padding:0 28px;background:var(--ink);color:var(--paper);border-radius:999px;font-weight:600;font-size:16px;text-decoration:none}
+.small{font-size:14px;color:var(--mute)}
+section{padding:72px 0;border-top:1px solid var(--line)}
+section.first{border-top:0;padding-top:8px}
+/* the promise */
+.promise{background:var(--ink);color:var(--paper);border-radius:28px;padding:30px 24px 26px;margin:40px 0 0}
+.promise .q{font-family:'Cormorant',Georgia,serif;font-size:30px;line-height:1.12;margin:0 0 18px}
+.promise .row{display:flex;gap:14px;align-items:flex-start;padding:14px 0;border-top:1px solid rgba(242,239,233,.14)}
+.promise .row b{font-family:'Bricolage Grotesque',sans-serif;font-size:15px;min-width:74px;color:#9DB4FF}
+.promise .row span{font-size:16px;color:#DCE1EA}
+/* chart */
+.chart{background:var(--card);border-radius:24px;padding:22px 16px 16px;margin:26px 0 12px}
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+.legend{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:14px;color:#3D4A5C;padding:6px 6px 0}
+.legend i{display:inline-block;width:18px;height:3px;border-radius:2px;vertical-align:middle;margin-right:7px}
+/* timeline */
+ol.tl{list-style:none;margin:28px 0 0;padding:0;position:relative}
+ol.tl:before{content:"";position:absolute;left:15px;top:8px;bottom:8px;width:2px;background:linear-gradient(var(--blue),rgba(31,79,224,.15))}
+ol.tl li{position:relative;padding:0 0 30px 48px}
+ol.tl li:last-child{padding-bottom:0}
+ol.tl .dot{position:absolute;left:4px;top:2px;width:24px;height:24px;border-radius:50%;background:var(--paper);border:2px solid var(--blue);display:flex;align-items:center;justify-content:center;font-family:'Bricolage Grotesque',sans-serif;font-size:11px;font-weight:700;color:var(--blue)}
+ol.tl li.check .dot{background:var(--blue);color:#fff}
+.when{font-size:14px;font-weight:600;color:var(--blue);margin:0 0 2px}
+.see{background:var(--card);border-radius:14px;padding:12px 14px;margin-top:10px;font-size:15px;color:#3D4A5C}
+.see b{color:var(--ink)}
+/* lists */
+ul.clean{list-style:none;margin:18px 0 0;padding:0}
+ul.clean li{padding:14px 0 14px 34px;border-top:1px solid var(--line);position:relative}
+ul.clean li:before{content:"";position:absolute;left:4px;top:19px;width:14px;height:8px;border-left:2.4px solid var(--blue);border-bottom:2.4px solid var(--blue);transform:rotate(-45deg)}
+.def{background:var(--card);border-radius:20px;padding:20px;margin-top:18px}
+.def .ai{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 4px}
+.def .ai span{border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:14px;font-weight:600}
+/* faq */
+details{border-top:1px solid var(--line);padding:16px 0}
+details:last-of-type{border-bottom:1px solid var(--line)}
+summary{cursor:pointer;list-style:none;font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:17px;display:flex;justify-content:space-between;gap:16px}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"+";font-weight:500;font-size:22px;line-height:1;color:var(--blue);transition:transform .2s}
+details[open] summary:after{transform:rotate(45deg)}
+details p{margin:10px 0 0;color:#3D4A5C}
+.end{text-align:left;padding-bottom:96px}
+footer{padding:28px 0 48px;border-top:1px solid var(--line);font-size:13px;color:var(--mute)}
+@media (min-width:760px){h1{font-size:62px}h2{font-size:40px}.promise{padding:40px}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<a href="https://localairegistry.com" aria-label="Local AI Registry home"><img src="../assets/lair-lockup-ink.svg" alt="Local AI Registry"></a>
+<a class="back" href="../">Back</a>
+</header>
+
+<section class="first">
+<h1>If AI isn't naming you in 90 days, we work for free until it does.</h1>
+<p class="lede">No contract, and no getting strung along. Here is exactly what happens each month, what counts as being named, and why the work keeps going after it works.</p>
+<p style="margin-top:28px"><a class="btn" href="https://localairegistry.com">Get my free AI check<svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></p>
+<p class="small">Free check. See what ChatGPT says about your practice today.</p>
+
+<div class="promise">
+<p class="q">The guarantee, in one breath</p>
+<div class="row"><b>Day 1</b><span>We agree on 10 questions a real patient in your area would ask AI.</span></div>
+<div class="row"><b>Day 90</b><span>If AI names your practice for at least one of them, the guarantee is met.</span></div>
+<div class="row"><b>If not</b><span>You stop paying. We keep working at no charge until it does.</span></div>
+</div>
+</section>
+
+<section>
+<h2>What your first year usually looks like</h2>
+<p>AI mentions build in steps, then need upkeep. The blue line is a practice that stays with it. The red line is what often happens when the work stops.</p>
+<div class="chart">
+<svg id="yr" viewBox="0 0 340 210" role="img" aria-label="AI mentions rise over the first 90 days, pass the guarantee line, then hold steady with small dips that get corrected. If the work stops after month four, mentions drift back down.">
+<g font-family="Hanken Grotesk, sans-serif" font-size="9.5" fill="#5B6577">
+<line x1="30" y1="170" x2="330" y2="170" stroke="rgba(11,26,46,.25)"/>
+<line x1="30" y1="20" x2="30" y2="170" stroke="rgba(11,26,46,.12)"/>
+<text x="30" y="186" text-anchor="middle">Start</text><text x="105" y="186" text-anchor="middle">Day 90</text><text x="180" y="186" text-anchor="middle">Month 6</text><text x="255" y="186" text-anchor="middle">Month 9</text><text x="330" y="186" text-anchor="end">Year 1</text>
+<text x="0" y="0" transform="translate(16 120) rotate(-90)">AI mentions</text>
+<line x1="105" y1="24" x2="105" y2="170" stroke="#1F4FE0" stroke-dasharray="3 4" opacity=".55"/>
+<text x="110" y="34" fill="#1F4FE0" font-weight="600">Guarantee checkpoint</text>
+<line x1="30" y1="122" x2="330" y2="122" stroke="rgba(11,26,46,.2)" stroke-dasharray="2 4"/>
+<text x="330" y="115" text-anchor="end" font-size="9">Named for 1+ question</text>
+</g>
+<path id="decline" d="M155 74 C175 80 195 98 215 112 S255 138 275 146 S310 156 330 158" fill="none" stroke="#E5402A" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="1 0"/>
+<path id="rise" d="M30 166 C45 164 55 158 66 150 S86 132 98 120 S118 96 132 86 S150 74 160 72 C172 70 180 78 190 76 S206 64 220 62 S240 70 250 66 S272 52 290 50 S315 46 330 44" fill="none" stroke="#1F4FE0" stroke-width="3" stroke-linecap="round"/>
+<g id="pts" opacity="0">
+<circle cx="105" cy="115" r="5" fill="#1F4FE0"/>
+<circle cx="190" cy="76" r="4" fill="#FFFFFF" stroke="#1F4FE0" stroke-width="2"/>
+<text x="196" y="62" text-anchor="middle" font-family="Hanken Grotesk, sans-serif" font-size="9" fill="#5B6577">a dip, fixed</text>
+<text x="330" y="36" text-anchor="end" font-family="Hanken Grotesk, sans-serif" font-size="9.5" font-weight="600" fill="#1F4FE0">With monthly upkeep</text>
+<text x="262" y="164" text-anchor="middle" font-family="Hanken Grotesk, sans-serif" font-size="9.5" font-weight="600" fill="#E5402A">If the work stops</text>
+</g>
+</svg>
+<div class="legend"><span><i style="background:#1F4FE0"></i>With monthly upkeep</span><span><i style="background:#E5402A"></i>If the work stops after month 4</span></div>
+</div>
+<p class="small">This is the typical shape, not a promise of exact numbers. Every market and practice is different.</p>
+</section>
+
+<section>
+<h2>What happens, every 30 days</h2>
+<ol class="tl">
+<li><span class="dot">1</span><p class="when">Days 1 to 30</p><h3>Set the record straight</h3>
+<p>We claim and verify your record, then fix wrong hours, addresses, services and photos on Google, Apple Maps, Yelp and the directories AI reads. We start answering reviews, with your approval.</p>
+<div class="see"><b>What you'll see:</b> your details match everywhere, and your first Proof Report showing what AI says about you today.</div></li>
+<li><span class="dot">2</span><p class="when">Days 31 to 60</p><h3>Build the signals AI trusts</h3>
+<p>Articles on your top treatments, location-tagged photos, regular Google posts and mentions on sites AI cites. Your website gets the structure AI can read.</p>
+<div class="see"><b>What you'll see:</b> AI starts getting your details right, and you begin showing up for narrower questions, like a treatment in your neighborhood.</div></li>
+<li><span class="dot">3</span><p class="when">Days 61 to 90</p><h3>Get named</h3>
+<p>We test your 10 questions in ChatGPT, Gemini, Perplexity and Google's AI answers, and push harder wherever you're missing.</p>
+<div class="see"><b>What you'll see:</b> screenshots of AI naming your practice, in your monthly Proof Report.</div></li>
+<li class="check"><span class="dot"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 6.2 5 8.6 9.6 3.6"/></svg></span><p class="when">Day 90</p><h3>The checkpoint</h3>
+<p>Named for at least one of your 10 questions? The guarantee is met. Not yet? Your billing pauses and we keep working at no charge until you are.</p></li>
+<li><span class="dot">+</span><p class="when">Every month after</p><h3>Stay the answer</h3>
+<p>Competitors post, reviews age and AI models update. Each month we keep your record fresh, answer new reviews, publish, and fix any slip before it costs you patients.</p></li>
+</ol>
+</section>
+
+<section>
+<h2>What counts as being named</h2>
+<p>Your practice appears by name in an AI answer to one of the 10 questions we agree on together at the start. We test from your city, in a fresh session, and send you the screenshot.</p>
+<div class="def">
+<h3>The AI tools we check</h3>
+<div class="ai"><span>ChatGPT</span><span>Google Gemini</span><span>Perplexity</span><span>Google AI Overviews</span></div>
+<p class="small" style="margin:10px 0 0">AI answers can vary from person to person, so we test the same way every month and keep a record you can see.</p>
+</div>
+</section>
+
+<section>
+<h2>Why keep paying once it works?</h2>
+<p>Because AI doesn't remember you forever. It re-reads the web constantly, and the practices that keep showing fresh signals keep getting named. Every month you get:</p>
+<ul class="clean">
+<li>Every new review answered, in a HIPAA-safe way</li>
+<li>Your facts kept in sync across Google, Apple Maps, Yelp and the directories</li>
+<li>New posts, photos and articles that keep you current</li>
+<li>A monthly Proof Report showing exactly where AI names you</li>
+<li>Fixes the moment a competitor or a model update knocks you down</li>
+</ul>
+<p style="margin-top:18px">And there's no contract. If it stops being worth it, you leave, and everything stays in your name.</p>
+</section>
+
+<section>
+<h2>The fine print, in plain English</h2>
+<ul class="clean">
+<li>The 90 days start once onboarding is done: you've given us access to your Google profile and website, and confirmed your facts.</li>
+<li>You approve or comment on our drafts within 5 business days, so nothing sits waiting on us.</li>
+<li>Your account stays current, and your Google profile stays in good standing.</li>
+<li>The guarantee covers paid plans. Free registry listings aren't included.</li>
+</ul>
+</section>
+
+<section>
+<h2>Questions owners ask us</h2>
+<details><summary>What if this doesn't work for my practice?</summary><p>Then you don't pay for it. If AI isn't naming you by day 90, your billing pauses and we keep working until it does.</p></details>
+<details><summary>How long do I have to pay?</summary><p>Month to month. There's no contract and no cancellation fee. You can leave any time and take everything with you.</p></details>
+<details><summary>Will I get strung along?</summary><p>No. You get a Proof Report every month with real screenshots, so you always know where you stand. If it isn't working, you'll see it before we tell you.</p></details>
+<details><summary>What if I stop after it starts working?</summary><p>You keep everything we built, and it's all in your name. Mentions usually hold for a while, then drift as competitors keep posting and AI keeps updating.</p></details>
+</section>
+
+<section class="end">
+<h2>See where you stand today.</h2>
+<p>Find out what ChatGPT says about your practice right now. It's free.</p>
+<p style="margin-top:24px"><a class="btn" href="https://localairegistry.com">Get my free AI check<svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></p>
+</section>
+
+<footer>Local AI Registry, Irvine, California. Guarantee terms apply to paid plans and are confirmed in your service agreement. AI answers vary by person, place and time; results shown are typical, not promised in exact amounts.</footer>
+</div>
+<script>
+(function(){
+var svg=document.getElementById('yr'),rise=document.getElementById('rise'),dec=document.getElementById('decline'),pts=document.getElementById('pts');
+var RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
+[rise,dec].forEach(function(p){var L=p.getTotalLength();p.style.strokeDasharray=L;p.style.strokeDashoffset=RM?0:L;p._L=L});
+if(RM){pts.style.opacity=1;return}
+function play(){rise.style.transition='stroke-dashoffset 2.4s cubic-bezier(.4,0,.2,1)';rise.style.strokeDashoffset=0;
+ setTimeout(function(){dec.style.transition='stroke-dashoffset 1.6s ease-out';dec.style.strokeDashoffset=0},1500);
+ setTimeout(function(){pts.style.transition='opacity .6s';pts.style.opacity=1},2200)}
+if('IntersectionObserver' in window){var io=new IntersectionObserver(function(e){if(e[0].isIntersecting){play();io.disconnect()}},{threshold:.45});io.observe(svg)}else play();
+})();
+</script>
+</body>
+</html>
