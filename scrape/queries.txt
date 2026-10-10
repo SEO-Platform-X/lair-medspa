@@ -1,7 +1,2 @@
-brave|f-jill|Jill Gregory Acorn Biolabs
-brave|f-jill2|Jill Gregory Revance aesthetic New York
-brave|lg-acorn|Acorn Biolabs logo
-brave|lg-juvederm|Juvederm logo
-brave|lg-clarisonic|Clarisonic logo
-brave|lg-cpin|Collagen PIN logo Induction Therapies
-brave|lg-teoxane|Teoxane logo
+brave|f-rivkin|Dr Alex Rivkin Westside Aesthetics headshot
+brave|f-bhahr|Benjamin Hahr
