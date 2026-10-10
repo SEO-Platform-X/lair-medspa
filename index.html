@@ -678,7 +678,7 @@ document.body.appendChild(nudge);nudge.addEventListener('click',function(){scrol
 addEventListener('scroll',function(){nudge.classList.toggle('off',scrollY>60)},{passive:true});
 
 
-['This already happened','Here is everything AI checks','__none__','Do you want to do all'].forEach(function(key){var h=[].slice.call(document.querySelectorAll('section h2, section p')).filter(function(x){return x.textContent.indexOf(key)===0})[0];if(h)h.classList.add('beat')});
+['This already happened','Here is everything AI checks','Need more assurances','Do you want to do all'].forEach(function(key){var h=[].slice.call(document.querySelectorAll('section h2, section p')).filter(function(x){return x.textContent.indexOf(key)===0})[0];if(h)h.classList.add('beat')});
 var beats=[].slice.call(document.querySelectorAll('.beat .ln'));
 function beatScroll(){var vh=innerHeight;beats.forEach(function(l){var r=l.getBoundingClientRect(),c=r.top+r.height/2,p=RM?1:cl((vh*0.92-c)/(vh*0.32));l.style.opacity=0.08+0.92*p;l.style.transform='translateY('+(24*(1-p))+'px)'})}
 
