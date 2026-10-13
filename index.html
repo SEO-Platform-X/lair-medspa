@@ -19,6 +19,15 @@ input[type=range]{accent-color:#1F4FE0}
 </style>
 
 <style id="lux">
+.vwrap{position:relative;aspect-ratio:16/9;border-radius:20px;overflow:hidden;background:#0B1A2E;box-shadow:0 30px 60px -30px rgba(11,26,46,.55),0 0 0 1px rgba(11,26,46,.08)}
+.vwrap iframe,.vposter{position:absolute;inset:0;width:100%;height:100%;border:0}
+.vposter{padding:0;cursor:pointer;background:#0B1A2E}
+.vposter img{width:100%;height:100%;object-fit:cover;display:block}
+.vplay{position:absolute;left:50%;top:50%;width:72px;height:72px;margin:-36px 0 0 -36px;border-radius:50%;background:#F2EFE9;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 30px rgba(0,0,0,.35);transition:transform .2s}
+.vposter:hover .vplay,.vposter:focus-visible .vplay{transform:scale(1.06)}
+.vsound{position:absolute;left:14px;bottom:14px;z-index:2;display:inline-flex;align-items:center;gap:8px;padding:9px 14px;border:0;border-radius:999px;background:rgba(242,239,233,.95);color:#0B1A2E;font:600 14px 'Hanken Grotesk',sans-serif;cursor:pointer;box-shadow:0 6px 18px rgba(0,0,0,.25)}
+.vsound[hidden]{display:none}
+
 .shim{background:linear-gradient(90deg,#7D8AA0 0%,#F2EFE9 45%,#7D8AA0 90%);background-size:220% 100%;-webkit-background-clip:text;background-clip:text;color:transparent!important;animation:shim 1.3s linear infinite;font-weight:500}
 @keyframes shim{from{background-position:120% 0}to{background-position:-120% 0}}
 .cur{display:inline-block;width:10px;height:10px;border-radius:50%;background:#F2EFE9;margin-left:5px;vertical-align:middle;animation:curp .9s ease-in-out infinite}
@@ -141,6 +150,20 @@ h2.beat,p.beat{margin-bottom:24px!important}
 </div>
 </section>
 
+
+<!-- VIDEO -->
+<section style="background: #F2EFE9; padding: 8px 20px 80px">
+<div style="max-width: 880px; margin: 0 auto">
+<p style="margin: 0 0 16px; font-family: 'Hanken Grotesk', sans-serif; font-weight: 600; font-size: 12px; letter-spacing: 0.22em; text-transform: uppercase; color: #5B6577">Watch &middot; 90 seconds</p>
+<div id="vwrap" class="vwrap">
+<button type="button" id="vposter" class="vposter" aria-label="Play video: Is AI skipping your med spa? 90 seconds">
+<img src="https://i.ytimg.com/vi/24zOkCCNG2g/maxresdefault.jpg" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/24zOkCCNG2g/hqdefault.jpg'" alt="" loading="lazy">
+<span class="vplay" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5z" fill="#0B1A2E"/></svg></span>
+</button>
+<button type="button" id="vsound" class="vsound" hidden><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg>Tap for sound</button>
+</div>
+</div>
+</section>
 
 <!-- BUILT BY -->
 <section style="background: #F4F1EA; padding: 36px 20px 40px">
@@ -608,8 +631,8 @@ var secs=[].slice.call(document.querySelectorAll('section'));
 [].forEach.call(document.querySelectorAll("h1, section h2, section p[style*=Cormorant]"),function(h){var txt=h.textContent.replace(/\s+/g,' ').trim();var parts=txt.match(/[^.?!]+[.?!]+|[^.?!]+$/g)||[txt];if(parts.length<2)return;
  h.innerHTML='';parts.forEach(function(p){var sp=document.createElement('span');sp.className='ln'+(p.trim().split(' ').length<=3?' short':'');sp.textContent=p.trim();h.appendChild(sp)})});
 /* 6. The 180: each new section inverts the one before it */
-var LIGHT={'0':'#F2EFE9','1':'#F4F1EA','2':'#FFFFFF','3':'#F4F1EA','4':'#FFFFFF','5':'#F4F1EA','6':'#FFFFFF','7':'#F4F1EA','8':'#FFFFFF'};
-var THEME=[0,0,1,0,1,0,1,0,0,1]; /* 1 = navy, 0 = light; final CTA stays navy */
+var LIGHT={'0':'#F2EFE9','1':'#F2EFE9','2':'#F4F1EA','3':'#FFFFFF','4':'#F4F1EA','5':'#FFFFFF','6':'#F4F1EA','7':'#FFFFFF','8':'#F4F1EA','9':'#FFFFFF'};
+var THEME=[0,0,0,1,0,1,0,1,0,0,1]; /* 1 = navy, 0 = light; final CTA stays navy */
 var PRI=/#0B1A2E|#F4F1EA|#FFFFFF|#111|#1A202C|#0F172A/i, ACC=/#1F4FE0|#FF5A3C|#2F5BEA|#D63A1C/i;
 function inCard(el,sec){for(var p=el;p&&p!==sec;p=p.parentNode){var st=p.getAttribute&&p.getAttribute('style')||'';if(/background(-color)?:\s*(#|rgb|white)/i.test(st)&&p.tagName!=='SPAN'){if(/background(-color)?:\s*(#FFF\b|#FFFFFF|#F4F1EA|#F7F8FA|white)/i.test(st))p.setAttribute('data-card','');return p}}return null}
 var themed=[];
@@ -729,6 +752,19 @@ var pinEls=[].slice.call(rd.querySelectorAll('.pin')),t0=performance.now();
 addEventListener('scroll',function(){dsScroll();beatScroll()},{passive:true});beatScroll();addEventListener('resize',dsScroll);dsScroll();
 if(RM)[].forEach.call(document.querySelectorAll('animateMotion'),function(a){a.parentNode.remove()});
 addEventListener('scroll',onScroll,{passive:true});addEventListener('resize',onScroll);onScroll();
+})();
+</script>
+<script>
+(function(){
+var ID='24zOkCCNG2g',wrap=document.getElementById('vwrap'),poster=document.getElementById('vposter'),snd=document.getElementById('vsound'),ifr=null;
+var RM=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+function load(muted){if(ifr)return;ifr=document.createElement('iframe');
+ ifr.src='https://www.youtube-nocookie.com/embed/'+ID+'?autoplay=1&mute='+(muted?1:0)+'&playsinline=1&rel=0&modestbranding=1&enablejsapi=1';
+ ifr.title='Is AI skipping your med spa? Local AI Registry video';ifr.allow='autoplay; encrypted-media; picture-in-picture; fullscreen';ifr.setAttribute('allowfullscreen','');
+ wrap.insertBefore(ifr,snd);poster.remove();if(muted)snd.hidden=false}
+poster.addEventListener('click',function(){load(false)});
+snd.addEventListener('click',function(){if(ifr&&ifr.contentWindow){ifr.contentWindow.postMessage(JSON.stringify({event:'command',func:'unMute',args:[]}),'*');ifr.contentWindow.postMessage(JSON.stringify({event:'command',func:'setVolume',args:[100]}),'*')}snd.hidden=true});
+if(!RM&&'IntersectionObserver' in window){var io=new IntersectionObserver(function(e){if(e[0].isIntersecting){load(true);io.disconnect()}},{threshold:.6});io.observe(wrap)}
 })();
 </script>
 </body>
