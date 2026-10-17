@@ -1,102 +1,202 @@
 {
- "lg-skinc|SkinCeuticals logo": [
+ "lg-mbeauty|M Beauty Clinic by Dr. Tess Mauricio logo": [
   {
    "murl": "https://cdn.search.brave.com/serp/v3/_app/immutable/assets/brave-logo-light.D0nx3pfh.svg",
    "t": "Brave logo",
    "w": 129,
    "purl": "https://search.brave.com/",
-   "file": "cand/lg-skinc/0.svg"
+   "file": "cand/lg-mbeauty/0.svg"
   },
   {
    "murl": "https://cdn.search.brave.com/serp/v3/_app/immutable/assets/brave-logo-dark.5D16vJCY.svg",
    "t": "Brave logo",
    "w": 129,
    "purl": "https://search.brave.com/",
-   "file": "cand/lg-skinc/1.svg"
+   "file": "cand/lg-mbeauty/1.svg"
   },
   {
-   "murl": "https://imgs.search.brave.com/fmw0_X9lKZAcyC5owt9KqEiBdFzta0VYFUeHB_vy_eo/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9sb2dv/ZGl4LmNvbS9sb2dv/LzE3ODQ5NTYuanBn",
-   "t": "SkinCeuticals Logo - Skinceuticals - Physical Eye UV Defense SPF 55 | The Skin Spot",
+   "murl": "https://imgs.search.brave.com/BD7Ydq7cJdiZHjgCR4p2BO0MTBFW7aJdKHWX9qqF1D8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hcGku/c29md2F2ZS5jb20v/YXBwL3VwbG9hZHMv/MjAyNC8xMC90ZXNz/LW1hdXJpY2lvLW1k/LW0tYmVhdXR5LWNs/aW5pYy1sb2dvLmpw/Zw",
+   "t": "Sofwave provider - Tess Mauricio MD / M Beauty Clinic",
    "w": 500,
    "purl": "",
-   "file": "cand/lg-skinc/2.img"
+   "file": "cand/lg-mbeauty/2.img"
   },
   {
-   "murl": "https://imgs.search.brave.com/MxZ4MczVkMbj9G3HzkFnR_bMtCHn2mg_k9gn2XjhWXQ/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9sb2dv/ZGl4LmNvbS9sb2dv/LzE3ODUyMjAuanBn",
-   "t": "SkinCeuticals Logo - SkinCeuticals Moisturizer | eSkinCareStore",
-   "w": 869,
-   "purl": "",
-   "file": "cand/lg-skinc/3.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/gRoCUErCZAt96lpoebGO4W4P37tsDXgrSUovU-0yKz0/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9sb2dv/ZGl4LmNvbS9sb2dv/LzE3ODUyMTcuanBn",
-   "t": "SkinCeuticals Logo - SkinCeuticals CE Ferulic (1 fl oz) - SkinCeuticals Discount Shop.",
-   "w": 405,
-   "purl": "",
-   "file": "cand/lg-skinc/4.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/Wu5l3reeUIFiNJC_izCpUKT8hTu9hFu2SWAA8_Mm5EY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/YnJhbmRjb2xvcmNv/ZGUuY29tL2ltYWdl/cy9jb2xvci1wYWxl/dHRlL3NraW5jZXV0/aWNhbHMucG5n",
-   "t": "SkinCeuticals Brand & Logo Color Palette",
-   "w": 500,
-   "purl": "",
-   "file": "cand/lg-skinc/5.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/uUlET1hO9q8MPstYizAMDpzHiR2qmC5iCGK87BHF-PQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2Vla2xvZ28u/Y29tL2xvZ28tcG5n/LzEyLzEvc2tpbmNl/dXRpY2Fscy1sb2dv/LXBuZ19zZWVrbG9n/by0xMjc1NjIucG5n",
-   "t": "SkinCeuticals Logo PNG Vector",
-   "w": 500,
-   "purl": "",
-   "file": "cand/lg-skinc/6.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/tn0ub3IDD3QKqma6WMSosOLCSwbHt2fog22z1PeB-CA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9sb2dv/ZGl4LmNvbS9sb2dv/LzE3ODQ5NDEucG5n",
-   "t": "SkinCeuticals Logo",
-   "w": 500,
-   "purl": "",
-   "file": "cand/lg-skinc/7.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/bJC1j7idxQt36qoB1IhmaEiTMfk_Kz91hB5RKKEFzKE/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9sb2dv/ZGl4LmNvbS9sb2dv/LzE3ODUwODguanBn",
-   "t": "SkinCeuticals Logo - How Fashion and Beauty Industry Veteran Brenda Wu Is Driving ...",
-   "w": 702,
-   "purl": "",
-   "file": "cand/lg-skinc/8.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/ZgnXjbM0SvmzBJeLGpeWopkexQWKiuM9tuKjtT50MkQ/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9sb2dv/ZGl4LmNvbS9sb2dv/LzE3ODQ5NjAuanBn",
-   "t": "SkinCeuticals Logo - skinceuticals logo | Agape Med Spa Chattanooga",
-   "w": 904,
-   "purl": "",
-   "file": "cand/lg-skinc/9.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/lnaR8-jXR-NXY-EJjsHaauPYuYwOWXzu7_9Xu_3g2xA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9sb2dv/ZGl4LmNvbS9sb2dv/LzE3ODUxMTcuanBn",
-   "t": "SkinCeuticals Logo - SkinCeuticals At COSME DE.COM",
-   "w": 500,
-   "purl": "",
-   "file": "cand/lg-skinc/10.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/HQ3EeYc7LJsFJaCdux1SLBJZM91YkZ0fplAkEn0LkN4/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9sb2dv/ZGl4LmNvbS9sb2dv/LzE3ODUyMjkucG5n",
-   "t": "SkinCeuticals Logo - SkinCeuticals | Grand Pearl Spa",
-   "w": 500,
-   "purl": "",
-   "file": "cand/lg-skinc/11.img"
-  },
-  {
-   "murl": "https://imgs.search.brave.com/VrRLFBA41wvgj0rNoUGSxdfirqRvzC68EqQlT1KonxU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zYWxv/bnVsdGltby5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMjAv/MTIvbG9nby1za2lu/Y2V1dGljYWxzLTMw/MHgzMDAucG5n",
+   "murl": "https://imgs.search.brave.com/sqMEBGGELg7Mul6yubSSjNxn2Ktm2XYkdJyXIaGDXjk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdWJz/dGFja2Nkbi5jb20v/aW1hZ2UvZmV0Y2gv/JHNfIU52NEkhLHdf/MTQ1NixjX2xpbWl0/LGZfYXV0byxxX2F1/dG86Z29vZCxmbF9w/cm9ncmVzc2l2ZTpz/dGVlcC9odHRwczov/L3N1YnN0YWNrLXBv/c3QtbWVkaWEuczMu/YW1hem9uYXdzLmNv/bS9wdWJsaWMvaW1h/Z2VzLzhmMDliOTNl/LWFmMWEtNGJkNi1h/ZmQxLTVkYTQ3YjYw/MTkwYl81NzZ4MzUy/LnBuZw",
    "t": "",
    "w": 500,
    "purl": "",
-   "file": "cand/lg-skinc/12.img"
+   "file": "cand/lg-mbeauty/3.img"
   },
   {
-   "murl": "https://imgs.search.brave.com/Pi86m3v46UF_2Y9VSTMP64AOwUyyS_W5kyJS05rGon4/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9sb2dv/ZGl4LmNvbS9sb2dv/LzE3ODUwOTguanBn",
-   "t": "SkinCeuticals Logo - About SkinCeuticals. A Professional Brand",
-   "w": 853,
+   "murl": "https://imgs.search.brave.com/ibE86HDof6SH1yLVcAyFZ7QBYmjqlniuLkJmSOb2GgA/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9tYmVh/dXR5Y2xpbmljLmNv/bS9pbmRleF9odG1f/ZmlsZXMvOTI1MzEu/anBn",
+   "t": "",
+   "w": 537,
    "purl": "",
-   "file": "cand/lg-skinc/13.img"
+   "file": "cand/lg-mbeauty/4.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/pMlQwEc4bvuY5j_9CNF0PEb_5E1c1vf2HxRzsno9Mn4/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9tYmVh/dXR5Y2xpbmljLmNv/bS9pbmRleF9odG1f/ZmlsZXMvOTUzNTIu/anBn",
+   "t": "",
+   "w": 309,
+   "purl": "",
+   "file": "cand/lg-mbeauty/5.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/DCnhFuCDDox6iGCWoU1IP9u81hNfq8AGVSiembZqakU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/b3JhbmdlY291bnR5/aGkuY29tL2ltYWdl/cy9tZWRpYS9kci10/ZXNzLW1hdXJpY2lv/LW1kLWRlcm1hdG9s/b2d5LXNhbi1kaWVn/by1iZXZlcmx5LWhp/bGxzLW5hdGlvbmFs/LWNpdHkvZHJ0ZXNz/dGltZW1hY2hmbGlw/cGVyLmpwZw",
+   "t": "",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-mbeauty/6.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/HDAo3KsSBpIfddvwUnyujOIUOqPCBaY0YjLygh3oO8w/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9tYmVh/dXR5Y2xpbmljLmNv/bS9pbmRleF9odG1f/ZmlsZXMvOTUyOTIu/anBn",
+   "t": "",
+   "w": 323,
+   "purl": "",
+   "file": "cand/lg-mbeauty/7.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/fjR6std957KTR9DgnDGkRKPowQW4JyNDOTZaQWOZ6Ps/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tYmVh/dXR5Y2xpbmljLmNv/bS9pbmRleF9odG1f/ZmlsZXMvOTkyNDku/anBn",
+   "t": "",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-mbeauty/8.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/9PKYSlkbn5nrRmlSYvqq61JNK7B-LXCRbcVlSNDhuCE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/b3JhbmdlY291bnR5/aGkuY29tL2ltYWdl/cy9tZWRpYS9kci10/ZXNzLW1hdXJpY2lv/LW1kLWRlcm1hdG9s/b2dpc3QtYmV2ZXJs/eS1oaWxscy1sb3Mt/YW5nZWxlcy1sYS9k/cnRlc3NhbG1pZmxp/cHBlci5qcGc",
+   "t": "",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-mbeauty/9.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/ffq-iGHGgUfpv1w6NC2lfbiL4Q4f3uCqGva41dZPruI/rs:fit:0:180:1:0/g:ce/aHR0cDovL3d3dy5t/YmVhdXR5bGlmZS5j/b20vaW5kZXhfaHRt/X2ZpbGVzLzM3NS5w/bmc",
+   "t": "",
+   "w": 489,
+   "purl": "",
+   "file": "cand/lg-mbeauty/10.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/qCLDmzFpUys7dYTBnbrNJjlq5UcFkOZvbcdlIkCZ3Hc/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tYmVh/dXR5Y2xpbmljLmNv/bS9pbmRleF9odG1f/ZmlsZXMvOTMyNDUu/anBn",
+   "t": "",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-mbeauty/11.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/7EsIgbl_MBOR1srwkmnSJ7x-L47NhOxtEsV5kHUO0xI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/b3JhbmdlY291bnR5/aGkuY29tL2NsaWVu/dHMvMVNEL2RydGVz/cy9BbG1pQm9keUNv/cHkuanBn",
+   "t": "",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-mbeauty/12.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/-BenhVwlRM6HqzGHUf-BYJvp2KKVTgUB6iQpqwBa_8g/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5saWNkbi5jb20v/ZG1zL2ltYWdlL3Yy/L0Q0RTE2QVFHUnZB/X05FbHVvLWcvcHJv/ZmlsZS1kaXNwbGF5/YmFja2dyb3VuZGlt/YWdlLXNocmlua18y/MDBfODAwL3Byb2Zp/bGUtZGlzcGxheWJh/Y2tncm91bmRpbWFn/ZS1zaHJpbmtfMjAw/XzgwMC8wLzE3MjQ5/MDgwMjU5Mjg_ZT0y/MTQ3NDgzNjQ3JnY9/YmV0YSZ0PXJYQ2dL/UEk4czN6MHlYa0lt/MjNlMGlUQ0VQYVUx/aFpMaHJVTFVFblJy/MzQ",
+   "t": "",
+   "w": 720,
+   "purl": "",
+   "file": "cand/lg-mbeauty/13.img"
+  }
+ ],
+ "lg-mbeauty2|mbeautyclinic.com logo": [
+  {
+   "murl": "https://cdn.search.brave.com/serp/v3/_app/immutable/assets/brave-logo-light.D0nx3pfh.svg",
+   "t": "Brave logo",
+   "w": 129,
+   "purl": "https://search.brave.com/",
+   "file": "cand/lg-mbeauty2/0.svg"
+  },
+  {
+   "murl": "https://cdn.search.brave.com/serp/v3/_app/immutable/assets/brave-logo-dark.5D16vJCY.svg",
+   "t": "Brave logo",
+   "w": 129,
+   "purl": "https://search.brave.com/",
+   "file": "cand/lg-mbeauty2/1.svg"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/_OMujSNB7mjtSqjuKnHAfHyQu0vP-X58oRC56IZ1_Q8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9keW5h/bWljLmJyYW5kY3Jv/d2QuY29tL2Fzc2V0/L2xvZ28vNGVhNzNh/NTgtODZmNy00MDNl/LWEyZGEtZDUxODZi/MjFmNWE4L2xvZ28t/c2VhcmNoLWdyaWQt/Mng_bG9nb1RlbXBs/YXRlVmVyc2lvbj0y/JnY9NjM4MjgxODQ0/MDExNzMwMDAwJmxh/eW91dD1hdXRvLTEt/MQ",
+   "t": "Beauty Clinic - Beauty Makeup Boutique",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-mbeauty2/2.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/qpurk4BHbS83eI63eV_Yi9ux5yAe3ZNRSHZ6XMLE7Bw/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMzEv/Mzc5LzQ1Ny9zbWFs/bC9iZWF1dHktbW9u/b2dyYW0tbGV0dGVy/LW0td29tYW4tc2ls/aG91ZXR0ZS1sb2dv/LWRlc2lnbi1mcmVl/LXZlY3Rvci5qcGc",
+   "t": "beauty monogram letter M woman silhouette logo design vector",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-mbeauty2/3.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/cC1BjwCR3YOaC9p11-jf1TZVDYDyCiuuUOutl4imbTM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMjYv/NzUzLzM3MS9zbWFs/bC9qLWJlYXV0eS1j/ZW50ZXItbG9nby1k/ZXNpZ24tdmVjdG9y/LmpwZw",
+   "t": "J Beauty Center Logo Design Vector",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-mbeauty2/4.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/DsP2mVLpCE5uuAtRBa_aCacD3bTA6c52Mla_Eu4T6r8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/bG9nb2pveS5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMTgv/MDUvMzAxNjM2NDEv/MTAzMy03Njh4NTkx/LnBuZw",
+   "t": "Larina Nail Studio Beauty Logo - Design Made with Looka",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-mbeauty2/5.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/dn8dL_tyPHAwDws6eTQbiMFRDTf0LDMEyPKujms2N5Q/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wNDEv/NDIxLzk3OC9zbWFs/bC9uYXR1cmFsLWJl/YXV0eS1za2luLWNh/cmUtd29tZW4tbG9n/by10ZW1wbGF0ZS1m/cmVlLXZlY3Rvci5q/cGc",
+   "t": "Natural beauty skin care Women Vector Logo template",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-mbeauty2/6.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/iF8n00K8evkyvz_YxkBLISGCTW-qZgqml3rQFycWjx4/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9keW5h/bWljLmJyYW5kY3Jv/d2QuY29tL2Fzc2V0/L2xvZ28vNzQ5OTgz/MGUtNjE2My00ZWVi/LWE5NjAtYzNiYWU4/NjRjNzYwL2xvZ28t/c2VhcmNoLWdyaWQt/Mng_bG9nb1RlbXBs/YXRlVmVyc2lvbj0y/JnY9NjM5MDg2MjAx/NzQzMjAwMDAwJmxh/eW91dD1hdXRvLTEt/MQ",
+   "t": "Beauty Clinic - Facial Makeup Cosmetics",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-mbeauty2/7.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/hs1eqN2tN7-OrNSKjBbphMgX8-AZy9M9JLHQZSGP2vg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9keW5h/bWljLmJyYW5kY3Jv/d2QuY29tL2Fzc2V0/L2xvZ28vNTZhZGZk/MmEtMTc3My00Njhi/LWE3MTUtYmM0MGY0/YjYwY2ZmL2xvZ28t/c2VhcmNoLWdyaWQt/Mng_bG9nb1RlbXBs/YXRlVmVyc2lvbj0y/JnY9NjM4MjUzNjA5/MzkwODcwMDAwJmxh/eW91dD1hdXRvLTEt/MQ",
+   "t": "Beauty Clinic - Pretty Beauty Salon",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-mbeauty2/8.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/IIC6cjAIKaWswj6tiU4-KVK0Pa2pEpmiOa6O_NDpH48/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9keW5h/bWljLmJyYW5kY3Jv/d2QuY29tL2Fzc2V0/L2xvZ28vNjRiM2Vk/NTEtOTBiZC00Mjg1/LTgzYmItNjdmMjVh/YzUwZTQyL2xvZ28t/c2VhcmNoLWdyaWQt/Mng_bG9nb1RlbXBs/YXRlVmVyc2lvbj0y/JnY9NjM4NzE5MDgy/NDczNjMwMDAwJmxh/eW91dD1hdXRvLTEt/MQ",
+   "t": "Beauty Clinic - Woman Facial Care",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-mbeauty2/9.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/iwSq8lbc9uge6fmgjDoEPeyywoyE6gr_giwMXQPLq-E/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/c2h1dHRlcnN0b2Nr/LmNvbS9pbWFnZS12/ZWN0b3IvbGV0dGVy/LW0tbHV4dXJ5LWJl/YXV0eS1mYWNlLTI2/MG53LTE2NDQ5NTcw/NDAuanBn",
+   "t": "Letter M Luxury Beauty Face Logo Design Vector Stock Vector",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-mbeauty2/10.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/I_5kTVEd4LhQuHgCThSYLrdI1h8nyHNyn0q1i0Ws5N8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/c2h1dHRlcnN0b2Nr/LmNvbS9pbWFnZS12/ZWN0b3IvbWluaW1h/bC1kZXJtYS1tZWRp/Y2FsLWNsaW5pYy1s/b2dvLTI2MG53LTI2/NTE4ODIyNzEuanBn",
+   "t": "Minimal derma medical clinic logo design vector icon template beauty healthcare clinic logo design modern premium dermatologist logo type skin beauty clinic logo Stock Vector",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-mbeauty2/11.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/p-Kqp0j_AVLX4ct2nMATK3IX_wxu4jM0ufL1Jn3SQLc/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9keW5h/bWljLmJyYW5kY3Jv/d2QuY29tL2Fzc2V0/L2xvZ28vNjliMmY4/YWMtNzYxMy00MTFm/LTlmNDQtNzI2NTA2/ZGY2ZDg5L2xvZ28t/c2VhcmNoLWdyaWQt/Mng_bG9nb1RlbXBs/YXRlVmVyc2lvbj0y/JnY9NjM4ODcyMTAx/NDIzMzcwMDAwJmxh/eW91dD1hdXRvLTEt/MQ",
+   "t": "Beauty Clinic - Woman Face Beauty",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-mbeauty2/12.img"
+  },
+  {
+   "murl": "https://imgs.search.brave.com/CtmrimPWDYJeem0LI1Km8BaagrwezE88a28khmT4g2Q/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9keW5h/bWljLmJyYW5kY3Jv/d2QuY29tL2Fzc2V0/L2xvZ28vZTVlOGVk/YzMtNDRhOS00NDlh/LWI5NjUtNmU1ZWRh/NzczNzUyL2xvZ28t/c2VhcmNoLWdyaWQt/Mng_bG9nb1RlbXBs/YXRlVmVyc2lvbj0x/JnY9NjM4MTI4MDU0/MDA5MjcwMDAwJmxh/eW91dD1hdXRvLTEt/MQ",
+   "t": "Beauty Clinic - Cosmic Beauty Woman",
+   "w": 500,
+   "purl": "",
+   "file": "cand/lg-mbeauty2/13.img"
   }
  ]
 }
