@@ -764,17 +764,9 @@ addEventListener('scroll',onScroll,{passive:true});addEventListener('resize',onS
 </script>
 <script>
 (function(){
-var ID='' /* paste the plastic surgeon video's YouTube ID here */,wrap=document.getElementById('vwrap'),poster=document.getElementById('vposter'),snd=document.getElementById('vsound'),ifr=null;
-if(!ID){var vs=wrap.closest('section');if(vs)vs.remove();return;}
-poster.querySelector('img').src='https://i.ytimg.com/vi/'+ID+'/maxresdefault.jpg';
-var RM=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
-function load(muted){if(ifr)return;ifr=document.createElement('iframe');
- ifr.src='https://www.youtube.com/embed/'+ID+'?autoplay=1&mute='+(muted?1:0)+'&playsinline=1&rel=0&enablejsapi=1&origin='+encodeURIComponent(location.origin);ifr.referrerPolicy='strict-origin-when-cross-origin';ifr.setAttribute('referrerpolicy','strict-origin-when-cross-origin');
- ifr.title='Is AI skipping your practice? Local AI Registry video';ifr.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen';ifr.setAttribute('allowfullscreen','');
- wrap.insertBefore(ifr,snd);poster.remove();if(muted)snd.hidden=false}
-poster.addEventListener('click',function(){load(false)});
-snd.addEventListener('click',function(){if(ifr&&ifr.contentWindow){ifr.contentWindow.postMessage(JSON.stringify({event:'command',func:'unMute',args:[]}),'*');ifr.contentWindow.postMessage(JSON.stringify({event:'command',func:'setVolume',args:[100]}),'*')}snd.hidden=true});
-if(!RM&&'IntersectionObserver' in window){var io=new IntersectionObserver(function(e){if(e[0].isIntersecting){load(true);io.disconnect()}},{threshold:.6});io.observe(wrap)}
+var wrap=document.getElementById('vwrap'),poster=document.getElementById('vposter'),snd=document.getElementById('vsound');
+poster.querySelector('img').src='video-poster.jpg';
+poster.addEventListener('click',function(){var v=document.createElement('video');v.src='explainer.mp4';v.poster='video-poster.jpg';v.controls=true;v.autoplay=true;v.playsInline=true;v.setAttribute('playsinline','');v.title='Is AI skipping your practice? Local AI Registry video';v.style.cssText='position:absolute;inset:0;width:100%;height:100%;background:#0B1A2E';wrap.insertBefore(v,snd);poster.remove();snd.remove();v.play().catch(function(){});});
 })();
 </script>
 </body>
