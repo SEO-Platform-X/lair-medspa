@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Yext vs Synup vs Local AI Registry</title>
+<meta name="description" content="Yext and Synup sell activity. Local AI Registry sells results, with a 90-day AI visibility guarantee. Compare features, pricing, trust and safety, and real client results.">
+<meta property="og:title" content="Yext vs Synup vs Local AI Registry">
+<meta property="og:description" content="Same activities. Only one gets results. Compare pricing, guarantees, trust and safety, and real client results.">
+<meta property="og:type" content="website">
+<style>*,*::before,*::after{box-sizing:border-box}:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=Cormorant:ital,wght@0,500;0,600;1,500&family=Hanken+Grotesk:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: short thesis, then one full comparison table (same activities, then what moves results, then how you pay), then real client charts, then the client-audit ask. */
+:root{
+  --paper:#F4F1EA; --paper-2:#ECE6D6; --card:#FFFFFF; --ink:#0B1A2E; --ink-soft:#4A5568;
+  --blue:#1F4FE0; --blue-wash:#E7EDFC; --blue-soft:#7E97F2; --coral:#E2462A; --rule:#DDD5C2;
+  --on-blue:#FFFFFF;
+  --f-display:"Cormorant",Georgia,"Times New Roman",serif;
+  --f-head:"Bricolage Grotesque","Hanken Grotesk",system-ui,sans-serif;
+  --f-body:"Hanken Grotesk",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#0B1A2E; --paper-2:#12243D; --card:#132743; --ink:#F4F1EA; --ink-soft:#AFB8C8;
+  --blue:#8FA6F5; --blue-wash:#1A2F55; --blue-soft:#4F6FE8; --coral:#FF7A60; --rule:#24395A; --on-blue:#0B1A2E; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#0B1A2E; --paper-2:#12243D; --card:#132743; --ink:#F4F1EA; --ink-soft:#AFB8C8;
+  --blue:#8FA6F5; --blue-wash:#1A2F55; --blue-soft:#4F6FE8; --coral:#FF7A60; --rule:#24395A; --on-blue:#0B1A2E; color-scheme:dark}
+
+body{background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:17px;line-height:1.55}
+.wrap{max-width:1120px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+section{padding-block:48px}
+section+section{border-top:1px solid var(--rule)}
+h1,h2,h3{margin:0;text-wrap:balance}
+h2{font-family:var(--f-head);font-weight:700;font-size:clamp(26px,3.6vw,36px);line-height:1.12;letter-spacing:-.01em}
+h3{font-family:var(--f-head);font-weight:700;font-size:19px;line-height:1.25}
+p{margin:0}
+.eyebrow{font-weight:700;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--blue)}
+.lede{color:var(--ink-soft);max-width:64ch}
+.stack{display:flex;flex-direction:column;gap:12px}
+
+.top{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-block:22px;flex-wrap:wrap}
+.lockup{height:26px;width:auto;display:block}
+.lg-mark{fill:var(--blue)} .lg-cap{fill:#FF5A3C} .lg-word{fill:var(--ink)}
+.meta{font-size:13px;color:var(--ink-soft)}
+
+.hero{padding-block:28px 40px}
+.hero h1{font-family:var(--f-display);font-weight:600;font-size:clamp(42px,6.8vw,80px);line-height:1;letter-spacing:-.015em}
+.hero h1 .line{display:block}
+.hero h1 em{font-style:italic;color:var(--blue)}
+.hero .lede{font-size:19px;margin-top:18px}
+
+/* the table */
+.tbl{overflow-x:auto;margin-top:24px;border:1px solid var(--rule);border-radius:4px;background:var(--card)}
+table{border-collapse:collapse;width:100%;min-width:780px;font-size:15px}
+th,td{text-align:left;vertical-align:top;padding:12px 16px;border-bottom:1px solid var(--rule)}
+thead th{font-family:var(--f-head);font-size:17px;font-weight:700;background:var(--paper-2);position:sticky;top:0}
+thead th.ours{background:var(--blue);color:var(--on-blue)}
+tbody th{font-weight:600;font-size:14.5px;width:26%}
+td.ours{background:var(--blue-wash);font-weight:600}
+tr.group th{background:var(--paper);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--blue);font-weight:700;padding-top:18px}
+tr.group th span{display:block;text-transform:none;letter-spacing:0;font-size:13.5px;color:var(--ink-soft);font-weight:500;margin-top:2px}
+tr:last-child td,tr:last-child th{border-bottom:0}
+.y,.n{display:inline-flex;align-items:center;gap:8px}
+.y::before,.n::before{flex:none;width:20px;height:20px;border-radius:50%;display:inline-grid;place-items:center;font-size:12px;font-weight:800;line-height:1}
+.y::before{content:"\2713";background:var(--ink);color:var(--paper)}
+td.ours .y::before{background:var(--blue);color:var(--on-blue)}
+.n{color:var(--coral);font-weight:600}
+.n::before{content:"\2715";border:1.5px solid var(--coral);color:var(--coral)}
+.bad{color:var(--coral);font-weight:600}
+.muted{color:var(--ink-soft);font-style:italic}
+.num{font-variant-numeric:tabular-nums}
+.note{font-size:13px;color:var(--ink-soft);margin-top:12px;max-width:80ch}
+
+/* verdict band */
+.verdict{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:32px;align-items:center}
+.verdict h2{font-family:var(--f-display);font-weight:600;font-size:clamp(34px,4.6vw,54px);line-height:1}
+.verdict ul{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:10px;color:var(--ink-soft)}
+.verdict ul strong{color:var(--ink)}
+
+/* results */
+.cases{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin-top:24px}
+.case{background:var(--card);border:1px solid var(--rule);border-radius:4px;padding:22px;display:flex;flex-direction:column;gap:14px;min-width:0}
+.case .kind{font-size:13px;color:var(--ink-soft)}
+.big{display:flex;gap:28px;flex-wrap:wrap}
+.big div{display:flex;flex-direction:column}
+.big b{font-family:var(--f-display);font-weight:600;font-size:40px;line-height:1;font-variant-numeric:tabular-nums}
+.big b.up{color:var(--blue)}
+.big span{font-size:13px;color:var(--ink-soft)}
+.chart{width:100%;height:auto;display:block}
+.chart .grid{stroke:var(--rule);stroke-width:1}
+.chart .ax{fill:var(--ink-soft);font:12px var(--f-body)}
+.chart .area{fill:var(--blue);opacity:.12}
+.chart .ln{fill:none;stroke:var(--blue);stroke-width:2.5;stroke-linejoin:round}
+.chart .pt{fill:var(--blue);stroke:var(--card);stroke-width:2}
+.chart .pt0{fill:var(--card);stroke:var(--ink-soft);stroke-width:2}
+.chart .mk{stroke:var(--ink-soft);stroke-dasharray:4 4}
+.chart .mkt{fill:var(--ink-soft);font:600 12px var(--f-body)}
+.ai{border-top:1px solid var(--rule);padding-top:12px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.ai div{display:flex;flex-direction:column}
+.ai b{font-family:var(--f-head);font-size:20px;font-variant-numeric:tabular-nums}
+.ai span{font-size:12px;color:var(--ink-soft)}
+
+/* audit cta */
+.audit{background:var(--ink);color:var(--paper);border-radius:4px;padding:40px clamp(20px,4vw,52px);display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:32px;align-items:center}
+.audit h2{font-family:var(--f-display);font-weight:600;font-size:clamp(34px,4.6vw,54px);line-height:1}
+.audit .eyebrow{color:var(--blue-soft)}
+.audit p{color:inherit;opacity:.85}
+.audit ol{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:10px;font-size:15.5px}
+.btn{display:inline-block;align-self:flex-start;background:#1F4FE0;color:#FFFFFF;font-weight:700;text-decoration:none;padding:14px 22px;border-radius:3px;margin-top:6px}
+.btn:focus-visible,a:focus-visible{outline:3px solid var(--blue-soft);outline-offset:3px}
+
+/* guarantee band */
+.guar{background:var(--blue);color:var(--on-blue);border-radius:4px;padding:36px clamp(20px,4vw,52px);display:grid;grid-template-columns:auto minmax(0,1fr) minmax(0,1fr);gap:32px;align-items:center}
+.seal{width:132px;height:132px;border-radius:50%;border:2px solid currentColor;display:grid;place-items:center;text-align:center;line-height:1}
+.seal b{font-family:var(--f-display);font-size:58px;font-weight:600;display:block}
+.seal span{font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+.guar h2{font-family:var(--f-display);font-weight:600;font-size:clamp(32px,4.2vw,50px);line-height:1}
+.guar p{opacity:.9;margin-top:10px}
+.guar ol{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:8px;font-size:15px}
+
+/* competitor showcase */
+.xgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin-top:24px}
+.xcase{background:var(--card);border:1px solid var(--rule);border-radius:4px;padding:20px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.xhead{display:flex;justify-content:space-between;gap:12px;align-items:baseline;flex-wrap:wrap}
+.vendor{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft)}
+.drop{font-family:var(--f-display);font-weight:600;font-size:38px;line-height:1;color:var(--coral);font-variant-numeric:tabular-nums}
+.xcase .sub{font-size:13.5px;color:var(--ink-soft)}
+.claim{font-size:13.5px;border-left:2px solid var(--rule);padding-left:10px;color:var(--ink-soft)}
+.chart.down .area{fill:var(--coral);opacity:.12}
+.chart.down .ln{stroke:var(--coral)}
+.chart.down .pt{fill:var(--coral)}
+
+/* example wall */
+.wall{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:24px}
+.ex{background:var(--card);border:1px solid var(--rule);border-radius:4px;padding:18px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.extag{align-self:flex-start;font-size:10.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:3px 7px;border:1px dashed var(--ink-soft);color:var(--ink-soft);border-radius:2px}
+.ex h3{font-size:16px}
+.ex .kind{font-size:12.5px;color:var(--ink-soft)}
+.mini{display:flex;gap:18px}
+.mini div{display:flex;flex-direction:column}
+.mini b{font-family:var(--f-head);font-size:20px;font-variant-numeric:tabular-nums}
+.mini b.up{color:var(--blue)}
+.mini span{font-size:11.5px;color:var(--ink-soft)}
+.wallnote{margin-top:14px;font-size:13px;color:var(--ink-soft);border:1px dashed var(--ink-soft);padding:10px 14px;border-radius:3px}
+@media (max-width:860px){.guar{grid-template-columns:minmax(0,1fr)}.xgrid{grid-template-columns:minmax(0,1fr)}.wall{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:540px){.wall{grid-template-columns:minmax(0,1fr)}}
+
+.stopcase{margin-top:48px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:28px;align-items:center}
+@media (max-width:860px){.stopcase{grid-template-columns:minmax(0,1fr)}}
+.risks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:24px}
+.risk{background:var(--card);border:1px solid var(--rule);border-radius:4px;padding:20px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.risk:last-child{grid-column:1 / -1}
+.risk p{font-size:15px}
+.without b{color:var(--coral)}
+.with{border-top:1px solid var(--rule);padding-top:10px}
+.with b{color:var(--blue)}
+.public{margin-top:24px;background:var(--ink);color:var(--paper);border-radius:4px;padding:28px clamp(20px,4vw,40px);display:grid;grid-template-columns:minmax(0,0.9fr) minmax(0,1.3fr);gap:28px;align-items:start}
+.public .eyebrow{color:var(--blue-soft)}
+.public ul{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:10px;font-size:15px;opacity:.92}
+@media (max-width:860px){.risks,.public{grid-template-columns:minmax(0,1fr)}.risk:last-child{grid-column:auto}}
+footer{padding-block:28px 48px;font-size:13px;color:var(--ink-soft);display:flex;flex-direction:column;gap:6px}
+footer a{color:inherit}
+
+@media (max-width:860px){
+  .cases,.verdict,.audit{grid-template-columns:minmax(0,1fr)}
+  .ai{grid-template-columns:repeat(2,minmax(0,1fr))}
+  section{padding-block:36px}
+}
+</style>
+
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1867.45 232.87" class="lockup" role="img" aria-label="Local AI Registry">
+  <g transform="translate(0 22.54) scale(1.878)">
+    <path d="M50 10 L92 86 L64 86 L50 58 L36 86 L8 86 Z" class="lg-mark"/>
+    <path d="M50 10 L61 30 L39 30 Z" class="lg-cap"/>
+  </g>
+  <path transform="translate(237.85 173.34)" d="M46 0L13.800 0L13.800-132L46-132L46 0ZM99.800 0L19.600 0L19.600-27L99.800-27L99.800 0ZM162.800 2.800L162.800 2.800Q146.800 2.800 134.500-3.400Q122.200-9.600 115.200-22Q108.200-34.400 108.200-53L108.200-53Q108.200-71.600 115.200-83.900Q122.200-96.200 134.600-102.300Q147-108.400 163-108.400L163-108.400Q179-108.400 191.400-102.200Q203.800-96 210.800-83.700Q217.800-71.400 217.800-52.800L217.800-52.800Q217.800-33.800 210.600-21.400Q203.400-9 190.900-3.100Q178.400 2.800 162.800 2.800ZM163.800-20.600L163.800-20.600Q171-20.600 175.800-23.900Q180.600-27.200 183-34Q185.400-40.800 185.400-50.800L185.400-50.800Q185.400-61.400 182.800-68.700Q180.200-76 175.100-79.900Q170-83.800 162-83.800L162-83.800Q155.200-83.800 150.300-80.500Q145.400-77.200 143-70.400Q140.600-63.600 140.600-53.400L140.600-53.400Q140.600-37 146.700-28.800Q152.800-20.600 163.800-20.600ZM286.400 2.800L286.400 2.800Q272.800 2.800 262.400-1Q252.000-4.800 245.000-11.900Q238.000-19 234.300-29Q230.600-39 230.600-51.400L230.600-51.400Q230.600-64.200 234.300-74.600Q238.000-85 245.000-92.600Q252.000-100.200 262.200-104.300Q272.400-108.400 285.600-108.400L285.600-108.400Q298.800-108.400 308.400-104.200Q318-100 324.100-92.400Q330.200-84.800 332.400-74.800L332.400-74.800L302.600-64.800Q302-71.400 299.400-75.600Q296.800-79.800 292.700-81.700Q288.600-83.600 283.800-83.600L283.800-83.600Q278.800-83.600 275-81.600Q271.200-79.600 268.600-75.600Q266-71.600 264.600-65.900Q263.200-60.200 263.200-52.800L263.200-52.800Q263.200-42.200 265.900-35.100Q268.600-28 273.900-24.400Q279.200-20.800 286.800-20.800L286.800-20.800Q294.600-20.800 299-24Q303.400-27.200 305.400-31.900Q307.400-36.600 307.800-41.200L307.800-41.200L335.800-35Q335-27.600 331.900-20.700Q328.800-13.800 322.800-8.500Q316.800-3.200 307.900-0.200Q299 2.800 286.400 2.800ZM375.600 2.800L375.600 2.800Q366.800 2.800 360.000-0.700Q353.200-4.200 349.400-10.900Q345.600-17.600 345.600-27.200L345.600-27.200Q345.600-36.200 349.100-42.100Q352.600-48 359.300-51.500Q366.000-55 375.400-57.300Q384.800-59.600 396.800-61.400L396.800-61.400Q402.600-62.400 406.500-63.300Q410.400-64.200 412.400-66.200Q414.400-68.200 414.400-72L414.400-72Q414.400-77 410.800-80.600Q407.200-84.200 399.200-84.200L399.200-84.200Q393.600-84.200 389.100-82.200Q384.600-80.200 381.400-76.400Q378.200-72.600 376.600-67.200L376.600-67.200L348.200-75.600Q350.800-84 355.500-90.200Q360.200-96.400 366.800-100.500Q373.400-104.600 381.900-106.500Q390.400-108.400 400.000-108.400L400.000-108.400Q416.000-108.400 426.100-103.300Q436.200-98.200 441.100-87.500Q446.000-76.800 446.000-60L446.000-60L446.000-43.800Q446.000-36.600 446.300-29.300Q446.600-22 447.100-14.700Q447.600-7.400 448.400 0L448.400 0L420.000 0Q419.200-4.600 418.400-11.100Q417.600-17.600 417.200-24.400L417.200-24.400L413.400-24.400Q410.600-16.800 405.300-10.500Q400.000-4.200 392.500-0.700Q385.000 2.800 375.600 2.800ZM390.200-20L390.200-20Q393.800-20 397.500-21.300Q401.200-22.600 404.600-24.900Q408.000-27.200 410.800-30.600Q413.600-34 415.000-38L415.000-38L414.600-53.800L419.000-52.800Q415.200-50.400 410.600-49Q406.000-47.600 401.300-46.800Q396.600-46 392.100-45.100Q387.600-44.200 384.100-42.800Q380.600-41.400 378.600-39Q376.600-36.600 376.600-32.400L376.600-32.400Q376.600-26.800 380.400-23.400Q384.200-20 390.200-20ZM501.400 0L469.800 0L469.800-144L501.400-144L501.400 0ZM596.600 0L561.400 0L606.200-132L653.400-132L698.200 0L663 0L631.400-106.800L628.200-106.800L596.600 0ZM676.400-24.800L588-24.800L588-46.400L676.400-46.400L676.400-24.800ZM747.600 0L714.800 0L714.800-132L747.600-132L747.600 0ZM852.200 0L820 0L820-132L876.200-132Q887.200-132 896.200-130.300Q905.200-128.600 912.100-125.300Q919-122 923.800-117.300Q928.600-112.600 931-106.500Q933.400-100.400 933.400-93L933.400-93Q933.400-86 931.200-80.400Q929-74.800 924.500-70.600Q920-66.400 913.200-63.800Q906.400-61.200 897.400-60L897.400-60L897.400-57Q908.800-55.800 915.100-51.900Q921.400-48 924.800-41.600Q928.200-35.200 930.800-26.200L930.800-26.200L938.400 0L902.600 0L896.800-24.200Q895-32.200 891.900-36.600Q888.800-41 884-42.700Q879.200-44.400 872-44.400L872-44.400L852.200-44.400L852.200 0ZM852.200-107.600L852.200-68.200L874-68.200Q886.200-68.200 893-73Q899.800-77.800 899.800-88L899.800-88Q899.800-98 893.600-102.800Q887.400-107.600 874.800-107.600L874.800-107.600L852.200-107.600ZM1006.400 2.800L1006.400 2.800Q993.200 2.800 982.800-0.700Q972.400-4.200 965.100-11Q957.800-17.800 954.000-27.800Q950.200-37.800 950.200-50.800L950.200-50.800Q950.200-63.400 953.900-74Q957.600-84.600 964.500-92.300Q971.400-100 981.500-104.200Q991.600-108.400 1004.200-108.400L1004.200-108.400Q1017.000-108.400 1026.700-104.300Q1036.400-100.200 1042.700-92.200Q1049-84.200 1052-72.700Q1055-61.200 1054-46.400L1054-46.400L971.400-45.800L971.400-62.600L1035.600-63.200L1024.200-55.400Q1025.600-65.400 1023.000-71.700Q1020.400-78 1015.400-80.900Q1010.400-83.800 1004.600-83.800L1004.600-83.800Q997.600-83.800 992.300-80Q987.000-76.200 984.000-69Q981.000-61.800 981.000-51.400L981.000-51.400Q981.000-35 988.100-27.600Q995.200-20.200 1006.200-20.200L1006.200-20.200Q1011.600-20.200 1015.200-21.700Q1018.800-23.200 1021.100-25.500Q1023.400-27.800 1024.700-30.600Q1026-33.400 1026.800-36L1026.800-36L1054.800-30Q1053.200-22.600 1049.700-16.600Q1046.200-10.600 1040.300-6.200Q1034.400-1.800 1026.100 0.500Q1017.800 2.800 1006.400 2.800ZM1116.200 37L1116.200 37Q1098.600 37 1087.300 34.300Q1076 31.600 1070.800 26.300Q1065.600 21 1065.600 13.400L1065.600 13.400Q1065.600 4.200 1072.900-1.600Q1080.200-7.400 1094.400-8.200L1094.400-8.200L1094.400-12.400Q1083.400-12.400 1077.500-14.600Q1071.600-16.800 1071.600-22.800L1071.600-22.800Q1071.600-28.400 1077.400-33Q1083.200-37.600 1096.600-40.200L1096.600-40.200L1096.600-44.400Q1084.400-45.400 1077.200-52.500Q1070-59.600 1070-71.200L1070-71.200Q1070-81 1075.600-89.100Q1081.200-97.200 1092.400-102.100Q1103.600-107 1120.400-107L1120.400-107L1175.200-107L1175.200-82.800L1141.800-87.200L1141.800-82.400Q1154.800-80.600 1160.400-76.400Q1166-72.200 1166-64.600L1166-64.600Q1166-56.600 1160.500-50.400Q1155-44.200 1145-40.700Q1135-37.200 1121.200-37.200L1121.200-37.200Q1118.800-37.200 1115.900-37.400Q1113-37.600 1105.200-38.400L1105.200-38.400Q1102-35.600 1100.200-33.700Q1098.400-31.800 1098.400-30.200L1098.400-30.200Q1098.400-29 1099.400-28.200Q1100.400-27.400 1102.300-27.100Q1104.200-26.800 1106.400-26.800L1106.400-26.800L1138.600-26.800Q1142.600-26.800 1149.100-26.300Q1155.600-25.800 1162.100-23.200Q1168.600-20.600 1173.100-14.800Q1177.600-9 1177.600 1.800L1177.600 1.800Q1177.600 13.600 1171 21.500Q1164.400 29.400 1150.800 33.200Q1137.200 37 1116.200 37ZM1120.400 11.400L1120.400 11.400Q1132 11.400 1138.400 10.200Q1144.800 9 1147.300 6.400Q1149.800 3.800 1149.800 0L1149.800 0Q1149.800-3.600 1148.400-5.700Q1147-7.800 1144.800-8.600Q1142.600-9.400 1140.300-9.600Q1138-9.800 1136.400-9.800L1136.400-9.800L1110.600-9.800Q1103.200-9.800 1099.700-6.300Q1096.200-2.800 1096.200 1.800L1096.200 1.800Q1096.200 5.600 1098.600 7.700Q1101 9.800 1106.300 10.600Q1111.600 11.400 1120.400 11.400ZM1119-53.200L1119-53.200Q1127.600-53.200 1131.900-57.800Q1136.200-62.400 1136.200-69.400L1136.200-69.400Q1136.200-77 1131.800-81.900Q1127.400-86.800 1119.200-86.800L1119.200-86.800Q1111-86.800 1106.400-81.900Q1101.800-77 1101.800-69.400L1101.800-69.400Q1101.800-64.800 1103.800-61.100Q1105.800-57.400 1109.600-55.300Q1113.400-53.200 1119-53.200ZM1227.200 0L1195.000 0L1195.000-105.600L1227.200-105.600L1227.200 0ZM1211.200-120.400L1211.200-120.400Q1202.000-120.400 1197.100-124.300Q1192.200-128.200 1192.200-135.400L1192.200-135.400Q1192.200-143 1197.100-146.900Q1202.000-150.800 1211.200-150.800L1211.200-150.800Q1220.600-150.800 1225.500-146.900Q1230.400-143 1230.400-135.600L1230.400-135.600Q1230.400-128.200 1225.500-124.300Q1220.600-120.400 1211.200-120.400ZM1295.400 2.800L1295.400 2.800Q1284.800 2.800 1276.200 0.900Q1267.600-1 1261.200-4.600Q1254.800-8.200 1250.700-13.300Q1246.600-18.400 1245.000-24.600L1245.000-24.600L1269.000-35.200Q1270.400-31.800 1273.900-28.300Q1277.400-24.800 1283.300-22.600Q1289.200-20.400 1297.600-20.400L1297.600-20.400Q1305.600-20.400 1310.100-22.700Q1314.600-25 1314.600-29.400L1314.600-29.400Q1314.600-32.600 1312.100-34.500Q1309.600-36.400 1304.600-37.900Q1299.600-39.400 1292.200-40.800L1292.200-40.800Q1284.600-42.400 1276.800-44.500Q1269.000-46.600 1262.200-50.300Q1255.400-54 1251.300-60.100Q1247.200-66.200 1247.200-75.600L1247.200-75.600Q1247.200-85.400 1252.400-92.700Q1257.600-100 1267.900-104.200Q1278.200-108.400 1293.000-108.400L1293.000-108.400Q1306.200-108.400 1316.200-105Q1326.200-101.600 1332.900-95.300Q1339.600-89 1342.200-80.200L1342.200-80.200L1316.400-71Q1315.400-75.400 1312.300-78.600Q1309.200-81.800 1304.500-83.500Q1299.800-85.200 1293.400-85.200L1293.400-85.200Q1285.600-85.200 1281.300-82.800Q1277.000-80.400 1277.000-76.400L1277.000-76.400Q1277.000-73.200 1279.900-71.100Q1282.800-69 1288.200-67.600Q1293.600-66.200 1301.000-64.600L1301.000-64.600Q1308.800-63 1316.500-60.900Q1324.200-58.800 1330.500-55.300Q1336.800-51.800 1340.500-46.100Q1344.200-40.400 1344.200-31.400L1344.200-31.400Q1344.200-20.800 1338.600-13.100Q1333.000-5.400 1322.100-1.300Q1311.200 2.800 1295.400 2.800ZM1403.200 2.600L1403.200 2.600Q1384.600 2.600 1375.800-7.300Q1367.000-17.200 1367.000-39L1367.000-39L1367.000-80.400L1352.000-80.400L1352.600-105.400L1363.400-105.400Q1369.800-105.600 1373.100-107.400Q1376.400-109.200 1377.200-114.200L1377.200-114.200L1379.800-129L1398.000-129L1398.000-105.600L1423.400-105.600L1423.400-79.400L1398.000-79.400L1398.000-40.400Q1398.000-33.600 1401.300-30.400Q1404.600-27.200 1411.400-27.200L1411.400-27.200Q1415.200-27.200 1418.600-28Q1422.000-28.800 1424.200-30.200L1424.200-30.200L1424.200-0.400Q1417.800 1.600 1412.500 2.100Q1407.200 2.600 1403.200 2.600ZM1475.600 0L1443.200 0L1443.200-49L1443.200-105.600L1469.600-105.600L1470.200-69.800L1474.200-69.800Q1475.600-83.800 1479.500-92.100Q1483.400-100.400 1490.700-104.200Q1498.000-108 1508.800-108L1508.800-108Q1510.400-108 1512.400-107.900Q1514.400-107.800 1517.000-107.400L1517.000-107.400L1515.800-73Q1512.600-74.600 1508.900-75.100Q1505.200-75.600 1502.400-75.600L1502.400-75.600Q1494.600-75.600 1488.900-72.600Q1483.200-69.600 1479.900-63.400Q1476.600-57.200 1475.600-47.800L1475.600-47.800L1475.600 0ZM1573.000 36.800L1573.000 36.800Q1565.000 36.800 1556.600 35.400Q1548.200 34 1540.700 31.300Q1533.200 28.600 1527.800 24.200L1527.800 24.200L1535.600-4.400Q1542.600 2.200 1552.500 5.400Q1562.400 8.600 1571.600 8.600L1571.600 8.600Q1582.200 8.600 1589.100 4.500Q1596.000 0.400 1599.700-8.100Q1603.400-16.600 1604.000-29.200L1604.000-29.200L1605.000-46.600L1600.200-46.600Q1598.400-33.600 1593.900-25.400Q1589.400-17.200 1582.500-13.300Q1575.600-9.400 1566.200-9.400L1566.200-9.400Q1554.600-9.400 1546.800-15.200Q1539.000-21 1535.100-32.700Q1531.200-44.400 1531.200-61.800L1531.200-61.800L1531.200-105.600L1563.600-105.600L1563.600-69.800Q1563.600-51.400 1567.300-43.500Q1571.000-35.600 1579.000-35.600L1579.000-35.600Q1583.200-35.600 1586.600-38Q1590.000-40.400 1592.400-44.800Q1594.800-49.200 1596.100-55.500Q1597.400-61.800 1597.400-69.600L1597.400-69.600L1597.400-105.600L1629.600-105.600L1629.600-28Q1629.600-15.400 1627.300-5Q1625.000 5.400 1620.500 13.200Q1616.000 21 1609.200 26.300Q1602.400 31.600 1593.400 34.200Q1584.400 36.800 1573.000 36.800Z" class="lg-word"/>
+</svg>
+    <span class="meta">Proposal comparison · October 2026</span>
+  </header>
+
+  <section class="hero">
+    <p class="eyebrow">Yext · Synup · Local AI Registry</p>
+    <h1 style="margin-top:12px"><span class="line">Same activities.</span><span class="line"><em>Only one gets results.</em></span></h1>
+    <p class="lede">Yext and Synup sell activity: listings pushed, posts published, reviews answered. Priced per location, billed whether anything changes or not. We do those same tasks too. Then we do the work that actually gets you ranked on Google and recommended by AI, and we show you the results.</p>
+  </section>
+
+  <section>
+    <div class="guar">
+      <div class="seal"><div><b>90</b><span>Day guarantee</span></div></div>
+      <div>
+        <h2>We stand behind the results, so we guarantee them.</h2>
+        <p>If AI isn't recommending you by day 90, you stop paying. We keep working, free, until it does. Yext and Synup bill you either way.</p>
+      </div>
+      <ol>
+        <li>On our top plan, where we can also work on your website.</li>
+        <li>The 90 days start once onboarding is done.</li>
+        <li>We work on the services already on your registry record.</li>
+        <li>No contract. You can leave any month.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section>
+    <p class="eyebrow">Everything, on one table</p>
+    <h2 style="margin-top:8px">What you get, what moves results, and what you pay for</h2>
+    <div class="tbl">
+      <table>
+        <thead><tr><th scope="col"></th><th scope="col">Yext</th><th scope="col">Synup</th><th scope="col" class="ours">Local AI Registry</th></tr></thead>
+        <tbody>
+          <tr class="group"><th colspan="4">The activities<span>All three do these. They keep your info tidy. On their own, they don't get you ranked or recommended.</span></th></tr>
+          <tr><th scope="row">Name, address, hours synced to directories</th><td><span class="y">Yes</span></td><td><span class="y">Yes</span></td><td class="ours"><span class="y">Yes</span></td></tr>
+          <tr><th scope="row">Review monitoring</th><td><span class="y">Premium plan</span></td><td><span class="y">Yes</span></td><td class="ours"><span class="y">Yes</span></td></tr>
+          <tr><th scope="row">Review replies</th><td>Separate product</td><td><span class="y">AI drafted, you approve</span></td><td class="ours"><span class="y">Written for you, you approve</span></td></tr>
+          <tr><th scope="row">Google and social posts</th><td>Separate product</td><td><span class="y">AI drafted, you approve</span></td><td class="ours"><span class="y">Written for you, you approve</span></td></tr>
+          <tr><th scope="row">Checks what AI says about you</th><td>Separate product</td><td><span class="y">Yes</span></td><td class="ours"><span class="y">Yes, every month</span></td></tr>
+
+          <tr class="group"><th colspan="4">The work that moves results<span>What Google and AI actually reward: other trusted sites talking about you, and a website they can read.</span></th></tr>
+          <tr><th scope="row">Press releases and news mentions AI cites</th><td><span class="n">No</span></td><td><span class="n">No</span></td><td class="ours"><span class="y">Yes</span></td></tr>
+          <tr><th scope="row">Articles and pages written to be cited by AI</th><td><span class="n">No</span></td><td><span class="n">No</span></td><td class="ours"><span class="y">Yes</span></td></tr>
+          <tr><th scope="row">Fixes to your website (speed, technical, schema)</th><td><span class="n">No</span></td><td><span class="n">Location pages only</span></td><td class="ours"><span class="y">Yes</span></td></tr>
+          <tr><th scope="row">Disputes and removes unfair negative reviews</th><td><span class="n">No</span></td><td><span class="n">No</span></td><td class="ours"><span class="y">Yes</span></td></tr>
+          <tr><th scope="row">A real team accountable for your results</th><td><span class="n">No, you run it</span></td><td><span class="n">No, you run it</span></td><td class="ours"><span class="y">Yes, US-based</span></td></tr>
+
+          <tr class="group"><th colspan="4">How you pay<span>Read what you are billed for, not the feature list.</span></th></tr>
+          <tr><th scope="row">What you're billed for</th><td>A 12-month listings plan</td><td>A location plan plus credits spent per task</td><td class="ours">Getting ranked and recommended</td></tr>
+          <tr><th scope="row">Price for one location</th><td class="num">$199 to $999 a year</td><td class="num">$49 a month</td><td class="ours num">$500 to $3,000 a month</td></tr>
+          <tr><th scope="row">Commitment</th><td>12 months, paid up front</td><td>Monthly</td><td class="ours">Monthly, no contract</td></tr>
+          <tr><th scope="row">What the report counts</th><td>Listings updated</td><td>Tasks done, credits used, rankings</td><td class="ours">Where Google and AI now name you, with screenshots</td></tr>
+          <tr><th scope="row">If nothing improves</th><td><span class="bad">You still pay all 12 months</span></td><td><span class="bad">You still pay every month</span></td><td class="ours">Top plan: no AI mention by day 90, billing stops and we keep working</td></tr>
+          <tr class="group"><th colspan="4">Trust and safety<span>What matters when a vendor touches your patient reviews, your website and your accounts.</span></th></tr>
+          <tr><th scope="row">Where the team is</th><td>New York company with offices worldwide</td><td>New York headquarters, team across Asia, North America and Europe, including an India entity in Bengaluru</td><td class="ours"><span class="y">US-based team in FL, NY, WA and CA</span></td></tr>
+          <tr><th scope="row">HIPAA</th><td>Listed in its trust center. BAA terms not published</td><td><span class="muted">Not published</span></td><td class="ours"><span class="y">HIPAA compliant, signs a BAA</span></td></tr>
+          <tr><th scope="row">Insurance covering your account</th><td><span class="muted">Not published</span></td><td><span class="muted">Not published</span></td><td class="ours"><span class="y">$750K coverage</span></td></tr>
+          <tr><th scope="row">Data encryption</th><td><span class="muted">Standard not published</span></td><td><span class="muted">Not published</span></td><td class="ours"><span class="y">AES-256</span></td></tr>
+          <tr><th scope="row">ADA accessibility</th><td>Accessibility documents in its trust center</td><td><span class="muted">Not published</span></td><td class="ours"><span class="y">ADA accessible</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">Synup's $49 Solo plan includes 20,000 credits a month. Its own pricing page shows what credits buy: social posts, review replies, listing updates and SEO reports. That is a price list for activity. Yext and Synup prices are from their public pricing pages, checked October 29, 2026.</p>
+  </section>
+
+  <section>
+    <p class="eyebrow">Trust and safety, in plain English</p>
+    <h2 style="margin-top:8px">What can go wrong when a vendor doesn't have these</h2>
+    <p class="lede" style="margin-top:12px">Your marketing vendor logs into your Google profile, answers your patient reviews and edits your website. If they get it wrong, your practice carries the risk.</p>
+    <div class="risks">
+      <div class="risk">
+        <h3>A US-based team</h3>
+        <p class="without"><b>Without it:</b> your logins and patient reviews are handled by people outside US law. If something goes wrong, there is no one here you can hold accountable, and your data may already have left the country.</p>
+        <p class="with"><b>With us:</b> your account is run by our US-based team in Florida, New York, Washington and California.</p>
+      </div>
+      <div class="risk">
+        <h3>HIPAA compliance and a signed BAA</h3>
+        <p class="without"><b>Without it:</b> a review reply that confirms someone is your patient can be a HIPAA violation, and you are the one fined. Federal penalties in 2026 run up to $73,011 per violation and up to $2.19 million a year for repeat violations of the same rule.</p>
+        <p class="with"><b>With us:</b> we sign a Business Associate Agreement, so we are legally bound to protect patient information, and every reply follows HIPAA rules.</p>
+      </div>
+      <div class="risk">
+        <h3>Insurance coverage</h3>
+        <p class="without"><b>Without it:</b> if a vendor's mistake leads to a data breach, a lawsuit or a suspended Google profile, an uninsured vendor can't pay for the damage. The cost lands on you.</p>
+        <p class="with"><b>With us:</b> $750K in professional liability and cyber coverage stands behind the work on your account.</p>
+      </div>
+      <div class="risk">
+        <h3>AES-256 encryption</h3>
+        <p class="without"><b>Without it:</b> if a vendor is hacked, your passwords, patient reviews and business data can be read by whoever took them.</p>
+        <p class="with"><b>With us:</b> AES-256 is bank-level security. It's the same encryption standard banks use and the US government approves for top secret information. Stolen data stays unreadable.</p>
+      </div>
+      <div class="risk">
+        <h3>ADA accessibility</h3>
+        <p class="without"><b>Without it:</b> a vendor that edits your website without accessibility standards can expose you to ADA lawsuits from visitors who use screen readers or can't use a mouse. Healthcare websites are a common target.</p>
+        <p class="with"><b>With us:</b> the work we do on your site is built to be ADA accessible.</p>
+      </div>
+    </div>
+    <div class="public">
+      <div class="stack">
+        <p class="eyebrow">For public companies, PE-backed groups and multi-location brands</p>
+        <h3 style="font-size:24px">Your vendor's security becomes your disclosure problem</h3>
+      </div>
+      <ul>
+        <li><strong>Public companies</strong> must report a material cyber incident to the SEC within four business days of deciding it's material. That includes incidents that happen at a vendor.</li>
+        <li><strong>Every annual report (10-K)</strong> must describe how the company oversees cyber risk from outside vendors. An uninsured, offshore vendor with no BAA is hard to explain.</li>
+        <li><strong>Private equity buyers</strong> review every vendor before an acquisition. Weak vendor security shows up as a red flag in diligence and can slow a deal or lower the price.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="verdict">
+      <h2>Why the activities alone don't work</h2>
+      <ul>
+        <li><strong>Every competitor has the same listings.</strong> Synced directories are table stakes. They stop you losing points. They don't win you any.</li>
+        <li><strong>AI recommends businesses other people talk about.</strong> News articles, real reviews, expert content and a website it can read. Tools don't produce any of that.</li>
+        <li><strong>Software can't be accountable.</strong> A dashboard reports what it did. Nobody's job depends on whether you got more patients.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <p class="eyebrow">Their own showcase customers</p>
+    <h2 style="margin-top:8px">Yext and Synup feature these businesses as success stories. Here is their Google traffic.</h2>
+    <p class="lede" style="margin-top:12px">We looked up the websites of local businesses that Yext and Synup chose to feature on their own customer story pages. Monthly visitors from Google search, October 2024 to October 2026, from Ahrefs.</p>
+    <div class="xgrid"><div class="xcase"><div class="xhead"><div class="stack" style="gap:2px"><span class="vendor">Yext customer story</span><h3>LasikPlus</h3><span class="sub">Eye surgery, multi-location</span></div><span class="drop">−49%</span></div><span class="sub">27,439 visitors/mo in Oct 2024 → <strong class="bad">14,055</strong> in Oct 2026</span><svg viewBox="0 0 640 200" class="chart down" role="img" aria-labelledby="xlasik-t"><title id="xlasik-t">Monthly visitors from Google</title><line x1="56" x2="616" y1="164.0" y2="164.0" class="grid"/><text x="48" y="168.0" class="ax" text-anchor="end">0</text><line x1="56" x2="616" y1="128.0" y2="128.0" class="grid"/><text x="48" y="132.0" class="ax" text-anchor="end">10k</text><line x1="56" x2="616" y1="92.0" y2="92.0" class="grid"/><text x="48" y="96.0" class="ax" text-anchor="end">20k</text><line x1="56" x2="616" y1="56.0" y2="56.0" class="grid"/><text x="48" y="60.0" class="ax" text-anchor="end">30k</text><line x1="56" x2="616" y1="20.0" y2="20.0" class="grid"/><text x="48" y="24.0" class="ax" text-anchor="end">40k</text><text x="56.0" y="188" class="ax" text-anchor="middle">Oct '24</text><text x="196.0" y="188" class="ax" text-anchor="middle">Apr '25</text><text x="336.0" y="188" class="ax" text-anchor="middle">Oct '25</text><text x="476.0" y="188" class="ax" text-anchor="middle">Apr '26</text><text x="616.0" y="188" class="ax" text-anchor="middle">Oct '26</text><path d="M56.0,65.2 L79.3,73.8 L102.7,82.6 L126.0,74.3 L149.3,75.4 L172.7,68.9 L196.0,55.3 L219.3,57.5 L242.7,70.1 L266.0,48.7 L289.3,56.7 L312.7,80.6 L336.0,93.1 L359.3,109.0 L382.7,110.2 L406.0,91.0 L429.3,74.8 L452.7,101.3 L476.0,109.8 L499.3,102.1 L522.7,102.2 L546.0,104.0 L569.3,107.8 L592.7,116.1 L616.0,113.4 L616.0,164.0 L56.0,164.0 Z" class="area"/><path d="M56.0,65.2 L79.3,73.8 L102.7,82.6 L126.0,74.3 L149.3,75.4 L172.7,68.9 L196.0,55.3 L219.3,57.5 L242.7,70.1 L266.0,48.7 L289.3,56.7 L312.7,80.6 L336.0,93.1 L359.3,109.0 L382.7,110.2 L406.0,91.0 L429.3,74.8 L452.7,101.3 L476.0,109.8 L499.3,102.1 L522.7,102.2 L546.0,104.0 L569.3,107.8 L592.7,116.1 L616.0,113.4" class="ln"/><circle cx="616.0" cy="113.4" r="5" class="pt"/></svg><p class="claim">Featured by Yext for clearer patient answers online.</p></div><div class="xcase"><div class="xhead"><div class="stack" style="gap:2px"><span class="vendor">Yext customer story</span><h3>Kiddie Academy</h3><span class="sub">Childcare, franchise</span></div><span class="drop">−15%</span></div><span class="sub">28,712 visitors/mo in Oct 2024 → <strong class="bad">24,521</strong> in Oct 2026</span><svg viewBox="0 0 640 200" class="chart down" role="img" aria-labelledby="xkiddie-t"><title id="xkiddie-t">Monthly visitors from Google</title><line x1="56" x2="616" y1="164.0" y2="164.0" class="grid"/><text x="48" y="168.0" class="ax" text-anchor="end">0</text><line x1="56" x2="616" y1="116.0" y2="116.0" class="grid"/><text x="48" y="120.0" class="ax" text-anchor="end">20k</text><line x1="56" x2="616" y1="68.0" y2="68.0" class="grid"/><text x="48" y="72.0" class="ax" text-anchor="end">40k</text><line x1="56" x2="616" y1="20.0" y2="20.0" class="grid"/><text x="48" y="24.0" class="ax" text-anchor="end">60k</text><text x="56.0" y="188" class="ax" text-anchor="middle">Oct '24</text><text x="196.0" y="188" class="ax" text-anchor="middle">Apr '25</text><text x="336.0" y="188" class="ax" text-anchor="middle">Oct '25</text><text x="476.0" y="188" class="ax" text-anchor="middle">Apr '26</text><text x="616.0" y="188" class="ax" text-anchor="middle">Oct '26</text><path d="M56.0,95.1 L79.3,97.7 L102.7,95.9 L126.0,94.5 L149.3,92.2 L172.7,93.8 L196.0,80.6 L219.3,64.7 L242.7,57.9 L266.0,57.5 L289.3,39.3 L312.7,53.2 L336.0,68.9 L359.3,82.7 L382.7,86.3 L406.0,72.1 L429.3,76.7 L452.7,76.2 L476.0,87.0 L499.3,92.1 L522.7,89.8 L546.0,95.8 L569.3,104.0 L592.7,100.8 L616.0,105.1 L616.0,164.0 L56.0,164.0 Z" class="area"/><path d="M56.0,95.1 L79.3,97.7 L102.7,95.9 L126.0,94.5 L149.3,92.2 L172.7,93.8 L196.0,80.6 L219.3,64.7 L242.7,57.9 L266.0,57.5 L289.3,39.3 L312.7,53.2 L336.0,68.9 L359.3,82.7 L382.7,86.3 L406.0,72.1 L429.3,76.7 L452.7,76.2 L476.0,87.0 L499.3,92.1 L522.7,89.8 L546.0,95.8 L569.3,104.0 L592.7,100.8 L616.0,105.1" class="ln"/><circle cx="616.0" cy="105.1" r="5" class="pt"/></svg><p class="claim">Featured by Yext for a 56% increase in search impressions. Down 53% from its 2025 peak.</p></div><div class="xcase"><div class="xhead"><div class="stack" style="gap:2px"><span class="vendor">Synup customer story</span><h3>Snappy Tomato Pizza</h3><span class="sub">Restaurants, franchise</span></div><span class="drop">−39%</span></div><span class="sub">4,286 visitors/mo in Oct 2024 → <strong class="bad">2,595</strong> in Oct 2026</span><svg viewBox="0 0 640 200" class="chart down" role="img" aria-labelledby="xsnappy-t"><title id="xsnappy-t">Monthly visitors from Google</title><line x1="56" x2="616" y1="164.0" y2="164.0" class="grid"/><text x="48" y="168.0" class="ax" text-anchor="end">0</text><line x1="56" x2="616" y1="135.2" y2="135.2" class="grid"/><text x="48" y="139.2" class="ax" text-anchor="end">2,000</text><line x1="56" x2="616" y1="106.4" y2="106.4" class="grid"/><text x="48" y="110.4" class="ax" text-anchor="end">4,000</text><line x1="56" x2="616" y1="77.6" y2="77.6" class="grid"/><text x="48" y="81.6" class="ax" text-anchor="end">6,000</text><line x1="56" x2="616" y1="48.8" y2="48.8" class="grid"/><text x="48" y="52.8" class="ax" text-anchor="end">8,000</text><line x1="56" x2="616" y1="20.0" y2="20.0" class="grid"/><text x="48" y="24.0" class="ax" text-anchor="end">10k</text><text x="56.0" y="188" class="ax" text-anchor="middle">Oct '24</text><text x="196.0" y="188" class="ax" text-anchor="middle">Apr '25</text><text x="336.0" y="188" class="ax" text-anchor="middle">Oct '25</text><text x="476.0" y="188" class="ax" text-anchor="middle">Apr '26</text><text x="616.0" y="188" class="ax" text-anchor="middle">Oct '26</text><path d="M56.0,102.3 L79.3,90.0 L102.7,82.3 L126.0,96.6 L149.3,84.7 L172.7,71.2 L196.0,45.9 L219.3,49.0 L242.7,58.2 L266.0,73.2 L289.3,68.5 L312.7,67.5 L336.0,89.6 L359.3,74.4 L382.7,91.9 L406.0,99.1 L429.3,102.3 L452.7,104.1 L476.0,100.6 L499.3,90.1 L522.7,96.1 L546.0,110.1 L569.3,108.2 L592.7,102.1 L616.0,126.6 L616.0,164.0 L56.0,164.0 Z" class="area"/><path d="M56.0,102.3 L79.3,90.0 L102.7,82.3 L126.0,96.6 L149.3,84.7 L172.7,71.2 L196.0,45.9 L219.3,49.0 L242.7,58.2 L266.0,73.2 L289.3,68.5 L312.7,67.5 L336.0,89.6 L359.3,74.4 L382.7,91.9 L406.0,99.1 L429.3,102.3 L452.7,104.1 L476.0,100.6 L499.3,90.1 L522.7,96.1 L546.0,110.1 L569.3,108.2 L592.7,102.1 L616.0,126.6" class="ln"/><circle cx="616.0" cy="126.6" r="5" class="pt"/></svg><p class="claim">Featured by Synup as the highest-ranked pizza chain in local search.</p></div><div class="xcase"><div class="xhead"><div class="stack" style="gap:2px"><span class="vendor">Synup customer story</span><h3>Palm Beach Tan</h3><span class="sub">Tanning salons, multi-location</span></div><span class="drop">−67%</span></div><span class="sub">68,032 visitors/mo in Oct 2024 → <strong class="bad">73,561</strong> in Oct 2026</span><svg viewBox="0 0 640 200" class="chart down" role="img" aria-labelledby="xpbt-t"><title id="xpbt-t">Monthly visitors from Google</title><line x1="56" x2="616" y1="164.0" y2="164.0" class="grid"/><text x="48" y="168.0" class="ax" text-anchor="end">0</text><line x1="56" x2="616" y1="135.2" y2="135.2" class="grid"/><text x="48" y="139.2" class="ax" text-anchor="end">50k</text><line x1="56" x2="616" y1="106.4" y2="106.4" class="grid"/><text x="48" y="110.4" class="ax" text-anchor="end">100k</text><line x1="56" x2="616" y1="77.6" y2="77.6" class="grid"/><text x="48" y="81.6" class="ax" text-anchor="end">150k</text><line x1="56" x2="616" y1="48.8" y2="48.8" class="grid"/><text x="48" y="52.8" class="ax" text-anchor="end">200k</text><line x1="56" x2="616" y1="20.0" y2="20.0" class="grid"/><text x="48" y="24.0" class="ax" text-anchor="end">250k</text><text x="56.0" y="188" class="ax" text-anchor="middle">Oct '24</text><text x="196.0" y="188" class="ax" text-anchor="middle">Apr '25</text><text x="336.0" y="188" class="ax" text-anchor="middle">Oct '25</text><text x="476.0" y="188" class="ax" text-anchor="middle">Apr '26</text><text x="616.0" y="188" class="ax" text-anchor="middle">Oct '26</text><path d="M56.0,124.8 L79.3,126.6 L102.7,121.5 L126.0,111.4 L149.3,82.4 L172.7,62.2 L196.0,55.6 L219.3,35.0 L242.7,34.7 L266.0,61.2 L289.3,79.9 L312.7,69.6 L336.0,65.7 L359.3,93.0 L382.7,91.9 L406.0,88.4 L429.3,80.9 L452.7,64.5 L476.0,70.1 L499.3,96.0 L522.7,102.7 L546.0,106.8 L569.3,96.4 L592.7,115.7 L616.0,121.6 L616.0,164.0 L56.0,164.0 Z" class="area"/><path d="M56.0,124.8 L79.3,126.6 L102.7,121.5 L126.0,111.4 L149.3,82.4 L172.7,62.2 L196.0,55.6 L219.3,35.0 L242.7,34.7 L266.0,61.2 L289.3,79.9 L312.7,69.6 L336.0,65.7 L359.3,93.0 L382.7,91.9 L406.0,88.4 L429.3,80.9 L452.7,64.5 L476.0,70.1 L499.3,96.0 L522.7,102.7 L546.0,106.8 L569.3,96.4 L592.7,115.7 L616.0,121.6" class="ln"/><circle cx="616.0" cy="121.6" r="5" class="pt"/></svg><p class="claim">Featured by Synup for a 218% increase in store visits. The −67% is from its 2025 peak of 224,432.</p></div></div>
+  </section>
+
+  <section>
+    <p class="eyebrow">Real clients, real data</p>
+    <h2 style="margin-top:8px">Our clients' charts go up</h2>
+    <p class="lede" style="margin-top:12px">Monthly visitors from Google search and AI citations, pulled from Ahrefs on October 29, 2026. Client names are shared on request with their permission.</p>
+    <div class="cases">
+      <div class="case">
+        <div class="stack" style="gap:4px"><h3>Cannabis dispensary chain</h3><span class="kind">Multi-location</span></div>
+        <div class="big">
+          <div><b>811</b><span>visitors/mo, Apr 2025</span></div>
+          <div><b class="up">2,015</b><span>visitors/mo at peak, Jun 2026</span></div>
+          <div><b>2.5×</b><span>peak vs start</span></div>
+        </div>
+        <svg viewBox="0 0 640 260" class="chart up" role="img" aria-labelledby="c3-t"><title id="c3-t">Monthly visitors from Google</title><line x1="56" x2="616" y1="224.0" y2="224.0" class="grid"/><text x="48" y="228.0" class="ax" text-anchor="end">0</text><line x1="56" x2="616" y1="183.2" y2="183.2" class="grid"/><text x="48" y="187.2" class="ax" text-anchor="end">500</text><line x1="56" x2="616" y1="142.4" y2="142.4" class="grid"/><text x="48" y="146.4" class="ax" text-anchor="end">1,000</text><line x1="56" x2="616" y1="101.6" y2="101.6" class="grid"/><text x="48" y="105.6" class="ax" text-anchor="end">1,500</text><line x1="56" x2="616" y1="60.8" y2="60.8" class="grid"/><text x="48" y="64.8" class="ax" text-anchor="end">2,000</text><line x1="56" x2="616" y1="20.0" y2="20.0" class="grid"/><text x="48" y="24.0" class="ax" text-anchor="end">2,500</text><text x="56.0" y="248" class="ax" text-anchor="middle">Apr '25</text><text x="319.5" y="248" class="ax" text-anchor="middle">Jan '26</text><text x="616.0" y="248" class="ax" text-anchor="middle">Oct '26</text><line x1="121.9" x2="121.9" y1="20" y2="224" class="mk"/><text x="127.9" y="32" class="mkt" text-anchor="start">We started</text><path d="M56.0,157.8 L88.9,159.0 L121.9,170.6 L154.8,164.9 L187.8,143.3 L220.7,142.6 L253.6,138.2 L286.6,124.2 L319.5,114.4 L352.5,136.4 L385.4,108.0 L418.4,66.2 L451.3,83.4 L484.2,59.6 L517.2,95.5 L550.1,99.4 L583.1,77.6 L616.0,113.3 L616.0,224.0 L56.0,224.0 Z" class="area"/><path d="M56.0,157.8 L88.9,159.0 L121.9,170.6 L154.8,164.9 L187.8,143.3 L220.7,142.6 L253.6,138.2 L286.6,124.2 L319.5,114.4 L352.5,136.4 L385.4,108.0 L418.4,66.2 L451.3,83.4 L484.2,59.6 L517.2,95.5 L550.1,99.4 L583.1,77.6 L616.0,113.3" class="ln"/><circle cx="121.9" cy="170.6" r="4.5" class="pt0"/><circle cx="616.0" cy="113.3" r="5" class="pt"/></svg>
+        <div class="ai">
+          <div><b>190</b><span>AI citations, all platforms</span></div>
+          <div><b>28</b><span>in Perplexity</span></div>
+          <div><b>11</b><span>in Gemini</span></div>
+          <div><b>9</b><span>in Google AI Mode</span></div>
+        </div>
+      </div>
+      <div class="case">
+        <div class="stack" style="gap:4px"><h3>Eye surgery patient education site</h3><span class="kind">National, physician-led</span></div>
+        <div class="big">
+          <div><b>0</b><span>visitors/mo before we started</span></div>
+          <div><b class="up">427</b><span>visitors/mo, Oct 2026</span></div>
+          <div><b>6</b><span>months in</span></div>
+        </div>
+        <svg viewBox="0 0 640 260" class="chart up" role="img" aria-labelledby="c2-t"><title id="c2-t">Monthly visitors from Google</title><line x1="56" x2="616" y1="224.0" y2="224.0" class="grid"/><text x="48" y="228.0" class="ax" text-anchor="end">0</text><line x1="56" x2="616" y1="183.2" y2="183.2" class="grid"/><text x="48" y="187.2" class="ax" text-anchor="end">100</text><line x1="56" x2="616" y1="142.4" y2="142.4" class="grid"/><text x="48" y="146.4" class="ax" text-anchor="end">200</text><line x1="56" x2="616" y1="101.6" y2="101.6" class="grid"/><text x="48" y="105.6" class="ax" text-anchor="end">300</text><line x1="56" x2="616" y1="60.8" y2="60.8" class="grid"/><text x="48" y="64.8" class="ax" text-anchor="end">400</text><line x1="56" x2="616" y1="20.0" y2="20.0" class="grid"/><text x="48" y="24.0" class="ax" text-anchor="end">500</text><text x="56.0" y="248" class="ax" text-anchor="middle">Feb '26</text><text x="266.0" y="248" class="ax" text-anchor="middle">May</text><text x="476.0" y="248" class="ax" text-anchor="middle">Aug</text><text x="616.0" y="248" class="ax" text-anchor="middle">Oct</text><line x1="196.0" x2="196.0" y1="20" y2="224" class="mk"/><text x="202.0" y="32" class="mkt" text-anchor="start">We started</text><path d="M56.0,224.0 L126.0,224.0 L196.0,224.0 L266.0,224.0 L336.0,224.0 L406.0,222.8 L476.0,195.4 L546.0,131.4 L616.0,49.8 L616.0,224.0 L56.0,224.0 Z" class="area"/><path d="M56.0,224.0 L126.0,224.0 L196.0,224.0 L266.0,224.0 L336.0,224.0 L406.0,222.8 L476.0,195.4 L546.0,131.4 L616.0,49.8" class="ln"/><circle cx="196.0" cy="224.0" r="4.5" class="pt0"/><circle cx="616.0" cy="49.8" r="5" class="pt"/></svg>
+        <div class="ai">
+          <div><b>368</b><span>AI citations, all platforms</span></div>
+          <div><b>75</b><span>in Perplexity</span></div>
+          <div><b>22</b><span>in Gemini</span></div>
+          <div><b>16</b><span>in Google AI Mode</span></div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="stopcase">
+      <div class="stack">
+        <p class="eyebrow">Not a coincidence</p>
+        <h2>When we stopped, the growth stopped.</h2>
+        <p class="lede">A cosmetic dermatology practice in Delray Beach, Florida. Google traffic grew 17× in five months while we worked on the site, from 825 to 14,162 visitors a month. Our work ended in July 2026. The line has been flat ever since.</p>
+        <div class="ai" style="border-top:0;padding-top:0">
+          <div><b>17×</b><span>growth while we worked</span></div>
+          <div><b>1,130</b><span>AI citations, all platforms</span></div>
+          <div><b>Flat</b><span>since we stopped, Jul to Oct 2026</span></div>
+        </div>
+      </div>
+      <div class="case" style="padding:16px"><svg viewBox="0 0 640 260" class="chart up" role="img" aria-labelledby="c1-t"><title id="c1-t">Monthly visitors from Google</title><line x1="56" x2="616" y1="224.0" y2="224.0" class="grid"/><text x="48" y="228.0" class="ax" text-anchor="end">0</text><line x1="56" x2="616" y1="173.0" y2="173.0" class="grid"/><text x="48" y="177.0" class="ax" text-anchor="end">4,000</text><line x1="56" x2="616" y1="122.0" y2="122.0" class="grid"/><text x="48" y="126.0" class="ax" text-anchor="end">8,000</text><line x1="56" x2="616" y1="71.0" y2="71.0" class="grid"/><text x="48" y="75.0" class="ax" text-anchor="end">12k</text><line x1="56" x2="616" y1="20.0" y2="20.0" class="grid"/><text x="48" y="24.0" class="ax" text-anchor="end">16k</text><text x="56.0" y="248" class="ax" text-anchor="middle">Oct '25</text><text x="196.0" y="248" class="ax" text-anchor="middle">Jan</text><text x="336.0" y="248" class="ax" text-anchor="middle">Apr</text><text x="476.0" y="248" class="ax" text-anchor="middle">Jul</text><text x="616.0" y="248" class="ax" text-anchor="middle">Oct</text><line x1="56.0" x2="56.0" y1="20" y2="224" class="mk"/><text x="62.0" y="32" class="mkt" text-anchor="start">We started</text><line x1="476.0" x2="476.0" y1="20" y2="224" class="mk"/><text x="470.0" y="32" class="mkt" text-anchor="end">Our work ended</text><path d="M56.0,213.5 L102.7,197.5 L149.3,186.1 L196.0,157.2 L242.7,140.6 L289.3,43.4 L336.0,88.5 L382.7,91.5 L429.3,126.9 L476.0,137.1 L522.7,135.6 L569.3,133.1 L616.0,133.1 L616.0,224.0 L56.0,224.0 Z" class="area"/><path d="M56.0,213.5 L102.7,197.5 L149.3,186.1 L196.0,157.2 L242.7,140.6 L289.3,43.4 L336.0,88.5 L382.7,91.5 L429.3,126.9 L476.0,137.1 L522.7,135.6 L569.3,133.1 L616.0,133.1" class="ln"/><circle cx="56.0" cy="213.5" r="4.5" class="pt0"/><circle cx="616.0" cy="133.1" r="5" class="pt"/></svg></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="audit">
+      <div class="stack">
+        <p class="eyebrow">Don't take our word for it</p>
+        <h2>Ask us for a client results audit</h2>
+        <p>Just ask. We'll get on a call and pull our client list live in Ahrefs: start versus today for traffic and AI citations. You pick which ones to open.</p>
+        <a class="btn" href="https://localairegistry.com" target="_blank" rel="noopener">Ask for the audit</a>
+      </div>
+      <ol>
+        <li>Then ask Yext or Synup for the same thing: a list of local clients and their traffic, start versus today.</li>
+        <li>Ask what happens to your bill if the chart stays flat.</li>
+        <li>Compare the answers.</li>
+      </ol>
+    </div>
+  </section>
+
+  <footer>
+    <strong>Sources, checked October 29, 2026</strong>
+    <span>Yext plans: <a href="https://www.yext.com/plans" target="_blank" rel="noopener">yext.com/plans</a> (four plans, $199 to $999 a year, each lasting 12 months).</span>
+    <span>Synup pricing and credits: <a href="https://synup.com/pricing" target="_blank" rel="noopener">synup.com/pricing</a> (Solo $49 a month with 20,000 credits; credits spent per agent task).</span>
+    <span>Dispensary chain chart excludes December 2025 (9,936), a one-month spike in Ahrefs data. </span>
+    <span>Client and competitor charts: Ahrefs organic traffic estimates and AI citation counts, pulled October 29, 2026. Estimates, not each business's own analytics.</span>
+    <span>Competitor customers come from <a href="https://synup.com/customer-stories" target="_blank" rel="noopener">synup.com/customer-stories</a> and <a href="https://www.casestudies.com/company/yext" target="_blank" rel="noopener">Yext's published case studies</a>. We checked five featured local businesses with usable data. One grew modestly over two years (Marinara Pizza, +12%). Traffic depends on many factors beyond any one vendor.</span>
+    <span>Trust and safety: <a href="https://trustcenter.yext.com/" target="_blank" rel="noopener">trustcenter.yext.com</a>; Synup company profile on <a href="https://leadiq.com/c/synup/5a1d8a6c240000240063cf64" target="_blank" rel="noopener">LeadIQ</a> and its India entity, Synup Digital Private Limited (Karnataka). "Not published" means we could not find it on the company's public site, not that it doesn't exist. Ask each vendor directly.</span>
+    <span>Risks: 2026 HIPAA penalty amounts from <a href="https://www.mercer.com/en-us/insights/law-and-policy/hhs-adjusts-2026-hipaa-certain-aca-and-msp-monetary-penalties/" target="_blank" rel="noopener">HHS inflation adjustments (Mercer summary)</a>; SEC cyber disclosure rules from <a href="https://www.klgates.com/SEC-Adopts-Final-Rules-for-Cybersecurity-Disclosures-8-7-2023" target="_blank" rel="noopener">K&amp;L Gates</a>. This page is not legal advice.</span>
+    <span>Competitor features and prices change often. Confirm current terms with each company before you decide.</span>
+  </footer>
+</div>
+
+</body>
+</html>
