@@ -1,34 +1,9 @@
-s-clinton https://avatars.slack-edge.com/2026-10-22/12384977196212_ebc29dc45ece272b7599_original.png
-s-laney https://avatars.slack-edge.com/2026-10-07/12240050150279_5b5c1c291310134b701d_original.png
-s-flavia https://avatars.slack-edge.com/2026-10-19/12386497129152_c4acedf9575a3add239a_original.jpg
-s-audrey https://avatars.slack-edge.com/2026-10-08/12262892841798_a6fcfcff467b94862870_original.jpg
-w-audrey https://theaudreyaesthetic.com/ audrey|campbell|headshot
-w-audrey2 https://theaudreyaesthetic.com/about audrey|campbell|headshot
-w-irc https://irccollective.com/ sierra|koitses
-w-irc2 https://irccollective.com/about sierra|koitses|team
-w-mclean https://mcleanaesthetics.com/ jonathan|mclean|headshot
-w-mclean2 https://mcleanaesthetics.com/about jonathan|mclean|headshot
-w-pinksky https://pinksky.life/ anthony|erika|serhan|team
-w-curious https://www.curiousconversationsmarketing.com/ darryl|quinlan|headshot
-w-curious2 https://www.curiousconversationsmarketing.com/about darryl|quinlan|headshot
-w-vunite https://v-unite.com/ stephen|handisides|team
-w-vunite2 https://v-unite.com/about stephen|handisides|team
-w-arcuate https://www.arcuatehealth.com/welcome team|founder
-w-medspire https://medspire-health.com/ paula|kokko|team
-w-medspire2 https://medspire-health.com/about paula|kokko|team
-w-aimed https://aimedconsult.com/ ben|stover|team
-w-aimed2 https://aimedconsult.com/about ben|stover|team
-w-symb https://ai-symbiotic.com/ alexander|odishelidze|team
-w-fifth https://fifthandcor.com/ robin|dimond|team
-w-fifth2 https://fifthandcor.com/about robin|dimond|team
-w-acumen https://acumen.digital/ ayo|team
-w-acumen2 https://www.acumendigital.co/ ayo|team
-w-acumen3 https://acumenlab.co/ ayo|team
-l-ayo https://www.linkedin.com/in/ayomideonasanya
-l-om https://www.linkedin.com/in/omarya
-l-om2 https://www.linkedin.com/in/om-arya
-l-precious https://www.linkedin.com/in/preciousogar
-l-youngro https://www.linkedin.com/in/youngrolee
-w-youngro https://www.republic.com/team youngro
-w-youngro2 https://asia.republic.com/ youngro
-w-nextseed https://www.crunchbase.com/person/youngro-lee youngro
+n-nasdaq https://commons.wikimedia.org/wiki/Special:FilePath/NASDAQ_Logo.svg
+n-nasdaq2 https://commons.wikimedia.org/wiki/Special:FilePath/Nasdaq_Logo.svg
+n-yahoo https://commons.wikimedia.org/wiki/Special:FilePath/Yahoo!_Finance_logo_2021.png
+n-yahoo2 https://commons.wikimedia.org/wiki/Special:FilePath/Yahoo_Finance_Logo_2019.svg
+n-yahoo3 https://commons.wikimedia.org/wiki/Special:FilePath/Yahoo!_Finance_logo_2021.svg
+n-nasdaqsite https://www.nasdaq.com/ logo
+n-yahoosite https://finance.yahoo.com/ logo
+w-pinksky https://www.pinksky.life/ anthony|erika|serhan|team
+w-curious3 https://curiousconversationsmarketing.com/ darryl|quinlan
