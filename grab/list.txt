@@ -1,16 +1,8 @@
-F-republic https://www.google.com/s2/favicons?domain=republic.com&sz=256
-F-saksfifthavenue https://www.google.com/s2/favicons?domain=saksfifthavenue.com&sz=256
-F-nordstrom https://www.google.com/s2/favicons?domain=nordstrom.com&sz=256
-F-bayer https://www.google.com/s2/favicons?domain=bayer.com&sz=256
-F-smu https://www.google.com/s2/favicons?domain=smu.edu&sz=256
-F-psu https://www.google.com/s2/favicons?domain=psu.edu&sz=256
-F-cameronmitchell https://www.google.com/s2/favicons?domain=cameronmitchell.com&sz=256
-F-cannasiteco https://www.google.com/s2/favicons?domain=cannasiteco.com&sz=256
-F-seoaesthetic https://www.google.com/s2/favicons?domain=seoaesthetic.com&sz=256
-F-trybrass https://www.google.com/s2/favicons?domain=trybrass.com&sz=256
-F-bodysquad https://www.google.com/s2/favicons?domain=bodysquad.com&sz=256
-F-womenemployedincannabis https://www.google.com/s2/favicons?domain=womenemployedincannabis.org&sz=256
-F-uxlaboratory https://www.google.com/s2/favicons?domain=uxlaboratory.com&sz=256
-F-acumen https://www.google.com/s2/favicons?domain=acumen.digital&sz=256
-F-webmagic https://www.google.com/s2/favicons?domain=webmagic.agency&sz=256
-F-rxsight https://www.google.com/s2/favicons?domain=rxsight.com&sz=256
+C-kiva https://www.kiva.org/ logo|kiva
+C-score https://www.score.org/ logo|score
+C-msa https://mainstreet.org/ logo|main
+C-chf https://www.childrensheartfoundation.org/ logo|heart
+C-fkiva https://www.google.com/s2/favicons?domain=kiva.org&sz=256
+C-fscore https://www.google.com/s2/favicons?domain=score.org&sz=256
+C-fmsa https://www.google.com/s2/favicons?domain=mainstreet.org&sz=256
+C-fchf https://www.google.com/s2/favicons?domain=childrensheartfoundation.org&sz=256
