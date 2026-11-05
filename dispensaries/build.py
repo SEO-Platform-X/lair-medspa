@@ -31,68 +31,92 @@ def initials(name):
     return (words[0][0] + (words[1][0] if len(words) > 1 else "")).upper()
 
 # ---------------------------------------------------------------- data
+WM = "https://images.weedmaps.com/"
+# (name, place, logo url or None, plate background, logo fit: "wide" or "square")
 CUSTOMERS = [
-    ("42 Degrees", "Dispensary chain"),
-    ("Atrium", "Los Angeles, CA"),
-    ("The Grove", "Las Vegas, NV"),
-    ("Farmhouse", "Dispensary"),
-    ("Green Mart", "Dispensary"),
-    ("Catalyst", "Southern California"),
-    ("Herb", "Cannabis platform, Toronto"),
-    ("Green Qween", "Los Angeles, CA"),
-    ("Essential Torrance", "Torrance, CA"),
-    ("Reefer Madness", "Dispensary"),
-    ("Buds Garage", "Everett, WA"),
-    ("Greenstop Wellness", "Dispensary"),
-    ("Westside Recreational", "Dispensary"),
-    ("Remedy", "Tulalip, WA"),
-    ("CannaCon", "Cannabis business expo"),
-    ("Lucky Leaf", "Dispensary"),
-    ("The Dispensary on Main", "Galesburg, IL"),
-    ("Alamo Botanicals", "San Antonio, TX"),
-    ("Green Mountain Cannabis Works", "Manchester, VT"),
-    ("Highnorth", "Minnesota"),
-    ("Hot Springs Hemp Company", "Hot Springs, AR"),
-    ("Lake Daze", "Hopkins, MN"),
-    ("Pot Mama's", "Minnesota"),
+    ("42 Degrees", "Omaha and Lincoln, NE", "https://42degrees.com/wp-content/uploads/2020/08/42-degrees-logo-plain.svg", "#FFFFFF", "wide"),
+    ("Atrium", "Los Angeles, CA", WM + "dispensaries/000/059/771/avatar/1676931388-screenshot_2023-02-20_at_20952_pm.png", "#000000", "square"),
+    ("The Grove", "Las Vegas, NV", WM + "dispensaries/000/047/292/avatar/1716335074-grove_lib_-_png.png", "#0B0B0B", "square"),
+    ("Farmhouse", "Petaluma, CA", WM + "dispensaries/000/404/585/avatar/1773258723-farmhouse_artisan_market_seal_green.png", "#FFFFFF", "square"),
+    ("Green Mart", "Santa Ana, CA", "https://images.prismic.io/green-mart/Z06aQ5bqstJ97-TZ_ExtendedLogo.png?auto=format%2Ccompress&fit=max&w=384", "#FFFFFF", "wide"),
+    ("Catalyst", "Southern California", "https://catalyst-cannabis.com/logos/Catalyst-Logo.webp", "#0B1A2E", "wide"),
+    ("Herb", "Cannabis platform, Toronto", "https://herb.co/icons/icon-512x512.png", "#000000", "square"),
+    ("Green Qween", "Los Angeles, CA", None, None, None),
+    ("Essential Torrance", "Torrance, CA", WM + "dispensaries/000/027/468/avatar/1787687088-weedmaps_banner__800_x_800_px___5_.png", "#1A1030", "square"),
+    ("Reefer Madness", "Denver, CO", WM + "dispensaries/000/049/502/avatar/1704831771-v2_weedmaps_avatar_logo.png", "#FFFFFF", "square"),
+    ("Buds Garage", "Everett, WA", "https://budsgarage.com/wp-content/uploads/Logo-01.png", "#FFFFFF", "wide"),
+    ("Greenstop Wellness", "Houston, TX", "https://leafly-public.imgix.net/dispensary/photos/gallery384904/iG3vvlZESJS6vd6ZCMBD_c0386457-446c-4145-96fb-30f5ff349edf?w=240", "#000000", "square"),
+    ("Westside420 Recreational", "Longview, WA", "https://westside420.com/wp-content/uploads/westside420-logo-1-1.png", "#FFFFFF", "wide"),
+    ("Remedy", "Tulalip, WA", WM + "dispensaries/000/061/331/avatar/1791494629-circle_flame__512_x_512_px_.jpg", "#000000", "square"),
+    ("CannaCon", "Cannabis business expo", "https://cannacon.org/assets/brand/cannacon-wordmark.png", "#FFFFFF", "wide"),
+    ("Lucky Leaf Co.", "Spokane, WA", WM + "dispensaries/000/046/922/avatar/1691609850-luckyleaf-800x800.png", "#1F4FE0", "square"),
+    ("The Dispensary on Main", "Galesburg, IL", "https://thedispensaryonmain.com/wp-content/uploads/Logo.svg", "#0B1A2E", "wide"),
+    ("Alamo Botanicals", "San Antonio, TX", "https://alamobotanicals.com/wp-content/uploads/alamobotanicalsWhiteGreen.svg", "#0B1A2E", "wide"),
+    ("Green Mountain Cannabis Works", "Manchester, VT", "https://greenmountaincannabisworks.com/wp-content/uploads/GMCW-green-web.png", "#FFFFFF", "wide"),
+    ("Highnorth", "Cottage Grove, MN", "https://highnorthmn.com/cdn/shop/files/Highnorth_Logo_Black_No_Background_2_637x150.png?v=1640737268", "#FFFFFF", "wide"),
+    ("Hot Springs Hemp Company", "Hot Springs, AR", "https://hotspringshemp.com/wp-content/uploads/yootheme/cache/f0/hot-springs-hemp-logo-f0ae48e8.webp", "#FFFFFF", "square"),
+    ("Lake Daze", "Hopkins, MN", "https://lakedaze.com/wp-content/uploads/lake_daze_dispensary_3.png", "#FFFFFF", "wide"),
+    ("Pot Mama's", "Edina, MN", "https://static.wixstatic.com/media/00146e_02d41810ffa944aa8e916f977fb917a8%7Emv2.png/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/00146e_02d41810ffa944aa8e916f977fb917a8%7Emv2.png", "#FFFFFF", "square"),
 ]
 
+FAV = "https://www.google.com/s2/favicons?sz=64&domain="
+# (name, bio, [(company, domain or None)])
 PEOPLE = [
-    ("Luna Stower", "Chief Impact Officer, Ispire. Longtime cannabis activist.", ["Ispire"]),
-    ("Adelia Fakhri", "Cannabis events and community builder. EventHi.", ["EventHi"]),
-    ("Jessica Ferranti", "Founder, The Mycelia Group. NJ Cannabis Chamber of Commerce.", ["The Mycelia Group", "NJ Cannabis Chamber"]),
-    ("Stella Morrison", "Founder, CannaContent. Cannabis content and SEO.", ["CannaContent"]),
-    ("Jocelyn Sheltraw", "Budist, the cannabis review app.", ["Budist"]),
-    ("Angela Pih", "CMO, Statehouse Holdings. Ex-CannaCraft. Founder, BrandTrust.", ["Statehouse", "CannaCraft", "BrandTrust"]),
-    ("Rachelle Gordon", "Cannabis journalist for GreenState and DoubleBlind.", ["GreenState", "DoubleBlind"]),
-    ("Rachel Wright, CPA", "Cannabis CPA. Beard Bros Media correspondent.", ["Beard Bros Media"]),
-    ("JM Balbuena", "Author, The Successful Canna-preneur. Synergy Studio.", ["Synergy Studio"]),
+    ("Luna Stower", "Chief Impact Officer, Ispire. Longtime cannabis activist.", [("Ispire", "ispiretechnology.com")]),
+    ("Parisa Mansouri-Rad", "Co-founder, Blunt Brunch. Executive Cannabis Consultant, IMA.", [("Blunt Brunch", "bluntbrunch.com"), ("IMA", "imacorp.com")]),
+    ("Adelia Fakhri", "Cannabis events and community builder. EventHi.", [("EventHi", "eventhi.io")]),
+    ("Jessica Ferranti", "Founder, The Mycelia Group. NJ Cannabis Chamber of Commerce.", [("The Mycelia Group", "myceliagroup.com"), ("NJ Cannabis Chamber", "njcannabischamber.com")]),
+    ("Stella Morrison", "Founder, CannaContent. Cannabis content and SEO.", [("CannaContent", "cannacontent.co")]),
+    ("Jocelyn Sheltraw", "Budist, the cannabis review app.", [("Budist", None)]),
+    ("Angela Pih", "CMO, Statehouse Holdings. Ex-CannaCraft. Founder, BrandTrust.", [("Statehouse", None), ("CannaCraft", "cannacraft.com"), ("BrandTrust", None)]),
+    ("Rachelle Gordon", "Cannabis journalist for GreenState and DoubleBlind.", [("GreenState", "greenstate.com"), ("DoubleBlind", "doubleblindmag.com")]),
+    ("Rachel Wright, CPA", "Cannabis CPA. Beard Bros Media correspondent.", [("Beard Bros Media", "beardbrospharms.com")]),
+    ("JM Balbuena", "Author, The Successful Canna-preneur. Synergy Studio.", [("Synergy Studio", None)]),
     ("David Tran", "Cannabis industry.", []),
     ("Justin Johnson", "Cannabis industry.", []),
-    ("Doreen Sullivan", "Founder, My Bud Vase. Cannabis products.", ["My Bud Vase"]),
-    ("Aubrey Amatelli", "CEO and founder, Payrio. Cannabis payments.", ["Payrio"]),
-    ("Dan Serard", "VP Business Development, Cannabis Creative Group.", ["Cannabis Creative"]),
-    ("Kristin McFarland", "Host, Market Like a Badass podcast.", ["Market Like a Badass"]),
-    ("Caron Cooper", "SVP Web Development, Local AI Registry. Builds dispensary sites.", ["Local AI Registry"]),
-    ("Tony Van Pelt", "Founder, Chronic Candy.", ["Chronic Candy"]),
-    ("Krysta Jones", "Founder, THC Girls (The High Country Girls).", ["THC Girls"]),
-    ("Champelli", "Josef, Bay Area grower and artist. Champelli.", ["Champelli"]),
+    ("Doreen Sullivan", "Founder, My Bud Vase. Cannabis products.", [("My Bud Vase", "mybudvase.com")]),
+    ("Aubrey Amatelli", "CEO and founder, Payrio. Cannabis payments.", [("Payrio", "payrio.com")]),
+    ("Dan Serard", "VP Business Development, Cannabis Creative Group.", [("Cannabis Creative", "cannabiscreative.com")]),
+    ("Kristin McFarland", "Host, Market Like a Badass podcast.", [("Market Like a Badass", None)]),
+    ("Caron Cooper", "SVP Web Development, Local AI Registry. Builds dispensary sites.", [("Local AI Registry", "localairegistry.com")]),
+    ("Tony Van Pelt", "Founder, Chronic Candy.", [("Chronic Candy", None)]),
+    ("Krysta Jones", "Founder, THC Girls (The High Country Girls).", [("THC Girls", "thehighcountrygirls.com")]),
+    ("Champelli", "Josef, Bay Area grower and artist. Champelli.", [("Champelli", None)]),
 ]
 
-def tag(t):
-    return (f'<span style="display:inline-block;{FONT_B};font-weight:700;font-size:12px;letter-spacing:.02em;'
-            f'color:#0B1A2E;background:#F2EFE9;border-radius:6px;padding:4px 8px">{html.escape(t)}</span>')
+def slug(name):
+    return re.sub(r"[^a-z0-9]+", "-", name.lower().split(",")[0]).strip("-")
 
-def customer_card(i, name, place):
-    return ('<div style="background: #FFFFFF; border-radius: 16px; padding: 16px; display: flex; flex-direction: column; gap: 12px">\n'
-            + face(initials(name), dark=(i % 5 == 0)) + "\n"
-            + f'<div><div style="{FONT_B}; font-weight: 700; font-size: 16px; line-height: 1.2">{html.escape(name)}</div>'
+def chip(name, domain):
+    icon = (f'<img src="{FAV}{domain}" alt="" style="width:16px;height:16px;border-radius:3px;flex:0 0 16px">' if domain else "")
+    return (f'<span style="display:inline-flex;align-items:center;gap:6px;{FONT_B};font-weight:700;font-size:12px;letter-spacing:.01em;'
+            f'color:#0B1A2E;background:#F2EFE9;border-radius:6px;padding:4px 8px">{icon}{html.escape(name)}</span>')
+
+def customer_card(i, name, place, logo, bg, fit):
+    if logo:
+        pad = "8px" if fit == "square" else "10px 14px"
+        plate = (f'<div style="height: 76px; border-radius: 12px; background: {bg}; display: flex; align-items: center; justify-content: center; '
+                 f'padding: {pad}; box-sizing: border-box; border: 1px solid rgba(11,26,46,.08)">'
+                 f'<img src="{logo}" alt="{html.escape(name)} logo" loading="lazy" style="max-width: 100%; max-height: 100%; object-fit: contain; display: block"></div>')
+    else:
+        plate = (f'<div style="height: 76px; border-radius: 12px; background: #0B1A2E; display: flex; align-items: center; justify-content: center">'
+                 f'<span style="{FONT_B}; font-weight: 800; font-size: 20px; color: #F4F1EA">{html.escape(name)}</span></div>')
+    return ('<div style="background: #FFFFFF; border-radius: 16px; padding: 12px; display: flex; flex-direction: column; gap: 12px">\n'
+            + plate + "\n"
+            + f'<div style="padding: 0 4px 4px"><div style="{FONT_B}; font-weight: 700; font-size: 16px; line-height: 1.2">{html.escape(name)}</div>'
               f'<div style="font-size: 14px; color: #3D4A5C; line-height: 1.3; margin-top: 2px">{html.escape(place)}</div></div>\n</div>')
 
-def person_card(name, bio, tags):
-    t = "".join(tag(x) for x in tags)
+def person_face(name):
+    ini = initials(name)
+    return ('<span class="face" style="position: relative; overflow: hidden; flex: 0 0 72px; width: 72px; height: 72px; border-radius: 50%; '
+            f'background: #FFFFFF; color: #1F4FE0; border: 2px solid #1F4FE0; box-sizing: border-box; display: flex; align-items: center; '
+            f'justify-content: center; {FONT_B}; font-weight: 700; font-size: 23px">{ini}<img data-slug="{slug(name)}" alt="" '
+            'style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 0; transition: opacity .3s"></span>')
+
+def person_card(name, bio, cos):
+    t = "".join(chip(n, d) for n, d in cos)
     return ('<div style="background: #FFFFFF; border-radius: 16px; padding: 16px; display: flex; flex-direction: column; gap: 12px">\n'
-            + face(initials(name), ring=True) + "\n"
+            + person_face(name) + "\n"
             + f'<div><div style="{FONT_B}; font-weight: 700; font-size: 16px; line-height: 1.2">{html.escape(name)}</div>'
               f'<div style="font-size: 14px; color: #3D4A5C; line-height: 1.3; margin-top: 2px">{html.escape(bio)}</div></div>\n'
             + (f'<div style="margin-top:auto;display:flex;flex-wrap:wrap;gap:6px">{t}</div>\n' if t else "")
@@ -108,17 +132,19 @@ JOIN = ('<a href="https://localairegistry.com/signup" style="background: #0B1A2E
         f'<div style="{FONT_B}; font-weight: 600; font-size: 15px; line-height: 1.3; color: #A9B3C4">Join our partner network</div></a>')
 DGRID_CSS = ('<style>.dgrid{display:grid;gap:12px;grid-template-columns:repeat(2,minmax(0,1fr))}'
              '@media(min-width:600px){.dgrid{grid-template-columns:repeat(4,minmax(0,1fr))}}'
-             '@media(min-width:900px){.dgrid6{grid-template-columns:repeat(6,minmax(0,1fr))}.dgrid5{grid-template-columns:repeat(5,minmax(0,1fr))}}</style>')
+             '@media(min-width:900px){.dgrid6{grid-template-columns:repeat(6,minmax(0,1fr))}}'
+             '.pgrid{display:flex;flex-wrap:wrap;justify-content:center;gap:12px}.pgrid>*{box-sizing:border-box;flex:0 0 calc((100% - 12px)/2)}'
+             '@media(min-width:600px){.pgrid>*{flex-basis:calc((100% - 36px)/4)}}@media(min-width:900px){.pgrid>*{flex-basis:calc((100% - 48px)/5)}}</style>')
 trust = DGRID_CSS + f"""<section style="background: #F4F1EA; padding: 56px 20px">
 <div style="max-width: 1040px; margin: 0 auto">
 <h2 style="font-family: 'Cormorant', Georgia, serif; font-weight: 600; font-size: 36px; line-height: 1.05; margin: 0 0 8px">Dispensaries that trust our team</h2>
 <p style="margin: 0 0 28px; color: #3D4A5C">Dispensaries, cannabis platforms and industry events across the US and Canada have worked with the people behind Local AI Registry.</p>
 <div class="dgrid dgrid6">
-{chr(10).join(customer_card(i, n, p) for i, (n, p) in enumerate(CUSTOMERS))}
+{chr(10).join(customer_card(i, *c) for i, c in enumerate(CUSTOMERS))}
 {PLUS}
 </div>
 <h3 style="{FONT_B}; font-weight: 700; font-size: 18px; margin: 36px 0 14px">Backed by people who built the cannabis industry</h3>
-<div class="dgrid dgrid5">
+<div class="pgrid">
 {chr(10).join(person_card(*p) for p in PEOPLE)}
 {JOIN}
 </div>
@@ -149,19 +175,58 @@ built = f"""<section style="background: #F4F1EA; padding: 36px 20px 40px">
 </div>
 <p style="{EYEBROW}">Cannabis</p>
 {TWO}
-{tile('<img src="../logos/cannabis/mita.png" alt="Marijuana Industry Trade Association" style="height: 62px; width: auto; max-width: 100%">')}
-{tile(word('Herb', size=30, weight=800, spacing='-.01em'), bg="#D9F99D")}
-{tile(word('CANOPY', 'GROWTH CORPORATION', color='#1E4C9A', size=24, spacing='.12em'))}
-{tile('<img src="../logos/cannabis/weic.png" alt="Women Employed in Cannabis" style="height: 46px; width: auto; max-width: 100%">', bg="#110E02")}
+{tile('<img src="https://mita.us/wp-content/uploads/2021/10/cropped-mita-outlined--768x256.png" alt="Marijuana Industry Trade Association" style="height: 50px; width: auto; max-width: 100%">')}
+{tile('<img src="../logos/cannabis/herb.svg" alt="Herb" style="height: 30px; width: auto; max-width: 100%">', bg="#D9F99D")}
+{tile('<img src="https://canopygrowth.com/wp-content/uploads/2026/06/Canopy_Logo-768x288.png" alt="Canopy Growth" style="height: 40px; width: auto; max-width: 100%">')}
+{tile('<img src="https://womenemployedincannabis.com/wp-content/uploads/yootheme/cache/df/weic-new2-dfb1672d.webp" alt="Women Employed in Cannabis" style="height: 44px; width: auto; max-width: 100%">', bg="#0B1A2E")}
 </div>
 <p style="{EYEBROW}">Dispensary websites</p>
 {TWO}
-<span style="grid-column: 1 / -1; display: flex">{tile(word('Canna<span style="color:#2E9E50 !important">Site</span>', size=28)).replace('display: flex;', 'display: flex; flex: 1;', 1)}</span>
+<span style="grid-column: 1 / -1; display: flex">{tile('<img src="https://cannasite.com/wp-content/uploads/CannaSiteCo.svg" alt="CannaSite" style="height: 30px; width: auto; max-width: 100%">').replace('display: flex;', 'display: flex; flex: 1;', 1)}</span>
 </div>
 <p style="margin: 48px 0 0; font-family: 'Hanken Grotesk', sans-serif; font-size: 17px; line-height: 1.55; color: #4A5567">We know how AI decides which dispensaries to recommend, and how a store turns first visits into regulars.</p>
 </div>
 </section>
 """
+
+
+# ---------------------------------------------------------------- founder card (replaces the Venn card)
+def ctile(logo, role):
+    return (f'<div style="background:#F2EFE9;border-radius:14px;padding:12px 14px;display:flex;flex-direction:column;gap:8px;align-items:flex-start">'
+            f'<span style="background:#FFFFFF;border:1px solid rgba(11,26,46,.1);border-radius:8px;padding:6px 10px;display:inline-flex;align-items:center;gap:6px;height:34px;box-sizing:border-box">{logo}</span>'
+            f'<span style="font-size:13px;line-height:1.35;color:#3D4A5C">{role}</span></div>')
+def limg(src, h=20, alt=""):
+    return f'<img src="{src}" alt="{alt}" style="height:{h}px;width:auto;display:block">'
+def ficon(domain, name, color="#0B1A2E"):
+    return (f'<img src="https://www.google.com/s2/favicons?sz=64&domain={domain}" alt="" style="width:18px;height:18px">'
+            f'<b style="{FONT_B};font-size:14px;color:{color} !important">{name}</b>')
+career = [
+    (limg("../logos/google.svg", 20, "Google"), "Executive in Search"),
+    (limg("../logos/microsoft.svg", 18, "Microsoft"), "Executive, Microsoft HoloLens"),
+    (limg("../logos/evolus.svg", 16, "Evolus"), "Head of Digital through the 2018 Nasdaq&nbsp;IPO"),
+    (limg("../logos/revance.png", 14, "Revance"), "VP, grew a global team to&nbsp;100"),
+    (ficon("spotify.com", "Spotify"), "Head of Digital"),
+    (ficon("chase.com", "Chase"), "VP, Digital"),
+    (f'<b style="{FONT_B};font-size:18px;color:#7B2FF7 !important;letter-spacing:-.01em">razorfish</b>', "Amazon and Google Glass&nbsp;work"),
+    (f'<b style="{FONT_B};font-size:13px;color:#0B1A2E !important">UX Laboratory</b>', "Founded it.&nbsp;Acquired."),
+]
+def stat(n, label):
+    return (f'<div style="background:#F2EFE9;border-radius:14px;padding:12px 14px"><div style="{FONT_B};font-weight:800;font-size:26px;line-height:1;color:#1F4FE0 !important">{n}</div>'
+            f'<div style="font-size:13px;line-height:1.35;color:#3D4A5C;margin-top:4px">{label}</div></div>')
+FOUNDER = f"""<div class="fcard" style="grid-column: 1 / -1; background: #FFFFFF; border: 1px solid #D9DEE7; border-radius: 20px; padding: 22px; display: grid; gap: 22px">
+<style>.fcard{{grid-template-columns:1fr}}@media(min-width:860px){{.fcard{{grid-template-columns:minmax(0,1.05fr) minmax(0,1fr)}}}}.fcard .cg{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;align-content:start}}.fcard .sg{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:18px}}</style>
+<div>
+<div style="display:flex;gap:16px;align-items:center;margin-bottom:14px">
+<span class="face" style="position: relative; overflow: hidden; flex: 0 0 88px; width: 88px; height: 88px; border-radius: 50%; background: #1F4FE0; color: #FFFFFF; border: 3px solid #E8ECF4; box-sizing: border-box; display: flex; align-items: center; justify-content: center; {FONT_B}; font-weight: 700; font-size: 26px">SL<img data-slug="steve-lee" alt="" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 0; transition: opacity .3s; filter: grayscale(1)"></span>
+<div><div style="font-family:'Hanken Grotesk',sans-serif;font-weight:700;font-size:12px;letter-spacing:.18em;color:#1F4FE0">FOUNDER AND CEO</div>
+<div style="{FONT_B};font-weight:800;font-size:28px;line-height:1.1;color:#0B1A2E">Steve Lee</div></div>
+</div>
+<div style="font-family:'Cormorant',Georgia,serif;font-style:italic;font-weight:500;font-size:24px;line-height:1.2;color:#0B1A2E;margin-bottom:12px">Built by someone who has worked inside both search and brick-and-mortar small business.</div>
+<div style="font-size:16px;line-height:1.6;color:#3D4A5C">20+ years in digital, starting in search at Google and Microsoft, then leading digital for consumer brands and companies that sell to local businesses. He also owns a brick-and-mortar business, so he has run the storefront side of this work too.</div>
+<div class="sg">{stat("14", "age he sold his first company, for $3M")}{stat("20+", "years in digital")}<div style="grid-column:1/-1">{stat("1", "Nasdaq IPO, at Evolus")}</div></div>
+</div>
+<div class="cg">{"".join(ctile(l, r) for l, r in career)}</div>
+</div>"""
 
 # ---------------------------------------------------------------- splice sections
 i_vid = find(lambda s: s.startswith("<!-- VIDEO -->"))
@@ -171,15 +236,24 @@ i_trust = find(lambda s: s.startswith("<!-- TRUST -->"))
 i_story = find(lambda s: s.startswith("<!-- STORY -->"))
 L = L[:i_vid] + ["<!-- BUILT BY -->", built] + L[i_stats:i_trust + 1] + [trust] + L[i_story:]
 
+# swap the Venn card for the founder card
+i_venn = find(lambda x: x.startswith('<div style="grid-column: 1 / -1; background: #0B1A2E; color: #F4F1EA; border-radius: 16px; padding: 18px;'))
+j = i_venn
+while L[j].strip() != "</div>":
+    j += 1
+L = L[:i_venn] + [FOUNDER] + L[j + 1:]
+
 # drop video script
 out = "\n".join(L)
 out = re.sub(r"<script>\n\(function\(\)\{\nvar wrap=document.getElementById\('vwrap'\).*?</script>\n", "", out, flags=re.S)
 
 # hero avatar row: dispensary initials, no photos
+HERO = [c for c in CUSTOMERS if c[4] == "square"][:5]
 hero_faces = "".join(
-    f'<span style="margin-left: {0 if k == 0 else -12}px; border: 2px solid #F2EFE9; border-radius: 50%; display: flex">'
-    + face(initials(n), size=34, fs=12, dark=(k % 2 == 1)) + "</span>"
-    for k, (n, _) in enumerate(CUSTOMERS[:5]))
+    f'<span style="margin-left: {0 if k == 0 else -12}px; border: 2px solid #F2EFE9; border-radius: 50%; display: flex; '
+    f'width: 34px; height: 34px; overflow: hidden; background: {c[3]}"><img src="{c[2]}" alt="{html.escape(c[0])}" '
+    'style="width: 100%; height: 100%; object-fit: cover"></span>'
+    for k, c in enumerate(HERO))
 out = re.sub(r'<div style="display: flex"><span style="margin-left: 0px.*?</div>(?=\s*<p[^>]*>Trusted)',
              f'<div style="display: flex">{hero_faces}</div>', out, count=1, flags=re.S)
 
@@ -305,6 +379,10 @@ R = [
     ("A 90 day calendar, then AI names your practice", "A 90 day calendar, then AI names your store"),
     (">your practice</text>", ">your store</text>"),
     ("var txt=h.textContent.replace(/\\s+/g,' ').trim();", "var txt=h.textContent.replace(/[ \\t\\r\\n]+/g,' ').trim();"),
+    ("var LIGHT={'0':'#F2EFE9','1':'#F2EFE9','2':'#F4F1EA','3':'#FFFFFF','4':'#F4F1EA','5':'#FFFFFF','6':'#F4F1EA','7':'#FFFFFF','8':'#F4F1EA','9':'#F4F1EA','10':'#FFFFFF','11':'#F4F1EA'};",
+     "var LIGHT={'0':'#F2EFE9','1':'#F4F1EA','2':'#FFFFFF','3':'#F4F1EA','4':'#FFFFFF','5':'#F4F1EA','6':'#FFFFFF','7':'#F4F1EA','8':'#F4F1EA','9':'#FFFFFF','10':'#F4F1EA'};"),
+    ("var THEME=[0,0,0,1,0,1,0,0,1,0,0,0,1];", "var THEME=[0,0,1,0,1,0,0,1,0,0,0,1];"),
+    ("['Patients changed how',", "['Shoppers changed how',"),
     # FAQ
     ("Questions surgeons ask us", "Questions dispensaries ask us"),
     ("How does ChatGPT decide which plastic surgeons to recommend?", "How does ChatGPT decide which dispensaries to recommend?"),
