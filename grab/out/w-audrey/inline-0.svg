@@ -1,0 +1,9 @@
+<svg class="logo-svg" viewBox="0 0 310 40" xmlns="http://www.w3.org/2000/svg">
+    <line x1="10" y1="36" x2="21" y2="8" class="logo-stroke-dark" stroke-width="1.2"/>
+    <line x1="21" y1="8" x2="32" y2="36" class="logo-stroke-dark" stroke-width="1.2"/>
+    <line x1="14" y1="26" x2="28" y2="26" stroke="#A2896F" stroke-width="0.9"/>
+    <line x1="15" y1="36" x2="26" y2="8" stroke="#A2896F" stroke-width="1.1" stroke-opacity="0.7"/>
+    <line x1="26" y1="8" x2="37" y2="36" stroke="#A2896F" stroke-width="1.1" stroke-opacity="0.7"/>
+    <line x1="19" y1="26" x2="33" y2="26" class="logo-stroke-dark" stroke-width="0.9"/>
+    <text x="52" y="26" font-family="Cormorant Garamond, Georgia, serif" font-size="13.5" font-weight="400" fill="currentColor" letter-spacing="3" class="logo-text">THE AUDREY AESTHETIC</text>
+  </svg>
