@@ -258,19 +258,19 @@ out = re.sub(r'<div style="display: flex"><span style="margin-left: 0px.*?</div>
              f'<div style="display: flex">{hero_faces}</div>', out, count=1, flags=re.S)
 
 # ---------------------------------------------------------------- race chart -> near-me searches
-race = ('<svg id="race" viewBox="0 0 340 260" role="img" aria-label="Bar chart: US monthly searches. dispensary near me 1.59 million, '
-        'dispensaries near me 226,000, weed dispensary near me 41,000" style="width:100%;height:auto;overflow:visible">'
+race = ('<svg id="race" viewBox="0 0 340 260" role="img" aria-label="Bar chart: US monthly searches. weed dispensary near me 41,000, '
+        'dispensaries near me 226,000, dispensary near me 1.59 million" style="width:100%;height:auto;overflow:visible">'
         '<path d="M20 210 H320" stroke="currentColor" stroke-opacity=".25" stroke-width="1.5"/>'
-        '<rect class="ib" data-h="158" x="40" y="52" width="68" height="158" rx="8" fill="#4F7BFF"/>'
+        '<rect class="ib" data-h="8" x="40" y="202" width="68" height="8" rx="4" fill="currentColor" fill-opacity=".28"/>'
         '<rect class="ib" data-h="24" x="136" y="186" width="68" height="24" rx="8" fill="currentColor" fill-opacity=".5"/>'
-        '<rect class="ib" data-h="8" x="232" y="202" width="68" height="8" rx="4" fill="currentColor" fill-opacity=".28"/>'
+        '<rect class="ib" data-h="158" x="232" y="52" width="68" height="158" rx="8" fill="#4F7BFF"/>'
         '<g font-family="Bricolage Grotesque, sans-serif" font-weight="700" text-anchor="middle">'
-        '<text class="il" x="74" y="38" font-size="28" fill="#6E92FF" style="transition:opacity .6s">1.59M</text>'
+        '<text class="il" x="74" y="190" font-size="22" fill="currentColor" style="transition:opacity .6s">41K</text>'
         '<text class="il" x="170" y="174" font-size="22" fill="currentColor" style="transition:opacity .6s">226K</text>'
-        '<text class="il" x="266" y="190" font-size="22" fill="currentColor" style="transition:opacity .6s">41K</text>'
-        '<g font-size="12" fill="#6E92FF"><text x="74" y="230">dispensary</text><text x="74" y="246">near me</text></g>'
-        '<g font-size="12" fill="currentColor" fill-opacity=".75"><text x="170" y="230">dispensaries</text><text x="170" y="246">near me</text>'
-        '<text x="266" y="230">weed dispensary</text><text x="266" y="246">near me</text></g></g></svg>')
+        '<text class="il" x="266" y="38" font-size="28" fill="#6E92FF" style="transition:opacity .6s">1.59M</text>'
+        '<g font-size="12" fill="currentColor" fill-opacity=".75"><text x="74" y="230">weed dispensary</text><text x="74" y="246">near me</text>'
+        '<text x="170" y="230">dispensaries</text><text x="170" y="246">near me</text></g>'
+        '<g font-size="12" fill="#6E92FF"><text x="266" y="230">dispensary</text><text x="266" y="246">near me</text></g></g></svg>')
 out = re.sub(r'<svg id="race".*?</svg>', race, out, count=1, flags=re.S)
 
 # ---------------------------------------------------------------- text swaps
