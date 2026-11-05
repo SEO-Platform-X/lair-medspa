@@ -90,7 +90,7 @@ def slug(name):
 def chip(name, domain):
     icon = (f'<img src="{FAV}{domain}" alt="" style="width:16px;height:16px;border-radius:3px;flex:0 0 16px">' if domain else "")
     return (f'<span style="display:inline-flex;align-items:center;gap:6px;{FONT_B};font-weight:700;font-size:12px;letter-spacing:.01em;'
-            f'color:#0B1A2E;background:#F2EFE9;border-radius:6px;padding:4px 8px">{icon}{html.escape(name)}</span>')
+            f'color:#0B1A2E;background:#F2EFE9;border-radius:6px;padding:4px 8px;white-space:nowrap">{icon}{html.escape(name)}</span>')
 
 def customer_card(i, name, place, logo, bg, fit):
     if logo:
