@@ -1,8 +1,12 @@
-C-kiva https://www.kiva.org/ logo|kiva
-C-score https://www.score.org/ logo|score
-C-msa https://mainstreet.org/ logo|main
-C-chf https://www.childrensheartfoundation.org/ logo|heart
-C-fkiva https://www.google.com/s2/favicons?domain=kiva.org&sz=256
-C-fscore https://www.google.com/s2/favicons?domain=score.org&sz=256
-C-fmsa https://www.google.com/s2/favicons?domain=mainstreet.org&sz=256
-C-fchf https://www.google.com/s2/favicons?domain=childrensheartfoundation.org&sz=256
+utoronto https://www.google.com/s2/favicons?domain=utoronto.ca&sz=256
+mila https://www.google.com/s2/favicons?domain=mila.quebec&sz=256
+umontreal https://www.google.com/s2/favicons?domain=umontreal.ca&sz=256
+nyu https://www.google.com/s2/favicons?domain=nyu.edu&sz=256
+stanford https://www.google.com/s2/favicons?domain=stanford.edu&sz=256
+deepmind https://www.google.com/s2/favicons?domain=deepmind.google&sz=256
+characterai https://www.google.com/s2/favicons?domain=character.ai&sz=256
+ssi https://www.google.com/s2/favicons?domain=ssi.inc&sz=256
+eureka https://www.google.com/s2/favicons?domain=eurekalabs.ai&sz=256
+essential https://www.google.com/s2/favicons?domain=essential.ai&sz=256
+jhu https://www.google.com/s2/favicons?domain=jhu.edu&sz=256
+stanfordwiki https://en.wikipedia.org/wiki/Stanford_University logo|seal
