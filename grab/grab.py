@@ -7,7 +7,7 @@ log={}
 for line in open('grab/list.txt'):
     line=line.strip()
     if not line: continue
-    slug,url=line.split(None,1); d='grab/out/'+slug; os.makedirs(d,exist_ok=True)
+    parts=line.split(); slug,url=parts[0],parts[1]; kw=parts[2] if len(parts)>2 else 'logo'; d='grab/out/'+slug; os.makedirs(d,exist_ok=True)
     try:
         b,ct=get(url)
         if ct.startswith('image'):
@@ -18,7 +18,7 @@ for line in open('grab/list.txt'):
         for m in re.finditer(r'<link[^>]+rel=["\'][^"\']*(?:apple-touch-icon|icon)[^"\']*["\'][^>]*href=["\']([^"\']+)',h,re.I): cands.append(('icon',m.group(1)))
         for m in re.finditer(r'<img[^>]*>',h,re.I):
             t=m.group(0)
-            if re.search(r'logo|williamson|nikpoor|headshot|doctor|dr-',t,re.I):
+            if re.search(kw+'|logo',t,re.I):
                 s=re.search(r'(?:src|data-src|data-lazy-src)=["\']([^"\']+)',t)
                 if s: cands.append(('logo',s.group(1)))
         for m in re.finditer(r'<svg[^>]*(?:class|id|aria-label)=["\'][^"\']*logo[^"\']*["\'][\s\S]*?</svg>',h,re.I):
