@@ -1,12 +1,5 @@
-f-nik1 https://www.hawaiibusiness.com/listings/movers-makers/dr-neda-nikpoor/ nikpoor|neda|wp-content
-f-nik2 https://millennialeye.com/articles/sept-oct-20/one-to-watch-neda-nikpoor-md/ nikpoor|neda|headshot
-f-nik3 https://eyetube.net/contributor/neda+nikpoor nikpoor|neda|contributor
-f-nik4 https://doximity.com/pub/neda-nikpoor-md nikpoor|profile|headshot
-f-nik5 https://www.medifind.com/doctors/neda-nikpoor/9913960 nikpoor|neda|profile
-f-bw1 https://kerbsidehealth.com/provider/blake-kennedy-williamson williamson|profile|blake
-f-bw2 https://eyesoneyecare.com/authors/blake-k-williamson-md-mph-ms williamson|author|blake
-f-bw3 https://www.beckersasc.com/asc-news/dr-blake-williamson-joins-williamson-eye-center-surgery-center/ williamson|blake
-f-bw4 https://www.wafb.com/2019/01/04/baton-rouge-eye-surgeon-recognized-national-magazine-surgical-developments williamson|blake
-f-bw5 https://www.vitals.com/doctors/blake-williamson-qo2bgu williamson|profile|blake
-f-bw6 https://www.williamsoneyectr.com/doctors/blake-williamson-md/ williamson|blake
-f-bw7 https://www.williamsoneyectr.com/about-us/our-doctors/ williamson|blake
+yl-1 https://theorg.com/org/nextseed/org-chart/youngro-lee youngro|lee|avatar|profile
+yl-2 https://houston.innovationmap.com/houston-innovators-podcast-youngro-lee-nextseed-2651376093.html youngro|lee|nextseed
+yl-3 https://www.softeq.com/forging-the-future-podcast/episode-109-future-fintech-digital-wealth-innovations-brassica-bitgo youngro|lee|guest
+yl-4 https://en.bloomingbit.io/feed/news/97356 youngro|lee
+yl-5 https://www.koreatimes.co.kr/www/nation/2025/02/602_382945.html youngro|lee
