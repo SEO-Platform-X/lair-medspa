@@ -1,124 +1,57 @@
 {
- "f-nik1": {
-  "title": "Dr. Neda Nikpoor - Hawaii Business Magazine",
+ "yl-1": "ERR HTTP Error 404: Not Found",
+ "yl-2": {
+  "title": "Houston fintech startup continues to grow to represent a new era of investing - ",
   "got": [
-   "https://wpcdn.us-east-1.vip.tn-cloud.net/www.hawaiibusiness.com/content/uploads/2023/07/v/y/hb-bug-yellow-gray.png",
-   "https://wpcdn.us-east-1.vip.tn-cloud.net/www.hawaiibusiness.com/content/uploads/2021/02/touch180-transparent.png",
-   "fail https://wpcdn.us-east-1.vip.tn-cloud.net/www.hawaiibusiness.com/content/uploads/2023/07/v/y/hb-bug-yellow-gray.png/favicon.ico HTTP Error 404: Not Found",
-   "https://wpcdn.us-east-1.vip.tn-cloud.net/www.hawaiibusiness.com/content/uploads/2021/02/touch180-transparent-125x125.png",
-   "https://wpcdn.us-east-1.vip.tn-cloud.net/www.hawaiibusiness.com/content/uploads/2024/08/u/k/drneda-012-scaled-e1724102449560-1024x1024.jpg"
+   "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8xODkzMDI0MS9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTgwNzAzNDIzM30.AkRY-_2vwPYyvzIOFO7ItLicQEd9hVs22Dw85NDz-O4/img.jpg?width=1200&height=600&coordinates=0%2C263%2C0%2C263",
+   "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8xODc4Njk0My8yMDAweC5wbmciLCJleHBpcmVzX2F0IjoxODM5NTQwMjQ2fQ.Ve-9kqeVC8pbmJyT3p19c_Hgn1b_IPHaUfIMKdHD_jU/img.png?width=192&height=192",
+   "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8xODc4Njk0My8yMDAweC5wbmciLCJleHBpcmVzX2F0IjoxODM5NTQwMjQ2fQ.Ve-9kqeVC8pbmJyT3p19c_Hgn1b_IPHaUfIMKdHD_jU/img.png?width=48&height=48",
+   "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8xODc4NjkzMi8yMDAweC5wbmciLCJleHBpcmVzX2F0IjoxODQ3NTg0MzQ1fQ.YsysBSOpexc2mfzobz-UEuf73I7qFzNuAAU10RQzGq4/img.png?width=980&height=175",
+   "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8xODgwOTcxMS8yMDAweC5wbmciLCJleHBpcmVzX2F0IjoxODMyODE0OTA4fQ.26sA_Mr9QkKvEoj_3b3-iBi7VumbMuIv2lIr65_vldA/img.png?width=190&height=45",
+   "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8xODgwOTYzNC8yMDAweC5wbmciLCJleHBpcmVzX2F0IjoxODMzNzc3NTA4fQ.EBBDJkduuzrGCg00ASwD1xhIz5TAotyW1grYb7vqFkQ/img.png?width=299&height=45"
   ]
  },
- "f-nik2": {
-  "title": "MillennialEYE | One to Watch:",
+ "yl-3": {
+  "title": "Future of FinTech: Digital Wealth Innovations with Brassica &amp; BitGo | Softeq",
   "got": [
-   "https://millennialeye.com/wp-content/uploads/sites/3/2016/03/me-facebookgraph.png",
-   "https://millennialeye.com/wp-content/themes/bmc-core/library/images/apple-icon-57x57.png?v=2",
-   "https://millennialeye.com/wp-content/themes/bmc-core/library/images/apple-icon-60x60.png?v=2",
-   "https://millennialeye.com/wp-content/themes/bmc-core/library/images/apple-icon-72x72.png?v=2",
-   "https://millennialeye.com/wp-content/themes/bmc-core/library/images/apple-icon-76x76.png?v=2",
-   "https://millennialeye.com/wp-content/themes/bmc-core/library/images/apple-icon-114x114.png?v=2",
-   "https://millennialeye.com/wp-content/themes/bmc-core/library/images/apple-icon-120x120.png?v=2",
-   "https://millennialeye.com/wp-content/themes/bmc-core/library/images/apple-icon-144x144.png?v=2",
-   "https://millennialeye.com/wp-content/themes/bmc-core/library/images/apple-icon-152x152.png?v=2",
-   "https://millennialeye.com/wp-content/themes/bmc-core/library/images/apple-icon-180x180.png?v=2",
-   "https://millennialeye.com/wp-content/themes/bmc-core/library/images/android-icon-192x192.png?v=2",
-   "https://millennialeye.com/wp-content/themes/bmc-core/library/images/favicon-32x32.png?v=2",
-   "https://millennialeye.com/wp-content/themes/bmc-core/library/images/favicon-96x96.png?v=2",
-   "https://millennialeye.com/wp-content/themes/bmc-core/library/images/favicon-16x16.png?v=2",
-   "https://millennialeye.com/wp-content/themes/me/library/images/favicon.ico",
-   "https://millennialeye.com/wp-content/uploads/sites/3/2020/10/HeadNikpoor.jpg",
-   "https://millennialeye.com/wp-content/themes/me/library/images/me-bmc.svg"
+   "https://www.softeq.com/hubfs/Podcasts/forging-the-future-trealer.jpg",
+   "https://www.softeq.com/hubfs/favicon.ico",
+   "https://www.softeq.com/hubfs/content/static/images/logo/1.svg",
+   "https://www.softeq.com/hubfs/X-logo.svg",
+   "https://www.softeq.com/hubfs/20250415_1200_Monochrome%20Q%20Logo_remix_01jrwe6q40fhat1b5eym3wk5wj.png",
+   "https://www.softeq.com/hubfs/NXP-logo-1.png",
+   "https://www.softeq.com/hubfs/social-suggested-images/www.softeq.comhubfsISO-standard-logo-3.png"
   ]
  },
- "f-nik3": {
-  "title": "Eyetube",
+ "yl-4": {
+  "title": "&quot;Custody of virtual assets: Trust and regulatory compliance are key&quot; [",
   "got": [
-   "https://eyetube.net/images/meta-imgs/og-img.png?auto=compress,format&&c4src=",
-   "https://eyetube.net/images/meta-imgs/og-img.png?auto=compress,format&",
-   "https://eyetube.net/images/meta-imgs/apple-touch-icon.png",
-   "https://eyetube.net/images/meta-imgs/favicon-32x32.png",
-   "https://eyetube.net/images/meta-imgs/favicon-16x16.png",
-   "https://eyetube.net/images/icons/eyetube-logo.svg",
-   "https://eyetube.net/images/icons/eyetube-icon.svg",
-   "https://core4-cms.imgix.net/Screen%20Shot%202022-09-20%20at%208.56.20%20AM_1663679696.png?auto=compress,format&w=504",
-   "https://eyetube.net/images/icons/eyetube-bmc_logo.png"
+   "https://media.bloomingbit.io/PROD/news/cdf56ee3-5477-423b-ac8c-deba76d1f267.webp",
+   "https://en.bloomingbit.io/favicon.ico",
+   "https://en.bloomingbit.io/favicon-96x96.png",
+   "https://en.bloomingbit.io/favicon-32x32.png",
+   "https://en.bloomingbit.io/favicon-16x16.png",
+   "https://en.bloomingbit.io/images/favicon/android-icon-192x192.png",
+   "https://en.bloomingbit.io/images/favicon/apple-icon-180x180.png",
+   "https://en.bloomingbit.io/images/favicon/apple-icon-152x152.png",
+   "https://en.bloomingbit.io/images/favicon/apple-icon-144x144.png",
+   "https://en.bloomingbit.io/images/favicon/apple-icon-120x120.png",
+   "https://en.bloomingbit.io/images/favicon/apple-icon-114x114.png",
+   "https://en.bloomingbit.io/images/favicon/apple-icon-76x76.png",
+   "https://en.bloomingbit.io/images/favicon/apple-icon-72x72.png",
+   "https://en.bloomingbit.io/images/favicon/apple-icon-60x60.png",
+   "https://en.bloomingbit.io/images/favicon/apple-icon-57x57.png",
+   "https://media.bloomingbit.io/PROD/news/cdf56ee3-5477-423b-ac8c-deba76d1f267.webp?w=800"
   ]
  },
- "f-nik4": {
-  "title": "Dr. Neda Nikpoor, MD \u2013 Honolulu, HI | Ophthalmology",
+ "yl-5": {
+  "title": "[INTERVIEW] BitGo to enter Korea with global expertise, local insight - The Kore",
   "got": [
-   "https://assets.doxcdn.com/image/upload/logos/doximity/favicon.ico",
-   "https://assets.doxcdn.com/image/upload/logos/doximity/apple-touch-icon-60x60.png",
-   "https://assets.doxcdn.com/image/upload/logos/doximity/apple-touch-icon-76x76.png",
-   "https://assets.doxcdn.com/image/upload/logos/doximity/apple-touch-icon-120x120.png",
-   "https://assets.doxcdn.com/image/upload/logos/doximity/apple-touch-icon-152x152.png",
-   "https://assets.doxcdn.com/image/upload/fl_sanitize/logos/doximity/logo-doximity.svg",
-   "https://assets.doxcdn.com/image/upload/fl_sanitize/logos/doximity/logo-d.svg"
+   "https://newsimg.koreatimes.co.kr/2024/09/23/1a82920a-e1e4-4233-92dc-aad75631108a.jpg",
+   "https://www.koreatimes.co.kr/favicon.ico",
+   "https://www.koreatimes.co.kr/apple-touch-icon.png",
+   "https://newsimg.koreatimes.co.kr/2024/09/23/1a82920a-e1e4-4233-92dc-aad75631108a.jpg?w=728",
+   "https://newsimg.koreatimes.co.kr/2024/09/23/da5081f5-8f26-4103-b5a5-03cc1f9760dc.jpg?w=728"
   ]
- },
- "f-nik5": "ERR HTTP Error 403: Forbidden",
- "f-bw1": "ERR HTTP Error 429: Too Many Requests",
- "f-bw2": {
-  "title": "Blake K. Williamson, MD, MPH, MS | Eyes On Eyecare",
-  "got": [
-   "https://cdn.sanity.io/images/51cpf7jm/production/58cd7acebbb94d13277383999a8fe669c9c76242-3692x4777.jpg",
-   "https://eyesoneyecare.com/icons/apple-icon-57x57.png",
-   "https://eyesoneyecare.com/icons/apple-icon-60x60.png",
-   "https://eyesoneyecare.com/icons/apple-icon-72x72.png",
-   "https://eyesoneyecare.com/icons/apple-icon-76x76.png",
-   "https://eyesoneyecare.com/icons/apple-icon-114x114.png",
-   "https://eyesoneyecare.com/icons/apple-icon-120x120.png",
-   "https://eyesoneyecare.com/icons/apple-icon-144x144.png",
-   "https://eyesoneyecare.com/icons/apple-icon-152x152.png",
-   "https://eyesoneyecare.com/icons/apple-icon-180x180.png",
-   "https://eyesoneyecare.com/icons/android-icon-192x192.png",
-   "https://eyesoneyecare.com/icons/favicon-16x16.png",
-   "https://eyesoneyecare.com/icons/favicon-32x32.png",
-   "https://eyesoneyecare.com/icons/favicon-96x96.png",
-   "https://eyesoneyecare.com/_next/image/?url=%2Flogos%2Feoe-logo.png&w=256&q=75",
-   "https://eyesoneyecare.com/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F51cpf7jm%2Fproduction%2F58cd7acebbb94d13277383999a8fe669c9c76242-3692x4777.jpg%3Frect%3D0%2C543%2C3692%2C3692%26w%3D256%26h%3D256&w=256&q=75"
-  ]
- },
- "f-bw3": "ERR HTTP Error 403: Forbidden",
- "f-bw4": {
-  "title": "Baton Rouge eye surgeon recognized in national magazine for surgical development",
-  "got": [
-   "https://gray-wafb-prod.gtv-cdn.com/resizer/v2/UWHEER7U3BGYTBVN6BBOUOFSYY.jpg?auth=8302ca909a753ac5cc945b259adc7211baea5b2b10139f736019438199507ffe&width=1200&height=600&smart=true",
-   "https://webpubcontent.gray.tv/gray/arc-fusion-assets/images/favicons/wafb/favicon.ico?d=603&mxId=00000000",
-   "https://webpubcontent.gray.tv/gray/arc-fusion-assets/images/favicons/wafb/favicon-16x16.png?d=603&mxId=00000000",
-   "https://webpubcontent.gray.tv/gray/arc-fusion-assets/images/favicons/wafb/favicon-32x32.png?d=603&mxId=00000000",
-   "https://webpubcontent.gray.tv/gray/arc-fusion-assets/images/favicons/wafb/favicon-48x48.png?d=603&mxId=00000000",
-   "https://webpubcontent.gray.tv/gray/arc-fusion-assets/images/favicons/wafb/apple-touch-icon-57x57.png?d=603&mxId=00000000",
-   "https://webpubcontent.gray.tv/gray/arc-fusion-assets/images/favicons/wafb/apple-touch-icon-60x60.png?d=603&mxId=00000000",
-   "https://webpubcontent.gray.tv/gray/arc-fusion-assets/images/favicons/wafb/apple-touch-icon-72x72.png?d=603&mxId=00000000",
-   "https://webpubcontent.gray.tv/gray/arc-fusion-assets/images/favicons/wafb/apple-touch-icon-76x76.png?d=603&mxId=00000000",
-   "https://webpubcontent.gray.tv/gray/arc-fusion-assets/images/favicons/wafb/apple-touch-icon-114x114.png?d=603&mxId=00000000",
-   "https://webpubcontent.gray.tv/gray/arc-fusion-assets/images/favicons/wafb/apple-touch-icon-120x120.png?d=603&mxId=00000000",
-   "https://webpubcontent.gray.tv/gray/arc-fusion-assets/images/favicons/wafb/apple-touch-icon-144x144.png?d=603&mxId=00000000",
-   "https://webpubcontent.gray.tv/gray/arc-fusion-assets/images/favicons/wafb/apple-touch-icon-152x152.png?d=603&mxId=00000000",
-   "https://webpubcontent.gray.tv/gray/arc-fusion-assets/images/favicons/wafb/apple-touch-icon-167x167.png?d=603&mxId=00000000",
-   "https://webpubcontent.gray.tv/gray/arc-fusion-assets/images/favicons/wafb/apple-touch-icon-180x180.png?d=603&mxId=00000000"
-  ]
- },
- "f-bw5": {
-  "title": "Blake K. Williamson, MD | Baton Rouge, LA | Ophthalmologist",
-  "got": [
-   "https://a.mktgcdn.com/p/iSWlxce4nik9c1ZaE0G2mqdyVCd50wMmrXLwhmBUfB4/485x605.png",
-   "https://mdxvitals-res.cloudinary.com/image/upload/v1503594470/logos/favicon-32x32.png",
-   "https://mdxvitals-res.cloudinary.com/image/upload/v1503594470/logos/favicon-120.png",
-   "https://mdxvitals-res.cloudinary.com/image/upload/v1503594470/logos/favicon-152.png",
-   "https://mdxvitals-res.cloudinary.com/image/upload/v1503594470/logos/favicon-180.png",
-   "https://mdxvitals-res.cloudinary.com/image/upload/v1503594470/logos/favicon-16x16.png",
-   "https://mdxvitals-res.cloudinary.com/image/upload/v1503594470/logos/favicon-48x48.png",
-   "https://mdxvitals-res.cloudinary.com/image/upload/v1503594470/logos/favicon-96x96.png",
-   "https://mdxvitals-res.cloudinary.com/image/upload/v1503594846/logos/favicon-192.png",
-   "https://img-vitals.lb.wbmdstatic.com/lhd/provider/1818887_providerprofileimage_acc1bd12-6388-4f33-a0dd-3fdc378f8382.jpg?resize=150px:*",
-   "https://a.mktgcdn.com/p/JmhfRqTPqOP9dt-4hTAw7x-1RBkSIny9NwGeJIpbD6k/922x952.png",
-   "https://a.mktgcdn.com/p/2R9nsUWK1o27FvGA2vklkzMJwRpCW6ldSUW_rdmwd44/1178x1218.png",
-   "https://a.mktgcdn.com/p/Y0n8BYcMhdilW9uM9Z3Vs2SDSmkdBk7k_0nlYr8yl3c/5409x3606.jpg"
-  ]
- },
- "f-bw6": "ERR HTTP Error 404: Not Found",
- "f-bw7": "ERR HTTP Error 404: Not Found"
+ }
 }
