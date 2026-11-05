@@ -1,9 +1,11 @@
-n-nasdaq https://commons.wikimedia.org/wiki/Special:FilePath/NASDAQ_Logo.svg
-n-nasdaq2 https://commons.wikimedia.org/wiki/Special:FilePath/Nasdaq_Logo.svg
-n-yahoo https://commons.wikimedia.org/wiki/Special:FilePath/Yahoo!_Finance_logo_2021.png
-n-yahoo2 https://commons.wikimedia.org/wiki/Special:FilePath/Yahoo_Finance_Logo_2019.svg
-n-yahoo3 https://commons.wikimedia.org/wiki/Special:FilePath/Yahoo!_Finance_logo_2021.svg
-n-nasdaqsite https://www.nasdaq.com/ logo
-n-yahoosite https://finance.yahoo.com/ logo
-w-pinksky https://www.pinksky.life/ anthony|erika|serhan|team
-w-curious3 https://curiousconversationsmarketing.com/ darryl|quinlan
+x-precious https://digitaltimesng.com/wp-content/uploads/PRECIOUS-OGAR.jpg
+x-precious2 https://read.cv/presh precious|ogar|avatar
+x-precious3 https://contra.com/ogar_precious_pwustojl/about precious|ogar|avatar
+x-acumen https://acumen.digital/about ayo|onasanya|team|founder
+x-acumen2 https://acumen.digital/team ayo|onasanya|team|founder
+x-acumen3 https://acumen.digital/ ayo|onasanya|team|founder
+x-om https://omarya.com/ om|arya|avatar
+x-om2 https://www.omarya.design/ om|arya|avatar
+x-om3 https://dribbble.com/omarya om|arya|avatar
+x-om4 https://contra.com/omarya om|arya|avatar
+x-om5 https://x.com/omarya om|arya
