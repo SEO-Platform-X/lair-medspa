@@ -1,3 +1,4 @@
-z-ranna https://media.licdn.com/dms/image/v2/D4E03AQGBfNz7F4WBYQ/profile-displayphoto-scale_200_200/B4EZ1I_UdzGYAY-/0/1775046053808?e=2147483647&v=beta&t=6qdk3mEv9ZtKot9Csc1NveYdhTXoio7dxNQo0UK_ng4
-z-youngro https://unavatar.io/x/youngrolee
-z-youngro2 https://www.republic.com/blog/author/youngro-lee youngro
+r-w1 https://randomuser.me/api/portraits/women/68.jpg
+r-w2 https://randomuser.me/api/portraits/women/44.jpg
+r-m1 https://randomuser.me/api/portraits/men/32.jpg
+r-m2 https://randomuser.me/api/portraits/men/75.jpg
