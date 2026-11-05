@@ -1,7 +1,5 @@
-y-om https://www.omarya.in/ om|arya|avatar|profile
-y-om2 https://www.omarya.in/about om|arya|avatar|profile|framerusercontent
-y-omog https://framerusercontent.com/assets/VxZtu6xQMLKqrNQS706Ij5ehJ4.png
-y-omgh https://github.com/omarya.png
-y-ayo https://deardesigner.xyz/a-peek-into-acumen/ ayo|onasanya|wp-content
-y-ayoiheart https://www.iheart.com/podcast/966-the-african-millennials-70845744/episode/paying-attention-to-standards-ayo-onasanya-71760756/ ayo|onasanya
-y-acumen https://acumen.digital/ ayo|onasanya|team|founder
+x-precious https://digitaltimesng.com/wp-content/uploads/PRECIOUS-OGAR.jpg
+x-precious3 https://contra.com/ogar_precious_pwustojl/about precious|ogar|avatar
+x-ayox https://unavatar.io/x/ayomideonasanya
+x-ayogh https://github.com/ayomideonasanya.png
+x-preciousx https://unavatar.io/x/ogarpre
