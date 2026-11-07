@@ -1,28 +1,26 @@
 {
- "utoronto": "image 3252",
- "mila": "image 3504",
- "umontreal": "image 1143",
- "nyu": "image 284",
- "stanford": "image 15035",
- "deepmind": "image 8482",
- "characterai": "image 3324",
- "ssi": "ERR HTTP Error 404: Not Found",
- "eureka": "ERR HTTP Error 404: Not Found",
- "essential": "image 21728",
- "jhu": "image 4685",
- "stanfordwiki": {
-  "title": "Stanford University - Wikipedia",
+ "galderma": "image 522",
+ "jnj": "image 942",
+ "galdermasite": {
+  "title": "Galderma: Advancing dermatology for every skin story",
   "got": [
-   "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Seal_of_Leland_Stanford_Junior_University.svg/1280px-Seal_of_Leland_Stanford_Junior_University.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+   "https://www.galderma.com//sites/default/files/Galderma_Logo.jpg",
+   "https://www.galderma.com/themes/custom/corporate_theme/favicon.ico",
+   "https://www.galderma.com/themes/custom/corporate_theme/logo.svg"
+  ]
+ },
+ "jnjwiki": {
+  "title": "Johnson &amp; Johnson - Wikipedia",
+  "got": [
+   "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Johnson_%26_Johnson_%28J%26J%29_%2855143119004%29.jpg/1280px-Johnson_%26_Johnson_%28J%26J%29_%2855143119004%29.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
    "https://en.wikipedia.org/static/apple-touch/wikipedia.png",
    "https://en.wikipedia.org/static/favicon/wikipedia.ico",
    "https://en.wikipedia.org/static/images/icons/enwiki-25.svg",
    "https://en.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-en-25.svg",
    "https://en.wikipedia.org/static/images/mobile/copyright/wikipedia-tagline-en-25.svg",
-   "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Seal_of_Leland_Stanford_Junior_University.svg/250px-Seal_of_Leland_Stanford_Junior_University.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-   "https://thumb.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/40px-Commons-logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-   "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/20px-Wikisource-logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-   "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Logo_of_Palo_Alto%2C_California.svg/120px-Logo_of_Palo_Alto%2C_California.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+   "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/JNJ_Logo_New.svg/250px-JNJ_Logo_New.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+   "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Johnson_and_Johnson_Logo.svg/250px-Johnson_and_Johnson_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+   "https://thumb.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/40px-Commons-logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
   ]
  }
 }
